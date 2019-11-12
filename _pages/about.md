@@ -6,7 +6,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-fontsize: 12pt
+fontsize: 10pt
 ---
 
 I am an assistant professor in the Department of Biostatistics at the Gillings School of Global Public Health at UNC-CH, and have a joint appointment at the Lineberger Comprehensive Cancer Center. 
