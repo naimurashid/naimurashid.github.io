@@ -6,10 +6,13 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-fontsize: 10pt
 ---
 
 ## Recent News
+
+*  11/21/19:  Our manuscript "" is published in CCR.  We evaluate existing molecular subtyping systems and propose the PurIST classifier to predict pancreatic cancer subtype.  
+  - Press
+  - If you would like to use our classifier, please email me with a request with your github ID 
 
 ## About Me
 
