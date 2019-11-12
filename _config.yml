@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Naim Rashid"
   avatar           : "portrait.jpg"
-  bio              : "Assistant Professor, Department of Biostatistics, Gillings School of Global Public Health & Lineberger Comprensive Cancer Center"
+  bio              : "Assistant Professor, Department of Biostatistics, Gillings School of Global Public Health & Lineberger Comprensive Cancer Center, UNC-Chapel Hill"
   location         : "Chapel Hill, NC"
-  employer         :
+  employer         : "https://sph.unc.edu/adv_profile/naim-rashid-phd/"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Rashid%20NU%5BAuthor%5D&cauthor=true&cauthor_uid=25237203"
   googlescholar    : "https://scholar.google.com/citations?user=3Cz_lcEAAAAJ&hl=en"
-  email            :
+  email            : "naim@unc.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
