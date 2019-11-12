@@ -13,7 +13,7 @@ redirect_from:
 
 **11/21/19:**  Our pancreatic cancer subtyping manuscript is published in CCR.  We evaluate existing molecular subtyping methods and propose an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. Please send your github ID to access PurIST. Press:  Lineberger . Twitter.  PDF
 
-**10/04/19:** Our manuscript on training cross-study replicable prediction models is published in JASA.  We evaluate several common strategies in building clinical prediciton models from gene expression data, and propose a novel pGLMM to select study-consistent predictors from multiple datasets.  Press:  [Lineberger](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/).  [Twitter](https://twitter.com/naimurashid/status/1184859730860269574?s=20). [PDF](../_publications/pdfs/pglmm.pdf)
+**10/04/19:** Our manuscript on training cross-study replicable prediction models is published in JASA.  We evaluate several common strategies in building clinical prediciton models from gene expression data, and propose a novel pGLMM to select study-consistent predictors from multiple datasets.  Press:  [Lineberger](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/).  [Twitter](https://twitter.com/naimurashid/status/1184859730860269574?s=20). [PDF](/files/pglmm.pdf)
 
 ### About Me
 
