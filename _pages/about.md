@@ -10,7 +10,8 @@ redirect_from:
 
 ## Recent News
 
-* 11/21/19:  Our manuscript joint with the Yeh Lab at Lineberger "" is published in CCR.  We evaluate existing molecular subtyping approaches for pancreatic cancer and propose the PurIST classifier to predict pancreatic cancer subtype. This work builds on concepts described in our 10/19 JASA paper.
+<p style="font-size:10pt">
+* 11/21/19:  Our manuscript "" is published in CCR, joint with the Yeh Lab.  We evaluate existing molecular subtyping approaches for pancreatic cancer and propose the PurIST classifier to predict pancreatic cancer subtype. This work builds on concepts described in our 10/19 JASA paper.
   * PDF:  
   * Press:
   * Twitter:
@@ -20,6 +21,7 @@ redirect_from:
   * PDF:
   * Press:
   * Twitter:
+</p>
 
 ## About Me
 
@@ -27,18 +29,10 @@ I am an assistant professor in the Department of Biostatistics at the Gillings S
 
 **Research Interests:** 
 
-* Analysis of highthrouput epigenomic sequencing experiments
-  *  Efficient detection of genomic loci with consensus/differential epigenomic activity
-  *  Applications to multi-condition, multi-replicate ChIP-seq, FAIRE-seq, DNase-seq, ATAC-seq, and related experiments
+* Analysis of highthrouput epigenomic sequencing experiments (ChIP-,ATAC-seq etc)
 * Model-based clustering of RNA-seq gene expression data for subtype discovery
-  * Simultaneous detection of cluster-discriminatory genes
-  * Automatic clustering adjustment for confounders such as batch, age, etc.
-  * Prediction of discovered subtypes in new samples
 * Multi-study replicability of clinical prediction models 
-  * Account for between study heterogeneity in predictor effect
-  * Selection of factors that are consistent in effects across studies
-  * Robust data integration tool across multiple studies
-* Accounting for RNA-seq transcript quantification uncertainty in detecting differential transcript usage events
+* Accounting for RNA-seq transcript quantification uncertainty 
 
 Addition detail can be found under Projects and Students.
 
@@ -46,7 +40,7 @@ Addition detail can be found under Projects and Students.
 
 **Cancer Clicial Trials:** I work with oncologists to design cancer clinical trials at UNC and elsewhere, where I am currently on a number of active protocols. I am also a part of the Translational Breast Cancer Research Consortium Statistical Working Group, allowing me to work with breast cancer researchers nationwide to develop and review of novel clinical trials in breast cancer. 
 
-**Teaching:** Each spring I teach a course  on Statistical Computing (BIOS 735) for PhD Students at Gillings, covering topics such R programming, various statistical and computational algorithms, and machine learning models. This 
+**Teaching:** Each spring I teach a course  on Statistical Computing (BIOS 735) for PhD Students at Gillings, covering topics such R programming, various statistical and computational algorithms, and machine learning models.  
 
 
 ## Older News
