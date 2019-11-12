@@ -8,31 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-## Recent News
+### Recent News
 
-<p style="font-size:10pt">
-* 11/21/19:  Our manuscript "" is published in CCR, joint with the Yeh Lab.  We evaluate existing molecular subtyping approaches for pancreatic cancer and propose the PurIST classifier to predict pancreatic cancer subtype. This work builds on concepts described in our 10/19 JASA paper.
-  * PDF:  
-  * Press:
-  * Twitter:
-  * Software: If you would like to use our classifier, please email me with a request along with your github ID. Repo:
+**11/21/19:**  Our pancreatic cancer subtyping manuscript is published in CCR.  We evaluate existing molecular subtyping approaches and propose an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. For software requests, please send your github ID. Press:  Lineberger . Twitter.  PDF
 
-* 10/04/19: Our manuscript "" is published in JASA.  We evaluate several common strategies in building clinical prediciton models from gene expression data, and propose a novel pGLMM to select cross-study consistent predictors
-  * PDF:
-  * Press:
-  * Twitter:
-</p>
+**10/04/19:** Our manuscript training cross-study replicable prediction is published in JASA.  We evaluate several common strategies in building clinical prediciton models from gene expression data, and propose a novel pGLMM to select cross-study consistent predictors.  Press:  .  Twitter. PDF
 
-## About Me
+### About Me
 
-I am an assistant professor in the Department of Biostatistics at the Gillings School of Global Public Health at UNC-CH, with a joint appointment at the Lineberger Comprehensive Cancer Center. My methodological work spans several areas in genomics and machine learning to tackle problems in basic, translational, and clinical cancer research. 
+I am an assistant professor in the Department of Biostatistics at the Gillings School of Global Public Health at UNC-CH, with a joint appointment at the Lineberger Comprehensive Cancer Center. My methodological work spans several areas in genomics and machine learning to tackle unmet problems facing researchers in basic, translational, and clinical cancer research. 
 
 **Research Interests:** 
 
-* Analysis of highthrouput epigenomic sequencing experiments (ChIP-,ATAC-seq etc)
-* Model-based clustering of RNA-seq gene expression data for subtype discovery
+* Scalable analysis of high-throughput epigenomic sequencing experiments (ChIP-seq,ATAC-seq etc.)
 * Multi-study replicability of clinical prediction models 
-* Accounting for RNA-seq transcript quantification uncertainty 
+* Flexible model-based clustering of RNA-seq gene expression data for subtype discovery
+* Accounting for RNA-seq transcript quantification uncertainty in DTU analysis
 
 Addition detail can be found under Projects and Students.
 
@@ -43,7 +34,6 @@ Addition detail can be found under Projects and Students.
 **Teaching:** Each spring I teach a course  on Statistical Computing (BIOS 735) for PhD Students at Gillings, covering topics such R programming, various statistical and computational algorithms, and machine learning models.  
 
 
-## Older News
-
-*  10/8/19:  Our manuscript "" was published in JASA
+### Older News
+*  10/15/19:  Notice of award of HEAL INITIATIVE BACPAC consortium grant
 *  4/15/19:  Pedro Baldoni's Manuscript "" was published in Biometrics
