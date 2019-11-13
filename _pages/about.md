@@ -12,7 +12,7 @@ redirect_from:
 
 **11/21/19:**  Our pancreatic cancer subtyping manuscript is published in CCR.  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact the Yeh Lab or I with your github ID. Lineberger Press Release. PDF
 
-**10/04/19:** Our manuscript on training cross-study replicable prediction models is published in JASA.  We evaluate several common strategies in building clinical prediciton models from gene expression data, and propose a novel pGLMM to select study-consistent predictors from multiple datasets.  [Lineberger Press Release](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/). [PDF](/files/pglmm.pdf)
+**10/04/19:** Our [manuscript](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197) on training cross-study replicable prediction models is published in JASA.  We evaluate several common strategies in building clinical prediciton models from gene expression data, and propose a novel pGLMM to select study-consistent predictors from multiple datasets.  [Lineberger Press Release](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/). [PDF](/files/pglmm.pdf)
 
 ### About Me
 
@@ -29,9 +29,9 @@ Addition detail can be found under Projects and Students.
 
 **Collaborative Work:** As a member of the Lineberger Comprehensive Cancer Center Biostat Core I assist physicians and researchers with statistical problems relating to genomics and clinical studies.  Many of my current methodological projects are motivated by problems found during my collaborative work at Lineberger.  I am available for basic statistical consulting queries for all Lineberger Members.  
 
-**Cancer Clicial Trials:** I also with oncologists to help design cancer clinical trials at UNC and elsewhere, serving as trial statistician on a number of protocols. I am also a part of the Translational Breast Cancer Research Consortium Statistical Working Group, allowing me to work with breast cancer researchers nationwide to develop and review  novel clinical trials in breast cancer. 
+**Cancer Clicial Trials:** I also with oncologists to help design cancer clinical trials at UNC and elsewhere, serving as trial statistician on a number of active protocols. I am also a part of the Translational Breast Cancer Research Consortium Statistical Working Group, allowing me to work with breast cancer researchers nationwide to develop and review novel clinical trials in breast cancer. 
 
-**Teaching:** Each spring I teach a course  on Statistical Computing (BIOS 735) for PhD Students at Gillings, covering topics such R programming, various statistical and computational algorithms, and machine learning models.  
+**Teaching:**  I teach a course on Statistical Computing ,[BIOS 735](https://biodatascience.github.io/statcomp/)), to PhD Students at Gillings, covering topics such R programming, various statistical and computational algorithms, and machine learning models.  
 
 
 ### Older News
