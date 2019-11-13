@@ -18,22 +18,19 @@ redirect_from:
 
 I am an assistant professor in the [Department of Biostatistics](https://sph.unc.edu/adv_profile/naim-rashid-phd/) at the Gillings School of Global Public Health at UNC-CH, with a joint appointment at the Lineberger Comprehensive Cancer Center. My methodological work spans several areas in genomics and machine learning to tackle problems facing researchers in basic, translational, and clinical cancer research. 
 
-Previously, I was a Postdoctoral Research Fellow with Giovanni Parmigiani in the Department of Data Sciences at Dana-Farber Cancer Institute and the Department of Biostatistics at the Harvard T. H. Chan School of Public Health. I earned my PhD in the Department of Biotatistics at UNC-CH under the direction of Joseph Ibrahim and Wei Sun.
+Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](https://www.hsph.harvard.edu/giovanni-parmigiani/) in the Department of Data Sciences at the Dana-Farber Cancer Institute and the Department of Biostatistics at the Harvard T. H. Chan School of Public Health (joint with Nikhil Munshi). I earned my PhD in the Department of Biotatistics at UNC-CH under the direction of Joseph Ibrahim and Wei Sun.
 
-**Research Interests:** 
+## Research Interests
 
-* Analysis of high-throughput epigenomic sequencing experiments (ChIP-seq,ATAC-seq, etc)
-* Multi-study replicability of clinical prediction models in cancer 
-* Flexible model-based clustering of RNA-seq gene expression data for subtype discovery
-* Accounting for RNA-seq transcript quantification uncertainty in DTU analyses
+My research interests focus primarily on problems in genomics and cancer, focusing on methodologic areas such as precision medicine, variable selection,  hidden markov models, deep learning, and machine learning methods.
 
 Addition detail can be found under Projects and Students.
 
 **Collaborative Work:** As a member of the Lineberger Comprehensive Cancer Center Biostat Core I assist physicians and researchers with statistical problems relating to genomics and clinical studies.  Many of my current methodological projects are motivated by problems found during my collaborative work at Lineberger.  I am available for basic statistical consulting queries for all Lineberger Members.  
 
-**Cancer Clicial Trials:** I also with oncologists to help design cancer clinical trials at UNC and elsewhere, serving as trial statistician on a number of active protocols. I am also a part of the Translational Breast Cancer Research Consortium Statistical Working Group, allowing me to work with breast cancer researchers nationwide to develop and review novel clinical trials in breast cancer. 
+**Cancer Clicial Trials:** I also work with oncologists to help design cancer clinical trials at UNC and elsewhere, serving as trial statistician on a number of active protocols. I am also a part of the Translational Breast Cancer Research Consortium Statistical Working Group, allowing me to work with breast cancer researchers nationwide to develop and review novel clinical trials in breast cancer. 
 
-**Teaching:**  I teach a course on Statistical Computing ,[BIOS 735](https://biodatascience.github.io/statcomp/)), to PhD Students at Gillings, covering topics such R programming, various statistical and computational algorithms, and machine learning models.  
+**Teaching:**  I teach a course on Statistical Computing, [BIOS 735](https://biodatascience.github.io/statcomp/), to PhD Students at Gillings, covering topics such R programming, various statistical and computational algorithms, and machine learning models.  
 
 
 ## Older News
