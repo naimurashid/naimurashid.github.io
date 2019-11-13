@@ -22,7 +22,7 @@ Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](http
 
 ## Research Interests
 
-My research interests focus primarily on problems in genomics and cancer, focusing on methodologic areas such as precision medicine, variable selection,  hidden markov models, deep learning, and machine learning methods.
+My research interests focus primarily on problems in genomics and cancer, focusing on methodologic areas such as precision medicine, variable selection,  hidden markov models, deep learning, and machine learning methods.  Applications of my work can be found in epigenomics, unsupervised clustering of RNA-seq data, pancreatic cancer, and breast cancer. 
 
 Addition detail can be found under Projects and Students.
 
