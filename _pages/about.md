@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-### Recent News
+## Recent News
 
 **11/21/19:**  Our pancreatic cancer subtyping manuscript is published in CCR.  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact the Yeh Lab or I with your github ID. Lineberger Press Release. PDF
 
-**10/04/19:** Our [manuscript](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197) on training cross-study replicable prediction models is published in JASA.  We evaluate several common strategies in building clinical prediciton models from gene expression data, and propose a novel pGLMM to select study-consistent predictors from multiple datasets.  [Lineberger Press Release](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/). [PDF](/files/pglmm.pdf)
+**10/14/19:** Our [manuscript](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197) on training cross-study replicable prediction models is published in JASA.  We evaluate several common strategies in building clinical prediciton models from gene expression data, and propose a novel pGLMM to select study-consistent predictors from multiple datasets.  [Lineberger Press Release](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/). [PDF](/files/pglmm.pdf)
 
-### About Me
+## About Me
 
 I am an assistant professor in the [Department of Biostatistics](https://sph.unc.edu/adv_profile/naim-rashid-phd/) at the Gillings School of Global Public Health at UNC-CH, with a joint appointment at the Lineberger Comprehensive Cancer Center. My methodological work spans several areas in genomics and machine learning to tackle problems facing researchers in basic, translational, and clinical cancer research. 
 
@@ -34,6 +34,6 @@ Addition detail can be found under Projects and Students.
 **Teaching:**  I teach a course on Statistical Computing ,[BIOS 735](https://biodatascience.github.io/statcomp/)), to PhD Students at Gillings, covering topics such R programming, various statistical and computational algorithms, and machine learning models.  
 
 
-### Older News
+## Older News
 *  10/15/19:  Notice of award of HEAL INITIATIVE BACPAC consortium grant. [SPH Release](https://sph.unc.edu/sph-news/with-52m-in-funding-from-nih-heal-initiative-gillings-school-researchers-join-fight-against-national-opioid-crisis/)
 *  4/15/19:  Pedro Baldoni's Manuscript on detecting consensus regions of epigenomic activity from multiple high-thoughtput sequencing datasets is published in Biometrics.  [Link](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13083?af=R) 
