@@ -18,6 +18,8 @@ redirect_from:
 
 I am an assistant professor in the [Department of Biostatistics](https://sph.unc.edu/adv_profile/naim-rashid-phd/) at the Gillings School of Global Public Health at UNC-CH, with a joint appointment at the Lineberger Comprehensive Cancer Center. My methodological work spans several areas in genomics and machine learning to tackle problems facing researchers in basic, translational, and clinical cancer research. 
 
+Previously, I was a Postdoctoral Research Fellow with Giovanni Parmigiani in the Department of Data Sciences at Dana-Farber Cancer Institute and the Department of Biostatistics at the Harvard T. H. Chan School of Public Health. I earned my PhD in the Department of Biotatistics at UNC-CH under the direction of Joseph Ibrahim and Wei Sun.
+
 **Research Interests:** 
 
 * Analysis of high-throughput epigenomic sequencing experiments (ChIP-seq,ATAC-seq, etc)
