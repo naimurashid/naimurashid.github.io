@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+An up to date list of publications can be found at my [google scholar page](https://scholar.google.com/citations?user=3Cz_lcEAAAAJ&hl=en).
+
 ## Methodology
 1. **N.U. Rashid**, J. Chen, M. T. Lawson, D. J. Luckett, L. Wang, E. B. Laber, Y. Liu, J. J.
 Yeh, D. Zeng, and M. R. Kosorok. High dimensional precision medicine from patient-derived
