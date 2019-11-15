@@ -7,7 +7,5 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 [The most recent version of my CV can be found here](/files/Naim.Rashid.cv.pdf)
 
