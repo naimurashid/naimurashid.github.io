@@ -10,7 +10,9 @@ redirect_from:
 
 ## Recent News
 
-**11/21/19:**  Our pancreatic cancer subtyping manuscript is published in CCR.  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact the Yeh Lab or I with your github ID. Lineberger Press Release. PDF
+**11/21/19:**  Our pancreatic cancer subtyping manuscript is published in CCR.  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact the Yeh Lab or I with your github ID.
+
+**11/14/19:** Pedro's recent work on consensus peak calling in high-throughput epigenomic datasets is highlighted in the Bios Departments monthly newletter [BiosBeat](https://sph.unc.edu/bios/biosbeat/). 
 
 
 
@@ -22,7 +24,7 @@ Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](http
 
 ## Research Interests
 
-My research interests focus primarily on problems in genomics and cancer, focusing on methodologic areas such as precision medicine, variable selection,  hidden markov models, deep learning, and machine learning methods.  Applications of my work can be found in epigenomics, unsupervised clustering of RNA-seq data, pancreatic cancer, and breast cancer. Addition detail can be found under Projects and Students.
+My research interests primariy concern problems in genomics and cancer, focusing on methodologic areas such as precision medicine, variable selection,  hidden markov models, deep learning, and machine learning methods.  Applications of my work can be found in epigenomics, unsupervised clustering of RNA-seq data, pancreatic cancer, and breast cancer. Addition detail can be found under Projects and Students.
 
 **Collaborative Work:** As a member of the Lineberger Comprehensive Cancer Center Biostat Core I assist physicians and researchers with statistical problems relating to genomics and clinical studies.  Many of my current methodological projects are motivated by problems found during my collaborative work at Lineberger.  I am available for basic statistical consulting queries for all Lineberger Members.  
 
@@ -33,10 +35,10 @@ My research interests focus primarily on problems in genomics and cancer, focusi
 
 ## Older News
 
-**10/14/19:** Pedro's recent work is highlighted in the Bios Departments monthly newletter [BiosBeat](https://sph.unc.edu/bios/biosbeat/). 
-
 **10/14/19:** Our [manuscript](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197) on training cross-study replicable prediction models is published in JASA.  We evaluate several common strategies in building clinical prediciton models from gene expression data, and propose a novel pGLMM to select study-consistent predictors from multiple datasets.  [Lineberger Press Release](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/). [PDF](/files/pglmm.pdf)
 
 **10/1/19**:  Notice of award of HEAL Initiative BACPAC consortium grant. [SPH Release](https://sph.unc.edu/sph-news/with-52m-in-funding-from-nih-heal-initiative-gillings-school-researchers-join-fight-against-national-opioid-crisis/)
+
+**4/15/19:**  Pedro recieved the prestigious University Cancer Research Fund SPH Student Award for 2019!  This $30,000 award goes towards a student's stipend, tuition, and fees for the year and is awarded to students that show strong promise in cancer research. 
 
 **4/15/19:**  Pedro Baldoni's Manuscript on detecting consensus regions of epigenomic activity from multiple high-thoughtput sequencing datasets is published in Biometrics.  [Link](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13083?af=R) 
