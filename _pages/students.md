@@ -1,14 +1,14 @@
 ---
 layout: archive
 title: "Students"
-permalink: /teaching/
+permalink: /students/
 author_profile: true
 ---
 
 
 |  **Pedro Baldoni**  | [Twitter](https://twitter.com/plbaldoni)  Website  |
 |---|---|
-| ![](/files/pedro.jpg)   | Multi-replicate [detection](https://github.com/plbaldoni/ZIMHMM) of [consensus epigenomic activity](https://onlinelibrary.wiley.com/doi/full/10.1111/biom.13083) from high-throughput sequencing data sets (ChIP-seq, ATAC-seq, FAIRE-seq, etc.).  [Detection](https://github.com/plbaldoni/mixNBHMM) of short and broad regions of differential epigenomic activity from multi replicate, multi-condition high throughout experiments and pattern detection of combinatorial interactions between multiple epigenomic processes. Single-cell ChIP and ATAC-seq modeling via deep learning variational autoencoder. Co-advised with Joseph Ibrahim. |
+| <img align="left" width="100" height="100" hspace="5"  src="https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/pedro.jpg">  | Multi-replicate [detection](https://github.com/plbaldoni/ZIMHMM) of [consensus epigenomic activity](https://onlinelibrary.wiley.com/doi/full/10.1111/biom.13083) from high-throughput sequencing data sets (ChIP-seq, ATAC-seq, FAIRE-seq, etc.).  [Detection](https://github.com/plbaldoni/mixNBHMM) of short and broad regions of differential epigenomic activity from multi replicate, multi-condition high throughout experiments and pattern detection of combinatorial interactions between multiple epigenomic processes. Single-cell ChIP and ATAC-seq modeling via deep learning variational autoencoder. Co-advised with Joseph Ibrahim. |
 |---|---|
 
 
