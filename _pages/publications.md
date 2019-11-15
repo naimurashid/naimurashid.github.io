@@ -13,8 +13,7 @@ Yeh, D. Zeng, and M. R. Kosorok. High dimensional precision medicine from patien
 xenografts. Journal of the American Statistical Association, 2nd round revision invited, 2019
 
 2. **N.U. Rashid**, X. L. Peng, C. Jin, R. A. Moffitt, K. E. Volmar, B. A. Belt, R. Z. Panni, T. M. Nywening, S. G. Herrera1, K. J. Moore1, S. G. Hennessey, A. B. Morrison, R. Kawalerski,
-A. Nayyar, A. E. Chang, B. Schmidt, H. J. Kim, D. C. Linehan, and J. J. Yeh. Purity in-
-dependent subtyping of tumors (purist), a clinically robust, single-sample classifier for tumor
+A. Nayyar, A. E. Chang, B. Schmidt, H. J. Kim, D. C. Linehan, and J. J. Yeh. Purity independent subtyping of tumors (PurIST), a clinically robust, single-sample classifier for tumor
 subtyping in pancreatic cancer. Clinical Cancer Research, In Press, 2019
 
 3. **N.U. Rashid**, Q. Li, J. J. Yeh, and J. G. Ibrahim. Modeling between-study heterogeneity
