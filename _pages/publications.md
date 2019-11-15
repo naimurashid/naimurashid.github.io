@@ -43,10 +43,7 @@ dna polymerase theta. Nature communications, 10(1):1-13, 2019
 
 10. J. A. Wrobel, L. Xie, L. Wang, C. Liu, **N.U. Rashid**, K. K. Gallagher, Y. Xiong, K. D. Konze, J. Jin, M. L. Gatza, et al. Multi-omic dissection of oncogenically active epiproteomes identifies drivers of proliferative and invasive breast tumors. iScience, 17:359-378, 2019
 
-11. S. M. Bevill, J. F. Olivares-Quintero, N. Sciaky, B. T. Golitz, D. Singh, A. S. Beltran, N.U.
-Rashid, T. J. Stuhlmiller, A. Hale, N. J. Moorman, et al. Gsk2801, a baz2/brd9 bromodomain
-inhibitor, synergizes with bet inhibitors to induce apoptosis in triple-negative breast cancer.
-Molecular Cancer Research, 2019
+11. S. M. Bevill, J. F. Olivares-Quintero, N. Sciaky, B. T. Golitz, D. Singh, A. S. Beltran, **N.U. Rashid**, T. J. Stuhlmiller, A. Hale, N. J. Moorman, et al. Gsk2801, a baz2/brd9 bromodomain inhibitor, synergizes with bet inhibitors to induce apoptosis in triple-negative breast cancer. Molecular Cancer Research, 2019
 
 12. A. V. Vaseva, D. R. Blake, T. S. Gilbert, S. Ng, G. Hostetter, S. H. Azam, I. Ozkan-Dagliyan,
 P. Gautam, K. L. Bryant, K. H. Pearce, et al. Kras suppression-induced degradation of myc is
@@ -88,8 +85,7 @@ port protein 1 (fatp1) regulates macrophage inammatory potential and adipose inf
 S. Lee, N. S. Prabhala, R. L. Bandi, et al. Targeting il-17a in multiple myeloma: a potential
 novel therapeutic approach in myeloma. Leukemia, 30(2):379, 2016
 
-22. R. A. Moffitt, R. Marayati, E. L. Flate, K. E. Volmar, S. G. H. Loeza, K. A. Hoadley, N.U.
-Rashid, L. A. Williams, S. C. Eaton, A. H. Chung, et al. Virtual microdissection identi-
+22. R. A. Moffitt, R. Marayati, E. L. Flate, K. E. Volmar, S. G. H. Loeza, K. A. Hoadley, **N.U. Rashid**, L. A. Williams, S. C. Eaton, A. H. Chung, et al. Virtual microdissection identi-
 fies distinct tumor-and stroma-specific subtypes of pancreatic ductal adenocarcinoma. Nature
 genetics, 47(10):1168, 2015
 
