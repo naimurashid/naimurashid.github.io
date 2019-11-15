@@ -12,7 +12,7 @@ redirect_from:
 
 **11/21/19:**  Our pancreatic cancer subtyping manuscript is published in CCR.  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact the Yeh Lab or I with your github ID.
 
-**11/14/19:** Pedro's recent work on consensus peak calling in high-throughput epigenomic datasets is highlighted in the Bios Departments monthly newletter [BiosBeat](https://sph.unc.edu/bios/biosbeat/). 
+**11/14/19:** Pedro's work on consensus peak calling in high-throughput epigenomic datasets is highlighted in the Bios Departments monthly newletter [BiosBeat](https://sph.unc.edu/bios/biosbeat/). 
 
 
 
