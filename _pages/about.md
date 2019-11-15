@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: ""
+title: "Recent News"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-## Recent News
 
 * **11/21/19:**  Our pancreatic cancer subtyping manuscript is published in CCR.  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact us with your github ID.
 
