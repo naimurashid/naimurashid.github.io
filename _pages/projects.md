@@ -6,7 +6,7 @@ author_profile: true
 
 # Developing statistical tools for high-throughput epigenomics
 
-![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/k36.jpg)
+![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/k36.png)
 
 High throughput sequencing experiments such as ChIP-seq, ATAC-seq, and others are commonly utilized to characterize the human epigenome with scale and resolution not seen in prior microarray-based applications.  A common goal in such experiments is to detection regions of the genome containing that are "enriched" for a particular type of epigenomic activity of interest, for example specific protein-DNA interactions such as transcription factor binding or histone modifications.  As the cost of sequencing has dropped, the experimental design of such experiments have become more complex, and therefore poses problems to existing methods.  We develop efficient and robust methods that aim to more accurately detect regions of enrichment, regardless of the of experiment performed, and within single samples, multiple replicates of single samples, or finding differential regions between groups of samples. We are also developing deep learning models for single-cell epigenome experiments, such as single-cell ChIP-seq.  
 
