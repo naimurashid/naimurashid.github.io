@@ -16,7 +16,7 @@ Building on these results, as well as concepts from [prior work](https://www.tan
 This method is robust to normalization method, gene expression platform (NanoSting, RNA-seq), and sample collection process used (FFPE, FNA), and is highly accurate across a range of conditions.  PurIST is currently undergoing CLIA certification for integration into several upcoming clinical trials and is patent pending. 
 
 **Github Repos**
-1.  [PurIST](https://github.com/plbaldoni/ZIMHMM): A clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer.  PurIST is for research purposes only and is NOT available for commercial use.  To access PurIST please contact us with your github ID.  
+1.  [PurIST](https://github.com/naimurashid/PurIST): A clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer.  PurIST is for research purposes only and is NOT available for commercial use.  To access PurIST please contact us with your github ID.  
 
 **Related publications:**
 
