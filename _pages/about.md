@@ -22,7 +22,7 @@ Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](http
 
 ## Research Interests and Activities
 
-* Precision medicine, epigenomics, multi-study replicability of genomic signatures, alternative splicing, proteomics, pancreatic cancer, and breast cancer. Additional detail can be found under Projects and Students.
+* Precision medicine, epigenomics, multi-study replicability of genomic signatures, alternative splicing, proteomics, pancreatic cancer, and breast cancer. Additional detail can be found under [Projects](https://naimurashid.github.io/projects/) and [Students](https://naimurashid.github.io/students/).
 
 * **Collaborative Work:** As a member of the Lineberger Biostat Core I assist physicians and researchers with statistical problems relating to genomics and clinical studies.  I am available for basic statistical consulting queries for all Lineberger Members.  
 
