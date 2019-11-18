@@ -14,7 +14,7 @@ In contrast to other cancers, pancreatic cancer lacks established morphological 
 
 Building on these results, as well as concepts from a [recent methods paper](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197), we have developed a novel model PurIST to predict pancreatic cancer subtype in new patients.  We show that this method is robust to normalization method, gene expression platform (NanoSting, RNA-seq), and sample collection process used (FFPE, FNA), and is highly accurate in predicting subtype across a range of conditions.  PurIST is currently undergoing CLIA certification for integration into several upcoming clinical trials and is patent pending. 
 
-**Repos developed**
+**Github Repos**
 1.  [PurIST](https://github.com/plbaldoni/ZIMHMM): A clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer.  PurIST is for research purposes only and is NOT available for commercial use.  To access PurIST please contact us with your github ID.  
 
 **Related publications:**
@@ -37,7 +37,7 @@ Building on these results, as well as concepts from a [recent methods paper](htt
 
 High throughput sequencing experiments such as ChIP-seq, ATAC-seq, and others are commonly utilized to characterize the human epigenome with scale and resolution not seen in prior microarray-based applications.  A common goal in such experiments is to detection regions of the genome containing that are "enriched" for a particular type of epigenomic activity of interest, for example specific protein-DNA interactions such as transcription factor binding or histone modifications.  As the cost of sequencing has dropped, the experimental design of such experiments has become more complex and diverse, posing problems to methods optimized for specific data types or questions.  We develop efficient and robust methods that aim to more accurately detect regions of enrichment, regardless of the of experiment performed (short or broad enrichment), experimental design (multi-replicate and/or multi condition), or research questions (consensus, differential, or combinatiorial enrichment detection). We are in the early stages of developing deep learning models for single-cell epigenome experiments, such as single-cell ChIP-seq.  
 
-**Repos developed**
+**Github Repos**
 
 1.  [ZIMHMM](https://github.com/plbaldoni/ZIMHMM): Consensus peak detection from multiple replicates 
 
