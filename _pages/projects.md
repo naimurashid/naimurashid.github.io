@@ -8,18 +8,40 @@ output:
 ---
 
 # Pancreatic cancer subtyping 
+![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/purist.png)
 
+In contrast to other cancers, pancreatic cancer lacks established morphological or molecular subtypes that are clinically relevant.  Such information would provide an opportunity to determine the optimal choice of therapy given a patient’s molecular subtype and other biomarker information, enabling “precision medicine” approaches in pancreatic cancer.  In 2015, the [Yeh lab](https://unclineberger.org/yehlab/) at UNC Lineberger proposed a novel two subtype gene expression-based molecular classification system, consisting of the "basal-like" and "classical" subtypes (1).  Since then, multiple subtyping systems for pancreatic cancer have been proposed.  As a result,  consensus regarding proposed subtypes for clinical decision-making in PDAC has been elusive. In a recent statistical evaluation of existing subtyping systems in 7 clinical validation datasets, we found that the two-subtype system best explains survival outcomes and treatment response in a replicable manner across studies. We also show that patients the belong to the basal-like subtype is resistant to common first line therapy FOLFIRINOX, suggesting alternative therapies for such patients up front.  
+
+Building on these results, as well as concepts from a [recent methods paper](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197), we have developed a novel model PurIST to predict pancreatic cancer subtype in new patients.  We show that this method is robust to normalization method, gene expression platform (NanoSting, RNA-seq), and sample collection process used (FFPE, FNA), and is highly accurate in predicting subtype across a range of conditions.  PurIST is currently undergoing CLIA certification for integration into several upcoming clinical trials and is patent pending. 
+
+**Repos developed**
+1.  [PurIST](https://github.com/plbaldoni/ZIMHMM): A clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer.  PurIST is for research purposes only and is NOT available for commercial use.  To access PurIST please contact us with your github ID.  
+
+**Related publications:**
+
+1.  **N.U. Rashid**, X. L. Peng, C. Jin, R. A. Moffitt, K. E. Volmar, B. A. Belt, R. Z. Panni, T. M. Nywening, S. G. Herrera1, K. J. Moore1, S. G. Hennessey, A. B. Morrison, R. Kawalerski, A. Nayyar, A. E. Chang, B. Schmidt, H. J. Kim, D. C. Linehan, and J. J. Yeh. Purity independent subtyping of tumors (PurIST), a clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer. Clinical Cancer Research, In Press, 2019
+
+1.  R. A. Moffitt,  J. J. Yeh, and **N.U. Rashid**. Methods and compositions for prognostic and/or diagnostic subtyping of pancreatic cancer. [US 20170233827A1](https://patentimages.storage.googleapis.com/3c/ff/58/788c66082b621b/US20170233827A1.pdf), United States Patent and Trademark Office, 17 August 2017.
+
+
+
+
+1.  R. A. Moffitt, R. Marayati, E. L. Flate, K. E. Volmar, S. G. H. Loeza, K. A. Hoadley, **N.U. Rashid**, L. A. Williams, S. C. Eaton, A. H. Chung, et al. Virtual microdissection identifies distinct tumor-and stroma-specific subtypes of pancreatic ductal adenocarcinoma. Nature genetics, 47(10):1168, 2015
+
+
+
+ 
 # Developing statistical tools for high-throughput epigenomics
 
 ![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/k36.png)
 
-High throughput sequencing experiments such as ChIP-seq, ATAC-seq, and others are commonly utilized to characterize the human epigenome with scale and resolution not seen in prior microarray-based applications.  A common goal in such experiments is to detection regions of the genome containing that are "enriched" for a particular type of epigenomic activity of interest, for example specific protein-DNA interactions such as transcription factor binding or histone modifications.  As the cost of sequencing has dropped, the experimental design of such experiments have become more complex and diverse, posing problems to methods optimized for specific data types or questions.  We develop efficient and robust methods that aim to more accurately detect regions of enrichment, regardless of the of experiment performed (short or broad enrichment), experimental design (multi-replicate and/or multi condition), or research questions (consensus, differential, or combinatiorial enrichment detection). We are in the early stages of developing deep learning models for single-cell epigenome experiments, such as single-cell ChIP-seq.  
+High throughput sequencing experiments such as ChIP-seq, ATAC-seq, and others are commonly utilized to characterize the human epigenome with scale and resolution not seen in prior microarray-based applications.  A common goal in such experiments is to detection regions of the genome containing that are "enriched" for a particular type of epigenomic activity of interest, for example specific protein-DNA interactions such as transcription factor binding or histone modifications.  As the cost of sequencing has dropped, the experimental design of such experiments has become more complex and diverse, posing problems to methods optimized for specific data types or questions.  We develop efficient and robust methods that aim to more accurately detect regions of enrichment, regardless of the of experiment performed (short or broad enrichment), experimental design (multi-replicate and/or multi condition), or research questions (consensus, differential, or combinatiorial enrichment detection). We are in the early stages of developing deep learning models for single-cell epigenome experiments, such as single-cell ChIP-seq.  
 
 **Repos developed**
 
 1.  [ZIMHMM](https://github.com/plbaldoni/ZIMHMM): Consensus peak detection from multiple replicates 
 
-1.  [mixNBHMM](https://github.com/plbaldoni/mixNBHMM):  Flexible detection of differential regions of enrichment from multi-sample, multi-condition epigenomic experiments (ChIP-seq, ATAC-seq, DNase-seq, etc.).  Detection of combinational patterns of multiple types of epigenomic processes in the same sample or condition (chromatin state segmentation).
+1.  [mixNBHMM](https://github.com/plbaldoni/mixNBHMM):  Flexible detection of broa and short differential regions of enrichment from multi-sample, multi-condition epigenomic experiments (ChIP-seq, ATAC-seq, DNase-seq, etc.).  Detection of local combinational patterns of multiple epigenomic processes in the same sample or condition (chromatin state segmentation).
 
 **Related publications:**
 
