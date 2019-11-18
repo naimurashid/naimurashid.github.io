@@ -2,10 +2,12 @@
 title: "Projects"
 permalink: /projects/
 author_profile: true
-output: 
-  html_document:
-    toc: true
 ---
+
+* [ Pancreatic cancer subtyping. ](#panc)
+* [Developing statistical tools for high-throughput epigenomics](#epi)
+
+<a name="panc"></a>
 
 # Pancreatic cancer subtyping 
 ![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/purist.png)
@@ -27,7 +29,8 @@ Building on these results, as well as concepts from [prior work](https://www.tan
 
 
 
- 
+<a name="epi"></a>
+
 # Developing statistical tools for high-throughput epigenomics
 
 ![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/k36.png)
