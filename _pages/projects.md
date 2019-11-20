@@ -12,15 +12,14 @@ author_profile: true
 # Pancreatic cancer subtyping 
 ![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/purist.png)
 
-Pancreatic cancer currently lacks established morphological or molecular subtypes that are clinically relevant. Such information would enable “precision medicine” approaches in pancreatic cancer, where given a patient’s molecular subtype and optimal choice of therapy could be recommended.  
+In 2015, the [Yeh lab](https://unclineberger.org/yehlab/) at UNC Lineberger proposed a novel [two subtype](https://www.nature.com/articles/ng.3398) gene expression-based molecular classification system, consisting of the "basal-like" and "classical" subtypes, faciliating “precision medicine” approaches in pancreatic cancer.  Multiple subtyping systems for pancreatic cancer have been also proposed, and therefore consensus regarding subtypes for clinical decision-making has been elusive. 
 
-In 2015, the [Yeh lab](https://unclineberger.org/yehlab/) at UNC Lineberger proposed a novel [two subtype](https://www.nature.com/articles/ng.3398) gene expression-based molecular classification system, consisting of the "basal-like" and "classical" subtypes.  Since then, multiple subtyping systems for pancreatic cancer have been proposed, and therefore consensus regarding subtypes for clinical decision-making has been elusive. 
+In a recent evaluation of existing subtyping systems in 7 clinical validation datasets, we found that the two-subtype system best explains survival outcomes and treatment response in a replicable manner across studies. We also show that basal-like patients are highly resistant to common first-line therapy FOLFIRINOX, suggesting alternative therapies for such patients up front.  
 
-In a recent statistical evaluation of existing subtyping systems in 7 clinical validation datasets, we found that the two-subtype system best explains survival outcomes and treatment response in a replicable manner across studies. We also show that basal-like patients are highly resistant to common first-line therapy FOLFIRINOX, suggesting alternative therapies for such patients up front.  
-
-Building on these results, as well as concepts from [prior work](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197), we have developed a robust classifier PurIST to predict pancreatic cancer subtype in new patients.  This method is robust to normalization method, gene expression platform (NanoSting, RNA-seq), and sample collection process used (FFPE, FNA), and is highly accurate across a range of conditions.  PurIST is currently undergoing CLIA certification for integration into several upcoming clinical trials and is patent pending. 
+Building on these results, as well as concepts from [prior work](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197), we have developed a robust classifier PurIST to predict pancreatic cancer subtype in new patients.  This method is robust to normalization method, gene expression platform (NanoSting, RNA-seq), and sample collection process used (FFPE, FNA), and is highly accurate across a range of conditions.  PurIST is currently undergoing CLIA certification for use in several upcoming clinical trials. 
 
 **Github Repos**
+
 1.  [PurIST](https://github.com/naimurashid/PurIST): A clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer.  PurIST is for research purposes only and is NOT available for commercial use.  To access PurIST please contact us with your github ID.  
 
 **Related publications:**
@@ -39,9 +38,9 @@ Building on these results, as well as concepts from [prior work](https://www.tan
 
 ![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/k36.png)
 
-High throughput sequencing experiments such as ChIP-seq, ATAC-seq, and others are commonly utilized to characterize the human epigenome with scale and resolution not seen in prior microarray-based applications.  A common goal in such experiments is to detection regions of the genome containing that are "enriched" for a particular type of epigenomic activity of interest, for example specific protein-DNA interactions such as transcription factor binding or histone modifications.  
+High throughput sequencing experiments such as ChIP-seq, ATAC-seq, and others are commonly utilized to characterize the human epigenome fine resolution.  A common goal in such experiments is to detect regions of the genome that are "enriched" for a particular type of epigenomic activity of interest, for example specific protein-DNA interactions such as transcription factor binding or histone modifications.  
 
-As the cost of sequencing has dropped, the experimental design of such experiments has become more complex and diverse, posing problems to methods optimized for specific data types or questions.  We develop efficient and robust methods that aim to more accurately detect regions of enrichment, regardless of the of experiment performed (short or broad enrichment), experimental design (multi-replicate and/or multi condition), or research questions (consensus, differential, or combinatiorial enrichment detection). 
+As the cost of sequencing has dropped, the experimental design of such experiments has become more complex and diverse, posing problems to exiting methods optimized for specific data types or research questions.  We develop efficient and robust methods to accurately detect regions of enrichment, regardless of the of experiment performed (short or broad enrichment), experimental design (multi-replicate and/or multi condition), or research question (peak calling, consensus peak calling, differential peak calling, or combinatiorial enrichment pattern detection). 
 
 We are in the early stages of developing deep learning models for single-cell epigenome experiments, such as single-cell ChIP-seq.  
 
