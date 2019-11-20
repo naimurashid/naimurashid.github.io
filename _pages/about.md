@@ -16,7 +16,7 @@ redirect_from:
 
 ## About Me
 
-I am an assistant professor in the [Department of Biostatistics](https://sph.unc.edu/adv_profile/naim-rashid-phd/) at the [Gillings School of Global Public Health](https://sph.unc.edu/) at UNC-CH, with a joint appointment at the [Lineberger Comprehensive Cancer Center](https://unclineberger.org/). My methodological work spans several areas in genomics and machine learning, addressing problems facing basic science, translational, and clinical cancer researchers. 
+I am an [assistant professor](https://sph.unc.edu/adv_profile/naim-rashid-phd/) in the [Department of Biostatistics](https://sph.unc.edu/bios/) at the [Gillings School of Global Public Health](https://sph.unc.edu/) at UNC-CH, with a joint appointment at the [Lineberger Comprehensive Cancer Center](https://unclineberger.org/). My methodological work spans several areas in genomics and statistics, addressing problems facing basic science, translational, and clinical cancer researchers. 
 
 Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](https://www.hsph.harvard.edu/giovanni-parmigiani/) in the [Department of Data Sciences](https://www.dana-farber.org/research/departments-centers-and-labs/departments-and-centers/department-of-data-sciences/) at the Dana-Farber Cancer Institute and the [Department of Biostatistics](https://www.hsph.harvard.edu/biostatistics/) at the Harvard T. H. Chan School of Public Health (joint with Nikhil Munshi). I earned my PhD in the Department of Biostatistics at UNC under the direction of Joseph Ibrahim and Wei Sun.
 
