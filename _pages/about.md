@@ -22,11 +22,11 @@ Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](http
 
 ## Research Interests and Activities
 
-* Precision medicine, epigenomics, multi-study learning, gene signature replicability, alternative splicing, proteomics, pancreatic cancer, and breast cancer. Additional detail can be found under [Projects](https://naimurashid.github.io/projects/) and [Students](https://naimurashid.github.io/students/).
+* Precision medicine, epigenomics (ChIP-seq, ATAC-seq,etc.), multi-study learning, gene signature replicability, alternative splicing (RNA-seq), proteomics, pancreatic cancer, and breast cancer. Additional detail can be found under [Projects](https://naimurashid.github.io/projects/) and [Students](https://naimurashid.github.io/students/).
 
 * **Collaborative Work:** As a member of the Lineberger Biostat Core I assist physicians and researchers with statistical problems relating to genomics and clinical studies.  I am available for basic statistical consulting queries for all Lineberger Members.  
 
-* **Cancer Clinical Trials:** I help oncologists design cancer clinical trials at UNC and elsewhere, serving as trial statistician on a number of active protocols. I am also a part of the Translational Breast Cancer Research Consortium Statistical Working Group, where I develop and review novel clinical trials in breast cancer with oncologists nationwide. 
+* **Cancer Clinical Trials:** I help oncologists design cancer clinical trials at UNC and elsewhere, serving as trial statistician on a number of active protocols. I am also a part of the [Translational Breast Cancer Research Consortium](http://pub.emmes.com/study/bcrc/) Statistical Working Group, where I develop and review novel clinical trials in breast cancer with oncologists nationwide. 
 
 * **Teaching:**  I teach a course on Statistical Computing, [BIOS 735](https://biodatascience.github.io/statcomp/), to PhD Students at Gillings, covering topics such R programming, various statistical and computational algorithms, and machine learning models.  
 

@@ -64,5 +64,17 @@ We are in the early stages of developing deep learning models for single-cell ep
 
 # Multi-study replicability of prediction models
 
+![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/het.png)
+
+In the genomic era, the identification of gene signatures associated with disease is of significant interest. Such signatures are often used to predict clinical outcomes in new patients and aid clinical decision-making. However, recent studies have shown that gene signatures are often not replicable. This occurrence has practical implications regarding the generalizability and clinical applicability of such signatures. 
+
+To improve replicability, we develop novel approaches to select gene signatures from multiple datasets whose effects are consistently non-zero and account for between-study heterogeneity. We also build our models upon rank-based quantities (top scoring pairs), facilitating integration over different genomic datasets and prediction in new data.  A formal R package is currently in development implementing these methods.  We are currently extending this work to survival outcomes and also to tree-based machine learning models. 
+
+**Related publications:**
+
+1. **N.U. Rashid**, X. L. Peng, C. Jin, R. A. Moffitt, K. E. Volmar, B. A. Belt, R. Z. Panni, T. M. Nywening, S. G. Herrera1, K. J. Moore1, S. G. Hennessey, A. B. Morrison, R. Kawalerski, A. Nayyar, A. E. Chang, B. Schmidt, H. J. Kim, D. C. Linehan, and J. J. Yeh. Purity independent subtyping of tumors (PurIST), a clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer. Clinical Cancer Research, In Press, 2019
+
+1. **N.U. Rashid**, Q. Li, J. J. Yeh, and J. G. Ibrahim. Modeling between-study heterogeneity for improved replicability in gene signature selection and clinical prediction. Journal of the American Statistical Association, In Press, 2019
+
 # Unsupervised clustering of RNA-seq data
 
