@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-* **11/21/19:**  Our manuscript on pancreatic cancer subtyping [is published in CCR](https://clincancerres.aacrjournals.org/content/early/2019/11/20/1078-0432.CCR-19-1467).  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact us with your github ID. [PDF](/files/purist.pdf)
+* **11/21/19:**  Our manuscript on pancreatic cancer subtyping [is published in CCR](https://clincancerres.aacrjournals.org/content/early/2019/11/20/1078-0432.CCR-19-1467).  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact us with your github ID. [Lineberger Press Release](https://unclineberger.org/news/pancreatic-cancer-tumor-classification-could-optimize-treatment-choices/). [PDF](/files/purist.pdf)
 
 * **11/14/19:** Pedro's work on consensus peak calling in high-throughput epigenomic datasets is highlighted in the Bios Departments monthly newsletter [BiosBeat](https://sph.unc.edu/bios/biosbeat/). 
 
