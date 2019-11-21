@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-* **11/21/19:**  Our pancreatic cancer subtyping manuscript is published in CCR.  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact us with your github ID.
+* **11/21/19:**  Our manuscript on pancreatic cancer subtyping [is published in CCR](https://clincancerres.aacrjournals.org/content/early/2019/11/20/1078-0432.CCR-19-1467).  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact us with your github ID. [PDF](/files/purist.pdf)
 
 * **11/14/19:** Pedro's work on consensus peak calling in high-throughput epigenomic datasets is highlighted in the Bios Departments monthly newsletter [BiosBeat](https://sph.unc.edu/bios/biosbeat/). 
 
@@ -18,13 +18,13 @@ redirect_from:
 
 I am an [assistant professor](https://sph.unc.edu/adv_profile/naim-rashid-phd/) in the [Department of Biostatistics](https://sph.unc.edu/bios/) at the [Gillings School of Global Public Health](https://sph.unc.edu/) at UNC-CH, with a joint appointment at the [Lineberger Comprehensive Cancer Center](https://unclineberger.org/). My methodological work spans several areas in genomics and statistics, addressing problems facing basic science, translational, and clinical cancer researchers. 
 
-Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](https://www.hsph.harvard.edu/giovanni-parmigiani/) in the [Department of Data Sciences](https://www.dana-farber.org/research/departments-centers-and-labs/departments-and-centers/department-of-data-sciences/) at the Dana-Farber Cancer Institute and the [Department of Biostatistics](https://www.hsph.harvard.edu/biostatistics/) at the Harvard T. H. Chan School of Public Health (joint with Nikhil Munshi). I earned my PhD in the Department of Biostatistics at UNC under the direction of Joseph Ibrahim and Wei Sun.  Before that I received a BS in Biology with a Mathematics minor at Duke University. 
+Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](https://www.hsph.harvard.edu/giovanni-parmigiani/) in the [Department of Data Sciences](https://www.dana-farber.org/research/departments-centers-and-labs/departments-and-centers/department-of-data-sciences/) at the Dana-Farber Cancer Institute and the [Department of Biostatistics](https://www.hsph.harvard.edu/biostatistics/) at the Harvard T. H. Chan School of Public Health (joint with Nikhil Munshi). I earned my PhD in the Department of Biostatistics at UNC under the direction of Joseph Ibrahim and Wei Sun. 
 
 ## Research Interests and Activities
 
-* Precision medicine, epigenomics (ChIP-seq, ATAC-seq,etc.), multi-study learning, gene signature replicability, alternative splicing (RNA-seq), proteomics, pancreatic cancer, and breast cancer. Additional detail can be found under [Projects](https://naimurashid.github.io/projects/) and [Students](https://naimurashid.github.io/students/).
+* Precision medicine, high throughput epigenomics (ChIP-seq, ATAC-seq,etc.), multi-study learning, gene signature replicability, model-based clustering, alternative splicing (RNA-seq), proteomics, pancreatic cancer, and breast cancer. Additional detail can be found under [Projects](https://naimurashid.github.io/projects/) and [Students](https://naimurashid.github.io/students/).
 
-* **Collaborative Work:** As a member of the Lineberger Biostat Core I assist physicians and researchers with statistical problems relating to genomics and clinical studies.  I am available for basic statistical consulting queries for all Lineberger Members.  
+* **Collaborative Work:** As a member of the Lineberger Biostatistics Core I assist physicians and researchers with statistical problems relating to genomics and clinical studies.  I am available for basic statistical consulting queries for all Lineberger Members.  
 
 * **Cancer Clinical Trials:** I help oncologists design cancer clinical trials at UNC and elsewhere, serving as trial statistician on a number of active protocols. I am also a part of the [Translational Breast Cancer Research Consortium](http://pub.emmes.com/study/bcrc/) Statistical Working Group, where I develop and review novel clinical trials in breast cancer with oncologists nationwide. 
 
