@@ -6,7 +6,8 @@ author_profile: true
 
 * [Pancreatic cancer subtyping](#panc)
 * [Statistical tools for high-throughput epigenomics](#epi)
-
+* [Multi-study replicability of prediction models](#multi)
+* [Multi-study replicability of prediction models](#cluster)
 <a name="panc"></a>
 
 # Pancreatic cancer subtyping 
@@ -62,6 +63,8 @@ We are in the early stages of developing deep learning models for single-cell ep
 
 1.  **N.U. Rashid**, P. G. Giresi, J. G. Ibrahim, W. Sun, and J. D. Lieb. Zinba integrates local covariates with dna-seq data to identify broad and narrow regions of enrichment, even within amplified genomic regions. Genome biology, 12(7):R67, 2011
 
+<a name="multi"></a>
+
 # Multi-study replicability of prediction models
 
 ![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/het.png)
@@ -76,5 +79,19 @@ To improve replicability, we develop novel approaches to select gene signatures 
 
 1. **N.U. Rashid**, Q. Li, J. J. Yeh, and J. G. Ibrahim. Modeling between-study heterogeneity for improved replicability in gene signature selection and clinical prediction. Journal of the American Statistical Association, In Press, 2019
 
+<a name="cluster"></a>
+
 # Unsupervised clustering of RNA-seq data
+
+![](https://raw.githubusercontent.com/naimurashid/naimurashid.github.io/master/files/cluster.png)
+
+A common application of this in biomedical research is in delineating novel cancer
+subtypes from patient gene expression data, given a set of informative genes. However, it is typically unknown a priori what genes may be informative in discriminating between clusters, and what the optimal number of clusters is. In addition, few methods exist for unsupervised clustering of RNA-seq samples, and no method exists that can do so while simultaneously adjusting for between-sample global normalization factors, accounting for potential confounding variables (such as batch), and selecting cluster-discriminatory genes. 
+
+To address this issue, we develop novel a model-based clustering algorithm that utilizes a finite mixture of Negative Binomial regression models and employing a quadratic penalty method with a SCAD penalty. The maximization is done by penalized EM algorithm, allowing us to include normalization factors and confounders in our modeling framework. Given the fitted
+model, our framework allows for subtype prediction in new patients via posterior probabilities of cluster membership. Future directions of this work concern the extension to Deep Learning variational autoencoders, where we also focus on missing data problems in this setting.  
+
+**Related talks:**
+
+1. D. Lim, N.U. Rashid, and J.G.Ibrahim. [FSCseq: Simultaneous Feature Selection and Clustering of RNA-Seq Data](https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/AbstractDetails.cfm?abstractid=305323).  JSM, 2019.
 
