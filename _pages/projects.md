@@ -7,7 +7,8 @@ author_profile: true
 * [Pancreatic cancer subtyping](#panc)
 * [Statistical tools for high-throughput epigenomics](#epi)
 * [Multi-study replicability of prediction models](#multi)
-* [Multi-study replicability of prediction models](#cluster)
+* [Unsupervised clustering of RNA-seq data](#cluster)
+
 <a name="panc"></a>
 
 # Pancreatic cancer subtyping 
