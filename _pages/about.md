@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-* **11/21/19:**  Our manuscript on pancreatic cancer subtyping [is published in CCR](https://clincancerres.aacrjournals.org/content/early/2019/11/20/1078-0432.CCR-19-1467).  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact us with your github ID. [Lineberger Press Release](https://unclineberger.org/news/pancreatic-cancer-tumor-classification-could-optimize-treatment-choices/) | [Gillings SPH Press Release](https://sph.unc.edu/sph-news/pancreatic-cancer-tumor-classification-could-optimize-treatment-choices/) | [ABC 11 news](https://abc11.com/health/unc-doctors-don-purple-for-world-pancreatic-cancer-day/5711875/) | [PDF](/files/purist.pdf)
+* **11/21/19:**  Our manuscript on pancreatic cancer subtyping [is published in CCR](https://clincancerres.aacrjournals.org/content/early/2019/11/20/1078-0432.CCR-19-1467).  We evaluate existing molecular subtyping methods and develop an accurate machine learning algorithm (PurIST) to predict pancreatic cancer subtype in new patients. To access PurIST, please contact us with your github ID. [Lineberger Press Release](https://unclineberger.org/news/pancreatic-cancer-tumor-classification-could-optimize-treatment-choices/) . [Gillings SPH Press Release](https://sph.unc.edu/sph-news/pancreatic-cancer-tumor-classification-could-optimize-treatment-choices/) . [ABC 11 news](https://abc11.com/health/unc-doctors-don-purple-for-world-pancreatic-cancer-day/5711875/) . [PDF](/files/purist.pdf)
 
 * **11/14/19:** Pedro's work on consensus peak calling in high-throughput epigenomic datasets is highlighted in the Bios Departments monthly newsletter [BiosBeat](https://sph.unc.edu/bios/biosbeat/). 
 
@@ -32,7 +32,7 @@ Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](http
 
 ## Older News
 
-* **10/14/19:** Our [manuscript](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197) on training cross-study replicable prediction models is published in JASA.  We evaluate several common strategies in building clinical prediction models from gene expression data, and propose a novel pGLMM to select study-consistent predictors from multiple datasets.  [Lineberger Press Release](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/) | [PDF](/files/pglmm.pdf)
+* **10/14/19:** Our [manuscript](https://www.tandfonline.com/doi/abs/10.1080/01621459.2019.1671197) on training cross-study replicable prediction models is published in JASA.  We evaluate several common strategies in building clinical prediction models from gene expression data, and propose a novel pGLMM to select study-consistent predictors from multiple datasets.  [Lineberger Press Release](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/) . [PDF](/files/pglmm.pdf)
 
 * **10/1/19**:  Notice of award for the HEAL Initiative BACPAC consortium grant. I will have two GRA positions available in Fall 2019 to perform multiplatform genomic data integration with multiple clinical phenotypes. [SPH Release](https://sph.unc.edu/sph-news/with-52m-in-funding-from-nih-heal-initiative-gillings-school-researchers-join-fight-against-national-opioid-crisis/)
 
