@@ -54,6 +54,9 @@ We are in the early stages of developing deep learning models for single-cell ep
 
 **Related publications:**
 
+1.  P. L. Baldoni, **N.U. Rashid**, and J. G. Ibrahim. [Efficient detection and classification of
+epigenomic changes under multiple conditions](https://www.biorxiv.org/content/10.1101/864124v1). bioRxiv, 2019
+
 1.  P. L. Baldoni, **N.U. Rashid**, and J. G. Ibrahim. [Improved detection of epigenomic marks with mixed effects hidden markov models](https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13083). Biometrics, 2019 
 
 1. Y.-Y. Chiou, Y. Yang, **N.U. Rashid**, R. Ye, C. P. Selby, and A. Sancar. [Mammalian period represses and de-represses transcription by displacing clock-bmal1 from promoters in a cryptochrome-dependent manner](https://www.pnas.org/content/113/41/E6072). Proceedings of the National Academy of Sciences, 113(41):E6072-E6079, 2016
