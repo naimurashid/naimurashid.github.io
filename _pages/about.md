@@ -40,3 +40,21 @@ Previously, I was a Postdoctoral Research Fellow with [Giovanni Parmigiani](http
 
 * **4/15/19:**  Pedro received the prestigious University Cancer Research Fund SPH Student Award for 2019!  This $30,000 award goes towards a student's stipend, tuition, and fees for the year and is awarded to SPH students that show strong promise in cancer research. 
 
+<!-- Default Statcounter code for Naimurashid.github.io
+https://naimurashid.github.io/ -->
+<script type="text/javascript">
+var sc_project=12163716; 
+var sc_invisible=1; 
+var sc_security="51a4fa6c"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12163716/0/51a4fa6c/1/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
