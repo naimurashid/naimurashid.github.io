@@ -9,7 +9,7 @@ An up to date list of publications can be found at my [google scholar page](http
 ## Methodology
 1. **N.U. Rashid**, J. Chen, M. T. Lawson, D. J. Luckett, L. Wang, E. B. Laber, Y. Liu, J. J.
 Yeh, D. Zeng, and M. R. Kosorok. High dimensional precision medicine from patient-derived
-xenografts. Journal of the American Statistical Association, 2nd round revision invited, 2019 ([arxiv link](https://arxiv.org/abs/1912.06667))
+xenografts. Journal of the American Statistical Association, Accepted with minor revisions, 2019 ([arxiv link](https://arxiv.org/abs/1912.06667))
 
 1.  P. L. Baldoni, **N.U. Rashid**, and J. G. Ibrahim. Efficient detection and classification of
 epigenomic changes under multiple conditions. [bioRxiv](https://www.biorxiv.org/content/10.1101/864124v1), 2019
