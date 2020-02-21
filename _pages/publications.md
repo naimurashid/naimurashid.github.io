@@ -6,21 +6,24 @@ author_profile: true
 
 An up to date list of publications can be found at my [google scholar page](https://scholar.google.com/citations?user=3Cz_lcEAAAAJ&hl=en).
 
-## Methodology
+## Methodology (* indicates student)
+1.  D. K. Lim*, **N.U. Rashid**, and J. G. Ibrahim. Model-based feature selection and clustering
+of RNA-seq data for unsupervised subtype discovery. [preprint forthcoming], 2020 
+
+1.  P. L. Baldoni*, **N.U. Rashid**, and J. G. Ibrahim. Efficient detection and classification of
+epigenomic changes under multiple conditions. [bioRxiv](https://www.biorxiv.org/content/10.1101/864124v1), 2019
+
 1. **N.U. Rashid**, J. Chen, M. T. Lawson, D. J. Luckett, L. Wang, E. B. Laber, Y. Liu, J. J.
 Yeh, D. Zeng, and M. R. Kosorok. High dimensional precision medicine from patient-derived
 xenografts. Journal of the American Statistical Association, Accepted with minor revisions, 2019 ([arxiv link](https://arxiv.org/abs/1912.06667))
 
-1.  P. L. Baldoni, **N.U. Rashid**, and J. G. Ibrahim. Efficient detection and classification of
-epigenomic changes under multiple conditions. [bioRxiv](https://www.biorxiv.org/content/10.1101/864124v1), 2019
-
-1. **N.U. Rashid**, X. L. Peng, C. Jin, R. A. Moffitt, K. E. Volmar, B. A. Belt, R. Z. Panni, T. M. Nywening, S. G. Herrera1, K. J. Moore1, S. G. Hennessey, A. B. Morrison, R. Kawalerski, A. Nayyar, A. E. Chang, B. Schmidt, H. J. Kim, D. C. Linehan, and J. J. Yeh. Purity independent subtyping of tumors (PurIST), a clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer. Clinical Cancer Research, In Press, 2019
+1. **N.U. Rashid**, X. L. Peng, C. Jin, R. A. Moffitt, K. E. Volmar, B. A. Belt, R. Z. Panni, T. M. Nywening, S. G. Herrera1, K. J. Moore1, S. G. Hennessey, A. B. Morrison, R. Kawalerski, A. Nayyar, A. E. Chang, B. Schmidt, H. J. Kim, D. C. Linehan, and J. J. Yeh. Purity independent subtyping of tumors (PurIST), a clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer. Clinical Cancer Research, 26(1):82-92, 2020
 
 1. **N.U. Rashid**, Q. Li, J. J. Yeh, and J. G. Ibrahim. Modeling between-study heterogeneity for improved replicability in gene signature selection and clinical prediction. Journal of the American Statistical Association, In Press, 2019
 
-1. P. L. Baldoni, **N.U. Rashid**, and J. G. Ibrahim. Improved detection of epigenomic marks with mixed effects hidden markov models. Biometrics, 2019
+1. P. L. Baldoni*, **N.U. Rashid**, and J. G. Ibrahim. Improved detection of epigenomic marks with mixed effects hidden markov models. Biometrics, 75(4):1401-1413, 2019
 
-1. **N.U. Rashid**, W. Sun, and J. G. Ibrahim. A statistical model to assess (allele-specific) associations between gene expression and epigenetic features using sequencing data. The annals of applied statistics, 10(4):2254, 2016
+1. **N.U. Rashid**, W. Sun, and J. G. Ibrahim. A statistical model to assess (allele-specific) associations between gene expression and epigenetic features using sequencing data. The Annals of Applied Statistics, 10(4):2254, 2016
 
 1. **N.U. Rashid**, A. S. Sperling, N. Bolli, D. C. Wedge, P. Van Loo, Y.-T. Tai, M. A. Shammas, M. Fulciniti, M. K. Samur, P. G. Richardson, et al. Differential and limited expression of mutant
 alleles in multiple myeloma. Blood, 124(20):3110-3117, 2014
@@ -30,6 +33,14 @@ alleles in multiple myeloma. Blood, 124(20):3110-3117, 2014
 1. **N.U. Rashid**, P. G. Giresi, J. G. Ibrahim, W. Sun, and J. D. Lieb. Zinba integrates local covariates with dna-seq data to identify broad and narrow regions of enrichment, even within amplified genomic regions. Genome biology, 12(7):R67, 2011
 
 ## Collaborative - Genomics and Cancer
+1. B. Mirlekar, D. Michaud, S. J. Lee, N. P. Kren, C. Harris, K. Greene, E. C. Goldman, G. P.
+Gupta, R. C. Fields, W. G. Hawkins, D. G. DeNardo, **N.U. Rashid**, J. J. Yeh, A. J. McRee,
+B. G. Vincent, D. A. Vignali, and Y. Pylayeva-Gupta. B cell-derived IL35 drives stat3-dependent
+CD8+ t-cell exclusion in pancreatic cancer. Cancer Immunology Research, 2020
+
+1. K. D. Fagan-Solis, D. A. Simpson, R. J. Kumar, L. G. Martelotto, L. E. Mose, **N.U. Rashid**,
+A. Y. Ho, S. N. Powell, Y. H. Wen, J. S. Parker, et al. A p53-independent dna damage response
+suppresses oncogenic proliferation and genome instability. Cell Reports, 30(5):1385{1399, 2020
 
 1. W. Feng, D. A. Simpson, J. Carvajal-Garcia, B. A. Price, R. J. Kumar, L. E. Mose, R. D.Wood, **N.U. Rashid**, J. E. Purvis, J. S. Parker, et al. Genetic determinants of cellular addiction to dna polymerase theta. Nature communications, 10(1):1-13, 2019
 
