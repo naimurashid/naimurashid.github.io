@@ -7,19 +7,24 @@ author_profile: true
 An up to date list of publications can be found at my [google scholar page](https://scholar.google.com/citations?user=3Cz_lcEAAAAJ&hl=en).
 
 ## Methodology (* indicates student)
-1.  D. K. Lim*, **N.U. Rashid**, and J. G. Ibrahim. Model-based feature selection and clustering
-of RNA-seq data for unsupervised subtype discovery. [preprint forthcoming], 2020 
+1. S. Van Buren* and **N.U. Rashid**. Differential transcript usage analysis incorporating quantification uncertainty via compositional measurement error regression modeling. Annals of Applied Statistics, Under Review, 2020.  [bioarxiv](https://www.biorxiv.org/content/10.1101/2020.05.22.111450v1)
 
-1.  P. L. Baldoni*, **N.U. Rashid**, and J. G. Ibrahim. Efficient detection and classification of
-epigenomic changes under multiple conditions. [bioRxiv](https://www.biorxiv.org/content/10.1101/864124v1), 2019
+1. S. Van Buren*, H. Sarkar, A. Srivastava, **N.U. Rashid**, R. Patro, and M. I. Love. Compression of quantication uncertainty for scrna-seq counts. Bioinformatics, Under Review, 2020. [bioarxiv](https://www.biorxiv.org/content/10.1101/2020.07.06.189639v1)
 
-1. **N.U. Rashid**, J. Chen, M. T. Lawson, D. J. Luckett, L. Wang, E. B. Laber, Y. Liu, J. J.
-Yeh, D. Zeng, and M. R. Kosorok. High dimensional precision medicine from patient-derived
-xenografts. Journal of the American Statistical Association, Accepted with minor revisions, 2019 ([arxiv link](https://arxiv.org/abs/1912.06667))
+1. P. L. Baldoni*, **N.U. Rashid**, and J. G. Ibrahim. Efficient detection and classification of
+epigenomic changes under multiple conditions. Biometrics, Revision Invited, 2019.   [bioRxiv](https://www.biorxiv.org/content/10.1101/864124v1)
 
-1. **N.U. Rashid**, X. L. Peng, C. Jin, R. A. Moffitt, K. E. Volmar, B. A. Belt, R. Z. Panni, T. M. Nywening, S. G. Herrera1, K. J. Moore1, S. G. Hennessey, A. B. Morrison, R. Kawalerski, A. Nayyar, A. E. Chang, B. Schmidt, H. J. Kim, D. C. Linehan, and J. J. Yeh. Purity independent subtyping of tumors (PurIST), a clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer. Clinical Cancer Research, 26(1):82-92, 2020
+1. D. K. Lim*, N.U. Rashid, and J. G. Ibrahim. Model-based feature selection and clustering
+of rna-seq data for unsupervised subtype discovery. Annals of Applied Statistics, Accepted, In
+Press, 2020.  [bioarxiv](https://www.biorxiv.org/content/10.1101/2020.05.23.111799v1)
 
-1. **N.U. Rashid**, Q. Li, J. J. Yeh, and J. G. Ibrahim. Modeling between-study heterogeneity for improved replicability in gene signature selection and clinical prediction. Journal of the American Statistical Association, In Press, 2019
+1. **N.U. Rashid**,  D. J. Luckett, J. Chen, M. T. Lawson, L. Wang, Y. Zhang, E. B. Laber, Y. Liu, J. J. Yeh, D. Zeng, and M. R. Kosorok.k. High dimensional precision medicine from patient-derived xenografts. Journal of the American Statistical Association, Accepted, In Press, 2019. [arxiv link](https://arxiv.org/abs/1912.06667)
+
+1. **N.U. Rashid**, X. L. Peng, C. Jin, R. A. Moffitt, K. E. Volmar, B. A. Belt, R. Z. Panni, T. M. Nywening, S. G. Herrera1, K. J. Moore1, S. G. Hennessey, A. B. Morrison, R. Kawalerski, A. Nayyar, A. E. Chang, B. Schmidt, H. J. Kim, D. C. Linehan, and J. J. Yeh. Purity independent subtyping of tumors (PurIST), a clinically robust, single-sample classifier for tumor subtyping in pancreatic cancer. Clinical Cancer Research, 26(1):82-92, 2020.  [PDF](/files/purist.pdf). [PurIST Github](https://github.com/naimurashid/PurIST). Media: [Lineberger](https://unclineberger.org/news/pancreatic-cancer-tumor-classification-could-optimize-treatment-choices/), [Gillings SPH](https://sph.unc.edu/sph-news/pancreatic-cancer-tumor-classification-could-optimize-treatment-choices/), [ABC 11 news](https://abc11.com/health/unc-doctors-don-purple-for-world-pancreatic-cancer-day/5711875/), [PANCAN](https://www.pancan.org/stories/researchers/new-pancreatic-cancer-tumor-categories-may-inform-treatment-decisions/?utm_source=t.co&utm_medium=social&utm_campaign=research&utm_term=general+public&utm_content=general+post). [PDF](/files/purist.pdf)
+
+1. **N.U. Rashid**, Q. Li, J. J. Yeh, and J. G. Ibrahim. Modeling between-study heterogeneity
+for improved reproducibility in gene signature selection and clinical prediction. Journal of the
+American Statistical Association, 115(531):1125{1138, 2020. [PDF](/files/pglmm.pdf). [Lineberger Press Release](https://unclineberger.org/honors/unc-lineberger-researchers-published-in-journal-of-the-american-statistical-association/)
 
 1. P. L. Baldoni*, **N.U. Rashid**, and J. G. Ibrahim. Improved detection of epigenomic marks with mixed effects hidden markov models. Biometrics, 75(4):1401-1413, 2019
 
@@ -33,6 +38,11 @@ alleles in multiple myeloma. Blood, 124(20):3110-3117, 2014
 1. **N.U. Rashid**, P. G. Giresi, J. G. Ibrahim, W. Sun, and J. D. Lieb. Zinba integrates local covariates with dna-seq data to identify broad and narrow regions of enrichment, even within amplified genomic regions. Genome biology, 12(7):R67, 2011
 
 ## Collaborative - Genomics and Cancer
+1. M. B. Lipner, X. L. Peng, C. Jin, Y. Xu, Y. Gao, M. P. East, N.U. Rashid, R. A. Mott,
+S. G. Herrera-Loeza, A. B. Morrison, B. T. Golitz, C. Vaziri, L. M. Graves, G. L. Johnson,
+and J. J. Yeh. Irreversible JNK1-JUN inhibition by JNK-IN-8 sensitizes pancreatic cancer to
+5-FU/FOLFOX chemotherapy. JCI Insight, 5(8), apr 2020
+
 1. B. Mirlekar, D. Michaud, S. J. Lee, N. P. Kren, C. Harris, K. Greene, E. C. Goldman, G. P.
 Gupta, R. C. Fields, W. G. Hawkins, D. G. DeNardo, **N.U. Rashid**, J. J. Yeh, A. J. McRee,
 B. G. Vincent, D. A. Vignali, and Y. Pylayeva-Gupta. B cell-derived IL35 drives stat3-dependent
