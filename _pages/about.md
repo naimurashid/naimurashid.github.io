@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: left
-  image: prof.jpg
+  image: "Rashid Lab Main Logo 2400x1800.jpeg"
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Lineberger 20-020</p>
