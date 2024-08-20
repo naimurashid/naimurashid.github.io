@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: left
-  image: "RashidLabMainLogo2400x1800.jpeg"
+  image: RashidLabMainLogo2400x1800.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Lineberger 20-020</p>
