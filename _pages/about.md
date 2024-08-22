@@ -7,7 +7,6 @@ subtitle:
 profile:
   position: Associate Professor
   align: right
-  logos: true
   image: prof_pic.png
   address: >
         Lineberger Comprehensive Cancer Cancer<br />
