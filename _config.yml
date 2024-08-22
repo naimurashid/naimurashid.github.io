@@ -272,14 +272,14 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "assets" #"assets/**/*.*"
+      path: "assets"#"assets/**/*.*"
     values:
       sitemap: false
- - scope:
+  - scope:
       path: ""
     values:
       image: RashidLabMainLogo2400x1800.jpeg # Default open graph image
-      
+
 sass:
   style: compressed
 
