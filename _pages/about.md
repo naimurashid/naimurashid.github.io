@@ -1,11 +1,13 @@
 ---
 layout: about
 title: about
+page-title: About
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
-  align: left
+  align: right
+  logos: true
   image: prof.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
