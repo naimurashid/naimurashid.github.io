@@ -11,7 +11,7 @@ profile:
   align: right
   image: prof.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  address: >
     Lineberger 20-020 <br /> 450 West Drive <br /> University of North Carolina at Chapel Hill <br />Chapel Hill, NC, 27599
 
 news: true # includes a list of news items
