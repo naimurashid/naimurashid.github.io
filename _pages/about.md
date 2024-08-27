@@ -7,7 +7,7 @@ subtitle:
 
 profile:
   name: Naim U. Rashid, PhD
-  position:  Associate Professor <br /> Department of Biostatistics <br /> Gillings School of Global Public Health, and <br /> Lineberger Comprehensive Cancer Center
+  position:  Associate Professor <br />Department of Biostatistics<br />Gillings School of Global Public Health,<br /> Lineberger Comprehensive Cancer Center
   align: right
   image: prof.jpg
   image_circular: false # crops the image to make it circular
