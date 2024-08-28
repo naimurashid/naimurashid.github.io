@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 # Overview
-[I am ](https://sph.unc.edu/adv_profile/naim-rashid-phd/) is  an associate professor (with tenure) in the [Department of Biostatistics](https://sph.unc.edu/bios/biostatistics/) at the [UNC Gillings School of Global Public Health](https://sph.unc.edu/), and have a joint appointment at the [Lineberger Comprehensive Cancer Center (LCCC)](https://unclineberger.org/). I currently serve as the Associate Director of the [Lineberger Biostatistics Shared Resource](https://unclineberger.org/biostats/), and co-direct the Biostatistics Cores of the UNC Pancreatic and Breast Cancer SPOREs 
+I am an [associate professor](https://sph.unc.edu/adv_profile/naim-rashid-phd/) (with tenure) in the [Department of Biostatistics](https://sph.unc.edu/bios/biostatistics/) at the [UNC Gillings School of Global Public Health](https://sph.unc.edu/), and have a joint appointment at the [Lineberger Comprehensive Cancer Center (LCCC)](https://unclineberger.org/). I currently serve as the Associate Director of the [Lineberger Biostatistics Shared Resource](https://unclineberger.org/biostats/), and co-direct the Biostatistics Cores of the UNC Pancreatic and Breast Cancer SPOREs 
 
 Our lab is devoted to research addressing basic science, translational, and clinical problems in cancer.  We are deeply involved in the development of novel statistical methodology supporting this aim, with a specific focus in the areas of genomics, precision medicine, clinical trials, and machine learning.  
 
