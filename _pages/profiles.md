@@ -14,11 +14,18 @@ profiles:
     content: about_naim.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      Naim Rashid, PhD
       Lineberger 20-020 <br /> 450 West Drive <br /> University of North Carolina at Chapel Hill <br />Chapel Hill, NC, 27599
     
   - align: right
     image: amber.jpg
     content: about_amber.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+
+  - align: right
+    image: euphy.jpg
+    content: about_euphy.md
     image_circular: false # crops the image to make it circular
     more_info: >
       
