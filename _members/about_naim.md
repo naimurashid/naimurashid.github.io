@@ -12,7 +12,7 @@ publications: 'author^=*Rashid'
 
 teaser: >
    Dr. Rashid is an associate professor (with tenure) in the Department of Biostatistics at the UNC Gillings School of Global Public Health, and has a joint appointment at the Lineberger Comprehensive Cancer Center (LCCC). He currently serves as the Associate Director of the Lineberger Biostatistics Shared Resource, and co-directs the Biostatistics Cores of the UNC Pancreatic and Breast Cancer SPOREs.
-
+   
 profile:
     name: Naim U. Rashid, PhD
     position: Associate Professor <br /> Department of Biostatistics <br /> Gillings School of Global Public Health, <br /> Lineberger Comprehensive Cancer Center
