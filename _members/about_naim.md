@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 inline: false
 group: Faculty
 group_rank: 1

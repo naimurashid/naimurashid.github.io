@@ -2,8 +2,8 @@
 layout: about
 inline: false
 group: Current Students
-group_rank: 1
-group_order: 2
+group_rank: 2
+group_order: 1
 
 title: Amber Young, BS
 description: Profile of Amber Young
@@ -16,7 +16,7 @@ teaser: >
 profile:
     name: Amber Young, BS
     position: Doctoral Student <br /> Department of Biostatistics <br /> Gillings School of Global Public Health
-    team-position: Associate Professor in Biostatistics
+    team-position: PhD Student
     align: right 
     logos: true
     image: amber.jpg
