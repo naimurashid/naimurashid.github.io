@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profiles
 inline: false
 group: Current Students
 group_rank: 2
