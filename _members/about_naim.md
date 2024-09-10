@@ -1,5 +1,5 @@
 ---
-layout: profiles
+layout: about
 inline: false
 group: Faculty
 group_rank: 1
@@ -22,6 +22,7 @@ profile:
     image: prof.jpg
     email: naim@unc.edu
     phone: +1 919 966 8150
+    website: https://sph.unc.edu/adv_profile/naim-rashid-phd/
     #orcid: 0000-0001-5796-0836
     address: >
         Lineberger 20-020 <br /> 450 West Drive <br /> University of North Carolina at Chapel Hill <br />Chapel Hill, NC, 27599
