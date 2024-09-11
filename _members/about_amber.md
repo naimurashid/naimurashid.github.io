@@ -21,7 +21,7 @@ profile:
     logos: true
     image: amber.jpg
     email: ayoung31@live.unc.edu
-    github: ayoung31
+    #github: ayoung31
     #website: https://engineering.jhu.edu/faculty/tza-huei-jeff-wang/
     #twitter: JHUBioMEMS
     #phone: +1 919 966 8150
