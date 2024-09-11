@@ -22,11 +22,11 @@ profile:
     image: prof.jpg
     email: naim@unc.edu
     phone: +1 919 966 8150
-    website: https://sph.unc.edu/adv_profile/naim-rashid-phd/
+    #website: https://sph.unc.edu/adv_profile/naim-rashid-phd/
     #orcid: 0000-0001-5796-0836
     address: >
         Lineberger 20-020 <br /> 450 West Drive <br /> University of North Carolina at Chapel Hill <br />Chapel Hill, NC, 27599
-social: true  # includes social icons at the bottom of the page        
+    social: true  # includes social icons at the bottom of the page        
 ---
 
 My contribution to the fields of biostatistics and cancer research has been substantial, as evidenced by over 50 papers that I have co-authored in high impact peer reviewed journals related to cancer, genomics, medicine, and statistics. Such research results have directly contributed to various domains in cancer, including immunotherapy, epigenomics, precision medicine, and drug discovery using rigorous and innovative statistical methods. In addition, statistical methods that I have developed have similarly had wide impact in pancreatic cancer.  For example, my research on developing robust molecular subtyping tools has resulted in the first clinically applicable test for prospective treatment selection in pancreatic cancer (PurIST).  This work has been awarded a provisional patent, passed CLIA certification for clinical trial use, has appeared in journals such as Nature Genetics and Clinical Cancer Research, and is currently under evaluation in multiple clinical trials as a diagnostic tool.  My methods and collaborative work on identifying patterns of protein-DNA interactions in high throughput cancer sequencing data have also had wide impact,  leading to publications in Nature, PNAS, Genome Biology, and other top journals. Several of my methods publications concerning cancer precision medicine and genomics have appeared in top journals in statistics, such as Journal of the American Statistical Association and Biometrics. Many of these statistical methods have been implemented as open-source software packages for the public to use.  
