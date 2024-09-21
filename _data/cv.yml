@@ -3,7 +3,7 @@
   contents:
     - name: Full Name
       value: Naim Rashid
-    - name: Date of Birth
+    <--! - name: Date of Birth -->
       value: 
     - name: Languages
       value: English, Spanish, Bengali 
@@ -11,17 +11,17 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD, Biostatistics
+    - title: PhD
       institution: Department of Biostatistics
         Gillings School of Global Public Health
         University of North Carolina at Chapel Hill
       year: 2013
       description:
-    - title: BS, Biology
+    - title: BS
       institution: Duke University  
       year: 2006
       description:
-        Concentration in Pharmacology, Minor in Mathematics
+        BS in Biology with concentration in Pharmacology, Minor in Mathematics
 
 - title: Experience
   type: time_table
@@ -43,7 +43,7 @@
     - title: Postdoctoral Research Fellow
       institution: Department of Biostatistics, Harvard School of Public Health, and Department of Biostatistics and Computational Biology, Dana Farber Cancer Institute
       year: 2013
-      description: 
+      description: Postdoc mentors [Giovanni Parmigiani](https://scholar.harvard.edu/parmigiani/home) and Nikhil Munshi
 
 - title: Honors and Awards
   type: time_table
