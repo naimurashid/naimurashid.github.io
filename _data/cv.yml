@@ -10,13 +10,13 @@
   type: time_table
   contents:
     - title: PhD
-      institution: Department of Biostatistics
-        Gillings School of Global Public Health
-        University of North Carolina at Chapel Hill
+      institution: Department of Biostatistics, 
+        Gillings School of Global Public Health, 
+        University of North Carolina at Chapel Hill,
       year: 2013
       description:
     - title: BS
-      institution: Duke University  
+      institution: Trinity School of Arts and Sciences, Duke University  
       year: 2006
       description:
         BS in Biology with concentration in Pharmacology, Minor in Mathematics
@@ -25,16 +25,16 @@
   type: time_table
   contents:
     - title: Associate Professor 
-      institution: Department of Biostatistics
+      institution: Department of Biostatistics,
         Gillings School of Global Public Health, and 
-        Lineberger Comprehensive Cancer Center
+        Lineberger Comprehensive Cancer Center,
         University of North Carolina at Chapel Hill
       year: 2021
 
     - title: Assistant Professor
-      institution: Department of Biostatistics
+      institution: Department of Biostatistics,
         Gillings School of Global Public Health, and 
-        Lineberger Comprehensive Cancer Center
+        Lineberger Comprehensive Cancer Center,
         University of North Carolina at Chapel Hill
       year: 2015
 
