@@ -33,7 +33,7 @@ profile:
 
 [Dr. Naim Rashid](https://naimurashid.github.io/assets/pdf/Naim.Rashid.cv.pdf) is an associate professor in the [Department of Biostatistics](https://sph.unc.edu/bios/biostatistics/) at the [UNC Gillings School of Global Public Health](https://sph.unc.edu/), and has a joint appointment at the [Lineberger Comprehensive Cancer Center (LCCC)](https://unclineberger.org/). His methodological work spans several areas in genomics and statistics, addressing problems facing basic science, translational, and clinical researchers in cancer. 
 
-Previously, Dr. Rashid was a postdoctoral fellow in the [Department of Biostatistics](https://www.hsph.harvard.edu/biostatistics/) at the Harvard School of Public Health, and the [Department of Data Sciences](https://ds.dfci.harvard.edu/) at the Dana Farber Cancer Institute, under [Giovanni Parmigiani](https://scholar.harvard.edu/parmigiani/home) and Nikhil Munshi.  He earned his undergraduate degree in Biology with pharmacology concentration, as well as a minor in mathematics, from Duke University. 
+Previously, Dr. Rashid was a postdoctoral fellow in the [Department of Biostatistics](https://www.hsph.harvard.edu/biostatistics/) at the Harvard School of Public Health, and the [Department of Data Sciences](https://ds.dfci.harvard.edu/) at the Dana Farber Cancer Institute, under [Giovanni Parmigiani](https://scholar.harvard.edu/parmigiani/home) and Nikhil Munshi.  
 
 ## Research
 
@@ -47,7 +47,7 @@ Dr. Rashid is currently co-PI of U01 CA274298 "Integrating tumor and stroma to u
 
 ## Teaching
 
-Each spring, Dr. Rashid also teaches BIOS 735, a doctoral-level course in the Department of Biostatistics covering topics such as writing efficient and reproducible code, implementing various optimization and numerical integration algorithms, and applying multiple machine learning methods.  He also chairs the department's doctoral applied exam committee, and serves on the UNC Gillings Research Council. 
+Each spring, Dr. Rashid also teaches [BIOS 735](https://biodatascience.github.io/statcomp/), a doctoral-level course in the Department of Biostatistics covering topics such as writing efficient and reproducible code, implementing various optimization and numerical integration algorithms, and applying multiple machine learning methods.  He also chairs the department's doctoral applied exam committee, and serves on the UNC Gillings Research Council. 
 
 
 

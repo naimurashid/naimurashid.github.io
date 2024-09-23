@@ -13,7 +13,7 @@ nav_order: 3
 
 {% include bib_search.liquid %}
 
-* indicates student
+*indicates student
 
 <div class="publications">
 
