@@ -11,7 +11,7 @@ lastname: Young
 publications: 'author^=*Young'
 
 teaser: >
-   Amber is currently a PhD student at the University of North Carolina at Chapel Hill, working under the guidance of Drs. Naim Rashid and [Didong Li](https://sites.google.com/view/didongli/). Amber graduated from Purdue University in 2019 with a Bachelor's of Science in Mathematics and Statistics.
+   Amber is currently a PhD student at the University of North Carolina at Chapel Hill, working under the guidance of Drs. Naim Rashid and Didong Li. Amber graduated from Purdue University in 2019 with a Bachelor's of Science in Mathematics and Statistics.
    
 profile:
     name: Amber Young, BS

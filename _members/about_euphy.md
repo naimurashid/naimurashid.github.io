@@ -11,7 +11,7 @@ lastname: Young
 publications: 'author^=*Wu'
 
 teaser: >
-   Euphy Wu is a PhD candidate in the Department of Biostatistics at UNC under the guidance of Dr. Naim Rashid and [Dr. Mike Love](https://mikelove.github.io/), where she also earned her MS degree. Her research focuses on statistical genetics, with projects on detecting allelic imbalance at isoform level and single-cell clustering using topic modeling approach. She holds a BS in Mathematics and Integrative Biology from the University of Illinois at Urbana-Champaign
+   Euphy Wu is a PhD candidate in the Department of Biostatistics at UNC under the guidance of Dr. Naim Rashid and Dr. Mike Love, where she also earned her MS degree. Her research focuses on statistical genetics, with projects on detecting allelic imbalance at isoform level and single-cell clustering using topic modeling approach. She holds a BS in Mathematics and Integrative Biology from the University of Illinois at Urbana-Champaign
 
 profile:
     name: Euphy Wu, MS

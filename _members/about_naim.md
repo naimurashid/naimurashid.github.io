@@ -39,11 +39,11 @@ Previously, Dr. Rashid was a postdoctoral fellow in the [Department of Biostatis
 
 Dr. Rashid's publications have had wide impact, appearing in journals such as Nature, Nature Genetics, PNAS, JCO, Journal of the American Statistical Association, and Biometrics. Many of his statistical methods have been implemented as open-source software packages for the public to use.  
 
-Recent areas of research include precision medicine, multi-study replicability, clinical trials, cancer subtyping, and missing data problems in deep learning. He leverages this expertise in his role as an Associate Editor for the [Annals of Applied Statistics](https://imstat.org/journals-and-publications/annals-of-applied-statistics/) and a member of the [Nature Medicine Statistical Advisory Panel](https://www.nature.com/nm/statistics-advisory-panel).  
+Recent areas of research include precision medicine, multi-study replicability, clinical trials, cancer subtyping, and missing data problems in deep learning. He applies this expertise in his role as an Associate Editor for the [Annals of Applied Statistics](https://imstat.org/journals-and-publications/annals-of-applied-statistics/) and a member of the [Nature Medicine Statistical Advisory Panel](https://www.nature.com/nm/statistics-advisory-panel).  
 
 He also engages in collaborative studies at Lineberger, working with physicians and researchers on problems relating to genomics and clinical studies. As the Associate Director of the [LCCC Biostatistics Shared Resource](https://unclineberger.org/biostats/), he aids in the design of cancer clinical trials at UNC and elsewhere, serving as trial statistician on a number of active protocols.
 
- As a member of the [Translational Breast Cancer Research Consortium](https://tbcrc.org/about) Statistical Working Group, he develops and reviews novel clinical trials in breast cancer with oncologists nationwide.  He also serves as a member of the [Scientific Advisory Committee](https://www.v.org/team/scientific-advisory-committee/) for [The V Foundation for Cancer Research](https://www.v.org/).  
+As a member of the [Translational Breast Cancer Research Consortium](https://tbcrc.org/about) Statistical Working Group, he develops and reviews novel clinical trials in breast cancer with oncologists nationwide.  He also serves as a member of the [Scientific Advisory Committee](https://www.v.org/team/scientific-advisory-committee/) for [The V Foundation for Cancer Research](https://www.v.org/).  
 
 ## Funding
 
@@ -52,6 +52,8 @@ Dr. Rashid is currently co-PI of U01 CA274298 "Integrating tumor and stroma to u
 He is also co-leader of the UNC SPORE in Pancreatic Cancer’s Integrated Quantitative Sciences Core, where he coordinates the design and analysis of SPORE project data and develop new statistical tools in support of SPORE aims.  He similarly co-leads the UNC SPORE in Breast cancer's Biostatistics and Bioinformatics Core.  
 
 Dr. Rashid is  PI of a Department of Defense Grant to build an Large Language Model-based AI tool that generates personalized clinical trial recommendations for patients with pancreatic ductal adenocarcinoma to help with self-advocacy and increase awareness of eligible trials. 
+
+In his time at UNC, Dr. Rashid has helped bring in over 30 grants as either PI, co-PI, Co-I, or biostatistician, many of which are funded by the National Cancer Institute. 
 
 ## Teaching
 
