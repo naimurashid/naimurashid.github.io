@@ -31,3 +31,20 @@ Ultimately, the Rashid lab hopes to impact public health by pushing the boundari
 
 For general inquiries, please email LCCC_BIOS@med.unc.edu to make an appointment with one of our statisticians.  We also provide a virtual drop-in clinic on Wednesdays from 12 to 1 PM. To join, please click on the following: [Zoom Drop-In Clinic link](https://zoom.us/j/98595369470).  More info on the Lineberger Biostatistics Shared Resource [can be found here](https://unclineberger.org/biostats/).
 
+<!-- Default Statcounter code for Naimurashid.github.io
+https://naimurashid.github.io/ -->
+<script type="text/javascript">
+var sc_project=12163716; 
+var sc_invisible=1; 
+var sc_security="51a4fa6c"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12163716/0/51a4fa6c/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
