@@ -34,7 +34,7 @@ For general inquiries, please email LCCC_BIOS@med.unc.edu to make an appointment
 <!-- Default Statcounter code for Naimurashid.github.io
 https://naimurashid.github.io/ -->
 <script type="text/javascript">
-var sc_project=12163716; 
+var sc_project=12163716;  
 var sc_invisible=1; 
 var sc_security="51a4fa6c"; 
 </script>
