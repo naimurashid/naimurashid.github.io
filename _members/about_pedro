@@ -11,15 +11,15 @@ lastname: Baldoni
 publications: 'author^=*Baldoni'
 
 teaser: >
-   Pedro is currently a tenure-track assistant professor in the Department of Biostatistics at the University of Pittsburg School of Public Health.   
+   Pedro is currently a tenure-track assistant professor in the Department of Biostatistics at the University of Pittsburgh School of Public Health.   
 profile:
-    name: Amber Young, BS
-    position: Doctoral Student <br /> Department of Biostatistics <br /> Gillings School of Global Public Health
-    team-position: PhD Student
+    name: Pedro Baldoni, PhD
+    position: Assistant Professor <br /> Department of Biostatistics <br /> University of Pittsburgh School of Public Health
+    team-position: Alumni
     align: right 
     logos: true
-    image: amber.jpg
-    email: ayoung31@live.unc.edu
+    image: pedro.jpg
+    email: baldoni@pitt.edu
     #github: ayoung31
     #website: https://engineering.jhu.edu/faculty/tza-huei-jeff-wang/
     #twitter: JHUBioMEMS
@@ -30,4 +30,9 @@ profile:
 social: false  # includes social icons at the bottom of the page        
 ---
 
-Amber is currently a PhD student at the University of North Carolina at Chapel Hill, working under the guidance of Drs. Naim Rashid and [Didong Li](https://sites.google.com/view/didongli/). Amber graduated from Purdue University in 2019 with a Bachelor's of Science in Mathematics and Statistics. After joining UNC Chapel Hill, she was a trainee on the National Cancer Institute's (NCI) Cancer Genomics Training Grant program for three years. Her current dissertation work focuses on molecular subtype discovery in pancreatic cancer, where she aims to create methods for identifying clinically relevant and replicable cancer subtypes via semi-supervised matrix factorization methods.
+Pedro is currently a tenure-track assistant professor in the Department of Biostatistics at the University of Pittsburgh School of Public Health.  
+
+He recieved his PhD in Biostatistics in 2020 working under the guidance of Drs. Naim Rashid and Joseph Ibrahim, where he developed two novel methods 
+
+After graduaation he did a three-year postdoctoral fellowship under Dr. Gordon Smyth, develop statistical and computational tools for the analysis of RNA-seq data. 
+
