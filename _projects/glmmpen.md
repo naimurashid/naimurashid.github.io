@@ -10,6 +10,8 @@ related_publications: true
 
 The `glmmPen` R package grew out of Rashid Lab collaborations with UNC Lineberger investigators who needed principled inference for clustered, high-dimensional datasets—ranging from bulk RNA-seq to clinic-based registries with missingness. The software implements penalized generalized linear mixed models with automated tuning and diagnostic utilities.
 
+<!-- TODO: Add Figure 1 from https://arxiv.org/pdf/2305.08204 showing the glmmPen workflow and performance comparison -->
+
 ### Why it matters
 
 - **Precision modeling.** Handles thousands of fixed and random effects simultaneously, empowering biomarker discovery and risk prediction studies with repeated measures.

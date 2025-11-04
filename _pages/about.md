@@ -25,7 +25,7 @@ hero_profile: true
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
       <p class="hero-panel__eyebrow">Gillings School of Global Public Health · Lineberger Comprehensive Cancer Center</p>
-      <h1 class="hero-panel__title">Adaptive analytics powering UNC’s cancer breakthroughs</h1>
+      <h1 class="hero-panel__title">Statistical innovation powering precision cancer medicine</h1>
       <p class="hero-panel__lead">
         We design the statistical, AI, and trial infrastructures that move Gillings and Lineberger discoveries into patient-ready studies across breast, pancreatic, and precision oncology programs.
       </p>
@@ -83,6 +83,10 @@ hero_profile: true
 ### Gillings news spotlight
 
 {% include gillings-news.liquid %}
+
+### Recent publication highlights
+
+{% include publication-highlights.liquid %}
 
 ### Research pillars
 

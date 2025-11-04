@@ -17,10 +17,10 @@ profile:
     name: Tyler Humpherys, BS
     position: Doctoral Student <br /> Department of Biostatistics <br /> Gillings School of Global Public Health
     team-position: PhD Student
-    align: right 
+    align: right
     logos: true
-    #image: tyler.jpg
-    #image_alt: "Portrait of Tyler Humpherys"
+    image: tyler.jpg
+    image_alt: "Portrait of Tyler Humpherys"
     email: tyler.humpherys@unc.edu
     #phone: +1 919 966 8150
     #address: >

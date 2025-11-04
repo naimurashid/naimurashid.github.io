@@ -2,13 +2,22 @@
 layout: page
 title: PurIST pancreatic subtyping diagnostic
 description: Translating robust molecular subtyping into a clinically deployable test
-img: assets/img/5.jpg
+img: assets/img/purist_figure4.jpg
 importance: 4
 category: work
 related_publications: true
 ---
 
 Purity Independent Subtyping of Tumors (PurIST) delivers the first clinically robust, single-sample classifier for pancreatic ductal adenocarcinoma. Developed with UNC Lineberger collaborators, the classifier is resilient to tumor purity, batch effects, and assay platforms, enabling prospective use in routine pathology workflows.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/purist_figure4.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Development and validation of the PurIST SSC classifier across multiple independent cohorts, demonstrating robust performance regardless of tumor purity or sequencing platform.
+</div>
 
 ### From algorithm to diagnostic
 

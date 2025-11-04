@@ -8,5 +8,4 @@ related_posts: true
 
 The UNC Gillings School of Global Public Health presented Dr. Naim Rashid with the James E. Grizzle Distinguished Alumnus Award for leadership in cancer biostatistics, adaptive clinical trials, and mentorship. During the campus celebration he delivered an invited lecture on integrating tumor and stroma data to guide precision oncology.
 
-Gillings News coverage: [“Gillings celebrates Rashid with James E. Grizzle award”](https://sph.unc.edu/).
-*** End Patch
+Read more: [Rashid receives James E. Grizzle Distinguished Alumnus Award](https://sph.unc.edu/sph-news/rashid-receives-james-e-grizzle-distinguished-alumnus-award/)
