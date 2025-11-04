@@ -11,7 +11,7 @@ lastname: Baldoni
 publications: 'author^=*Baldoni'
 
 teaser: >
-   Pedro is currently a tenure-track assistant professor in the Department of Biostatistics at the University of Pittsburgh School of Public Health.   
+   Pedro is a tenure-track assistant professor at the University of Pittsburgh School of Public Health and a Lineberger/UNC Biostatistics alumnus. His lab develops precision oncology methods inspired by his doctoral work with Drs. Naim Rashid and Joseph Ibrahim, and he continues to co-author adaptive trial designs with the UNC translational breast and pancreatic cancer teams.   
 profile:
     name: Pedro Baldoni, PhD
     position: Assistant Professor <br /> Department of Biostatistics <br /> University of Pittsburgh School of Public Health
@@ -19,6 +19,7 @@ profile:
     align: right 
     logos: true
     image: pedro.jpg
+    image_alt: "Portrait of Pedro Baldoni"
     email: baldoni@pitt.edu
     #github: ayoung31
     #website: https://engineering.jhu.edu/faculty/tza-huei-jeff-wang/
@@ -32,7 +33,6 @@ social: false  # includes social icons at the bottom of the page
 
 Pedro is currently a tenure-track assistant professor in the Department of Biostatistics at the University of Pittsburgh School of Public Health.  
 
-He recieved his PhD in Biostatistics in 2020 working under the guidance of Drs. Naim Rashid and Joseph Ibrahim, where he developed two novel methods 
+He received his PhD in Biostatistics in 2020 working under the guidance of Drs. Naim Rashid and Joseph Ibrahim, where he developed novel statistical methods for cancer genomics.  
 
-After graduaation he did a three-year postdoctoral fellowship under Dr. Gordon Smyth, develop statistical and computational tools for the analysis of RNA-seq data. 
-
+After graduation he completed a three-year postdoctoral fellowship under Dr. Gordon Smyth, developing statistical and computational tools for the analysis of RNA-seq data. 

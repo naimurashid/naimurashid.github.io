@@ -15,6 +15,10 @@ nav_order: 3
 
 *indicates student
 
+### Spotlight publications
+
+{% include publication-highlights.liquid %}
+
 <div class="publications">
 
 {% bibliography %}

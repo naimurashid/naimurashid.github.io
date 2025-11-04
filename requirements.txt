@@ -1,1 +1,5 @@
 nbconvert
+scholarly>=1.7.11
+bibtexparser>=1.4.1
+feedparser>=6.0.11
+PyYAML>=6.0.1

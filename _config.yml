@@ -107,7 +107,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: https://sph.unc.edu/adv_profile/naim-rashid-phd/ # work page URL
-x_username: naimurashid# your X handle
+x_username: naimurashid # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -203,6 +203,28 @@ announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
+
+social_feed:
+  enabled: true
+  title: latest updates
+  limit: 6
+  date_format: "%b %-d, %Y"
+  badges:
+    linkedin: badge-primary
+    x: badge-dark
+    twitter: badge-dark
+    bluesky: badge-info
+    mastodon: badge-purple
+    default: badge-secondary
+
+team_badges:
+  alumni: badge-secondary
+  "phd student": badge-info
+  "ms student": badge-info
+  faculty: badge-primary
+  staff: badge-success
+  collaborator: badge-warning
+  default: badge-light
 
 latest_posts:
   enabled: false

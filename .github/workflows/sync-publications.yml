@@ -1,0 +1,51 @@
+name: Sync Publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * 1" # Mondays at 08:00 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_SCHOLAR_ID: 3Cz_lcEAAAAJ
+      SCHOLAR_AUTHOR_ID: ${{ secrets.GSCHOLAR_AUTHOR_ID }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sync publications from Google Scholar
+        env:
+          SCHOLAR_AUTHOR_ID: ${{ env.SCHOLAR_AUTHOR_ID != '' && env.SCHOLAR_AUTHOR_ID || env.DEFAULT_SCHOLAR_ID }}
+        run: bin/sync_publications.py --dest _bibliography/papers.bib --verbose
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "Sync publications from Google Scholar"
+          branch: chore/sync-publications
+          title: "Sync publications from Google Scholar"
+          body: |
+            Automated weekly sync of publications using Google Scholar.
+            - Source: ${{ secrets.GSCHOLAR_AUTHOR_ID }}
+            - Trigger: ${{ github.event_name }}
+          labels: automated

@@ -11,7 +11,7 @@ lastname: Rashid
 publications: 'author^=*Rashid'
 
 teaser: >
-   Dr. Rashid is an associate professor (with tenure) in the Department of Biostatistics at the UNC Gillings School of Global Public Health, and has a joint appointment at the Lineberger Comprehensive Cancer Center (LCCC). He currently serves as the Associate Director of the Lineberger Biostatistics Shared Resource, and co-directs the Biostatistics Cores of the UNC Pancreatic and Breast Cancer SPOREs.
+   Dr. Rashid is an associate professor (with tenure) in the Department of Biostatistics at the UNC Gillings School of Global Public Health, and has a joint appointment at the Lineberger Comprehensive Cancer Center (LCCC). He leads statistical innovation for the $28M ARPA-H ADAPT metastatic breast cancer platform, directs analytics for the Lineberger Biostatistics Shared Resource, and co-directs the UNC Pancreatic and Breast Cancer SPORE cores.
    
 profile:
     name: Naim U. Rashid, PhD
@@ -37,9 +37,9 @@ Previously, Dr. Rashid was a postdoctoral fellow in the [Department of Biostatis
 
 ## Research
 
-Dr. Rashid's publications have had wide impact, appearing in journals such as Nature, Nature Genetics, PNAS, JCO, Journal of the American Statistical Association, and Biometrics. Many of his statistical methods have been implemented as open-source software packages for the public to use.  
+Dr. Rashid's publications have had wide impact, appearing in journals such as Nature, Nature Genetics, PNAS, JCO, Journal of the American Statistical Association, and Biometrics. His team translated methodological advances into resources such as the PurIST pancreatic cancer classifier—now CLIA-certified for trial deployment—and the `glmmPen` R package for high-dimensional mixed models.  
 
-Recent areas of research include precision medicine, multi-study replicability, clinical trials, cancer subtyping, and missing data problems in deep learning. He applies this expertise in his role as an Associate Editor for the [Annals of Applied Statistics](https://imstat.org/journals-and-publications/annals-of-applied-statistics/) and a member of the [Nature Medicine Statistical Advisory Panel](https://www.nature.com/nm/statistics-advisory-panel).  
+Current research spans precision oncology, multi-study replicability, adaptive clinical trial design, and missing data problems in deep learning. These tools support programs like the ARPA-H ADAPT metastatic breast cancer platform, Department of Defense pancreatic cancer initiatives, and the V Foundation. He applies this expertise in his role as an Associate Editor for the [Annals of Applied Statistics](https://imstat.org/journals-and-publications/annals-of-applied-statistics/) and a member of the [Nature Medicine Statistical Advisory Panel](https://www.nature.com/nm/statistics-advisory-panel).  
 
 He also engages in collaborative studies at Lineberger, working with physicians and researchers on problems relating to genomics and clinical studies. As the Associate Director of the [LCCC Biostatistics Shared Resource](https://unclineberger.org/biostats/), he aids in the design of cancer clinical trials at UNC and elsewhere, serving as trial statistician on a number of active protocols.
 
@@ -58,6 +58,4 @@ In his time at UNC, Dr. Rashid has helped bring in over 30 grants as either PI, 
 ## Teaching
 
 Each spring, Dr. Rashid also teaches [BIOS 735](https://biodatascience.github.io/statcomp/), a doctoral-level course in the Department of Biostatistics covering topics such as writing efficient and reproducible code, implementing various optimization and numerical integration algorithms, and applying multiple machine learning methods.  He also chairs the department's doctoral applied exam committee, and serves on the UNC Gillings Research Council. 
-
-
 

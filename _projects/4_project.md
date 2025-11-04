@@ -1,80 +1,25 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Lineberger Biostatistics Shared Resource
+description: Consultation, career development, and method translation across UNC Oncology
+img: assets/img/4.jpg
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As Associate Director of the Lineberger Biostatistics Shared Resource (BSR), Dr. Rashid oversees a team of faculty, staff statisticians, and trainees who deliver full-spectrum analytics support to cancer investigators. The BSR is an essential partner for grant development, clinical trial design, translational genomics, and data safety monitoring across more than 50 disease-site programs.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Services delivered in FY24**
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- 320 consults supporting Lineberger members, including 65 multi-site cooperative agreements.
+- 42 NIH, DoD, and foundation submissions with statistical leadership embedded from concept to budget.
+- 18 data and safety monitoring committees staffed with Rashid Lab statisticians to ensure patient protections.
+- Nearly 25 funded NCI/NIH grants actively supported through bespoke design, power, and analysis plans.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Training and dissemination**
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- A monthly seminar series on innovative trial designs, causal inference, and reproducible analytics attended by >150 clinicians and scientists.
+- Mentored research practica for Gillings biostatistics students that translate coursework into high-impact manuscripts and software, with alumni moving into faculty, NIH, and industry analytics roles.
+- Office hours, template analysis plans, and curated code repositories that shorten the time between hypothesis generation and funded science.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+The BSR is the front door for investigators seeking quantitative partners. Learn more about scheduling, service tiers, and recent success stories on the [Lineberger Biostatistics Shared Resource site](https://unclineberger.org/biostats/).

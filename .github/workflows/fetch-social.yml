@@ -1,0 +1,44 @@
+name: Fetch Social Posts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 8 * * 1" # Mondays at 08:30 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch social posts
+        run: bin/fetch_social_posts.py --verbose
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "chore: refresh social staging feed"
+          branch: chore/refresh-social-staging
+          title: "Refresh social staging feed"
+          body: |
+            Automated weekly refresh of the social staging feed.
+            Review and copy any highlights into `_data/social_curated.yml`.
+          labels: automated

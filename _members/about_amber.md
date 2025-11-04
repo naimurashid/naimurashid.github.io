@@ -11,7 +11,7 @@ lastname: Young
 publications: 'author^=*Young'
 
 teaser: >
-   Amber is currently a PhD student at the University of North Carolina at Chapel Hill, working under the guidance of Drs. Naim Rashid and Didong Li. Amber graduated from Purdue University in 2019 with a Bachelor's of Science in Mathematics and Statistics.
+   Amber Young is a Gillings PhD candidate co-advised by Drs. Naim Rashid and Didong Li. A former NCI Cancer Genomics Training Grant scholar, she develops semi-supervised matrix factorization approaches for pancreatic cancer subtyping and leads collaborations with UNC surgical oncology cohorts.
    
 profile:
     name: Amber Young, BS

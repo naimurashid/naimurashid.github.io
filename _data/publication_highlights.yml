@@ -1,0 +1,20 @@
+- title: "Differential transcript usage with compositional measurement-error modeling"
+  citation: van2020differential
+  journal: Biostatistics (2023)
+  summary: "Introduced a robust framework for isoform-level differential usage that quantifies uncertainty from RNA-seq pipelines—now embedded in UNC pancreatic and breast cancer studies."
+  link: https://doi.org/10.1093/biostatistics/kxad008
+- title: "Deeply-learned generalized linear models with missing data"
+  citation: lim2022
+  journal: Journal of Computational and Graphical Statistics (2023)
+  summary: "Co-led with David Lim to adapt deep learning for incomplete EHRs, informing ARPA-H ADAPT eligibility and toxicity modeling."
+  link: https://doi.org/10.1080/10618600.2023.2170607
+- title: "SCISSORS: semi-supervised detection of rare cell states"
+  citation: peng2022
+  journal: Bioinformatics (2023)
+  summary: "UNC-Chapel Hill collaboration that pinpoints rare tumor microenvironment sub-clusters across Lineberger single-cell atlases, guiding biomarker discovery."
+  link: https://doi.org/10.1093/bioinformatics/btad449
+- title: "PurIST: clinically robust pancreatic cancer subtyping"
+  citation: rashid2020purity
+  journal: Clinical Cancer Research (2020)
+  summary: "Developed the PurIST classifier for PDAC, enabling prospective treatment selection; now CLIA-certified and evaluated across cooperative group trials."
+  link: https://doi.org/10.1158/1078-0432.CCR-19-1956
