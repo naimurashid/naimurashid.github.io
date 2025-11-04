@@ -8,11 +8,6 @@
   journal: Journal of Computational and Graphical Statistics (2023)
   summary: "Co-led with David Lim to adapt deep learning for incomplete EHRs, informing ARPA-H ADAPT eligibility and toxicity modeling."
   link: https://doi.org/10.1080/10618600.2023.2170607
-- title: "SCISSORS: semi-supervised detection of rare cell states"
-  citation: peng2022
-  journal: Bioinformatics (2023)
-  summary: "UNC-Chapel Hill collaboration that pinpoints rare tumor microenvironment sub-clusters across Lineberger single-cell atlases, guiding biomarker discovery."
-  link: https://doi.org/10.1093/bioinformatics/btad449
 - title: "PurIST: clinically robust pancreatic cancer subtyping"
   citation: rashid2020purity
   journal: Clinical Cancer Research (2020)
