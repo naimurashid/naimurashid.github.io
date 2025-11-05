@@ -425,4 +425,297 @@
   line-height: 1.35;
 }
 
+/* Research Themes Visualization */
+.research-themes {
+  margin: 3rem 0;
+}
+
+.research-themes__grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.research-theme {
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.research-theme::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--global-primary-blue), var(--global-accent-blue));
+}
+
+.research-theme--primary::before {
+  background: linear-gradient(90deg, #204c89, #0b4ea2);
+}
+
+.research-theme--secondary::before {
+  background: linear-gradient(90deg, #0b4ea2, #1e88e5);
+}
+
+.research-theme--tertiary::before {
+  background: linear-gradient(90deg, #6f42c1, #9c27b0);
+}
+
+.research-theme--quaternary::before {
+  background: linear-gradient(90deg, #2e7d32, #43a047);
+}
+
+.research-theme:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.15);
+}
+
+.research-theme__icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.research-theme h3 {
+  color: var(--global-primary-blue);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.research-theme__description {
+  color: var(--global-text-muted, #475569);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.research-theme__highlights {
+  background: rgba(15, 23, 42, 0.02);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.research-theme__highlights h4 {
+  color: var(--global-accent-blue);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  margin-top: 1rem;
+}
+
+.research-theme__highlights h4:first-child {
+  margin-top: 0;
+}
+
+.research-theme__highlights ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.research-theme__highlights li {
+  color: var(--global-text-color);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.research-theme__highlights li::before {
+  content: "▪";
+  color: var(--global-accent-blue);
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+}
+
+.research-theme__highlights li:last-child {
+  margin-bottom: 0;
+}
+
+.research-theme .btn {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .research-themes__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Funding Page Styles */
+.grant-card {
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grant-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
+}
+
+.grant-card--featured {
+  border-left: 4px solid var(--global-accent-blue);
+  background: linear-gradient(135deg, rgba(11, 78, 162, 0.02), rgba(255, 255, 255, 1));
+}
+
+.grant-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.grant-card__header h3 {
+  color: var(--global-primary-blue);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.grant-card__details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: rgba(15, 23, 42, 0.02);
+  border-radius: 0.5rem;
+}
+
+.grant-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.grant-detail__label {
+  color: var(--global-text-muted, #6c757d);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.grant-detail__value {
+  color: var(--global-text-color);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.grant-card__description {
+  color: var(--global-text-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.grant-card__description strong {
+  color: var(--global-primary-blue);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.funding-list {
+  margin: 2rem 0;
+}
+
+.funding-list h4 {
+  color: var(--global-primary-blue);
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(15, 23, 42, 0.08);
+}
+
+.funding-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.funding-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.05);
+}
+
+.funding-list li:last-child {
+  border-bottom: none;
+}
+
+.funding-list--compact li {
+  padding: 0.75rem 0;
+}
+
+.funding-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, rgba(32, 76, 137, 0.05), rgba(15, 23, 42, 0.05));
+  border-radius: 1rem;
+}
+
+.funding-summary__metric {
+  text-align: center;
+}
+
+.funding-summary__value {
+  color: var(--global-accent-blue);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.funding-summary__label {
+  color: var(--global-text-muted, #6c757d);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .grant-card__header {
+    flex-direction: column;
+  }
+
+  .grant-card__details {
+    grid-template-columns: 1fr;
+  }
+
+  .funding-summary {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .funding-summary__value {
+    font-size: 2rem;
+  }
+}
+
 /* Removed duplicate - consolidated above */
