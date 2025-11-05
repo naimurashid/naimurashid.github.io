@@ -178,36 +178,98 @@ Review the new `/software/` page:
 
 ---
 
-## ONGOING MAINTENANCE
+## PHASE 4: ONGOING MAINTENANCE
+
+**Status**: ✅ COMPLETE (Documentation & Templates Created)
 
 ### 📅 Quarterly Content Audit (Action 4.1)
-**Schedule**: First week of each quarter
+**Status**: ✅ TEMPLATE COMPLETE
+**Schedule**: First week of each quarter (January, April, July, October)
+**Document**: `QUARTERLY_AUDIT.md`
 
-**Checklist**:
-- [ ] Update team member photos/info
-- [ ] Add recent publications to highlights
-- [ ] Update funding page with new grants
-- [ ] Archive old news items
-- [ ] Check all external links
-- [ ] Review software version badges
-- [ ] Update metrics (citations, h-index)
+**Deliverables Created**:
+- ✅ Complete 10-part quarterly audit checklist (2-3 hours)
+- ✅ Section-by-section update instructions:
+  - Team updates (30 min)
+  - Publications (30-45 min)
+  - Funding & grants (20-30 min)
+  - Software (15-20 min)
+  - Research themes (15 min)
+  - Blog post (20-30 min)
+  - Link checking (15-20 min)
+  - Analytics review (15-20 min)
+  - Technical maintenance (10-15 min)
+  - Final review & commit (10 min)
+- ✅ Quarterly focus areas (Q1: Annual metrics, Q2: Spring accomplishments, Q3: Mid-year review, Q4: Year-end)
+- ✅ File tracking reference (which files to update)
+- ✅ Progress tracking table
+- ✅ Time-saving tips
+
+**Your Action Each Quarter**:
+- [ ] Q1 2026 (January): Complete first quarterly audit using checklist
+- [ ] Q2 2026 (April): Second quarterly audit
+- [ ] Q3 2026 (July): Third quarterly audit
+- [ ] Q4 2026 (October): Fourth quarterly audit
 
 **Estimated time**: 2-3 hours/quarter
 
 ---
 
 ### 📊 Annual Strategic Review (Action 4.2)
-**Schedule**: Start of academic year
+**Status**: ✅ TEMPLATE COMPLETE
+**Schedule**: Start of academic year (August/September)
+**Document**: `ANNUAL_REVIEW.md`
 
-**Questions to Address**:
-- [ ] Are research themes still accurate?
-- [ ] Is homepage narrative current?
-- [ ] New software tools to feature?
-- [ ] Need to reorganize content structure?
-- [ ] What are competitors doing differently?
-- [ ] New service roles to highlight?
+**Deliverables Created**:
+- ✅ Comprehensive 8-part strategic review template (4-6 hours)
+- ✅ Part 1: Goals & effectiveness assessment (60-90 min)
+  - Recruitment, visibility, collaboration, teaching impact
+- ✅ Part 2: Content audit & strategic questions (90-120 min)
+  - Research themes, homepage narrative, software, publications, funding, teaching, team
+- ✅ Part 3: Competitive analysis (45-60 min)
+  - Peer website review, differentiation strategy
+- ✅ Part 4: Technical & design review (30-45 min)
+  - Navigation, visual design, mobile/accessibility
+- ✅ Part 5: Analytics & SEO review (30-45 min)
+  - Traffic analysis, search rankings, backlinks
+- ✅ Part 6: New initiatives & priorities (60-90 min)
+  - Next year's goals, website priorities, interactive elements, budget
+- ✅ Part 7: Action plan & timeline (30 min)
+  - Quarterly project schedule, success metrics
+- ✅ Part 8: Documentation & commit (15 min)
+- ✅ Reflection questions for strategic thinking
+- ✅ Annual review summary template
+
+**Your Action Annually**:
+- [ ] August/September 2026: Complete first annual strategic review
+- [ ] Set priorities for 2026-2027 academic year
+- [ ] Budget planning for any major updates (photos, design, interactive elements)
 
 **Estimated time**: 4-6 hours/year
+
+---
+
+### 📚 Comprehensive Maintenance Documentation
+**Status**: ✅ COMPLETE
+
+**Deliverables Created**:
+- ✅ `MAINTENANCE_GUIDE.md` - Central reference for all maintenance activities
+  - Quick reference maintenance schedule (weekly, monthly, quarterly, annual)
+  - Detailed task breakdowns with time estimates
+  - Delegation and outsourcing guidance
+  - Common scenarios and solutions
+  - Success metrics and ROI assessment
+  - Optimization tips (time-saving and quality-saving)
+  - Phase 4 ongoing maintenance checklist
+
+**Total Annual Time Commitment**: ~30-40 hours/year (down from 100-150 hrs before automation)
+
+**Breakdown**:
+- **Weekly** (10-15 min): Review automated PRs → 8-13 hrs/year
+- **Monthly** (15-20 min): Analytics & SEO check → 3-4 hrs/year
+- **Quarterly** (2-3 hours): Content audit → 8-12 hrs/year
+- **As needed** (1-2 hrs): Blog posts (4x/year) → 4-8 hrs/year
+- **Annual** (4-6 hours): Strategic review → 4-6 hrs/year
 
 ---
 
