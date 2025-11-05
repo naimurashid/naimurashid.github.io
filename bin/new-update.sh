@@ -1,48 +1,54 @@
-#!/usr/bin/env bash
-# Create a timestamped post that mirrors short social updates.
-# Usage: bin/new-update.sh "Title of Update" [YYYY-MM-DD]
+#!/bin/bash
+# Create a new lab update post
+# Usage: ./bin/new-update.sh "Title" [YYYY-MM-DD]
 
-set -euo pipefail
+TITLE="$1"
+DATE="${2:-$(date +%Y-%m-%d)}"
 
-if [[ $# -lt 1 ]]; then
-  echo "Usage: $0 \"Title of Update\" [YYYY-MM-DD]" >&2
-  exit 1
+if [ -z "$TITLE" ]; then
+    echo "Usage: $0 \"Title\" [YYYY-MM-DD]"
+    echo "Example: $0 \"Lab Updates Q4 2025\""
+    echo "Example: $0 \"New Grant Awarded\" 2025-11-04"
+    exit 1
 fi
 
-TITLE=$1
-DATE=${2:-$(date +"%Y-%m-%d")}
+# Slugify title for filename
+SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+FILENAME="_posts/${DATE}-${SLUG}.md"
 
-if ! [[ $DATE =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
-  echo "Invalid date: $DATE (expected YYYY-MM-DD)" >&2
-  exit 1
-fi
-
-SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-|-$//g')
-POST_PATH="_posts/${DATE}-${SLUG}.md"
-
-if [[ -f "$POST_PATH" ]]; then
-  echo "File already exists: $POST_PATH" >&2
-  exit 1
-fi
-
-cat <<EOF > "$POST_PATH"
+# Create post from template
+cat > "$FILENAME" << EOF
 ---
 layout: post
-title: "${TITLE}"
-description: ""
-categories: [update]
-tags: [update]
-excerpt_separator: <!--more-->
+title: "$TITLE"
+date: $DATE
+description: Brief description for the update
+tags: lab-updates
+categories: updates
 ---
 
-<!-- Paste the same blurb you used on social. -->
+## Summary
 
-Intro sentence or two that mirrors the social update.<!--more-->
+Brief summary of the update (this will appear in previews).
 
-Add optional supporting detail, slides, or a link:
+<!-- excerpt-separator -->
 
-- [Resource title](https://example.com)
-- Next steps or call-to-action.
+## Details
+
+Full details of the update go here.
+
+### Section 1
+
+Content here.
+
+### Section 2
+
+More content.
+
+---
+
+*Posted by Naim Rashid on $(date -d "$DATE" +"%B %d, %Y" 2>/dev/null || date -j -f "%Y-%m-%d" "$DATE" +"%B %d, %Y" 2>/dev/null || echo "$DATE")*
 EOF
 
-echo "New update drafted at $POST_PATH"
+echo "Created: $FILENAME"
+echo "Edit the file to add your content, then commit and push."

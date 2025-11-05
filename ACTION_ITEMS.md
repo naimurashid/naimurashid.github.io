@@ -91,13 +91,19 @@ Review the new `/software/` page:
 ---
 
 ### 📝 Research Blog/Updates (Action 2.4)
-**Status**: 🔜 PENDING
+**Status**: ✅ COMPLETE
 
-**User Decisions Required**:
-- [ ] Approve quarterly blog update structure
-- [ ] Assign responsibility for blog maintenance (you vs. students)
-- [ ] Decide on cross-posting strategy (Twitter/LinkedIn)
-- [ ] Review template for first blog post
+**Deliverables Created**:
+- ✅ Helper script: `bin/new-update.sh` for easy post creation
+- ✅ Example post: `_posts/2025-11-04-lab-updates-q4-2025.md`
+- ✅ Comprehensive guide: `BLOG_POSTING_GUIDE.md`
+- ✅ Quarterly checklist and content templates
+
+**User Decisions Still Needed**:
+- [ ] Review and edit first blog post (Q4 2025 updates)
+- [ ] Assign blog maintenance responsibility (you vs. students vs. shared)
+- [ ] Set up cross-posting workflow (Twitter/LinkedIn)
+- [ ] Decide on comment system (currently disabled via `giscus_comments: false`)
 
 ---
 
