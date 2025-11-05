@@ -2,9 +2,9 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: 
+description: GitHub repositories and collaborative code projects
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 {% if site.data.repositories.github_users %}
