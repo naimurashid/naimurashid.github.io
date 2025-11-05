@@ -22,8 +22,19 @@ profile:
     image: hillary.jpg
     image_alt: "Portrait of Hillary Heiling"
     email: hheiling@live.unc.edu
-    #website: https://www.linkedin.com/in/hillary-heiling/
-    social: false  # includes social icons at the bottom of the page        
+    linkedin: hillary-heiling
+    twitter:
+    github:
+    orcid:
+    social: true
 ---
 
-Hillary Heiling earned her PhD in Biostatistics from UNC Gillings under the mentorship of Dr. Naim Rashid. Her dissertation created the `glmmPen` mixed-model variable selection framework for robust cancer outcome prediction, and she partnered with Lineberger investigators across breast and thoracic oncology trials. Hillary now serves as a Scientist II and collaborative biostatistician at Dana-Farber Cancer Institute, where she designs, analyzes, and reports studies spanning breast cancer, thoracic cancer, and patient-care initiatives.
+Hillary Heiling is a Scientist II (Collaborative Biostatistician) in the Department of Data Science at Dana-Farber Cancer Institute (DFCI), where she collaborates with medical researchers in breast cancer, thoracic cancer, and nursing and patient care. She designs, analyzes, and reports cancer research studies across these areas, bringing expertise in SAS, R, R Markdown, LaTeX, and GitHub to support clinical decision-making.
+
+Hillary earned her PhD in Biostatistics from UNC Chapel Hill (2016-2023) under the mentorship of Dr. Naim Rashid. Her dissertation focused on performing variable selection in high-dimensional mixed models to create robust prediction models of cancer outcomes (subtypes, survival) using bulk gene expression data. She developed the `glmmPen` R package (available on CRAN), which performs variable selection in mixed models and has become a valuable tool for the biostatistics community.
+
+As a Graduate Student Research Assistant at UNC Lineberger Comprehensive Cancer Center (2020-present), Hillary collaborated with medical personnel to plan, perform, and report cancer research studies. Her work has resulted in multiple publications, including "Longitudinal Analysis of Patient-Reported Cognitive Function in Multiple Myeloma" (Clinical Lymphoma Myeloma and Leukemia, 2022) and "Effect of an mHealth Intervention on Physical Activity Outcomes among Young Adult Cancer Survivors: The IMPACT Randomized Controlled Trial" (Cancer, 2022).
+
+Hillary holds a BS in Statistics and Biochemistry (double major) from the University of Minnesota Duluth (2012-2016), where she was certified as a CRLA Master Level International Tutor and worked as a mathematics tutor for 2.5 years, communicating problem-solving skills to students in Calculus, Differential Equations, Discrete Math, and Statistics courses.
+
+During her doctoral training, Hillary received prestigious honors including the University Cancer Research Fund School of Public Health Student Award (Lineberger Comprehensive Cancer Center, 2022) and passed the UNC Biostatistics Theory Qualifying Exam with Special Commendation (2018).

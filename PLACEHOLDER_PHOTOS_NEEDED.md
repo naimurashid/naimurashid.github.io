@@ -1,22 +1,54 @@
-# Team Member Photos Needed
+# Team Member Photos Status
 
-## High Priority - Placeholder Images (2KB)
-
-The following team member profile pages currently have placeholder images that need to be replaced with actual photos:
+## ✅ Completed Photos
 
 ### Current PhD Students
 
-1. **Dinelka Nanayakkara**
-   - File: `assets/img/dinelka.jpg` (currently 2.2KB placeholder)
-   - Profile: `_members/about_dinelka.md`
+1. **Amber Young** ✅
+   - File: `assets/img/amber.jpg` (existing, 9.8KB)
+   - Profile: `_members/about_amber.md` (UPDATED with LinkedIn info)
+   - LinkedIn: https://www.linkedin.com/in/amber-m-young/
 
-2. **Jialiu Xie**
-   - File: `assets/img/jialiu.jpg` (currently 2.2KB placeholder)
-   - Profile: `_members/about_jialiu.md`
+2. **Dinelka Nanayakkara** ✅
+   - File: `assets/img/dinelka.jpg` (ADDED)
+   - Profile: `_members/about_dinelka.md` (UPDATED with LinkedIn info)
+   - LinkedIn: https://www.linkedin.com/in/dinelka-nanayakkara/
 
-### To Verify
+3. **Jialiu Xie** ✅
+   - File: `assets/img/jialiu.jpg` (ADDED)
+   - Profile: `_members/about_jialiu.md` (UPDATED with LinkedIn info)
+   - LinkedIn: https://www.linkedin.com/in/jialiu-xie-8881a420b/
 
-3. **Tyler Humpherys**
+4. **Andrew Walther** ✅
+   - File: `assets/img/andrew.jpg` (ADDED)
+   - Profile: `_members/about_andrew.md` (CREATED with LinkedIn info)
+   - LinkedIn: https://www.linkedin.com/in/andrew-j-walther/
+
+### Alumni
+
+5. **Scott Van Buren** ✅
+   - File: `assets/img/scott.jpg` (UPDATED)
+   - Profile: `_members/about_scott.md` (UPDATED with LinkedIn info)
+   - LinkedIn: https://www.linkedin.com/in/scottvanburen/
+
+6. **David Lim** ✅
+   - File: `assets/img/david.jpg` (existing)
+   - Profile: `_members/about_david.md` (UPDATED with LinkedIn info)
+   - LinkedIn: https://www.linkedin.com/in/david-lim-53bb3b67/
+
+7. **Hillary Heiling** ✅
+   - File: `assets/img/hillary.jpg` (existing)
+   - Profile: `_members/about_hillary.md` (UPDATED with LinkedIn info)
+   - LinkedIn: https://www.linkedin.com/in/hillary-heiling/
+
+8. **Pedro Baldoni** ✅
+   - File: `assets/img/pedro.jpg` (existing)
+   - Profile: `_members/about_pedro.md` (UPDATED with LinkedIn info)
+   - LinkedIn: https://www.linkedin.com/in/pedro-baldoni-7952b342/
+
+## To Verify
+
+9. **Tyler Humpherys**
    - File: `assets/img/tyler.jpg` (currently 14KB - verify quality)
    - Profile: `_members/about_tyler.md`
 

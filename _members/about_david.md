@@ -22,7 +22,17 @@ profile:
     image: david.jpg
     image_alt: "Portrait of David Lim"
     email: david.lim@gsk.com
-    social: false  # includes social icons at the bottom of the page        
+    linkedin: david-lim-53bb3b67
+    twitter:
+    github:
+    orcid:
+    social: true
 ---
 
-David Lim completed his PhD in Biostatistics at UNC Gillings under the mentorship of Dr. Naim Rashid. His dissertation focused on handling non-ignorably missing features in high-dimensional health data using deep learning, leading to publications in _Statistics in Biopharmaceutical Research_ and _Journal of Computational and Graphical Statistics_. David now serves as a Principal Statistician at GSK, where he builds AI/ML pipelines for genomic, imaging, and real-world evidence studies across oncology and vaccines.
+David Lim is a Principal Statistician in Research Statistics at GSK, where he works at the intersection of statistics, AI, and applied science. His expertise spans deep learning, high-dimensional and missing data, clustering, and causal inference, with applications across genomics, bioimaging, public health, and agronomic data. At GSK, he developed a random-forest-based discovery framework that surfaced several novel biological targets, guiding multi-million-dollar portfolio decisions for precision medicine.
+
+David earned his PhD in Biostatistics from UNC Chapel Hill (2014-2022) under the mentorship of Dr. Naim Rashid. His dissertation focused on missing data methods using deep learning architectures, combining methodological innovation (dimension reduction, clustering, imputation, causal inference) with practical impact (prediction modeling, optimized study design, scalable imaging pipelines). As a graduate research assistant at UNC Lineberger Comprehensive Cancer Center (2020-present), he collaborated with medical personnel to plan, perform, and report cancer research studies, including regression modeling on COPD X-ray image time-series data.
+
+During his PhD, David also worked as a Data Analyst intern at Syngenta (2016-2018), where he applied regularized regression and feature selection to identify key predictors of soybean yield from thousands of agronomic variables, demonstrating his ability to translate statistical methods to agricultural applications.
+
+David holds a BS in Applied Mathematics and Physics (double major) from UCLA (2009-2013). He brings extensive technical experience in R, Python, SQL, and C++, cloud platforms (AWS, GCP, HPC), and modern ML frameworks (PyTorch, TensorFlow, scikit-learn), along with proficiency in data science tools like BigQuery, GitHub, and Jira. He is passionate about building novel ML workflows, scalable pipelines, and rigorous yet practical statistical methods that translate to real-world impact in data-driven discovery.

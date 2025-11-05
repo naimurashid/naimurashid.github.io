@@ -8,18 +8,18 @@
 ## IMMEDIATE PRIORITY (Week 1)
 
 ### 📸 Team Photos (Phase 1 - Action 1.3)
-**Status**: ⏳ PENDING USER ACTION
+**Status**: ✅ COMPLETE
 
 Replace placeholder images for team members:
 
-1. **Dinelka Nanayakkara** - `assets/img/dinelka.jpg` (currently 2.2KB placeholder)
-2. **Jialiu Xie** - `assets/img/jialiu.jpg` (currently 2.2KB placeholder)
+1. **Dinelka Nanayakkara** - `assets/img/dinelka.jpg` ✅ ADDED
+2. **Jialiu Xie** - `assets/img/jialiu.jpg` ✅ ADDED
 3. **Tyler Humpherys** - `assets/img/tyler.jpg` (14KB - verify quality is adequate)
 
-**Options**:
-- [ ] Request professional headshots from team members
-- [ ] Schedule UNC professional photography session ($500-1000)
-- [ ] Ensure 3:4 aspect ratio, 600×800px minimum, 50-200KB file size
+**Completed Actions**:
+- [x] Photos added for Dinelka and Jialiu
+- [x] Profile pages updated with LinkedIn information
+- [x] Social links enabled with LinkedIn profiles
 
 **Reference**: See `PLACEHOLDER_PHOTOS_NEEDED.md` for detailed guidelines
 

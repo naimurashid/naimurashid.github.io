@@ -22,7 +22,17 @@ profile:
     image: scott.jpg
     image_alt: "Portrait of Scott Van Buren"
     email: scott.vanburen@gsk.com
-    social: false  # includes social icons at the bottom of the page        
+    linkedin: scottvanburen
+    twitter:
+    github:
+    orcid:
+    social: true
 ---
 
-Scott Van Buren earned his PhD in Biostatistics at UNC, working with Dr. Naim Rashid on semi-supervised rare-cell silhouette optimization (SCISSORS) and single-cell precision oncology applications. He now leads computational biomarker analyses at GSK, developing machine-learning workflows that translate discovery datasets into clinical trial decision support.
+Scott Van Buren is a Scientific Investigator in Computational Biology within the Clinical Biomarker Analytics group at GSK, where he develops pipelines and machine learning workflows for translational omics research. His work focuses on building scalable computational frameworks that identify novel biological targets and guide multi-million-dollar portfolio decisions for precision oncology.
+
+Scott earned his PhD in Biostatistics from UNC Chapel Hill (2015-2020) under the co-supervision of Dr. Naim Rashid and Dr. Michael Love. His dissertation, "Incorporation of Quantification Uncertainty into RNA-Seq Analysis," advanced statistical methods for handling uncertainty in RNA sequencing data and developed semi-supervised rare-cell silhouette optimization (SCISSORS) for single-cell applications. During his doctoral training, he was awarded an NIH Predoctoral Trainee position in Cancer Genomics (T32, 2017-2019) from the National Cancer Institute.
+
+Following his PhD, Scott worked as a Bioinformatics Scientist at Harvard University (2020-2022), collaborating with the Faculty of Arts and Sciences Informatics Team and Dr. Catherine Dulac's lab to catalog and understand the diversity of cell types in neuroscience research.
+
+Scott also holds an MS in Biostatistics from UNC (2013-2015) and a double major BS in Applied Mathematics and Physics from Arizona State University (2009-2013). During his undergraduate years, he participated in computational science research, including modeling atmospheric flow associated with Earth's polar vortex and analyzing the effects of Arizona land conservation on housing values and development timing.
