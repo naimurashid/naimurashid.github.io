@@ -2,7 +2,7 @@
 layout: page
 title: funding
 permalink: /funding/
-description: Research funding and grant support
+description: $60M+ research funding for adaptive clinical trials, cancer genomics, and precision oncology from ARPA-H, NCI, DOD, and other federal agencies
 nav: true
 nav_order: 5
 ---

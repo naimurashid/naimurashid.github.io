@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Statistical methods and collaborative research in cancer genomics and precision oncology
+description: 75+ peer-reviewed publications in biostatistics, clinical trials, and cancer genomics. h-index 28, 5000+ citations in precision oncology and adaptive trial design.
 nav: true
 nav_order: 6
 ---
