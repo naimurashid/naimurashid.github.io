@@ -11,6 +11,11 @@ nav_order: 3
 
 The Rashid Lab develops **statistical methods and computational tools** that bridge genomics, clinical trials, and precision medicine. Our work spans **four interconnected research themes**, each addressing critical challenges in cancer biostatistics while maintaining strong ties to translational applications at UNC Lineberger Comprehensive Cancer Center.
 
+<div class="mt-5"></div>
+
+## Research Portfolio Map (2011-2025)
+
+{% include research-diagram.html %}
 
 <div class="mt-5"></div>
 

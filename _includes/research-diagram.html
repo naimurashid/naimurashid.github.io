@@ -1,0 +1,311 @@
+<div id="research-diagram-container">
+  <div id="research-diagram" style="width: 100%; height: 800px; position: relative; margin: 2rem 0;"></div>
+  <div id="diagram-legend" style="margin-top: 1rem; padding: 1rem; background: #f8f9fa; border-radius: 8px;">
+    <h4 style="margin-top: 0; font-size: 1rem;">Interactive Research Portfolio (2011-2025)</h4>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+      <div>
+        <span style="display: inline-block; width: 12px; height: 12px; background: #2563eb; border-radius: 50%; margin-right: 8px;"></span>
+        <strong>Precision Medicine</strong> (43 papers)
+      </div>
+      <div>
+        <span style="display: inline-block; width: 12px; height: 12px; background: #059669; border-radius: 50%; margin-right: 8px;"></span>
+        <strong>Tool Development</strong> (16 papers)
+      </div>
+      <div>
+        <span style="display: inline-block; width: 12px; height: 12px; background: #9333ea; border-radius: 50%; margin-right: 8px;"></span>
+        <strong>AI/Deep Learning</strong> (2 papers)
+      </div>
+      <div>
+        <span style="display: inline-block; width: 12px; height: 12px; background: #ea580c; border-radius: 50%; margin-right: 8px;"></span>
+        <strong>Adaptive Trials</strong> (4 papers)
+      </div>
+    </div>
+    <p style="margin-top: 0.5rem; margin-bottom: 0; font-size: 0.875rem; color: #6b7280;">
+      <strong>Tip:</strong> Hover over nodes to see paper details. Click and drag to explore connections.
+    </p>
+  </div>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+(function() {
+  const width = document.getElementById('research-diagram').offsetWidth;
+  const height = 800;
+
+  // Theme colors
+  const colors = {
+    'precision-medicine': '#2563eb',
+    'tool-development': '#059669',
+    'ai-deep-learning': '#9333ea',
+    'adaptive-trials': '#ea580c',
+    'hub': '#f59e0b'
+  };
+
+  // Data structure
+  const nodes = [
+    // Hub
+    { id: 'hub', label: 'PurIST\nProject', theme: 'hub', size: 40, type: 'hub', year: 2020 },
+
+    // Theme 1: Precision Medicine - Flagship papers
+    { id: 'moffitt2015', label: 'Virtual Microdissection\nMoffitt et al. 2015\nNature Genetics', theme: 'precision-medicine', size: 35, type: 'flagship', year: 2015, description: 'Tumor-stroma PDAC subtypes' },
+    { id: 'purist2020', label: 'PurIST Classifier\nRashid et al. 2020\nClin Cancer Res', theme: 'precision-medicine', size: 35, type: 'flagship', year: 2020, description: 'Clinical robust PDAC subtyping' },
+    { id: 'pdx2020', label: 'PDX Precision Medicine\nRashid et al. 2020\nJASA', theme: 'precision-medicine', size: 30, type: 'flagship', year: 2020, description: 'High-dimensional treatment strategies' },
+    { id: 'innocenti2022', label: 'mCRC Immunogenomics\nInnocenti et al. 2022\nClin Cancer Res', theme: 'precision-medicine', size: 25, type: 'collaborative', year: 2022, description: 'Immune features predict outcomes' },
+
+    // Theme 1: Additional key papers
+    { id: 'purist-validation2024', label: 'PurIST Validation\nLi et al. 2024', theme: 'precision-medicine', size: 20, type: 'collaborative', year: 2024 },
+    { id: 'fernandez2023', label: 'HER2+ Breast Cancer\nFernandez et al. 2023\nJAMA Oncology', theme: 'precision-medicine', size: 22, type: 'collaborative', year: 2023 },
+    { id: 'kinome2025', label: 'Kinome Landscape\nXu et al. 2025\nCancer Discovery', theme: 'precision-medicine', size: 22, type: 'collaborative', year: 2025 },
+    { id: 'yazdani2025', label: 'CRC Gene Signatures\nYazdani et al. 2025\nComm Medicine', theme: 'precision-medicine', size: 18, type: 'collaborative', year: 2025 },
+
+    // Theme 2: Tool Development - Flagship papers
+    { id: 'zinba2011', label: 'ZINBA\nRashid et al. 2011\nGenome Biology', theme: 'tool-development', size: 35, type: 'flagship', year: 2011, description: 'DNA-seq enrichment detection' },
+    { id: 'epigrahmm2022', label: 'epigraHMM\nBaldoni, Rashid 2022\nBiometrics', theme: 'tool-development', size: 30, type: 'flagship', year: 2022, description: 'Multi-condition epigenomic changes' },
+    { id: 'glmmpen2024', label: 'glmmPen\nHeiling, Rashid 2024\nR Journal', theme: 'tool-development', size: 30, type: 'flagship', year: 2024, description: 'Penalized mixed models' },
+    { id: 'heterogeneity2020', label: 'Between-Study Heterogeneity\nRashid et al. 2020\nJASA', theme: 'tool-development', size: 28, type: 'flagship', year: 2020, description: 'Gene signature reproducibility' },
+
+    // Theme 2: Additional tools
+    { id: 'daeseq2014', label: 'DAE-seq Methods\nRashid et al. 2014\nJASA', theme: 'tool-development', size: 22, type: 'senior-author', year: 2014 },
+    { id: 'compdtureg2024', label: 'CompDTUReg\nYoung, Van Buren, Rashid 2024', theme: 'tool-development', size: 20, type: 'collaborative', year: 2024 },
+    { id: 'rnaseq-clustering2021', label: 'RNA-seq Clustering\nLim, Rashid 2021\nAnn Appl Stat', theme: 'tool-development', size: 22, type: 'collaborative', year: 2021 },
+    { id: 'mixedefx-hmm2019', label: 'Mixed-Effects HMM\nBaldoni, Rashid 2019', theme: 'tool-development', size: 18, type: 'collaborative', year: 2019 },
+
+    // Theme 3: AI/Deep Learning
+    { id: 'autoencoders2024', label: 'Importance-Weighted Autoencoders\nLim, Rashid 2024\nStat Biopharm Res', theme: 'ai-deep-learning', size: 30, type: 'flagship', year: 2024, description: 'Non-ignorable missing data' },
+    { id: 'deepglm2024', label: 'Deep GLMs\nLim, Rashid 2024\nJ Comp Graph Stat', theme: 'ai-deep-learning', size: 30, type: 'flagship', year: 2024, description: 'Deep learning + classical stats' },
+
+    // Theme 4: Adaptive Trials
+    { id: 'calgb80405', label: 'CALGB 80405 Correlatives\nInnocenti et al. 2022', theme: 'adaptive-trials', size: 25, type: 'collaborative', year: 2022 },
+    { id: 'calgb40601', label: 'CALGB 40601 Analysis\nFernandez et al. 2023', theme: 'adaptive-trials', size: 22, type: 'collaborative', year: 2023 },
+    { id: 'trial-pooled2024', label: 'Pooled Trial Analysis\nFernandez et al. 2024', theme: 'adaptive-trials', size: 20, type: 'collaborative', year: 2024 }
+  ];
+
+  const links = [
+    // Hub connections
+    { source: 'moffitt2015', target: 'hub', strength: 'strong' },
+    { source: 'hub', target: 'purist2020', strength: 'strong' },
+    { source: 'hub', target: 'purist-validation2024', strength: 'medium' },
+    { source: 'hub', target: 'heterogeneity2020', strength: 'medium' },
+
+    // Precision Medicine connections
+    { source: 'purist2020', target: 'purist-validation2024', strength: 'strong' },
+    { source: 'pdx2020', target: 'innocenti2022', strength: 'medium' },
+    { source: 'fernandez2023', target: 'trial-pooled2024', strength: 'medium' },
+
+    // Tool Development evolution
+    { source: 'zinba2011', target: 'daeseq2014', strength: 'strong' },
+    { source: 'daeseq2014', target: 'mixedefx-hmm2019', strength: 'medium' },
+    { source: 'mixedefx-hmm2019', target: 'epigrahmm2022', strength: 'strong' },
+    { source: 'heterogeneity2020', target: 'rnaseq-clustering2021', strength: 'medium' },
+    { source: 'rnaseq-clustering2021', target: 'compdtureg2024', strength: 'medium' },
+    { source: 'rnaseq-clustering2021', target: 'glmmpen2024', strength: 'medium' },
+
+    // AI connections
+    { source: 'rnaseq-clustering2021', target: 'autoencoders2024', strength: 'medium' },
+    { source: 'autoencoders2024', target: 'deepglm2024', strength: 'strong' },
+    { source: 'glmmpen2024', target: 'deepglm2024', strength: 'medium' },
+
+    // Cross-theme: Precision Medicine + Tools
+    { source: 'moffitt2015', target: 'heterogeneity2020', strength: 'medium' },
+    { source: 'purist2020', target: 'glmmpen2024', strength: 'weak' },
+
+    // Cross-theme: Precision Medicine + Adaptive Trials
+    { source: 'pdx2020', target: 'calgb80405', strength: 'medium' },
+    { source: 'innocenti2022', target: 'calgb80405', strength: 'strong' },
+    { source: 'fernandez2023', target: 'calgb40601', strength: 'strong' },
+
+    // Cross-theme: AI + Precision Medicine
+    { source: 'pdx2020', target: 'autoencoders2024', strength: 'weak' }
+  ];
+
+  // Create SVG
+  const svg = d3.select('#research-diagram')
+    .append('svg')
+    .attr('width', width)
+    .attr('height', height)
+    .attr('viewBox', [0, 0, width, height])
+    .attr('style', 'max-width: 100%; height: auto; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;');
+
+  // Add definitions for gradients and filters
+  const defs = svg.append('defs');
+
+  // Glow filter for flagship papers
+  const filter = defs.append('filter')
+    .attr('id', 'glow');
+  filter.append('feGaussianBlur')
+    .attr('stdDeviation', '3')
+    .attr('result', 'coloredBlur');
+  const feMerge = filter.append('feMerge');
+  feMerge.append('feMergeNode').attr('in', 'coloredBlur');
+  feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+  // Create force simulation
+  const simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links)
+      .id(d => d.id)
+      .distance(d => {
+        if (d.strength === 'strong') return 100;
+        if (d.strength === 'medium') return 150;
+        return 200;
+      })
+      .strength(d => {
+        if (d.strength === 'strong') return 0.8;
+        if (d.strength === 'medium') return 0.5;
+        return 0.3;
+      }))
+    .force('charge', d3.forceManyBody().strength(-800))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collision', d3.forceCollide().radius(d => d.size + 10));
+
+  // Draw links
+  const link = svg.append('g')
+    .attr('stroke-opacity', 0.3)
+    .selectAll('line')
+    .data(links)
+    .join('line')
+    .attr('stroke', d => {
+      if (d.strength === 'strong') return '#374151';
+      return '#9ca3af';
+    })
+    .attr('stroke-width', d => {
+      if (d.strength === 'strong') return 2.5;
+      if (d.strength === 'medium') return 1.5;
+      return 1;
+    })
+    .attr('stroke-dasharray', d => d.strength === 'weak' ? '4,4' : null);
+
+  // Draw nodes
+  const node = svg.append('g')
+    .selectAll('g')
+    .data(nodes)
+    .join('g')
+    .call(d3.drag()
+      .on('start', dragstarted)
+      .on('drag', dragged)
+      .on('end', dragended));
+
+  // Node circles
+  node.append('circle')
+    .attr('r', d => d.size)
+    .attr('fill', d => colors[d.theme])
+    .attr('stroke', d => d.type === 'flagship' ? '#fbbf24' : '#fff')
+    .attr('stroke-width', d => d.type === 'flagship' ? 3 : 2)
+    .attr('filter', d => d.type === 'flagship' ? 'url(#glow)' : null)
+    .style('cursor', 'pointer');
+
+  // Star icon for flagship papers
+  node.filter(d => d.type === 'flagship')
+    .append('text')
+    .attr('text-anchor', 'middle')
+    .attr('dominant-baseline', 'central')
+    .attr('font-size', d => d.size * 0.6)
+    .attr('fill', '#fbbf24')
+    .attr('pointer-events', 'none')
+    .text('★');
+
+  // Node labels
+  node.append('text')
+    .attr('x', 0)
+    .attr('y', d => d.size + 15)
+    .attr('text-anchor', 'middle')
+    .attr('font-size', '11px')
+    .attr('fill', '#1f2937')
+    .attr('font-weight', d => d.type === 'flagship' ? 'bold' : 'normal')
+    .style('pointer-events', 'none')
+    .selectAll('tspan')
+    .data(d => d.label.split('\n'))
+    .join('tspan')
+    .attr('x', 0)
+    .attr('dy', (d, i) => i === 0 ? 0 : 12)
+    .text(d => d);
+
+  // Tooltip
+  const tooltip = d3.select('body')
+    .append('div')
+    .attr('class', 'research-tooltip')
+    .style('position', 'absolute')
+    .style('visibility', 'hidden')
+    .style('background', 'rgba(0, 0, 0, 0.9)')
+    .style('color', '#fff')
+    .style('padding', '12px')
+    .style('border-radius', '8px')
+    .style('font-size', '13px')
+    .style('max-width', '300px')
+    .style('z-index', '1000')
+    .style('box-shadow', '0 4px 6px rgba(0, 0, 0, 0.1)');
+
+  node.on('mouseover', function(event, d) {
+    if (d.description) {
+      tooltip.style('visibility', 'visible')
+        .html(`<strong>${d.label.split('\n')[0]}</strong><br/>
+               <span style="font-size: 11px; color: #9ca3af;">${d.year}</span><br/>
+               ${d.description}`);
+    }
+    d3.select(this).select('circle')
+      .transition()
+      .duration(200)
+      .attr('r', d.size * 1.2);
+  })
+  .on('mousemove', function(event) {
+    tooltip.style('top', (event.pageY - 10) + 'px')
+      .style('left', (event.pageX + 10) + 'px');
+  })
+  .on('mouseout', function(event, d) {
+    tooltip.style('visibility', 'hidden');
+    d3.select(this).select('circle')
+      .transition()
+      .duration(200)
+      .attr('r', d.size);
+  });
+
+  // Update positions
+  simulation.on('tick', () => {
+    link
+      .attr('x1', d => d.source.x)
+      .attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x)
+      .attr('y2', d => d.target.y);
+
+    node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+
+  // Drag functions
+  function dragstarted(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+
+  function dragged(event, d) {
+    d.fx = event.x;
+    d.fy = event.y;
+  }
+
+  function dragended(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+})();
+</script>
+
+<style>
+#research-diagram-container {
+  margin: 2rem 0;
+}
+
+#research-diagram svg {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #ffffff, #f9fafb);
+}
+
+#diagram-legend {
+  font-size: 0.875rem;
+}
+
+#diagram-legend h4 {
+  color: #1f2937;
+  font-weight: 600;
+}
+</style>
