@@ -32,19 +32,19 @@ hero_profile: true
       <div class="hero-panel__metrics">
         <div class="metric">
           <span class="metric__icon">🔬</span>
-          <span class="metric__label">Methodological innovation advancing robust subtyping, high-dimensional mixed models, and adaptive learning engines. Tools such as PurIST and glmmPen translate directly into diagnostic and trial workflows.</span>
+          <span class="metric__label"><strong>Methodological innovation:</strong> PurIST and glmmPen tools</span>
         </div>
         <div class="metric">
           <span class="metric__icon">🤝</span>
-          <span class="metric__label">Translational partnerships with UNC Lineberger and national consortia integrating ctDNA, imaging, and microbiome assays into Bayesian adaptive trials including the $28M ARPA-H ADAPT platform.</span>
+          <span class="metric__label"><strong>Translational partnerships:</strong> $28M ARPA-H ADAPT</span>
         </div>
         <div class="metric">
           <span class="metric__icon">📊</span>
-          <span class="metric__label">Clinical trial leadership as statistician of record for multi-institutional studies including HARMONY, InCITe, and SPORE projects with rigorous design and regulatory-aligned analysis plans.</span>
+          <span class="metric__label"><strong>Clinical trial leadership:</strong> HARMONY, InCITe, SPORE</span>
         </div>
         <div class="metric">
           <span class="metric__icon">🎓</span>
-          <span class="metric__label">Training and mentorship preparing doctoral students and postdocs who now lead analytics teams at Dana-Farber, GSK, and UNC Lineberger with active collaborations on methods and trial design.</span>
+          <span class="metric__label"><strong>Training and mentorship:</strong> Dana-Farber, GSK placements</span>
         </div>
       </div>
       <div class="hero-panel__cta">
