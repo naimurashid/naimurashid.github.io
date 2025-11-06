@@ -64,20 +64,31 @@ Review the new `/software/` page:
 ---
 
 ### 💰 Funding/Grants Page Content (Action 2.2)
-**Status**: 🔄 IN PROGRESS
+**Status**: ✅ COMPLETE
 
-**User Input Needed**:
-- [ ] Confirm which grants should be listed publicly
-- [ ] Verify grant amounts can be disclosed
-- [ ] Review active vs. completed grant categorization
-- [ ] Approve grant descriptions and roles
+**Completed Actions**:
+- [x] Confirmed all grants can be listed publicly
+- [x] Verified grant amounts can be disclosed
+- [x] Organized active grants by role hierarchy (PI/Co-PI/Core Leader first, then Co-I)
+- [x] Added pending proposals section
+- [x] Updated grant descriptions with objectives from current and pending support document
 
-**From CV - Active Grants to Feature**:
-- ARPA-H ADAPT ($30M, 2025-2031)
-- DOD PCARP ($311K, 2024-2026)
-- NCI SPORE Breast Cancer ($11.9M, 2024-2029) - Core B Co-Leader
-- NCI U01 ($4.6M, 2022-2027) - Co-PI with Yeh
-- NCI SPORE Pancreatic Cancer ($11.1M, 2022-2027) - Core C Co-Leader
+**Page Organization**:
+1. **PI/Co-PI/Core Leader Grants** (5 grants, $55M+):
+   - ARPA-H ADAPT ($28.1M, 2025-2028) - Co-PI/Statistical Lead
+   - DOD PCARP LLM ($311K, 2024-2026) - PI
+   - NCI U01 Tumor-Stroma ($4.6M, 2022-2027) - Co-PI with Yeh
+   - NCI SPORE Breast Cancer ($11.7M, 2024-2029) - Core B Co-Leader
+   - NCI SPORE Pancreatic Cancer ($11.0M, 2022-2027) - Core C Co-Leader
+
+2. **Co-Investigator Grants** (10 grants organized by theme):
+   - Cancer Genomics & Precision Medicine (3 grants)
+   - Cancer Immunotherapy & Microenvironment (3 grants)
+   - Clinical Trials & Therapeutic Development (4 grants)
+
+3. **Pending Proposals** (2 as PI/Co-PI, 4 as Co-I)
+
+**Reference Document**: `/home/naimrashid/Dropbox/UNC_bios_line/Biosketch and CV/cpos-1734016.pdf`
 
 ---
 
