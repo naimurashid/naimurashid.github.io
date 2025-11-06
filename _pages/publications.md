@@ -32,13 +32,17 @@ nav_order: 6
 
 *indicates student or postdoc
 
----
+
+<div class="mt-5"></div>
+
 
 ## Featured Publications
 
 {% include publication-highlights.liquid %}
 
----
+
+<div class="mt-5"></div>
+
 
 ## Publications by Theme
 
@@ -58,7 +62,9 @@ Use the search box below to find publications by keyword, or browse by research 
   <a href="#all-publications" class="theme-filter theme-filter--active">All Publications</a>
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 <h3 id="clinical-trials">Clinical Trials Methodology</h3>
 
@@ -68,7 +74,9 @@ Use the search box below to find publications by keyword, or browse by research 
 
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 <h3 id="mixed-models">Penalized Mixed Models & High-Dimensional Inference</h3>
 
@@ -78,7 +86,9 @@ Use the search box below to find publications by keyword, or browse by research 
 
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 <h3 id="genomics">Cancer Genomics & Multi-Omic Integration</h3>
 
@@ -88,7 +98,9 @@ Use the search box below to find publications by keyword, or browse by research 
 
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 <h3 id="machine-learning">Machine Learning for Precision Oncology</h3>
 
@@ -98,7 +110,9 @@ Use the search box below to find publications by keyword, or browse by research 
 
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 <h3 id="epigenomics">Epigenomics & Regulatory Genomics</h3>
 
@@ -108,7 +122,9 @@ Use the search box below to find publications by keyword, or browse by research 
 
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 <h3 id="all-publications">All Publications (Chronological)</h3>
 

@@ -22,7 +22,9 @@ Simultaneous fixed and random effects selection in high-dimensional generalized 
 - [GitHub Repository](https://github.com/hheiling/glmmPen)
 - [Documentation](https://cran.r-project.org/web/packages/glmmPen/glmmPen.pdf)
 
----
+
+<div class="mt-5"></div>
+
 
 ### epigraHMM
 [![Bioconductor](https://img.shields.io/badge/Bioconductor-release-blue)](http://bioconductor.org/packages/release/bioc/html/epigraHMM.html)
@@ -37,7 +39,9 @@ Bioconductor package for multi-sample consensus and differential enrichment patt
 - [GitHub Repository](https://github.com/plbaldoni/epigraHMM)
 - [Vignette](http://bioconductor.org/packages/release/bioc/vignettes/epigraHMM/inst/doc/epigraHMM.html)
 
----
+
+<div class="mt-5"></div>
+
 
 ### dlglm
 [![GitHub](https://img.shields.io/github/stars/DavidKLim/dlglm?style=social)](https://github.com/DavidKLim/dlglm)
@@ -49,7 +53,9 @@ R package for flexible handling of non-ignorable missing data in deeply learned 
 - **Publication**: Lim, Rashid, Oliva, Ibrahim (2024). *J Computational & Graphical Statistics* 33(2):638-650
 - [GitHub Repository](https://github.com/DavidKLim/dlglm)
 
----
+
+<div class="mt-5"></div>
+
 
 ### NIMIWAE
 [![GitHub](https://img.shields.io/github/stars/DavidKLim/NIMIWAE?style=social)](https://github.com/DavidKLim/NIMIWAE)
@@ -61,7 +67,9 @@ R package for flexible handling and imputation of non-ignorable missing data pat
 - **Publication**: Lim, Rashid, Oliva, Ibrahim (2024). *Statistics in Biopharmaceutical Research*, In Press
 - [GitHub Repository](https://github.com/DavidKLim/NIMIWAE)
 
----
+
+<div class="mt-5"></div>
+
 
 ### FSCseq
 [![GitHub](https://img.shields.io/github/stars/DavidKLim/FSCseq?style=social)](https://github.com/DavidKLim/FSCseq)
@@ -73,7 +81,9 @@ Computational method to simultaneously detect latent clusters and cluster-discri
 - **Publication**: Lim, Rashid, Ibrahim (2021). *Annals of Applied Statistics* 15(1):481
 - [GitHub Repository](https://github.com/DavidKLim/FSCseq)
 
----
+
+<div class="mt-5"></div>
+
 
 ### CompDTUReg
 [![GitHub](https://img.shields.io/github/stars/skvanburen/CompDTUReg?style=social)](https://github.com/skvanburen/CompDTUReg)
@@ -86,7 +96,9 @@ R package implementing compositional regression methods for detecting differenti
 - [GitHub Repository](https://github.com/skvanburen/CompDTUReg)
 - [PMC Article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11017126/)
 
----
+
+<div class="mt-5"></div>
+
 
 ### mixNBHMM
 [![GitHub](https://img.shields.io/github/stars/plbaldoni/mixNBHMM?style=social)](https://github.com/plbaldoni/mixNBHMM)
@@ -98,7 +110,9 @@ Highly efficient and flexible algorithm for calling differential peaks across mu
 - **Publication**: Baldoni, Rashid, Ibrahim (2019). *Biometrics* 75(4):1401-1413
 - [GitHub Repository](https://github.com/plbaldoni/mixNBHMM)
 
----
+
+<div class="mt-5"></div>
+
 
 ### ZIMHMM
 [![GitHub](https://img.shields.io/github/stars/plbaldoni/ZIMHMM?style=social)](https://github.com/plbaldoni/ZIMHMM)
@@ -109,7 +123,9 @@ HMM-based algorithm for calling broad consensus regions of enrichment across mul
 
 - [GitHub Repository](https://github.com/plbaldoni/ZIMHMM)
 
----
+
+<div class="mt-5"></div>
+
 
 ### ZINBA
 [![Google Code](https://img.shields.io/badge/Google%20Code-archived-lightgrey)](https://code.google.com/p/zinba)
@@ -121,7 +137,9 @@ Comprehensive R package for statistical detection of genomic regions enriched fo
 - **Publication**: Rashid, Giresi, Ibrahim, Sun, Lieb (2011). *Genome Biology* 12(7):R67
 - [Project Page](https://code.google.com/p/zinba)
 
----
+
+<div class="mt-5"></div>
+
 
 ### hmmcov
 [![Google Code](https://img.shields.io/badge/Google%20Code-archived-lightgrey)](https://code.google.com/p/hmmcov)
@@ -133,7 +151,9 @@ R package implementing HMM and AR-HMM based procedures for enrichment detection 
 - **Publication**: Rashid, Sun, Ibrahim (2014). *JASA* 109(505):78-94
 - [Project Page](https://code.google.com/p/hmmcov)
 
----
+
+<div class="mt-5"></div>
+
 
 ### BASeG
 **Bivariate association studies using sequencing data with genetic effects**
@@ -142,7 +162,9 @@ R package for bivariate association studies using sequencing data while accounti
 
 - **Publication**: Rashid, Sun, Ibrahim (2016). *Annals of Applied Statistics* 10(4):2254
 
----
+
+<div class="mt-5"></div>
+
 
 ## Clinical Tools & Patents
 
@@ -160,7 +182,9 @@ Platform and sample type independent single sample classifier for treatment deci
 - [GUI Application](https://github.com/naimurashid/runPurIST) - User-friendly Shiny app for running PurIST
 - **Application**: Now evaluated across cooperative group trials for precision oncology treatment selection
 
----
+
+<div class="mt-5"></div>
+
 
 ## Code Repositories
 
@@ -177,7 +201,9 @@ Many packages are developed in close collaboration with lab members and trainees
 - **Scott Van Buren**: CompDTUReg lead developer
 - **Amber Young**: CompDTUReg co-developer; current PhD student working on semi-supervised matrix factorization for PDAC subtyping
 
----
+
+<div class="mt-5"></div>
+
 
 ## Citation
 
@@ -193,7 +219,9 @@ If you use our software in your research, please cite the appropriate publicatio
 }
 ```
 
----
+
+<div class="mt-5"></div>
+
 
 ## Support & Contact
 

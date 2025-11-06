@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: GitHub repositories and collaborative code projects
-nav: true
+nav: false
 nav_order: 7
 ---
 

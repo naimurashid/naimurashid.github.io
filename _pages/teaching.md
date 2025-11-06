@@ -45,7 +45,7 @@ Through collaborative projects and real-world applications to genomics and clini
 
 **Learning Outcomes**: Students develop proficiency in R programming, reproducible workflows, and computational problem-solving essential for doctoral research.
 
----
+<div class="mt-5"></div>
 
 ## Previous Courses
 
@@ -71,46 +71,9 @@ Through collaborative projects and real-world applications to genomics and clini
 
 **Computational Tools**: R programming with extensive use of simulation for understanding theoretical properties and finite-sample behavior.
 
----
-
-## Workshops & Short Courses
-
-### Statistical Methods for High-Dimensional Genomics Data
-
-**Alliance for Clinical Trials in Oncology Statistical Center**
-Annual workshop for Alliance biostatisticians and collaborators (2019-2023)
-
-**Topics**: RNA-seq analysis, tumor-stroma deconvolution, integrative multi-omic methods, and penalized regression for high-dimensional biomarker discovery.
-
-### Adaptive Clinical Trial Design
-
-**UNC Lineberger Comprehensive Cancer Center**
-Seminar series for clinical investigators and biostatisticians (2024-present)
-
-**Topics**: Bayesian adaptive randomization, platform trials, biomarker-driven designs, and response-adaptive allocation.
-
----
-
-## Software as Teaching Tools
-
-Many of our research software packages serve as pedagogical resources:
-
-- **[glmmPen](https://cran.r-project.org/package=glmmPen)**: Demonstrates penalized regression for high-dimensional mixed models with extensive vignettes
-- **[epigraHMM](https://bioconductor.org/packages/epigraHMM/)**: Teaches hidden Markov models for genomic applications
-- **[BIOS 735 Course Materials](https://biodatascience.github.io/statcomp/)**: Fully open-source lectures and labs
-
-All course materials emphasize reproducibility, version control, and open science principles.
-
----
+<div class="mt-5"></div>
 
 ## Mentoring & Advising
-
-### Current PhD Students
-
-- **Amber Young** (2022-present) - Semi-supervised matrix factorization for cancer subtyping
-- **Dinelka Nanayakkara** (2023-present) - Bayesian adaptive clinical trial design
-- **Jialiu Xie** (2024-present) - High-dimensional inference with missing data
-- **Tyler Humpherys** (2023-present, co-advised with Dr. Michael Kosorok) - Precision medicine and dynamic treatment regimes
 
 ### PhD Graduates
 
@@ -129,16 +92,7 @@ I prioritize:
 - **Career development**: Tailored mentoring for academic, industry, and government career paths
 - **Open science**: Teaching reproducible research practices and open-source software development
 
----
-
-## Guest Lectures & Tutorials
-
-- **ENAR Spring Meeting** (2024): "Bayesian Adaptive Platform Trials in Oncology"
-- **JSM** (2023): "High-Dimensional Inference for Precision Oncology"
-- **UNC BIOS 760** (Statistical Genomics, annually): "RNA-seq Normalization and Differential Expression"
-- **Alliance Biostatistician Training Series** (2020-present): "Integrative Multi-Omic Analysis"
-
----
+<div class="mt-5"></div>
 
 ## Teaching Awards & Recognition
 
@@ -146,7 +100,7 @@ I prioritize:
 - **UNC Gillings Research Excellence Award**, Graduate Mentoring (2023)
 - **Outstanding Teaching Award Nominee**, UNC Gillings Student Association (2020, 2021)
 
----
+<div class="mt-5"></div>
 
 ## Student Resources
 
@@ -161,12 +115,6 @@ Interested in working with me? I'm recruiting PhD students for Fall 2026 interes
 
 **Contact**: [naim@unc.edu](mailto:naim@unc.edu)
 
-### Current Students
-
-- **Office Hours**: Tuesdays 2-4 PM (McGavran-Greenberg 2103C) or by appointment
-- **Slack Workspace**: Join the Rashid Lab Slack for discussions and coding help
-- **GitHub Organization**: [github.com/rashid-lab](https://github.com/naimurashid) for lab code and project collaboration
-
----
+<div class="mt-5"></div>
 
 *Last updated: November 2025*  

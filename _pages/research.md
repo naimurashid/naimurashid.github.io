@@ -11,7 +11,9 @@ nav_order: 3
 
 The Rashid Lab develops **statistical methods and computational tools** that bridge genomics, clinical trials, and precision medicine. Our work spans **four interconnected research themes**, each addressing critical challenges in cancer biostatistics while maintaining strong ties to translational applications at UNC Lineberger Comprehensive Cancer Center.
 
----
+
+<div class="mt-5"></div>
+
 
 <div class="research-themes">
   <div class="research-themes__grid">
@@ -123,7 +125,9 @@ The Rashid Lab develops **statistical methods and computational tools** that bri
   </div>
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 ## Cross-Cutting Methodological Innovations
 
@@ -150,7 +154,9 @@ Our research themes are united by several **core methodological principles**:
 - 2 current PhD students (Amber Young, Tyler Humpherys)
 - Multiple awards: Grizzle Award (2024), Teaching Innovation (2023), Delta Omega Faculty (2021)
 
----
+
+<div class="mt-5"></div>
+
 
 ## Funding & Support
 
@@ -165,7 +171,9 @@ Our research is supported by:
 
 [View complete funding list →](/funding/)
 
----
+
+<div class="mt-5"></div>
+
 
 ## Collaborative Network
 
@@ -186,7 +194,9 @@ Our research is supported by:
 - **Mike Love, PhD** (UNC) - RNA-seq and genomics
 - **Katie Hoadley, PhD** (UNC) - Multi-platform cancer genomics
 
----
+
+<div class="mt-5"></div>
+
 
 ## Join Us
 

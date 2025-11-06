@@ -171,7 +171,9 @@ nav_order: 5
   </p>
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 ### As Co-Investigator or Biostatistician
 
@@ -284,7 +286,9 @@ nav_order: 5
 
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 ## Pending Proposals
 
@@ -351,7 +355,9 @@ nav_order: 5
 
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 ## Funding Summary
 
@@ -374,7 +380,9 @@ nav_order: 5
   </div>
 </div>
 
----
+
+<div class="mt-5"></div>
+
 
 ## Major Funding Agencies
 
@@ -401,7 +409,9 @@ Research from the Rashid Lab is supported by:
 - UNC Lineberger Comprehensive Cancer Center
 - UNC Gillings School of Global Public Health
 
----
+
+<div class="mt-5"></div>
+
 
 ## Collaborative Networks
 
@@ -413,6 +423,8 @@ Many grants involve close collaboration with:
 
 Total collaborative network funding exceeds **$100M** across pancreatic, breast, bladder, ovarian, and hematologic malignancies.
 
----
+
+<div class="mt-5"></div>
+
 
 *For grant collaboration inquiries, contact [naim@unc.edu](mailto:naim@unc.edu)*
