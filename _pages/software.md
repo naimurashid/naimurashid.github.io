@@ -75,6 +75,19 @@ Computational method to simultaneously detect latent clusters and cluster-discri
 
 ---
 
+### CompDTUReg
+[![GitHub](https://img.shields.io/github/stars/skvanburen/CompDTUReg?style=social)](https://github.com/skvanburen/CompDTUReg)
+
+**Differential transcript usage analysis with quantification uncertainty**
+
+R package implementing compositional regression methods for detecting differential transcript usage (DTU) in RNA-seq data. Incorporates quantification uncertainty from bootstrap replicates to improve detection sensitivity when measurement error is substantial.
+
+- **Publication**: Young, Van Buren, Rashid (2023). *Biostatistics* 25(2):559-576
+- [GitHub Repository](https://github.com/skvanburen/CompDTUReg)
+- [PMC Article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11017126/)
+
+---
+
 ### mixNBHMM
 [![GitHub](https://img.shields.io/github/stars/plbaldoni/mixNBHMM?style=social)](https://github.com/plbaldoni/mixNBHMM)
 
@@ -134,14 +147,17 @@ R package for bivariate association studies using sequencing data while accounti
 ## Clinical Tools & Patents
 
 ### PurIST Pancreatic Cancer Classifier
+[![GitHub](https://img.shields.io/github/stars/naimurashid/PurIST?style=social)](https://github.com/naimurashid/PurIST)
+
 **Clinically-validated single-sample subtype classifier for PDAC**
 
 Platform and sample type independent single sample classifier for treatment decision making in pancreatic ductal adenocarcinoma (PDAC). CLIA-certified for clinical use.
 
 - **Patent**: US Patent 12,000,003 (June 4, 2024)
-- **Publications**:
-  - Rashid et al. (2020). *Clinical Cancer Research* 26(1):82-92
-  - Li et al. (2024). *J Molecular Diagnostics* 26(11):962-970
+- **Publication**: Rashid et al. (2020). "Purity Independent Subtyping of Tumors (PurIST), A Clinically Robust, Single-sample Classifier for Tumor Subtyping in Pancreatic Cancer." *Clinical Cancer Research* 26(1):82-92. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31754050/)
+- **Additional Publication**: Li et al. (2024). *J Molecular Diagnostics* 26(11):962-970
+- [GitHub Repository](https://github.com/naimurashid/PurIST)
+- [GUI Application](https://github.com/naimurashid/runPurIST) - User-friendly Shiny app for running PurIST
 - **Application**: Now evaluated across cooperative group trials for precision oncology treatment selection
 
 ---
@@ -158,7 +174,8 @@ Many packages are developed in close collaboration with lab members and trainees
 - **Hillary Heiling**: glmmPen lead developer
 - **David Lim**: dlglm, NIMIWAE, FSCseq lead developer
 - **Pedro Baldoni**: epigraHMM, mixNBHMM, ZIMHMM lead developer
-- **Amber Young**: Current PhD student working on semi-supervised matrix factorization for PDAC subtyping
+- **Scott Van Buren**: CompDTUReg lead developer
+- **Amber Young**: CompDTUReg co-developer; current PhD student working on semi-supervised matrix factorization for PDAC subtyping
 
 ---
 

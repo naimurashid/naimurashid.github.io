@@ -26,14 +26,21 @@ Replace placeholder images for team members:
 ---
 
 ### 🔍 Software Page Verification (Phase 1 - Action 1.2)
-**Status**: ⏳ PENDING USER ACTION
+**Status**: ✅ COMPLETE
 
 Review the new `/software/` page:
 
-- [ ] Test all GitHub repository links
-- [ ] Verify CRAN/Bioconductor badges display correctly
-- [ ] Confirm publication citations and DOI links are accurate
-- [ ] Check if any packages are missing or need updates
+- [x] Test all GitHub repository links
+- [x] Verify CRAN/Bioconductor badges display correctly
+- [x] Confirm publication citations and DOI links are accurate
+- [x] Check if any packages are missing or need updates
+
+**Updates Made**:
+- ✅ Corrected PurIST publication link to PubMed (https://pubmed.ncbi.nlm.nih.gov/31754050/)
+- ✅ Added PurIST GitHub repository (https://github.com/naimurashid/PurIST)
+- ✅ Added PurIST GUI application link (https://github.com/naimurashid/runPurIST)
+- ✅ Added CompDTUReg package with publication and GitHub links
+- ✅ Updated Collaborative Development section with Scott Van Buren and Amber Young as CompDTUReg contributors
 
 ---
 
@@ -48,11 +55,11 @@ Review the new `/software/` page:
 - [ ] Decide on design tool: PowerPoint/Figma/draw.io vs. professional designer
 - [ ] Provide feedback on visual layout once draft is ready
 
-**Proposed Themes** (based on CV):
-1. Penalized mixed models & high-dimensional inference
-2. Adaptive clinical trial design
-3. Multi-omic integration & cancer genomics
-4. Machine learning for precision oncology
+**Research Themes**:
+1. Cancer Precision Medicine
+2. Transcriptomic, Epigenomic, and Bioinformatics Tool Development
+3. Generative AI and Deep Learning
+4. Adaptive Trial Design & Real-Time Biomarker Integration
 
 ---
 
@@ -276,8 +283,8 @@ Review the new `/software/` page:
 ## SUMMARY BY PRIORITY
 
 ### 🔴 High Priority (Immediate)
-1. **Team photos** (3 members - Dinelka, Jialiu, Tyler)
-2. **Software page verification** (test all links and badges)
+1. ~~**Team photos** (3 members - Dinelka, Jialiu, Tyler)~~ ✅ COMPLETE
+2. ~~**Software page verification** (test all links and badges)~~ ✅ COMPLETE
 3. **Review Phase 2 deliverables**:
    - Research themes accuracy
    - Funding page disclosures

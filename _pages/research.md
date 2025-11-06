@@ -17,42 +17,98 @@ The Rashid Lab develops **statistical methods and computational tools** that bri
   <div class="research-themes__grid">
 
     <div class="research-theme research-theme--primary">
-      <div class="research-theme__icon">📊</div>
-      <h3>Penalized Mixed Models & High-Dimensional Inference</h3>
+      <div class="research-theme__icon">🎯</div>
+      <h3>Cancer Precision Medicine</h3>
       <p class="research-theme__description">
-        Developing scalable variable selection methods for generalized linear mixed models (GLMMs) with applications to multi-omic biomarker discovery and patient subtyping.
+        Developing statistical methods and clinical tools for biomarker-driven treatment selection, cancer subtyping, and patient stratification to enable personalized therapeutic decision-making.
       </p>
       <div class="research-theme__highlights">
         <h4>Key Contributions</h4>
         <ul>
-          <li><strong>glmmPen</strong>: R package for simultaneous fixed and random effects selection in high-dimensional GLMMs</li>
-          <li>Efficient computation via latent factor modeling of random effects</li>
-          <li>Piecewise constant hazard models for survival outcomes</li>
-          <li>Applications to cancer outcome prediction across breast, pancreatic, and colorectal cancers</li>
+          <li><strong>PurIST</strong>: CLIA-certified pancreatic cancer classifier (US Patent 12,000,003)</li>
+          <li>Tumor-stroma deconvolution methods for PDAC subtyping</li>
+          <li>High-dimensional inference from patient-derived xenograft (PDX) models</li>
+          <li>Addressing between-study heterogeneity for reproducible biomarker discovery</li>
+          <li>Penalized GLMMs for multi-omic outcome prediction across breast, pancreatic, and colorectal cancers</li>
         </ul>
         <h4>Representative Publications</h4>
         <ul>
-          <li>Heiling et al. (2024). <em>Biometrics</em> - Efficient computation of penalized GLMMs</li>
-          <li>Heiling et al. (2024). <em>The R Journal</em> - glmmPen software</li>
-          <li>Heiling et al. (2025). <em>Statistics in Medicine</em> - Penalized survival models</li>
+          <li>Rashid et al. (2020). <em>Clinical Cancer Research</em> - PurIST classifier</li>
+          <li>Rashid et al. (2020). <em>JASA</em> - Modeling heterogeneity for reproducibility</li>
+          <li>Rashid et al. (2020). <em>JASA</em> - High-dimensional precision medicine from PDXs</li>
+          <li>Heiling et al. (2024). <em>Biometrics</em> - Penalized GLMMs for biomarker discovery</li>
         </ul>
       </div>
-      <a href="/publications/?filter=mixed-models" class="btn btn-sm btn-outline-primary">View Publications</a>
+      <a href="/publications/?filter=precision-medicine" class="btn btn-sm btn-outline-primary">View Publications</a>
     </div>
 
     <div class="research-theme research-theme--secondary">
-      <div class="research-theme__icon">🎯</div>
-      <h3>Adaptive Clinical Trial Design</h3>
+      <div class="research-theme__icon">🧬</div>
+      <h3>Transcriptomic, Epigenomic, and Bioinformatics Tool Development</h3>
       <p class="research-theme__description">
-        Designing Bayesian adaptive platform trials for oncology that integrate biomarker-driven treatment allocation, real-time monitoring, and evolutionary trial frameworks.
+        Creating computational methods and open-source software for analyzing RNA-seq, ChIP-seq, ATAC-seq, and multi-omic data to identify regulatory mechanisms and functional genomic elements in cancer.
+      </p>
+      <div class="research-theme__highlights">
+        <h4>Key Contributions</h4>
+        <ul>
+          <li><strong>Differential transcript usage</strong>: CompDTUReg package incorporating quantification uncertainty</li>
+          <li><strong>Epigenomic enrichment detection</strong>: epigraHMM, mixNBHMM, ZIMHMM, ZINBA</li>
+          <li>Multi-sample consensus and differential enrichment pattern detection</li>
+          <li>Allele-specific expression and isoform-level inference</li>
+          <li>Feature selection and clustering for RNA-seq subtype discovery (FSCseq)</li>
+        </ul>
+        <h4>Representative Publications</h4>
+        <ul>
+          <li>Young et al. (2023). <em>Biostatistics</em> - CompDTUReg for differential transcript usage</li>
+          <li>Baldoni et al. (2022). <em>Biometrics</em> - epigraHMM</li>
+          <li>Baldoni et al. (2019). <em>Biometrics</em> - mixNBHMM</li>
+          <li>Rashid et al. (2014). <em>JASA</em> - HMM-based enrichment with variable selection</li>
+          <li>Rashid et al. (2011). <em>Genome Biology</em> - ZINBA</li>
+          <li>Lim et al. (2021). <em>Ann Appl Stat</em> - FSCseq</li>
+        </ul>
+      </div>
+      <a href="/publications/?filter=genomics" class="btn btn-sm btn-outline-primary">View Publications</a>
+    </div>
+
+    <div class="research-theme research-theme--tertiary">
+      <div class="research-theme__icon">🤖</div>
+      <h3>Generative AI and Deep Learning</h3>
+      <p class="research-theme__description">
+        Developing deep learning architectures and generative AI methods for handling missing data, semi-supervised learning, and computational pathology to advance precision oncology applications.
+      </p>
+      <div class="research-theme__highlights">
+        <h4>Key Contributions</h4>
+        <ul>
+          <li><strong>Deep learning with missing data</strong>: NIMIWAE and dlglm packages for non-ignorable missingness</li>
+          <li>Importance-weighted autoencoders for EHR and clinical trial data</li>
+          <li>Semi-supervised matrix factorization for cancer subtyping</li>
+          <li>Generative AI for clinical trial matching and patient cohort identification</li>
+          <li>Integration of deep learning with traditional GLM frameworks for robust inference</li>
+        </ul>
+        <h4>Representative Publications</h4>
+        <ul>
+          <li>Lim et al. (2024). <em>JCGS</em> - Deeply learned GLMs with missing data</li>
+          <li>Lim et al. (2024). <em>Stat Biopharma Res</em> - NIMIWAE for non-ignorable missingness</li>
+          <li>Young et al. (2025). <em>In Preparation</em> - Semi-supervised matrix factorization</li>
+        </ul>
+      </div>
+      <a href="/publications/?filter=machine-learning" class="btn btn-sm btn-outline-primary">View Publications</a>
+    </div>
+
+    <div class="research-theme research-theme--quaternary">
+      <div class="research-theme__icon">🏥</div>
+      <h3>Adaptive Trial Design & Real-Time Biomarker Integration</h3>
+      <p class="research-theme__description">
+        Designing Bayesian adaptive platform trials for oncology that integrate biomarker-driven treatment allocation, real-time monitoring, and evolutionary trial frameworks to accelerate therapeutic discoveries.
       </p>
       <div class="research-theme__highlights">
         <h4>Key Contributions</h4>
         <ul>
           <li><strong>ARPA-H ADAPT</strong>: $28M platform trial for metastatic breast cancer with evolutionary design</li>
           <li>Bayesian adaptive randomization based on real-time efficacy and toxicity</li>
-          <li>Serial biomarker assessment (tissue, ctDNA, imaging)</li>
+          <li>Serial biomarker assessment (tissue, ctDNA, imaging) integrated into trial design</li>
           <li>Master protocol frameworks for multi-arm cancer trials</li>
+          <li>Cooperative group trials with Alliance and TBCRC</li>
         </ul>
         <h4>Active Trials</h4>
         <ul>
@@ -62,59 +118,6 @@ The Rashid Lab develops **statistical methods and computational tools** that bri
         </ul>
       </div>
       <a href="/publications/?filter=trials" class="btn btn-sm btn-outline-primary">View Publications</a>
-    </div>
-
-    <div class="research-theme research-theme--tertiary">
-      <div class="research-theme__icon">🧬</div>
-      <h3>Multi-Omic Integration & Cancer Genomics</h3>
-      <p class="research-theme__description">
-        Integrating transcriptomic, epigenomic, proteomic, and phosphoproteomic data to identify cancer subtypes, therapeutic vulnerabilities, and mechanisms of resistance.
-      </p>
-      <div class="research-theme__highlights">
-        <h4>Key Contributions</h4>
-        <ul>
-          <li><strong>PurIST</strong>: CLIA-certified pancreatic cancer classifier (US Patent 12,000,003)</li>
-          <li>Tumor-stroma deconvolution methods for PDAC subtyping</li>
-          <li>Differential transcript usage analysis (compositional measurement error)</li>
-          <li>Epigenomic enrichment detection (epigraHMM, mixNBHMM, ZINBA)</li>
-          <li>Allele-specific expression and isoform-level inference</li>
-        </ul>
-        <h4>Representative Publications</h4>
-        <ul>
-          <li>Rashid et al. (2020). <em>Clinical Cancer Research</em> - PurIST classifier</li>
-          <li>Young et al. (2024). <em>Biostatistics</em> - Differential transcript usage</li>
-          <li>Baldoni et al. (2022). <em>Biometrics</em> - epigraHMM</li>
-          <li>Rashid et al. (2011). <em>Genome Biology</em> - ZINBA</li>
-        </ul>
-      </div>
-      <a href="/publications/?filter=genomics" class="btn btn-sm btn-outline-primary">View Publications</a>
-    </div>
-
-    <div class="research-theme research-theme--quaternary">
-      <div class="research-theme__icon">🤖</div>
-      <h3>Machine Learning for Precision Oncology</h3>
-      <p class="research-theme__description">
-        Developing deep learning and machine learning methods that address missing data, between-study heterogeneity, and patient-derived xenograft modeling for individualized treatment selection.
-      </p>
-      <div class="research-theme__highlights">
-        <h4>Key Contributions</h4>
-        <ul>
-          <li><strong>Deep learning with missing data</strong>: NIMIWAE, dlglm packages for non-ignorable missingness</li>
-          <li>Importance-weighted autoencoders for EHR data</li>
-          <li>Addressing between-study heterogeneity for reproducible prediction models</li>
-          <li>Patient-derived xenograft (PDX) models for precision medicine</li>
-          <li>Feature selection and clustering for unsupervised subtype discovery (FSCseq)</li>
-        </ul>
-        <h4>Representative Publications</h4>
-        <ul>
-          <li>Lim et al. (2024). <em>JCGS</em> - Deeply learned GLMs with missing data</li>
-          <li>Lim et al. (2024). <em>Stat Biopharma Res</em> - NIMIWAE</li>
-          <li>Rashid et al. (2020). <em>JASA</em> - Modeling heterogeneity for reproducibility</li>
-          <li>Rashid et al. (2020). <em>JASA</em> - High-dimensional precision medicine from PDXs</li>
-          <li>Lim et al. (2021). <em>Ann Appl Stat</em> - FSCseq</li>
-        </ul>
-      </div>
-      <a href="/publications/?filter=machine-learning" class="btn btn-sm btn-outline-primary">View Publications</a>
     </div>
 
   </div>
