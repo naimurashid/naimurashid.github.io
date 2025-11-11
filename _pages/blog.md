@@ -64,6 +64,9 @@ pagination:
 {% assign is_even = featured_posts.size | modulo: 2 %}
 <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
 {% for post in featured_posts %}
+{% if post.categories contains 'sample-posts' %}
+{% continue %}
+{% endif %}
 <div class="col mb-4">
 <a href="{{ post.url | relative_url }}">
 <div class="card hoverable">
@@ -110,6 +113,9 @@ pagination:
     {% endif %}
 
     {% for post in postlist %}
+    {% if post.categories contains 'sample-posts' %}
+      {% continue %}
+    {% endif %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}

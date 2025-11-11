@@ -49,7 +49,7 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false
+search_enabled: true
 socials_in_search: false
 bib_search: true
 
@@ -206,7 +206,7 @@ announcements:
 
 social_feed:
   enabled: true
-  title: latest updates
+  title: Latest Updates
   limit: 6
   date_format: "%b %-d, %Y"
   badges:
@@ -281,12 +281,12 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-toc

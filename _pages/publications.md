@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: 75+ peer-reviewed publications in biostatistics, clinical trials, and cancer genomics. h-index 28, 5000+ citations in precision oncology and adaptive trial design.
 nav: true
 nav_order: 6
@@ -9,41 +9,54 @@ nav_order: 6
 
 <!-- _pages/publications.md -->
 
-## Publication Metrics
+<section class="page-section page-intro">
+  <p class="page-intro__eyebrow">Overview</p>
+  <h2 class="page-intro__title">Publication Portfolio</h2>
+  <p class="page-intro__lede">
+    {{ page.description }}
+  </p>
+  <p class="mb-0">Browse metrics below or jump into theme filters to find methodology, genomics, machine-learning, and epigenomics work relevant to your review.</p>
+  <ul>
+    <li>75+ peer-reviewed papers across JASA, CCR, Nat Genet, Biostatistics</li>
+    <li>Altmetric, Dimensions, and Scholar badges enabled for fast vetting</li>
+    <li>Theme filters route reviewers to trials, mixed-models, AI, or omics</li>
+  </ul>
+</section>
 
-<div class="pub-metrics">
-  <div class="pub-metric">
-    <span class="pub-metric__value">75+</span>
-    <span class="pub-metric__label">Peer-Reviewed Publications</span>
+<section class="page-section">
+  <h2 class="mb-4">Impact Highlights</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="p-4 h-100 rounded shadow-sm bg-white">
+        <p class="text-muted text-uppercase small mb-1">Peer-Reviewed Output</p>
+        <p class="display-6 mb-2">75+</p>
+        <p class="mb-0">Articles across JASA, Clin Cancer Res, Nature Genetics, and allied oncology journals.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-4 h-100 rounded shadow-sm bg-white">
+        <p class="text-muted text-uppercase small mb-1">Citation Profile</p>
+        <p class="display-6 mb-2">h-index 28</p>
+        <p class="mb-0"><a href="https://scholar.google.com/citations?user=3Cz_lcEAAAAJ" target="_blank" rel="noopener">View on Google Scholar</a></p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-4 h-100 rounded shadow-sm bg-white">
+        <p class="text-muted text-uppercase small mb-1">Mentored Scholarship</p>
+        <p class="display-6 mb-2">25*</p>
+        <p class="mb-0">Student or postdoc first-author papers spanning genomics, trials, and AI.</p>
+      </div>
+    </div>
   </div>
-  <div class="pub-metric">
-    <span class="pub-metric__value">h-index: 28</span>
-    <span class="pub-metric__label"><a href="https://scholar.google.com/citations?user=3Cz_lcEAAAAJ" target="_blank" rel="noopener">Google Scholar Profile</a></span>
-  </div>
-  <div class="pub-metric">
-    <span class="pub-metric__value">5,000+</span>
-    <span class="pub-metric__label">Total Citations</span>
-  </div>
-  <div class="pub-metric">
-    <span class="pub-metric__value">20+</span>
-    <span class="pub-metric__label">Methodology Papers</span>
-  </div>
-</div>
+  <p class="small text-muted mt-3">*indicates student or postdoc lead author.</p>
+</section>
 
-*indicates student or postdoc
+<section class="page-section page-section--alt">
+  <h2>Featured Publications</h2>
+  {% include publication-highlights.liquid %}
+</section>
 
-
-<div class="mt-5"></div>
-
-
-## Featured Publications
-
-{% include publication-highlights.liquid %}
-
-
-<div class="mt-5"></div>
-
-
+<section class="page-section" markdown="1">
 ## Publications by Theme
 
 Use the search box below to find publications by keyword, or browse by research theme.
@@ -61,75 +74,51 @@ Use the search box below to find publications by keyword, or browse by research 
   <a href="#epigenomics" class="theme-filter">Epigenomics</a>
   <a href="#all-publications" class="theme-filter theme-filter--active">All Publications</a>
 </div>
+</section>
 
+<section class="page-section" markdown="1">
+</section>
 
-<div class="mt-5"></div>
+<section class="page-section" markdown="1">
+<details class="pub-section" open>
+  <summary>Clinical Trials Methodology</summary>
+  <div class="publications">
+    {% bibliography --query @*[keywords ~= trials] %}
+  </div>
+</details>
 
+<details class="pub-section">
+  <summary>Penalized Mixed Models &amp; High-Dimensional Inference</summary>
+  <div class="publications">
+    {% bibliography --query @*[keywords ~= mixed-models] %}
+  </div>
+</details>
 
-<h3 id="clinical-trials">Clinical Trials Methodology</h3>
+<details class="pub-section">
+  <summary>Cancer Genomics &amp; Multi-Omic Integration</summary>
+  <div class="publications">
+    {% bibliography --query @*[keywords ~= genomics] %}
+  </div>
+</details>
 
-<div class="publications">
+<details class="pub-section">
+  <summary>Machine Learning for Precision Oncology</summary>
+  <div class="publications">
+    {% bibliography --query @*[keywords ~= machine-learning] %}
+  </div>
+</details>
 
-{% bibliography --query @*[keywords ~= trials] %}
+<details class="pub-section">
+  <summary>Epigenomics &amp; Regulatory Genomics</summary>
+  <div class="publications">
+    {% bibliography --query @*[keywords ~= epigenomics] %}
+  </div>
+</details>
 
-</div>
-
-
-<div class="mt-5"></div>
-
-
-<h3 id="mixed-models">Penalized Mixed Models & High-Dimensional Inference</h3>
-
-<div class="publications">
-
-{% bibliography --query @*[keywords ~= mixed-models] %}
-
-</div>
-
-
-<div class="mt-5"></div>
-
-
-<h3 id="genomics">Cancer Genomics & Multi-Omic Integration</h3>
-
-<div class="publications">
-
-{% bibliography --query @*[keywords ~= genomics] %}
-
-</div>
-
-
-<div class="mt-5"></div>
-
-
-<h3 id="machine-learning">Machine Learning for Precision Oncology</h3>
-
-<div class="publications">
-
-{% bibliography --query @*[keywords ~= machine-learning] %}
-
-</div>
-
-
-<div class="mt-5"></div>
-
-
-<h3 id="epigenomics">Epigenomics & Regulatory Genomics</h3>
-
-<div class="publications">
-
-{% bibliography --query @*[keywords ~= epigenomics] %}
-
-</div>
-
-
-<div class="mt-5"></div>
-
-
-<h3 id="all-publications">All Publications (Chronological)</h3>
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+<details class="pub-section">
+  <summary>All Publications (Chronological)</summary>
+  <div class="publications">
+    {% bibliography %}
+  </div>
+</details>
+</section>

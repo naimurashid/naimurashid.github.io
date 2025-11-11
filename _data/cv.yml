@@ -29,18 +29,18 @@
         Gillings School of Global Public Health, and 
         Lineberger Comprehensive Cancer Center,
         University of North Carolina at Chapel Hill
-      year: 2021
+      year: 2021 -
 
     - title: Assistant Professor
       institution: Department of Biostatistics,
         Gillings School of Global Public Health, and 
         Lineberger Comprehensive Cancer Center,
         University of North Carolina at Chapel Hill
-      year: 2015
+      year: 2015 - 2021
 
     - title: Postdoctoral Research Fellow
       institution: Department of Biostatistics, Harvard School of Public Health, and Department of Biostatistics and Computational Biology, Dana Farber Cancer Institute
-      year: 2013
+      year: 2013 - 2014
       description: Postdoc under the supervision of Dr.s [Giovanni Parmigiani](https://scholar.harvard.edu/parmigiani/home) and Nikhil Munshi
 
 - title: Honors and Awards
@@ -64,3 +64,40 @@
     - year: 2006
       items:
         - Biostatistics in Genomics and Cancer Training Grant Recipient
+
+- title: Invited Talks (selected)
+  type: list
+  contents:
+    - 2024 – STATGEN Conference, University of Pittsburgh.
+    - 2024 – James E. Grizzle Distinguished Alumnus Lecture, UNC Gillings.
+    - 2023 – Michigan Biostatistics Cancer Seminar Series.
+    - 2023 – IISA Annual Conference invited session.
+    - 2022 – Carolina Data Science Now, UNC.
+    - 2021 – AAAS invited session, JSM.
+    - 2019 – PDAC Taxonomy Workshop, MSKCC.
+
+- title: Editorial & Governance Service
+  type: list
+  contents:
+    - Associate Editor, <em>Annals of Applied Statistics</em> (2022–present)
+    - Nature Medicine Statistical Advisory Panel (2023–present)
+    - V Foundation Scientific Advisory Committee (2022–present)
+    - Gillings School Research Council (2022–present)
+    - Chair, UNC Biostatistics Doctoral Applied Exam Committee (2021–present)
+
+- title: Advisory Panels & Shared Resources
+  type: list
+  contents:
+    - Associate Director, Lineberger Biostatistics Shared Resource supporting 40+ oncology collaborations
+    - Co-Director, UNC Pancreatic Cancer SPORE Integrated Quantitative Sciences Core (P50-CA257911)
+    - Co-Director, UNC Breast Cancer SPORE Biostatistics & Bioinformatics Core (P50-CA058223)
+    - Statistical lead, ARPA-H ADAPT metastatic breast cancer platform trial
+    - Statistical lead, DOD PCARP “TrialMatch LLM” precision-medicine navigator
+
+- title: Selected Invited Talks & Keynotes
+  type: list
+  contents:
+    - 2024 Gillings James E. Grizzle Distinguished Alumnus Lecture – <em>Integrating tumor and stroma to guide precision oncology</em>
+    - 2025 ARPA-H ADAPT Analytics Summit – <em>Bayesian adaptive playbooks for metastatic breast cancer platforms</em>
+    - 2023 Translational Breast Cancer Research Consortium Statistical Working Group – <em>Semi-supervised biomarker engines for cooperative trials</em>
+    - 2022 V Foundation Scientific Advisory Committee Symposium – <em>Embedding AI-driven navigation into cooperative oncology trials</em>
