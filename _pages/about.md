@@ -42,12 +42,12 @@ hero_profile: true
           <span class="metric__label"><strong>Trials:</strong> ARPA-H ADAPT, TBCRC, SPORE</span>
         </div>
         <div class="metric">
-          <span class="metric__icon">📊</span>
-          <span class="metric__label"><strong>Analytics:</strong> ctDNA, real-time monitoring</span>
+          <span class="metric__icon">🧬</span>
+          <span class="metric__label"><strong>Molecular Profiling:</strong> DeCAF, kinome, multi-cohort validation</span>
         </div>
         <div class="metric">
           <span class="metric__icon">🎓</span>
-          <span class="metric__label"><strong>Mentorship:</strong> BIOS 735, SPORE/ARPA-H trainees</span>
+          <span class="metric__label"><strong>Mentorship:</strong> T32, SPORE, ARPA-H trainees</span>
         </div>
       </div>
       <div class="hero-panel__cta">
