@@ -26,11 +26,22 @@
   </div>
 </div>
 
-<script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
 (function() {
-  const width = document.getElementById('research-diagram').offsetWidth;
-  const height = 800;
+  const diagramEl = document.getElementById('research-diagram');
+  if (!diagramEl) {
+    return;
+  }
+
+  function renderResearchDiagram() {
+    if (typeof d3 === 'undefined') {
+      diagramEl.innerHTML =
+        `<p style="padding:1rem;background:#fff3cd;border-radius:8px;">Interactive diagram unavailable on this network. <a href="{{ '/research/' | relative_url }}">View the research overview</a> for the same information.</p>`;
+      return;
+    }
+
+    const width = diagramEl.offsetWidth;
+    const height = 800;
 
   // Theme colors
   const colors = {
@@ -155,6 +166,8 @@
       }))
     .force('charge', d3.forceManyBody().strength(-800))
     .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('x', d3.forceX(width / 2).strength(0.06))
+    .force('y', d3.forceY(height / 2).strength(0.06))
     .force('collision', d3.forceCollide().radius(d => d.size + 10));
 
   // Draw links
@@ -285,6 +298,30 @@
     if (!event.active) simulation.alphaTarget(0);
     d.fx = null;
     d.fy = null;
+  }
+
+  }
+
+  function loadScript(src, onload, onerror) {
+    const script = document.createElement('script');
+    script.src = src;
+    script.defer = true;
+    script.onload = onload;
+    if (onerror) {
+      script.onerror = onerror;
+    }
+    document.head.appendChild(script);
+  }
+
+  if (typeof d3 !== 'undefined') {
+    renderResearchDiagram();
+  } else {
+    loadScript('https://d3js.org/d3.v7.min.js', renderResearchDiagram, function() {
+      loadScript('{{ "/assets/js/local/d3.v7.min.js" | relative_url }}', renderResearchDiagram, function() {
+        diagramEl.innerHTML =
+          `<p style="padding:1rem;background:#fff3cd;border-radius:8px;">Interactive diagram unavailable offline. <a href="{{ '/research/' | relative_url }}">View the research overview</a> or download the CV for details.</p>`;
+      });
+    });
   }
 })();
 </script>

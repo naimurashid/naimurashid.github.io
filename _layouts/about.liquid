@@ -52,6 +52,25 @@ layout: default
             </span>                  
           </p>
           <p class="post">{{ page.profile.address }}</p>
+          {% if page.profile.linkedin or page.profile.website or page.profile.github %}
+            <div class="profile-badges">
+              {% if page.profile.linkedin %}
+                <a href="https://www.linkedin.com/in/{{ page.profile.linkedin }}/" class="badge badge-social badge-social--linkedin" target="_blank" rel="noopener">
+                  <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+              {% endif %}
+              {% if page.profile.website %}
+                <a href="{{ page.profile.website }}" class="badge badge-social badge-social--website" target="_blank" rel="noopener">
+                  <i class="fas fa-globe"></i> Personal Site
+                </a>
+              {% endif %}
+              {% if page.profile.github %}
+                <a href="https://github.com/{{ page.profile.github }}" class="badge badge-social badge-social--github" target="_blank" rel="noopener">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              {% endif %}
+            </div>
+          {% endif %}
           <!--{% if page.profile.logos %}-->
           <!--<div><a href="https://inbt.jhu.edu"><img class="layout_commented"  style="margin-bottom: 20px" img src="{{ '/assets/img/logos/INBT-logo.png' |   relative_url }}" height="60"></a> -->
           <!--  <a href="https://breakthroughcancer.org"><img class="layout_commented" style="margin-bottom: 20px" img src="{{ '/assets/img/logos/BTC-logo.png' |   relative_url }}" height="60" ></a> -->
@@ -71,14 +90,14 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     {% if page.social_feed and site.social_feed.enabled %}
       <h2>
-        {{ site.social_feed.title | default: "latest updates" }}
+        {{ site.social_feed.title | default: "Latest updates" }}
       </h2>
       {% include social-feed.liquid %}
     {% endif %}
@@ -94,7 +113,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
