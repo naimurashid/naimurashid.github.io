@@ -27,6 +27,16 @@ profile:
     github:
     orcid:
     social: true
+publications:
+  - key: van2020differential
+    label: CompDTUReg (Biostatistics 2024)
+  - key: van2021compression
+    label: Compression of scRNA-seq uncertainty (2021)
+publications:
+  - key: van2020differential
+    label: CompDTUReg (Biostatistics 2024)
+  - key: van2021compression
+    label: Compression of scRNA-seq uncertainty (2021)
 ---
 
 Scott Van Buren is a Scientific Investigator in Computational Biology within the Clinical Biomarker Analytics group at GSK, where he develops pipelines and machine learning workflows for translational omics research. His work focuses on building scalable computational frameworks that identify novel biological targets and guide multi-million-dollar portfolio decisions for precision oncology.

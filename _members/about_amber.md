@@ -21,11 +21,14 @@ profile:
     logos: true
     image: amber.jpg
     email: ayoung31@live.unc.edu
-    linkedin: amber-m-young
+    linkedin: https://www.linkedin.com/in/amber-m-young/
     twitter:
-    github:
+    github: https://github.com/ayoung31/
     orcid:
     social: true
+publications:
+  - key: van2020differential
+    label: CompDTUReg (Biostatistics 2024)
 ---
 
 Amber Young is a PhD Candidate in Biostatistics at UNC Chapel Hill (expected graduation August 2026), where her research bridges computational statistics, machine learning, clinical trial design, and translational oncology to advance the discovery and targeting of biomarkers in cancer. Working under the co-supervision of Drs. Naim Rashid and [Didong Li](https://sites.google.com/view/didongli/), she develops semi-supervised learning methods for the discovery of prognostic patient biomarkers and designs biomarker-driven Bayesian adaptive clinical trials.

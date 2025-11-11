@@ -28,14 +28,14 @@ hero_profile: true
 <section class="hero-panel">
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
-      <h1 class="hero-panel__title">Statistical innovation powering precision cancer medicine</h1>
+      <h1 class="hero-panel__title">Statistical innovation powering cancer precision medicine</h1>
       <p class="hero-panel__lead">
         Dr. Rashid is an associate professor in Biostatistics and Lineberger, associate director of the Biostatistics Shared Resource, co-director of the pancreatic and breast SPORE cores, and statistical lead for programs such as ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
       </p>
       <div class="hero-panel__metrics metrics-condensed">
         <div class="metric">
           <span class="metric__icon">🔬</span>
-          <span class="metric__label"><strong>Methods:</strong> PurIST, glmmPen, deep learning</span>
+          <span class="metric__label"><strong>Methods:</strong> glmmPen, dlGLM, kinome models</span>
         </div>
         <div class="metric">
           <span class="metric__icon">🤝</span>
@@ -43,7 +43,7 @@ hero_profile: true
         </div>
         <div class="metric">
           <span class="metric__icon">🧬</span>
-          <span class="metric__label"><strong>Molecular Profiling:</strong> DeCAF, kinome, multi-cohort validation</span>
+          <span class="metric__label"><strong>Molecular Profiling:</strong> PurIST, DeCAF, kinome</span>
         </div>
         <div class="metric">
           <span class="metric__icon">🎓</span>
@@ -90,52 +90,76 @@ hero_profile: true
   <div class="mission-panel__intro">
     <p class="mission-panel__eyebrow">Purpose</p>
     <h3>We ship statistical methodology plus reproducible software so Gillings and Lineberger discoveries reach patients faster.</h3>
-    <p class="mission-panel__summary">Every study pairs a rigorously vetted method with the software, SOPs, and trial infrastructure required to move from simulation to patient-ready protocols.</p>
+    <p class="mission-panel__summary">We develop the statistical frameworks, software, and trial infrastructure needed to move Gillings and Lineberger discoveries into evaluated interventions. Rigor, transparent code, and embedded collaborations keep our methods grounded in the real clinical questions disease-site teams are facing.</p>
   </div>
   <div class="mission-panel__grid">
     <article class="mission-panel__card">
-      <div class="mission-panel__icon">
-        <i class="ti ti-function"></i>
+      <div class="mission-panel__header">
+        <span class="mission-panel__icon">
+          <i class="ti ti-function"></i>
+        </span>
+        <div>
+          <p class="mission-panel__badge">Method innovation</p>
+          <h4>Foundational methods</h4>
+        </div>
       </div>
-      <h4>Foundational methods</h4>
-      <ul class="mission-panel__list">
-        <li>CompDTUReg + van Buren et al. Biostatistics 2024 delivering uncertainty-aware transcript usage.</li>
-        <li>Lim et al. JCGS 2024 and the dlGLM toolkit tackling non-ignorable missingness with deep learning.</li>
-        <li>Heiling et al. Biometrics 2024 glmmPen package for high-dimensional penalized mixed models.</li>
-      </ul>
+      <div class="mission-panel__chips">
+        <span class="mission-chip">CompDTUReg · Biostatistics 2024</span>
+        <span class="mission-chip">dlGLM missing-data engines · JCGS 2024</span>
+        <span class="mission-chip">glmmPen · Biometrics 2024</span>
+      </div>
+      <a class="mission-panel__link" href="/research/#methodology">Explore methodology →</a>
     </article>
     <article class="mission-panel__card">
-      <div class="mission-panel__icon">
-        <i class="ti ti-hospital"></i>
+      <div class="mission-panel__header">
+        <span class="mission-panel__icon">
+          <i class="ti ti-hospital"></i>
+        </span>
+        <div>
+          <p class="mission-panel__badge">Trial impact</p>
+          <h4>Clinical translation</h4>
+        </div>
       </div>
-      <h4>Clinical translation</h4>
-      <ul class="mission-panel__list">
-        <li>PurIST single-sample classifier for PDAC (Clin Cancer Res 2020) now embedded in cooperative trials.</li>
-        <li>Innocenti et al. JCO 2024 DNA mutational profiling guiding metastatic colorectal care.</li>
-        <li>Xu et al. Cancer Discovery 2025 tumor-intrinsic kinome landscape driving therapy selection.</li>
-      </ul>
+      <div class="mission-panel__chips">
+        <span class="mission-chip">PurIST · Clin Cancer Res 2020</span>
+        <span class="mission-chip">Innocenti et al. · JCO 2024</span>
+        <span class="mission-chip">Tumor-intrinsic kinome · Cancer Discovery 2025</span>
+      </div>
+      <a class="mission-panel__link" href="/projects/">View translational builds →</a>
     </article>
     <article class="mission-panel__card">
-      <div class="mission-panel__icon">
-        <i class="ti ti-code"></i>
+      <div class="mission-panel__header">
+        <span class="mission-panel__icon">
+          <i class="ti ti-code"></i>
+        </span>
+        <div>
+          <p class="mission-panel__badge">Open science</p>
+          <h4>Software implementation</h4>
+        </div>
       </div>
-      <h4>Software implementation</h4>
-      <ul class="mission-panel__list">
-        <li>epigraHMM (Biometrics 2022) + FSCseq (Ann Appl Stat 2021) sustaining reproducible genomics pipelines.</li>
-        <li>glmmPen (The R Journal 2024) and dlGLM toolkits containerized for Lineberger HPC.</li>
-        <li>NIMIWAE (Stat Biopharm Res 2024) supplying open VAE stacks for clinical lab data.</li>
-      </ul>
+      <div class="mission-panel__chips">
+        <span class="mission-chip">epigraHMM · Biometrics 2022</span>
+        <span class="mission-chip">glmmPen &amp; dlGLM · containerized HPC builds</span>
+        <span class="mission-chip">NIMIWAE · Stat Biopharm Res 2024</span>
+      </div>
+      <a class="mission-panel__link" href="/software/">Browse toolkits →</a>
     </article>
-    <article class="mission-panel__card">
-      <div class="mission-panel__icon">
-        <i class="ti ti-users-group"></i>
+    <article class="mission-panel__card mission-panel__card--alt">
+      <div class="mission-panel__header">
+        <span class="mission-panel__icon">
+          <i class="ti ti-users-group"></i>
+        </span>
+        <div>
+          <p class="mission-panel__badge">Collaboration</p>
+          <h4>Partnership &amp; amplification</h4>
+        </div>
       </div>
-      <h4>Partnership &amp; amplification</h4>
-      <ul class="mission-panel__list">
-        <li>Fernandez-Martinez et al. JAMA Oncol 2023 + Rediti et al. pooled analyses informing TBCRC policy.</li>
-        <li>Multi-institutional trial work highlighted across Nature Genet 2015 and Cancer Cell 2018 studies.</li>
-        <li>Lineberger consult outputs summarized via Gillings news + ARPA-H ADAPT briefs for stakeholders.</li>
-      </ul>
+      <div class="mission-panel__chips">
+        <span class="mission-chip">Fernandez-Martinez et al. · JAMA Oncol 2023</span>
+        <span class="mission-chip">Nature Genet 2015 · Cancer Cell 2018 consortiums</span>
+        <span class="mission-chip">Lineberger consults · ARPA-H ADAPT briefs</span>
+      </div>
+      <a class="mission-panel__link" href="/news/">See partner updates →</a>
     </article>
   </div>
 </section>

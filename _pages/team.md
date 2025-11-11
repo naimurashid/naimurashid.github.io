@@ -71,10 +71,22 @@ nav_rank: 2
                   <h6 class="card-subtitle mb-2 text-muted">{{ team_label }}</h6>
                 {% endif %}
                 <p class="card-text">{{ member.teaser }}</p>
+                {% assign linkedin_url = member.profile.linkedin %}
+                {% if linkedin_url %}
+                  {% unless linkedin_url contains 'http' %}
+                    {% assign linkedin_url = 'https://www.linkedin.com/in/' | append: member.profile.linkedin | append: '/' %}
+                  {% endunless %}
+                {% endif %}
+                {% assign github_url = member.profile.github %}
+                {% if github_url %}
+                  {% unless github_url contains 'http' %}
+                    {% assign github_url = 'https://github.com/' | append: member.profile.github | append: '/' %}
+                  {% endunless %}
+                {% endif %}
                 {% if member.profile.linkedin or member.profile.website or member.profile.github %}
                   <div class="team-card__badges">
                     {% if member.profile.linkedin %}
-                      <a href="https://www.linkedin.com/in/{{ member.profile.linkedin }}/" class="badge badge-social badge-social--linkedin" target="_blank" rel="noopener">
+                      <a href="{{ linkedin_url }}" class="badge badge-social badge-social--linkedin" target="_blank" rel="noopener">
                         <i class="fab fa-linkedin"></i> LinkedIn
                       </a>
                     {% endif %}
@@ -84,7 +96,7 @@ nav_rank: 2
                       </a>
                     {% endif %}
                     {% if member.profile.github %}
-                      <a href="https://github.com/{{ member.profile.github }}" class="badge badge-social badge-social--github" target="_blank" rel="noopener">
+                      <a href="{{ github_url }}" class="badge badge-social badge-social--github" target="_blank" rel="noopener">
                         <i class="fab fa-github"></i> GitHub
                       </a>
                     {% endif %}

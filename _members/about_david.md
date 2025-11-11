@@ -27,6 +27,13 @@ profile:
     github:
     orcid:
     social: true
+publications:
+  - key: lim2020
+    label: FSCseq feature selection & clustering (AOAS 2021)
+  - key: lim2021
+    label: NIMIWAE missing-data imputation (2024)
+  - key: lim2022
+    label: dlGLM deep GLMs with missing data (JCGS 2024)
 ---
 
 David Lim is a Principal Statistician in Research Statistics at GSK, where he works at the intersection of statistics, AI, and applied science. His expertise spans deep learning, high-dimensional and missing data, clustering, and causal inference, with applications across genomics, bioimaging, public health, and agronomic data. At GSK, he developed a random-forest-based discovery framework that surfaced several novel biological targets, guiding multi-million-dollar portfolio decisions for precision medicine.
