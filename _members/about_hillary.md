@@ -27,15 +27,31 @@ profile:
     github:
     orcid:
     social: true
-publications:
+lab_publications:
   - key: heiling2021b
     label: glmmPen penalized GLMM selection (The R Journal 2024)
+    links:
+      - text: CRAN Package
+        url: https://cran.r-project.org/package=glmmPen
+      - text: Code
+        url: https://github.com/hheiling/glmmPen
   - key: heiling2021estimating
     label: Isoform composition estimation (2021)
+    links:
+      - text: Preprint
+        url: https://arxiv.org/abs/2101.08923
   - key: heiling2023efficient
     label: Latent-factor GLMMs (Biometrics 2024)
+    links:
+      - text: Preprint
+        url: https://arxiv.org/abs/2310.02157
+      - text: Code
+        url: https://github.com/hheiling/glmmPen
   - key: heiling2023survival
     label: Penalized hazard random-effects (2025)
+    links:
+      - text: Preprint
+        url: https://arxiv.org/abs/2312.06153
 ---
 
 Hillary Heiling is a Scientist II (Collaborative Biostatistician) in the Department of Data Science at Dana-Farber Cancer Institute (DFCI), where she collaborates with medical researchers in breast cancer, thoracic cancer, and nursing and patient care. She designs, analyzes, and reports cancer research studies across these areas, bringing expertise in SAS, R, R Markdown, LaTeX, and GitHub to support clinical decision-making.

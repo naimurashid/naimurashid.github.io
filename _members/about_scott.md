@@ -27,11 +27,19 @@ profile:
     github:
     orcid:
     social: true
-publications:
+lab_publications:
   - key: van2020differential
     label: CompDTUReg (Biostatistics 2024)
+    links:
+      - text: Journal / DOI
+        url: https://doi.org/10.1093/biostatistics/kxad008
+      - text: Code
+        url: https://github.com/skvanburen/CompDTUReg
   - key: van2021compression
     label: Compression of scRNA-seq uncertainty (2021)
+    links:
+      - text: Preprint
+        url: https://arxiv.org/abs/2103.06380
 publications:
   - key: van2020differential
     label: CompDTUReg (Biostatistics 2024)

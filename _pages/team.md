@@ -51,13 +51,34 @@ nav_rank: 2
           <div class="row no-gutters">
             <div class="col-sm-4 col-md-3">
               {% assign image_alt = member.profile.image_alt | default: member.profile.name %}
-              <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ image_alt }}" loading="lazy" decoding="async" />
+              {% if member.inline == false %}
+                {% if member.external == true %}
+                  <a class="team-card__image-link" href="{{ member.profile.website }}" aria-label="View profile for {{ member.profile.name }}">
+                    <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ image_alt }}" loading="lazy" decoding="async" />
+                  </a>
+                {% else %}
+                  <a class="team-card__image-link" href="{{ member.url | relative_url }}" aria-label="View profile for {{ member.profile.name }}">
+                    <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ image_alt }}" loading="lazy" decoding="async" />
+                  </a>
+                {% endif %}
+              {% else %}
+                <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ image_alt }}" loading="lazy" decoding="async" />
+              {% endif %}
             </div>
             <div class="team col-sm-8 col-md-9">
               <div class="card-body">
-                {% if member.inline == false %}{% if member.external == true %}<a href="{{ member.profile.website }}" class="stretched-link">{% else %}<a href="{{ member.url | relative_url }}" class="stretched-link">{% endif %}{% endif %}
                 <div class="team-card__title">
-                  <h5 class="card-title mb-0">{{ member.profile.name }}</h5>
+                  <h5 class="card-title mb-0">
+                    {% if member.inline == false %}
+                      {% if member.external == true %}
+                        <a class="team-card__name-link" href="{{ member.profile.website }}" aria-label="View profile for {{ member.profile.name }}">{{ member.profile.name }}</a>
+                      {% else %}
+                        <a class="team-card__name-link" href="{{ member.url | relative_url }}" aria-label="View profile for {{ member.profile.name }}">{{ member.profile.name }}</a>
+                      {% endif %}
+                    {% else %}
+                      {{ member.profile.name }}
+                    {% endif %}
+                  </h5>
                   {% assign team_label = member.profile["team-position"] %}
                   {% if team_label %}
                     {% assign badge_key = team_label | downcase %}
@@ -73,13 +94,13 @@ nav_rank: 2
                 <p class="card-text">{{ member.teaser }}</p>
                 {% assign linkedin_url = member.profile.linkedin %}
                 {% if linkedin_url %}
-                  {% unless linkedin_url contains 'http' %}
+                  {% unless linkedin_url contains '://' %}
                     {% assign linkedin_url = 'https://www.linkedin.com/in/' | append: member.profile.linkedin | append: '/' %}
                   {% endunless %}
                 {% endif %}
                 {% assign github_url = member.profile.github %}
                 {% if github_url %}
-                  {% unless github_url contains 'http' %}
+                  {% unless github_url contains '://' %}
                     {% assign github_url = 'https://github.com/' | append: member.profile.github | append: '/' %}
                   {% endunless %}
                 {% endif %}
@@ -92,7 +113,7 @@ nav_rank: 2
                     {% endif %}
                     {% if member.profile.website %}
                       <a href="{{ member.profile.website }}" class="badge badge-social badge-social--website" target="_blank" rel="noopener">
-                        <i class="fas fa-globe"></i> Personal Site
+                        <i class="ti ti-world"></i> Personal Site
                       </a>
                     {% endif %}
                     {% if member.profile.github %}
@@ -102,7 +123,6 @@ nav_rank: 2
                     {% endif %}
                   </div>
                 {% endif %}
-                {% if member.inline == false %}</a>{% endif %}
                 {% if member.profile.email %}
                   <a href="mailto:{{ member.profile.email }}" class="card-link"><i class="fas fa-envelope"></i></a>
                 {% endif %}
@@ -114,9 +134,6 @@ nav_rank: 2
                 {% endif %}
                 {% if member.profile.twitter %}
                   <a href="https://twitter.com/{{ member.profile.twitter }}" class="card-link" target="_blank"><i class="fab fa-twitter"></i></a>
-                {% endif %}
-                {% if member.profile.github %}
-                  <a href="https://github.com/{{ member.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
                 {% endif %}
                 {% if member.profile.website %}
                   <a href="{{ member.profile.website }}" class="card-link" target="_blank"><i class="fas fa-globe"></i></a>

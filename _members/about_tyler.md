@@ -11,7 +11,7 @@ lastname: Humpherys
 publications: 'author^=*Humpherys'
 
 teaser: >
-   Tyler Humpherys is a Biostatistics PhD student co-advised by Drs. Naim Rashid and Michael Kosorok. His dissertation fine-tunes large language models for personalized recommendation rankings and develops uncertainty quantification methods for ranked decision support, with a focus on pancreatic cancer clinical trial matching at UNC Lineberger.
+   Tyler Humpherys is a Biostatistics PhD student co-advised by Drs. Naim Rashid, Didong Li, and Michael Kosorok. His dissertation spans offline reinforcement learning and large language models for precision health and pancreatic cancer trial navigation.
 
 profile:
     name: Tyler Humpherys, BS
@@ -25,7 +25,10 @@ profile:
     #phone: +1 919 966 8150
     #address: >
     #    Lineberger 20-020 <br /> 450 West Drive <br /> University of North Carolina at Chapel Hill <br />Chapel Hill, NC, 27599
-    social: false  # includes social icons at the bottom of the page        
+    linkedin: http://www.linkedin.com/in/tyler-humpherys111
+    social: true  # includes social icons at the bottom of the page        
 ---
 
-Tyler Humpherys is pursuing his PhD in Biostatistics at UNC Chapel Hill, co-supervised by Drs. Naim Rashid and Michael Kosorok. His research centers on fine-tuning large language models for personalized recommendation rankings and creating uncertainty quantification strategies for ranked outputs. These tools power the lab’s pancreatic cancer clinical trial recommendation engine in partnership with UNC Lineberger clinicians.
+Tyler Humpherys is pursuing his PhD in Biostatistics at UNC Chapel Hill, co-advised by Drs. Naim Rashid, Didong Li, and Michael Kosorok. He holds a BS in Applied and Computational Mathematics and recently interned at Insitro, where he built transformer-based approaches for biomedical images and clinical data.
+
+Tyler’s dissertation focuses on offline reinforcement learning and large language models for precision health, with a special emphasis on pancreatic cancer. His current work fine-tunes LLMs for personalized recommendation and clinical trial matching, powering the lab’s pancreatic cancer trial-navigation engine in partnership with UNC Lineberger clinicians.

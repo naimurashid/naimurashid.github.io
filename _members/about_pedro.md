@@ -27,11 +27,21 @@ profile:
     github:
     orcid:
     social: true
-publications:
+lab_publications:
   - key: baldoni2019improved
     label: mixNBHMM differential epigenomics (Biometrics 2019)
+    links:
+      - text: Journal
+        url: https://doi.org/10.1111/biom.13076
+      - text: Code
+        url: https://github.com/plbaldoni/mixNBHMM
   - key: Baldoni864124
     label: epigraHMM multi-condition HMMs (Biometrics 2022)
+    links:
+      - text: Bioconductor
+        url: http://bioconductor.org/packages/epigraHMM
+      - text: Code
+        url: https://github.com/plbaldoni/epigraHMM
 ---
 
 Pedro Baldoni is an Assistant Professor in the Department of Biostatistics and Health Data Science at the University of Pittsburgh (since August 2024), where he leads a research program at the intersection of statistical methodology and precision oncology. His lab develops novel methods for cancer genomics, with a focus on high-dimensional data analysis, RNA-seq methods, and translational applications in precision medicine.
