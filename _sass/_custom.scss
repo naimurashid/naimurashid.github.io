@@ -975,6 +975,17 @@
   display: block;
 }
 
+.funding-highlights {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding-left: 0;
+}
+
+.funding-highlights li {
+  margin-bottom: 0.35rem;
+  color: var(--global-text-muted, #4b5563);
+}
+
 @media (max-width: 768px) {
   .grant-card__header {
     flex-direction: column;

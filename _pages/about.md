@@ -24,54 +24,50 @@ social: true # includes social icons at the bottom of the page
 social_feed: true
 hero_profile: true
 talks_intro: >
-  Seminar invitations typically focus on adaptive oncology statistics, biomarker-driven trial platforms, and AI-assisted decision tools. I tailor 45–60 minute talks for biostatistics, oncology, and data science audiences, and I am happy to stay for student lunches, chalk talks, or joint lab meetings. Email me to coordinate formats, travel, and co-hosted visits.
+  Recent seminar topics include adaptive oncology statistics, biomarker-driven trial platforms, and AI-assisted decision tools. Talks are typically 45–60 minutes and can be tailored for biostatistics, oncology, or data science audiences. I am happy to meet with students and participate in chalk talks or lab meetings.
 talks:
-  - title: "Bayesian adaptive playbooks for metastatic breast cancer platforms"
+  - title: "Bayesian adaptive methods for metastatic breast cancer platforms"
     venue: "ARPA-H ADAPT Analytics Summit"
     location: "Washington, DC & virtual"
     date: "May 2025"
-    description: "Shared how reinforcement learning, platform-level borrowing, and LLM copilots drive faster cohort activation within the ADAPT network."
+    description: "Presented reinforcement learning, platform-level borrowing, and LLM tools for the ADAPT network."
   - title: "Integrating tumor and stroma to guide precision oncology"
     venue: "James E. Grizzle Distinguished Alumnus Lecture, UNC Gillings"
     location: "Chapel Hill, NC"
     date: "October 2024"
     description: "Presented multi-omic models that pair PurIST and kinome readouts with stromal remodeling signals to prioritize translational studies."
-  - title: "STATGEN keynote: multi-omic signatures for pancreatic trial escalation"
+  - title: "STATGEN keynote: multi-omic signatures for pancreatic cancer trials"
     venue: "STATGEN Conference, University of Pittsburgh"
     location: "Pittsburgh, PA"
     date: "June 2024"
-    description: "Detailed adaptive genomics pipelines—DeCAF, PurIST refinements, and immune deconvolution—that feed Lineberger and UPMC basket trials."
+    description: "Presented adaptive genomics pipelines—DeCAF, PurIST, and immune deconvolution—for basket trial applications."
 ---
 
 <section class="hero-panel">
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
-      <h1 class="hero-panel__title">Statistical innovation powering cancer precision medicine</h1>
+      <h1 class="hero-panel__title">Statistical methods for cancer precision medicine</h1>
       <p class="hero-panel__lead">
-        Dr. Rashid is an associate professor in Biostatistics and Lineberger, associate director of the Biostatistics Shared Resource, co-director of the pancreatic and breast SPORE cores, and statistical lead for programs such as ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
+        Dr. Rashid is an associate professor in Biostatistics at the Gillings School and Lineberger Comprehensive Cancer Center, associate director of the Biostatistics Shared Resource, co-director of the pancreatic and breast SPORE cores, and statistical lead for ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
       </p>
       <div class="hero-panel__metrics metrics-condensed">
         <div class="metric">
-          <span class="metric__icon">🔬</span>
           <span class="metric__label"><strong>Methods:</strong> glmmPen, dlGLM, kinome models</span>
         </div>
         <div class="metric">
-          <span class="metric__icon">🤝</span>
           <span class="metric__label"><strong>Trials:</strong> ARPA-H ADAPT, TBCRC, SPORE</span>
         </div>
         <div class="metric">
-          <span class="metric__icon">🧬</span>
           <span class="metric__label"><strong>Molecular Profiling:</strong> PurIST, DeCAF, kinome</span>
         </div>
         <div class="metric">
-          <span class="metric__icon">🎓</span>
           <span class="metric__label"><strong>Mentorship:</strong> T32, SPORE, ARPA-H trainees</span>
         </div>
       </div>
       <div class="hero-panel__cta">
         <a class="btn btn-outline-primary btn-lg" href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
         <p class="hero-panel__microcopy mb-3">
-          Lineberger members can email <a href="mailto:LCCC_BIOS@med.unc.edu">LCCC_BIOS@med.unc.edu</a> for curated consults or drop into the Wednesday Zoom clinic for rapid trial support.
+          Lineberger members can email <a href="mailto:LCCC_BIOS@med.unc.edu">LCCC_BIOS@med.unc.edu</a> for consultations or join the Wednesday Zoom office hours for trial support.
         </p>
         <a class="btn btn-primary btn-lg" href="mailto:LCCC_BIOS@med.unc.edu?subject=Consultation%20Request%20for%20Lineberger%20Biostatistics">Request a Lineberger consultation</a>
         <a class="btn btn-outline-secondary btn-lg" href="https://zoom.us/j/98595369470" target="_blank" rel="noopener">Join Wednesday drop-in (12–1 PM)</a>
@@ -102,13 +98,13 @@ talks:
   </div>
 </section>
 
-### Mission &amp; Impact
+### Research Overview
 
-<section class="mission-panel" aria-label="Mission and impact">
+<section class="mission-panel" aria-label="Research overview">
   <div class="mission-panel__intro">
     <p class="mission-panel__eyebrow">Purpose</p>
-    <h3>We align statistical innovation with clinical deployment so Gillings and Lineberger discoveries become trial-ready faster.</h3>
-    <p class="mission-panel__summary">Our lab co-designs methodology, software, and shared-resource playbooks with disease teams so adaptive platforms, diagnostics, and AI copilots launch with the rigor cooperative groups and regulators expect.</p>
+    <h3>We develop statistical methods and software to support clinical translation of biomarker discoveries.</h3>
+    <p class="mission-panel__summary">Our lab collaborates with disease teams to develop methodology, software, and analytical frameworks for adaptive platforms, diagnostics, and clinical decision support tools.</p>
   </div>
   <div class="mission-panel__grid">
     <article class="mission-panel__card">
@@ -137,11 +133,11 @@ talks:
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">PurIST subtype briefs for GI tumor boards</span>
-        <span class="mission-chip">Kinome-guided pancreatic treatment playbooks</span>
-        <span class="mission-chip">HER2 residual-risk signals for neoadjuvant trials</span>
+        <span class="mission-chip">PurIST subtype classification for GI tumors</span>
+        <span class="mission-chip">Kinome profiling for pancreatic cancer</span>
+        <span class="mission-chip">HER2 residual-risk modeling for neoadjuvant trials</span>
       </div>
-      <a class="mission-panel__link" href="/projects/">View translational builds →</a>
+      <a class="mission-panel__link" href="/projects/">View translational projects →</a>
     </article>
     <article class="mission-panel__card">
       <div class="mission-panel__header">
@@ -155,9 +151,9 @@ talks:
       <div class="mission-panel__chips">
         <span class="mission-chip">epigraHMM for multi-condition epigenomics</span>
         <span class="mission-chip">glmmPen + dlGLM Docker stacks for shared HPC</span>
-        <span class="mission-chip">NIMIWAE imputation engine for registries</span>
+        <span class="mission-chip">NIMIWAE imputation methods for registries</span>
       </div>
-      <a class="mission-panel__link" href="/software/">Browse toolkits →</a>
+      <a class="mission-panel__link" href="/software/">Browse software packages →</a>
     </article>
     <article class="mission-panel__card mission-panel__card--alt">
       <div class="mission-panel__header">
@@ -169,11 +165,11 @@ talks:
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">Lineberger Biostatistics Shared Resource (40+ trials)</span>
-        <span class="mission-chip">ARPA-H ADAPT analytics hub for PSRC/NCI teams</span>
-        <span class="mission-chip">TBCRC &amp; V Foundation cooperative advisory</span>
+        <span class="mission-chip">Lineberger Biostatistics Shared Resource</span>
+        <span class="mission-chip">ARPA-H ADAPT analytics for PSRC/NCI teams</span>
+        <span class="mission-chip">TBCRC &amp; V Foundation cooperative groups</span>
       </div>
-      <a class="mission-panel__link" href="/news/">See partner updates →</a>
+      <a class="mission-panel__link" href="/news/">View news updates →</a>
     </article>
   </div>
 </section>
@@ -182,7 +178,7 @@ talks:
 
 <section class="talks-section" aria-label="Recent invited talks">
   <div class="talks-section__intro">
-    <p class="talks-section__eyebrow">Talks & Seminar Topics</p>
+    <p class="talks-section__eyebrow">Recent Seminar Topics</p>
     <p>{{ page.talks_intro }}</p>
     <a class="btn btn-outline-primary" href="mailto:naim@unc.edu?subject=Seminar%20Invitation%20for%20Naim%20Rashid">Invite Dr. Rashid to speak</a>
   </div>
@@ -213,12 +209,12 @@ talks:
 <div class="pillar-grid">
   <article class="pillar-card">
     <h4>Methodology</h4>
-    <p>Robust subtyping, penalized GLMMs, and generative-AI engines for translational data.</p>
+    <p>Robust subtyping, penalized GLMMs, and generative-AI methods for translational data.</p>
     <a href="/research/#methodology" class="link-arrow">Explore →</a>
   </article>
   <article class="pillar-card">
     <h4>Translation</h4>
-    <p>Bayesian adaptive platforms that weave ctDNA, imaging, and microbiome signals into trials.</p>
+    <p>Bayesian adaptive platforms integrating ctDNA, imaging, and microbiome data.</p>
     <a href="/research/#translation" class="link-arrow">Explore →</a>
   </article>
   <article class="pillar-card">
@@ -234,7 +230,7 @@ talks:
   "@type": "Person",
   "name": "Naim U. Rashid",
   "jobTitle": "Associate Professor of Biostatistics",
-  "description": "Biostatistician leading adaptive precision-oncology trials, ARPA-H ADAPT analytics, and CLIA-certified PurIST diagnostics.",
+  "description": "Biostatistician developing methods for adaptive precision-oncology trials, ARPA-H ADAPT analytics, and CLIA-certified PurIST diagnostics.",
   "image": "{{ '/assets/img/prof.jpg' | relative_url | absolute_url }}",
   "url": "{{ '/' | absolute_url }}",
   "email": "mailto:naim@unc.edu",

@@ -91,8 +91,8 @@ nav_order: 3
   <div class="focus-grid project-grid">
     <article class="project-card project-card--pilot">
       <p class="project-card__badge project-card__badge--pilot">Missing data</p>
-      <h3>dlGLM Toolkit</h3>
-      <p>Deep-learning generalized linear models for non-ignorable missing data now powering ARPA-H ADAPT analytics dashboards and shared-resource consults.</p>
+      <h3>dlGLM Package</h3>
+      <p>Deep-learning generalized linear models for non-ignorable missing data supporting ARPA-H ADAPT analytics and shared-resource consults.</p>
       <ul class="project-meta">
         <li><strong>Next:</strong> External validation manuscript</li>
       </ul>
@@ -101,7 +101,7 @@ nav_order: 3
     <article class="project-card project-card--pilot">
       <p class="project-card__badge project-card__badge--pilot">Stromal genomics</p>
       <h3>DeCAF Classifier</h3>
-      <p>Transcriptomic classifier of pancreatic tumor and stromal interaction states guiding biomarker briefs for PDAC trials.</p>
+      <p>Transcriptomic classifier of pancreatic tumor and stromal interaction states informing biomarker analyses for PDAC trials.</p>
       <ul class="project-meta">
         <li><strong>Next:</strong> Trial-readiness review</li>
       </ul>
@@ -109,8 +109,8 @@ nav_order: 3
 
     <article class="project-card project-card--pilot">
       <p class="project-card__badge project-card__badge--pilot">Clinical registries</p>
-      <h3>NIMIWAE Toolkit</h3>
-      <p>Deep-learning imputation engine for EHR labs and longitudinal clinical data supporting ARPA-H and Lineberger analytics pipelines.</p>
+      <h3>NIMIWAE Package</h3>
+      <p>Deep-learning imputation methods for EHR labs and longitudinal clinical data supporting ARPA-H and Lineberger analytics.</p>
       <ul class="project-meta">
         <li><strong>Next:</strong> Bioconductor submission</li>
       </ul>
@@ -168,7 +168,7 @@ nav_order: 3
     <article class="project-card project-card--story">
       <p class="project-card__badge project-card__badge--story">Missing data</p>
       <h3>dlGLM → ARPA-H analytics</h3>
-      <p>Embedded in ADAPT dashboards with containerized builds on Lineberger HPC; next milestone is external validation manuscript.</p>
+      <p>Deployed in ADAPT analytics with containerized builds on Lineberger HPC; next milestone is external validation manuscript.</p>
     </article>
   </div>
 </section>

@@ -2,7 +2,7 @@
 layout: page
 title: Funding
 permalink: /funding/
-description: $60M+ research funding for adaptive clinical trials, cancer genomics, and precision oncology from ARPA-H, NCI, DOD, and other federal agencies
+description: Research funding for adaptive clinical trials, cancer genomics, and precision oncology from ARPA-H, NCI, DOD, and other federal agencies
 nav: true
 nav_order: 5
 ---
@@ -13,33 +13,25 @@ nav_order: 5
   <p class="page-intro__lede">
     {{ page.description }}
   </p>
-  <p class="mb-0">Scroll for active awards, flagship roles, and embedded cores powering adaptive oncology analytics.</p>
+  <p class="mb-0">Active awards supporting adaptive oncology research.</p>
   <ul>
-    <li>Leadership across ARPA-H ADAPT, TBCRC, SPORE, and Lineberger P30</li>
-    <li>PI / Co-PI roles spanning adaptive trials, AI navigation, and core science</li>
-    <li>At-a-glance budget, effort, and period for each flagship grant</li>
+    <li>Leadership roles in ARPA-H ADAPT, TBCRC, SPORE, and Lineberger P30</li>
+    <li>PI / Co-PI roles in adaptive trials, clinical decision support, and translational research</li>
+    <li>Details on budget, effort, and period for major awards</li>
   </ul>
 </section>
 
 <section class="page-section" markdown="1">
 ## Active Funding
 
-<div class="funding-summary">
-  <div class="funding-summary__metric">
-    <span class="funding-summary__value">$60M+</span>
-    <span class="funding-summary__label">Active portfolio powering adaptive oncology analytics</span>
-  </div>
-  <div class="funding-summary__metric">
-    <span class="funding-summary__value">6</span>
-    <span class="funding-summary__label">PI / Co-PI / Core leadership roles</span>
-  </div>
-  <div class="funding-summary__metric">
-    <span class="funding-summary__value">4</span>
-    <span class="funding-summary__label">Federal agencies (ARPA-H, NCI, DOD, P30)</span>
-  </div>
-</div>
+<ul class="funding-highlights">
+  <li><strong>ARPA-H ADAPT Platform</strong> – Co-PI and statistical lead for metastatic breast cancer adaptive platform (2025–2031).</li>
+  <li><strong>NIH/NCI Breast SPORE</strong> – Core B co-lead supporting analytics for multi-site trials (2024–2029).</li>
+  <li><strong>NIH/NCI Pancreatic SPORE</strong> – Core C co-lead for integrated quantitative science (2022–2027).</li>
+  <li><strong>DOD PCARP TrialMatch LLM</strong> – PI for clinical trial navigation tool development (2024–2026).</li>
+</ul>
 
-### Flagship Awards
+### Major Awards
 
 <div class="grant-card grant-card--featured">
   <div class="grant-card__header">
@@ -61,7 +53,7 @@ nav_order: 5
     </div>
   </div>
   <p class="grant-card__description">
-    Adaptive metastasis platform integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies to reinvent metastatic breast cancer trials.
+    Adaptive platform trial integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies for metastatic breast cancer.
   </p>
 </div>
 
@@ -85,7 +77,7 @@ nav_order: 5
     </div>
   </div>
   <p class="grant-card__description">
-    Fine-tuned large language model that translates pancreatic trial eligibility into bilingual patient summaries, reducing disparities in navigation.
+    Large language model to translate pancreatic trial eligibility criteria into accessible patient summaries.
   </p>
 </div>
 
@@ -107,7 +99,7 @@ nav_order: 5
       <span class="badge badge-success">Active</span>
     </div>
     <p class="grant-card__description">
-      Core B co-lead with Katie Hoadley (P50-CA058223, 2024–2029) delivering disparities-aware analytics, biomarker development, and resistance monitoring.
+      Core B co-lead with Katie Hoadley (P50-CA058223, 2024–2029) supporting analytics, biomarker development, and resistance monitoring.
     </p>
   </div>
   <div class="grant-card">
