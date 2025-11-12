@@ -9,143 +9,158 @@ nav_order: 2
 nav_rank: 2
 ---
 
-<section class="page-section page-intro">
-  <p class="page-intro__eyebrow">Overview</p>
-  <h2 class="page-intro__title">Lab Ecosystem</h2>
+<section class="section-hero section-hero--team">
+  <div class="section-hero__content">
+    <p class="section-hero__eyebrow">Lab Ecosystem</p>
+    <h1>Biostatisticians embedded with oncologists</h1>
+    <p class="section-hero__lede">
+      We pair Gillings trainees with Lineberger disease-site teams to ship adaptive trials, biomarker pipelines, and patient-navigation AI. Alumni now lead analytics at Dana-Farber, GSK, UNC Molecular Diagnostics, and other cooperative groups.
+    </p>
+  </div>
+  <div class="section-metrics">
+    <div class="metric">
+      <span class="metric__value">40+</span>
+      <span class="metric__label">oncology collaborations</span>
+    </div>
+    <div class="metric">
+      <span class="metric__value">12</span>
+      <span class="metric__label">current trainees</span>
+    </div>
+    <div class="metric">
+      <span class="metric__value">6</span>
+      <span class="metric__label">disease-site partners</span>
+    </div>
+    <div class="metric">
+      <span class="metric__value">20+</span>
+      <span class="metric__label">alumni placements</span>
+    </div>
+  </div>
+</section>
+
+<section class="team-callout">
+  <div class="team-callout__content">
+    <p class="team-callout__eyebrow">Prospective PhD students</p>
+    <h2>Fall 2026 cohort</h2>
+    <p>We’re recruiting students excited about adaptive platforms, biomarker genomics, missing-data ML, and precision-oncology software.</p>
+    <ul>
+      <li><strong>Apply by Dec 10, 2025:</strong> Mention “Rashid Lab – adaptive oncology statistics.”</li>
+      <li><strong>January 2026:</strong> Invite-only Q&amp;A with current trainees (travel support for visit weekend).</li>
+      <li><strong>Funding:</strong> NIH SPORE, ARPA-H ADAPT, and Lineberger traineeships.</li>
+    </ul>
+    <p class="mb-0">Send a one-page research blurb, CV, and unofficial transcript to <a href="mailto:naim@unc.edu?subject=Prospective%20PhD%20-%20Rashid%20Lab">naim@unc.edu</a>.</p>
+  </div>
+</section>
+
+<section class="page-section team-groups">
+  <p class="page-intro__eyebrow">People</p>
+  <h2 class="page-intro__title">Team roster</h2>
   <p class="page-intro__lede">
-    Gillings biostatisticians and Lineberger clinicians partner here to ship adaptive trials, biomarker pipelines, and patient navigation AI. Alumni now lead analytics at Dana-Farber, GSK, and UNC, while current trainees drive liquid-biopsy transfer learning and microbiome multi-omics.
+    Trainees, staff statisticians, and alumni are grouped below. Click any profile for bios, publications, and project links.
   </p>
-  <ul>
-    <li>40+ oncology collaborations across Lineberger disease groups</li>
-    <li>NIH/ARPA-H trainees embedded with SPORE, TBCRC, and ADAPT</li>
-    <li>Consulting, trial design, and software engineering under one team</li>
-  </ul>
-</section>
 
-<section class="page-section">
-  <h2 class="section-heading">Prospective PhD Students</h2>
-  <p class="mb-2">Recruiting PhD students for Fall 2026 who want to build:</p>
-  <p class="chips mb-3">Adaptive platforms · biomarker genomics · missing-data ML · precision oncology software</p>
-  <ul>
-    <li><strong>Apply by Dec 10, 2025:</strong> Mention “Rashid Lab – adaptive oncology statistics” in your statement.</li>
-    <li><strong>January 2026:</strong> Invite-only Q&amp;A with current trainees (virtual, travel support for visit weekend).</li>
-    <li><strong>Funding:</strong> NIH SPORE, ARPA-H ADAPT, and Lineberger traineeships with guaranteed summer support.</li>
-  </ul>
-  <p>Send a 1-page research blurb, CV, and unofficial transcript to <a href="mailto:naim@unc.edu?subject=Prospective%20PhD%20-%20Rashid%20Lab">naim@unc.edu</a>; note any clinical collaborations or large-scale data experience so we can match you to active projects quickly.</p>
-  <p class="mb-0"><strong>Contact</strong>: <a href="mailto:naim@unc.edu">naim@unc.edu</a></p>
-</section>
-
-<section class="page-section page-section--alt">
-{% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
-{% for group in groups %}
-  <div class="team-group mb-5">
-    <div class="card-body">
-      <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
-        <h3 class="team-group__title mb-0">{{ group }}</h3>
-        <span class="badge badge-light team-group__count">{{ site.members | where: "group", group | size }} {{ group | downcase }}</span>
+  {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
+  {% for group in groups %}
+    <div class="team-group-block">
+      <div class="team-group-block__header">
+        <h3>{{ group }}</h3>
+        <span class="badge badge-light">{{ site.members | where: "group", group | size }}</span>
       </div>
-      <div class="team-group__list mt-4">
+      <div class="team-group-block__grid">
         {% assign members = site.members | sort: "group_order" | where: "group", group %}
         {% for member in members %}
-        <div class="card {% if member.inline == false %}hoverable{% endif %} mb-4 team-card">
-          <div class="row no-gutters">
-            <div class="col-sm-4 col-md-3">
-              {% assign image_alt = member.profile.image_alt | default: member.profile.name %}
-              {% if member.inline == false %}
-                {% if member.external == true %}
-                  <a class="team-card__image-link" href="{{ member.profile.website }}" aria-label="View profile for {{ member.profile.name }}">
-                    <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ image_alt }}" loading="lazy" decoding="async" />
-                  </a>
-                {% else %}
-                  <a class="team-card__image-link" href="{{ member.url | relative_url }}" aria-label="View profile for {{ member.profile.name }}">
-                    <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ image_alt }}" loading="lazy" decoding="async" />
-                  </a>
-                {% endif %}
+          {% assign image_alt = member.profile.image_alt | default: member.profile.name %}
+          {% assign profile_link = nil %}
+          {% if member.inline == false %}
+            {% if member.external == true %}
+              {% assign profile_link = member.profile.website %}
+            {% else %}
+              {% assign profile_link = member.url | relative_url %}
+            {% endif %}
+          {% endif %}
+          {% assign team_label = member.profile["team-position"] %}
+          {% assign badge_key = team_label | downcase %}
+          {% assign badge_class = site.team_badges[badge_key] | default: site.team_badges.default %}
+          {% assign linkedin_url = member.profile.linkedin %}
+          {% if linkedin_url %}
+            {% unless linkedin_url contains '://' %}
+              {% assign linkedin_url = 'https://www.linkedin.com/in/' | append: member.profile.linkedin | append: '/' %}
+            {% endunless %}
+          {% endif %}
+          {% assign github_url = member.profile.github %}
+          {% if github_url %}
+            {% unless github_url contains '://' %}
+              {% assign github_url = 'https://github.com/' | append: member.profile.github | append: '/' %}
+            {% endunless %}
+          {% endif %}
+
+          {% assign card_classes = 'team-member-card' %}
+          {% assign group_name = group | downcase %}
+          {% if group_name contains 'faculty' %}
+            {% assign card_classes = card_classes | append: ' team-member-card--faculty' %}
+          {% endif %}
+          <article class="{{ card_classes }}">
+            <div class="team-member-card__media">
+              {% if profile_link %}
+                <a href="{{ profile_link }}" aria-label="View profile for {{ member.profile.name }}">
+                  <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" alt="{{ image_alt }}" loading="lazy" decoding="async" />
+                </a>
               {% else %}
-                <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ image_alt }}" loading="lazy" decoding="async" />
+                <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" alt="{{ image_alt }}" loading="lazy" decoding="async" />
               {% endif %}
             </div>
-            <div class="team col-sm-8 col-md-9">
-              <div class="card-body">
-                <div class="team-card__title">
-                  <h5 class="card-title mb-0">
-                    {% if member.inline == false %}
-                      {% if member.external == true %}
-                        <a class="team-card__name-link" href="{{ member.profile.website }}" aria-label="View profile for {{ member.profile.name }}">{{ member.profile.name }}</a>
-                      {% else %}
-                        <a class="team-card__name-link" href="{{ member.url | relative_url }}" aria-label="View profile for {{ member.profile.name }}">{{ member.profile.name }}</a>
-                      {% endif %}
-                    {% else %}
-                      {{ member.profile.name }}
-                    {% endif %}
-                  </h5>
-                  {% assign team_label = member.profile["team-position"] %}
-                  {% if team_label %}
-                    {% assign badge_key = team_label | downcase %}
-                    {% assign badge_class = site.team_badges[badge_key] | default: site.team_badges.default %}
-                    <span class="badge badge-pill {{ badge_class }}">{{ team_label }}</span>
+            <div class="team-member-card__body">
+              <div class="team-member-card__title">
+                <h4>
+                  {% if profile_link %}
+                    <a href="{{ profile_link }}">{{ member.profile.name }}</a>
+                  {% else %}
+                    {{ member.profile.name }}
+                  {% endif %}
+                </h4>
+                {% if team_label %}
+                  <span class="badge badge-pill {{ badge_class }}">{{ team_label }}</span>
+                {% endif %}
+              </div>
+              {% if member.profile.position %}
+                <p class="team-member-card__role">{{ member.profile.position }}</p>
+              {% endif %}
+              <p class="team-member-card__teaser">{{ member.teaser }}</p>
+
+              {% if member.profile.linkedin or member.profile.website or member.profile.github %}
+                <div class="team-member-card__badges">
+                  {% if member.profile.linkedin %}
+                    <a href="{{ linkedin_url }}" class="badge badge-social badge-social--linkedin" target="_blank" rel="noopener">
+                      <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                  {% endif %}
+                  {% if member.profile.website %}
+                    <a href="{{ member.profile.website }}" class="badge badge-social badge-social--website" target="_blank" rel="noopener">
+                      <i class="ti ti-world"></i> Personal Site
+                    </a>
+                  {% endif %}
+                  {% if member.profile.github %}
+                    <a href="{{ github_url }}" class="badge badge-social badge-social--github" target="_blank" rel="noopener">
+                      <i class="fab fa-github"></i> GitHub
+                    </a>
                   {% endif %}
                 </div>
-                {% if member.profile.position %}
-                  <h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>
-                {% elsif team_label %}
-                  <h6 class="card-subtitle mb-2 text-muted">{{ team_label }}</h6>
-                {% endif %}
-                <p class="card-text">{{ member.teaser }}</p>
-                {% assign linkedin_url = member.profile.linkedin %}
-                {% if linkedin_url %}
-                  {% unless linkedin_url contains '://' %}
-                    {% assign linkedin_url = 'https://www.linkedin.com/in/' | append: member.profile.linkedin | append: '/' %}
-                  {% endunless %}
-                {% endif %}
-                {% assign github_url = member.profile.github %}
-                {% if github_url %}
-                  {% unless github_url contains '://' %}
-                    {% assign github_url = 'https://github.com/' | append: member.profile.github | append: '/' %}
-                  {% endunless %}
-                {% endif %}
-                {% if member.profile.linkedin or member.profile.website or member.profile.github %}
-                  <div class="team-card__badges">
-                    {% if member.profile.linkedin %}
-                      <a href="{{ linkedin_url }}" class="badge badge-social badge-social--linkedin" target="_blank" rel="noopener">
-                        <i class="fab fa-linkedin"></i> LinkedIn
-                      </a>
-                    {% endif %}
-                    {% if member.profile.website %}
-                      <a href="{{ member.profile.website }}" class="badge badge-social badge-social--website" target="_blank" rel="noopener">
-                        <i class="ti ti-world"></i> Personal Site
-                      </a>
-                    {% endif %}
-                    {% if member.profile.github %}
-                      <a href="{{ github_url }}" class="badge badge-social badge-social--github" target="_blank" rel="noopener">
-                        <i class="fab fa-github"></i> GitHub
-                      </a>
-                    {% endif %}
-                  </div>
-                {% endif %}
+              {% endif %}
+
+              <div class="team-member-card__contact">
                 {% if member.profile.email %}
-                  <a href="mailto:{{ member.profile.email }}" class="card-link"><i class="fas fa-envelope"></i></a>
-                {% endif %}
-                {% if member.profile.phone %}
-                  <a href="tel:{{ member.profile.phone }}" class="card-link"><i class="fas fa-phone"></i></a>
+                  <a href="mailto:{{ member.profile.email }}"><i class="fas fa-envelope"></i></a>
                 {% endif %}
                 {% if member.profile.orcid %}
-                  <a href="https://orcid.org/{{ member.profile.orcid }}" class="card-link" target="_blank"><i class="fab fa-orcid"></i></a>
+                  <a href="https://orcid.org/{{ member.profile.orcid }}" target="_blank" rel="noopener"><i class="fab fa-orcid"></i></a>
                 {% endif %}
                 {% if member.profile.twitter %}
-                  <a href="https://twitter.com/{{ member.profile.twitter }}" class="card-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://twitter.com/{{ member.profile.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
                 {% endif %}
-                {% if member.profile.website %}
-                  <a href="{{ member.profile.website }}" class="card-link" target="_blank"><i class="fas fa-globe"></i></a>
-                {% endif %}
-                <p class="card-text"><small class="text-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small></p>
               </div>
             </div>
-          </div>
-        </div>
+          </article>
         {% endfor %}
       </div>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
 </section>

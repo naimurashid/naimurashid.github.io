@@ -461,6 +461,193 @@
   padding: 0.6rem 1.5rem;
 }
 
+.section-hero {
+  background: #f5f8fc;
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 1.5rem;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  padding: 2.5rem;
+}
+
+.section-hero__content {
+  flex: 1 1 320px;
+  min-width: 280px;
+}
+
+.section-hero__eyebrow {
+  color: var(--global-accent-blue);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.section-hero__lede {
+  font-size: 1rem;
+  color: var(--global-text-muted, #5b6877);
+  margin-bottom: 1.25rem;
+}
+
+.section-metrics {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  flex: 1 1 260px;
+}
+
+.section-metrics .metric {
+  background: #fff;
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.section-metrics .metric__value {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.section-metrics .metric__label {
+  font-size: 0.9rem;
+}
+
+.focus-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.focus-card {
+  background: #fff;
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.focus-card__badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(0, 95, 184, 0.1);
+  border-radius: 999px;
+  color: var(--global-accent-blue);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.75rem;
+  text-transform: uppercase;
+}
+
+.focus-card__chips {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.focus-chip {
+  background: rgba(0, 95, 184, 0.08);
+  border: 1px solid rgba(0, 60, 113, 0.12);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.35rem 0.9rem;
+  color: var(--global-heading-color, #0f172a);
+}
+
+.project-grid {
+  margin-top: 1rem;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 1.1rem;
+  padding: 1.5rem;
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.project-card__badge {
+  align-self: flex-start;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.8rem;
+  text-transform: uppercase;
+}
+
+.project-card__badge--develop {
+  background: rgba(56, 189, 248, 0.15);
+  color: #0369a1;
+}
+
+.project-card__badge--pilot {
+  background: rgba(251, 191, 36, 0.2);
+  color: #92400e;
+}
+
+.project-card__badge--adopt {
+  background: rgba(134, 239, 172, 0.2);
+  color: #166534;
+}
+
+.project-card__badge--story {
+  background: rgba(191, 219, 254, 0.35);
+  color: #1d4ed8;
+}
+
+.project-meta {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.92rem;
+  color: var(--global-text-muted, #5b6877);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.project-meta strong {
+  color: var(--global-heading-color, #0f172a);
+  font-weight: 600;
+}
+
+.project-card__links {
+  margin-top: auto;
+}
+
+.collaboration-callout {
+  background: #f5f8fc;
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+@media (max-width: 768px) {
+  .section-hero {
+    padding: 1.75rem;
+  }
+
+  .section-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .hero-metrics {
   background: rgba(15, 23, 42, 0.05);
   border-radius: 1rem;
@@ -939,9 +1126,9 @@
 }
 
 .badge-social--website {
-  background: rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(0, 60, 113, 0.2);
-  color: var(--global-heading-color, #0f172a);
+  background: rgba(11, 64, 156, 0.85);
+  border: 1px solid rgba(11, 64, 156, 0.9);
+  color: #fff;
 }
 
 .badge-social--github {
@@ -1079,29 +1266,153 @@
   margin-bottom: 1rem;
 }
 
-.team-group__title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--global-heading-color, #102a43);
-}
-
-.team-group__list .team-card {
+.team-callout {
+  background: linear-gradient(135deg, rgba(0, 95, 184, 0.08), rgba(0, 164, 206, 0.12));
   border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.12);
+  margin-bottom: 2.5rem;
+  padding: 2rem;
 }
 
-.team-card__name-link {
+.team-callout__eyebrow {
+  color: var(--global-accent-blue);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.team-callout ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0.75rem;
+}
+
+.team-callout ul li {
+  margin-bottom: 0.35rem;
+}
+
+.team-groups {
+  margin-top: 2rem;
+}
+
+.team-group-block {
+  background: #fff;
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.1);
+  margin-bottom: 2rem;
+}
+
+.team-group-block__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.team-group-block__header h3 {
+  margin: 0;
+}
+
+.team-group-block__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.team-member-card {
+  background: #f9fbff;
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 1.1rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.team-member-card__media img {
+  border-radius: 0.75rem;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.team-member-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.team-member-card__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.team-member-card__title h4 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.team-member-card__title a {
   color: inherit;
   text-decoration: none;
 }
 
-.team-card__name-link:hover,
-.team-card__name-link:focus {
-  color: var(--global-accent-blue);
+.team-member-card__title a:hover,
+.team-member-card__title a:focus {
   text-decoration: underline;
 }
 
+.team-member-card__role {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--global-text-muted, #5b6877);
+}
+
+.team-member-card__teaser {
+  margin-bottom: 0.4rem;
+  color: var(--global-text-muted, #5b6877);
+}
+
+.team-member-card__badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-member-card__contact a {
+  margin-right: 0.6rem;
+  color: var(--global-text-muted, #5b6877);
+}
+
+.team-member-card--faculty {
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.team-member-card--faculty .team-member-card__media {
+  flex: 0 0 200px;
+}
+
+.team-member-card--faculty .team-member-card__media img {
+  height: 100%;
+  width: 100%;
+}
+
+.team-member-card--faculty .team-member-card__body {
+  gap: 0.6rem;
+}
+
 .mission-panel {
-  background: linear-gradient(135deg, rgba(0, 95, 184, 0.08), rgba(0, 164, 206, 0.1));
+  background: #f5f8fc;
   border: 1px solid rgba(0, 60, 113, 0.08);
   border-radius: 1.25rem;
   display: grid;
@@ -1146,7 +1457,8 @@
 }
 
 .mission-panel__card--alt {
-  background: linear-gradient(160deg, rgba(0, 105, 164, 0.06), rgba(0, 181, 204, 0.12));
+  background: rgba(255, 255, 255, 0.95);
+  border-top: 3px solid rgba(0, 95, 184, 0.2);
 }
 
 .mission-panel__header {
@@ -1170,11 +1482,16 @@
 }
 
 .mission-panel__badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(0, 95, 184, 0.1);
   color: var(--global-accent-blue);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 0.12em;
-  margin-bottom: 0.2rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.35rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
   text-transform: uppercase;
 }
 
@@ -1184,8 +1501,7 @@
 }
 
 .mission-panel__chips {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: 0.5rem;
   margin-bottom: 0.85rem;
 }
@@ -1197,7 +1513,12 @@
   color: var(--global-heading-color, #0f172a);
   font-size: 0.82rem;
   font-weight: 600;
-  padding: 0.35rem 0.85rem;
+  padding: 0.4rem 0.85rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.2;
 }
 
 .mission-panel__link {
@@ -1215,9 +1536,98 @@
   font-size: 0.9rem;
 }
 
+.talks-section {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.12);
+  margin: 3rem 0;
+  padding: 2rem;
+}
+
+.talks-section__intro {
+  max-width: 42rem;
+  margin-bottom: 1.75rem;
+}
+
+.talks-section__eyebrow {
+  color: var(--global-accent-blue);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+
+.talks-section__intro p {
+  margin-bottom: 0.85rem;
+  color: var(--global-text-muted, #5b6877);
+}
+
+.talks-section__list {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.talk-card {
+  background: var(--global-card-bg-color, #fff);
+  border: 1px solid rgba(0, 60, 113, 0.12);
+  border-radius: 1rem;
+  box-shadow: 0 12px 36px rgba(15, 23, 42, 0.08);
+  padding: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.talk-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--global-text-muted, #5b6877);
+}
+
+.talk-card__date {
+  color: var(--global-accent-blue);
+}
+
+.talk-card__venue,
+.talk-card__location {
+  font-weight: 500;
+}
+
+.talk-card h4 {
+  font-size: 1.05rem;
+  margin: 0;
+  color: var(--global-heading-color, #102a43);
+}
+
+.talk-card p {
+  margin-bottom: 0;
+  color: var(--global-text-muted, #5b6877);
+}
+
+.talk-card__actions {
+  margin-top: 0.5rem;
+}
+
+.talk-card__actions .btn {
+  font-size: 0.85rem;
+}
+
 @media (max-width: 768px) {
   .mission-panel {
     grid-template-columns: 1fr;
+  }
+
+  .talks-section {
+    padding: 1.5rem;
   }
 }
 

@@ -23,6 +23,24 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 social_feed: true
 hero_profile: true
+talks_intro: >
+  Seminar invitations typically focus on adaptive oncology statistics, biomarker-driven trial platforms, and AI-assisted decision tools. I tailor 45–60 minute talks for biostatistics, oncology, and data science audiences, and I am happy to stay for student lunches, chalk talks, or joint lab meetings. Email me to coordinate formats, travel, and co-hosted visits.
+talks:
+  - title: "Bayesian adaptive playbooks for metastatic breast cancer platforms"
+    venue: "ARPA-H ADAPT Analytics Summit"
+    location: "Washington, DC & virtual"
+    date: "May 2025"
+    description: "Shared how reinforcement learning, platform-level borrowing, and LLM copilots drive faster cohort activation within the ADAPT network."
+  - title: "Integrating tumor and stroma to guide precision oncology"
+    venue: "James E. Grizzle Distinguished Alumnus Lecture, UNC Gillings"
+    location: "Chapel Hill, NC"
+    date: "October 2024"
+    description: "Presented multi-omic models that pair PurIST and kinome readouts with stromal remodeling signals to prioritize translational studies."
+  - title: "STATGEN keynote: multi-omic signatures for pancreatic trial escalation"
+    venue: "STATGEN Conference, University of Pittsburgh"
+    location: "Pittsburgh, PA"
+    date: "June 2024"
+    description: "Detailed adaptive genomics pipelines—DeCAF, PurIST refinements, and immune deconvolution—that feed Lineberger and UPMC basket trials."
 ---
 
 <section class="hero-panel">
@@ -89,8 +107,8 @@ hero_profile: true
 <section class="mission-panel" aria-label="Mission and impact">
   <div class="mission-panel__intro">
     <p class="mission-panel__eyebrow">Purpose</p>
-    <h3>We ship statistical methodology plus reproducible software so Gillings and Lineberger discoveries reach patients faster.</h3>
-    <p class="mission-panel__summary">We develop the statistical frameworks, software, and trial infrastructure needed to move Gillings and Lineberger discoveries into evaluated interventions. Rigor, transparent code, and embedded collaborations keep our methods grounded in the real clinical questions disease-site teams are facing.</p>
+    <h3>We align statistical innovation with clinical deployment so Gillings and Lineberger discoveries become trial-ready faster.</h3>
+    <p class="mission-panel__summary">Our lab co-designs methodology, software, and shared-resource playbooks with disease teams so adaptive platforms, diagnostics, and AI copilots launch with the rigor cooperative groups and regulators expect.</p>
   </div>
   <div class="mission-panel__grid">
     <article class="mission-panel__card">
@@ -99,14 +117,13 @@ hero_profile: true
           <i class="ti ti-function"></i>
         </span>
         <div>
-          <p class="mission-panel__badge">Method innovation</p>
-          <h4>Foundational methods</h4>
+          <p class="mission-panel__badge">AI &amp; Stat. Methods</p>
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">CompDTUReg · Biostatistics 2024</span>
-        <span class="mission-chip">dlGLM missing-data engines · JCGS 2024</span>
-        <span class="mission-chip">glmmPen · Biometrics 2024</span>
+        <span class="mission-chip">CompDTUReg for isoform-level RNA testing</span>
+        <span class="mission-chip">dlGLM deep-learning GLMs for missing omics</span>
+        <span class="mission-chip">glmmPen penalties for correlated biomarkers</span>
       </div>
       <a class="mission-panel__link" href="/research/#methodology">Explore methodology →</a>
     </article>
@@ -116,14 +133,13 @@ hero_profile: true
           <i class="ti ti-hospital"></i>
         </span>
         <div>
-          <p class="mission-panel__badge">Trial impact</p>
-          <h4>Clinical translation</h4>
+          <p class="mission-panel__badge">Trial Applications</p>
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">PurIST · Clin Cancer Res 2020</span>
-        <span class="mission-chip">Innocenti et al. · JCO 2024</span>
-        <span class="mission-chip">Tumor-intrinsic kinome · Cancer Discovery 2025</span>
+        <span class="mission-chip">PurIST subtype briefs for GI tumor boards</span>
+        <span class="mission-chip">Kinome-guided pancreatic treatment playbooks</span>
+        <span class="mission-chip">HER2 residual-risk signals for neoadjuvant trials</span>
       </div>
       <a class="mission-panel__link" href="/projects/">View translational builds →</a>
     </article>
@@ -133,14 +149,13 @@ hero_profile: true
           <i class="ti ti-code"></i>
         </span>
         <div>
-          <p class="mission-panel__badge">Open science</p>
-          <h4>Software implementation</h4>
+          <p class="mission-panel__badge">Software</p>
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">epigraHMM · Biometrics 2022</span>
-        <span class="mission-chip">glmmPen &amp; dlGLM · containerized HPC builds</span>
-        <span class="mission-chip">NIMIWAE · Stat Biopharm Res 2024</span>
+        <span class="mission-chip">epigraHMM for multi-condition epigenomics</span>
+        <span class="mission-chip">glmmPen + dlGLM Docker stacks for shared HPC</span>
+        <span class="mission-chip">NIMIWAE imputation engine for registries</span>
       </div>
       <a class="mission-panel__link" href="/software/">Browse toolkits →</a>
     </article>
@@ -151,16 +166,45 @@ hero_profile: true
         </span>
         <div>
           <p class="mission-panel__badge">Collaboration</p>
-          <h4>Partnership &amp; amplification</h4>
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">Fernandez-Martinez et al. · JAMA Oncol 2023</span>
-        <span class="mission-chip">Nature Genet 2015 · Cancer Cell 2018 consortiums</span>
-        <span class="mission-chip">Lineberger consults · ARPA-H ADAPT briefs</span>
+        <span class="mission-chip">Lineberger Biostatistics Shared Resource (40+ trials)</span>
+        <span class="mission-chip">ARPA-H ADAPT analytics hub for PSRC/NCI teams</span>
+        <span class="mission-chip">TBCRC &amp; V Foundation cooperative advisory</span>
       </div>
       <a class="mission-panel__link" href="/news/">See partner updates →</a>
     </article>
+  </div>
+</section>
+
+### Recent Invited Talks
+
+<section class="talks-section" aria-label="Recent invited talks">
+  <div class="talks-section__intro">
+    <p class="talks-section__eyebrow">Talks & Seminar Topics</p>
+    <p>{{ page.talks_intro }}</p>
+    <a class="btn btn-outline-primary" href="mailto:naim@unc.edu?subject=Seminar%20Invitation%20for%20Naim%20Rashid">Invite Dr. Rashid to speak</a>
+  </div>
+  <div class="talks-section__list">
+    {% for talk in page.talks %}
+      <article class="talk-card">
+        <div class="talk-card__meta">
+          <span class="talk-card__date">{{ talk.date }}</span>
+          <span class="talk-card__venue">{{ talk.venue }}</span>
+          {% if talk.location %}
+            <span class="talk-card__location">{{ talk.location }}</span>
+          {% endif %}
+        </div>
+        <h4>{{ talk.title }}</h4>
+        <p>{{ talk.description }}</p>
+        {% if talk.slides %}
+          <div class="talk-card__actions">
+            <a class="btn btn-sm btn-outline-secondary" href="{{ talk.slides }}" target="_blank" rel="noopener">View slides</a>
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
   </div>
 </section>
 
