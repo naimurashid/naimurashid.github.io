@@ -48,20 +48,20 @@ talks:
     <div class="hero-panel__content">
       <h1 class="hero-panel__title">Statistical methods for cancer precision medicine</h1>
       <p class="hero-panel__lead">
-        Dr. Rashid is an associate professor in Biostatistics at the Gillings School and Lineberger Comprehensive Cancer Center, associate director of the Biostatistics Shared Resource, co-director of the pancreatic and breast SPORE cores, and statistical lead for ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
+        Dr. Rashid is an associate professor in Biostatistics at the Gillings School and Lineberger Comprehensive Cancer Center. He serves as associate director of the Biostatistics Shared Resource, co-director of the pancreatic and breast SPORE biostatistics cores, Co-PI and statistical lead for ARPA-H ADAPT, and statistical lead for the Translational Breast Cancer Research Consortium.
       </p>
       <div class="hero-panel__metrics metrics-condensed">
         <div class="metric">
-          <span class="metric__label"><strong>Methods:</strong> glmmPen, dlGLM, kinome models</span>
+          <span class="metric__label"><strong>Methods:</strong> glmmPen, dlGLM, PurIST</span>
         </div>
         <div class="metric">
-          <span class="metric__label"><strong>Trials:</strong> ARPA-H ADAPT, TBCRC, SPORE</span>
+          <span class="metric__label"><strong>Translation:</strong> CLIA-certified diagnostic, 3 US patents</span>
         </div>
         <div class="metric">
-          <span class="metric__label"><strong>Molecular Profiling:</strong> PurIST, DeCAF, kinome</span>
+          <span class="metric__label"><strong>Trials:</strong> ARPA-H ADAPT (Co-PI), TBCRC, SPORE</span>
         </div>
         <div class="metric">
-          <span class="metric__label"><strong>Mentorship:</strong> T32, SPORE, ARPA-H trainees</span>
+          <span class="metric__label"><strong>Leadership:</strong> Dual NCI SPORE core co-director</span>
         </div>
       </div>
       <div class="hero-panel__cta">
@@ -103,8 +103,8 @@ talks:
 <section class="mission-panel" aria-label="Research overview">
   <div class="mission-panel__intro">
     <p class="mission-panel__eyebrow">Purpose</p>
-    <h3>We develop statistical methods and software to support clinical translation of biomarker discoveries.</h3>
-    <p class="mission-panel__summary">Our lab collaborates with disease teams to develop methodology, software, and analytical frameworks for adaptive platforms, diagnostics, and clinical decision support tools.</p>
+    <h3>We develop statistical methods and software that enable clinical translation of biomarker discoveries, from methodological innovation through CLIA-certified diagnostic tools.</h3>
+    <p class="mission-panel__summary">Our lab collaborates with disease teams to develop methodology, software, and analytical frameworks for adaptive platforms, diagnostics, and clinical decision support tools. As associate director of the Lineberger Biostatistics Shared Resource, our team supports design and analysis for 40+ cancer center investigators and clinical trials annually.</p>
   </div>
   <div class="mission-panel__grid">
     <article class="mission-panel__card">
@@ -170,6 +170,59 @@ talks:
         <span class="mission-chip">TBCRC &amp; V Foundation cooperative groups</span>
       </div>
       <a class="mission-panel__link" href="/news/">View news updates →</a>
+    </article>
+  </div>
+</section>
+
+### Clinical Impact & Translation
+
+<section class="page-section">
+  <div class="focus-grid">
+    <article class="focus-card focus-card--featured">
+      <p class="focus-card__badge">Clinical Translation</p>
+      <h3>PurIST Diagnostic: From Statistical Method to Clinical Tool</h3>
+      <p>The PurIST (Purity Independent Subtyping of Tumors) classifier represents a complete translational research arc—from methodological development to clinical deployment:</p>
+      <ul>
+        <li><strong>2020</strong> — Published classification method (<em>Clinical Cancer Research</em>)</li>
+        <li><strong>2021-2024</strong> — Three US patents issued</li>
+        <li><strong>2024</strong> — Analytical validation completed (<em>Journal of Molecular Diagnostics</em>)</li>
+        <li><strong>2024</strong> — CLIA-certification achieved for clinical use</li>
+        <li><strong>Present</strong> — Active use in tumor board decision-making for pancreatic cancer patients</li>
+      </ul>
+      <p>PurIST is one of few single-sample, platform-independent tumor subtyping tools to achieve CLIA certification and clinical deployment.</p>
+      <div class="focus-card__chips">
+        <span class="focus-chip">3 US Patents (2021-2024)</span>
+        <span class="focus-chip">CLIA certified (2024)</span>
+        <span class="focus-chip">Active clinical use</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+### Recognition & Leadership
+
+<section class="page-section">
+  <div class="focus-grid">
+    <article class="focus-card">
+      <p class="focus-card__badge">Recent Honors</p>
+      <h4>Awards & Recognition</h4>
+      <ul>
+        <li><strong>2025</strong> — Gillings Research Excellence Award</li>
+        <li><strong>2024</strong> — James E. Grizzle Distinguished Alumnus Award</li>
+        <li><strong>2024</strong> — Nature Medicine Statistical Advisory Panel</li>
+        <li><strong>2023</strong> — Teaching Innovation Award, UNC Gillings</li>
+      </ul>
+    </article>
+    <article class="focus-card">
+      <p class="focus-card__badge">National Leadership</p>
+      <h4>Collaborative Roles</h4>
+      <ul>
+        <li>Co-Director, Breast Cancer SPORE Biostatistics Core (2024-)</li>
+        <li>Co-Director, Pancreatic Cancer SPORE Quantitative Sciences Core (2022-)</li>
+        <li>Associate Editor, Annals of Applied Statistics (2023-)</li>
+        <li>V Foundation Scientific Advisory Board (2023-)</li>
+        <li>TBCRC Statistical Working Group (2017-)</li>
+      </ul>
     </article>
   </div>
 </section>

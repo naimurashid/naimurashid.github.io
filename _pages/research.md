@@ -13,7 +13,7 @@ nav_order: 3
     <p class="section-hero__eyebrow">Research Program</p>
     <h1>Statistical methods for precision oncology</h1>
     <p class="section-hero__lede">
-      We develop statistical methods and software in collaboration with UNC Lineberger clinicians to support biomarker discovery, adaptive trial designs, and translational research.
+      We develop statistical methods and software in collaboration with UNC Lineberger clinicians to advance biomarker discovery, adaptive trial designs, and translational research. Our integrative approach bridges methodological innovation with embedded clinical partnerships.
     </p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="/publications/">View publications</a>
@@ -37,6 +37,63 @@ nav_order: 3
       <span class="metric__value">Broad</span>
       <span class="metric__label">collaborative network</span>
     </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <p class="page-intro__eyebrow">Program Overview</p>
+  <h2 class="page-intro__title">Research program scope</h2>
+  <p class="page-intro__lede">
+    Our research program spans methodological innovation, software development, and embedded collaborative science across precision oncology applications. We co-direct quantitative sciences infrastructure for two NCI SPOREs (pancreatic and breast cancer), lead statistical design for the ARPA-H ADAPT adaptive platform trial, and support translational research through the Lineberger Biostatistics Shared Resource. This integrative approach ensures statistical methods address real clinical needs while maintaining methodological rigor. Our work is supported by active funding as PI, Co-PI, or core leader totaling over $40M.
+  </p>
+</section>
+
+<section class="page-section page-section--featured">
+  <p class="page-intro__eyebrow">Translational Impact</p>
+  <h2 class="page-intro__title">Featured achievements</h2>
+
+  <div class="focus-grid">
+    <article class="focus-card focus-card--featured">
+      <p class="focus-card__badge">Clinical Translation</p>
+      <h3>CLIA-Certified Diagnostic Tool</h3>
+      <p><strong>PurIST pancreatic cancer classifier</strong> achieved CLIA certification in 2024. Single-sample, platform-independent tumor subtyping tool with three issued US patents. Actively used in clinical tumor boards for treatment decision support.</p>
+      <div class="focus-card__chips">
+        <span class="focus-chip">Clinical Cancer Research (2020)</span>
+        <span class="focus-chip">3 US Patents (2021-2024)</span>
+        <span class="focus-chip">CLIA certified (2024)</span>
+      </div>
+    </article>
+
+    <article class="focus-card focus-card--featured">
+      <p class="focus-card__badge">Trial Leadership</p>
+      <h3>ARPA-H ADAPT Platform Trial</h3>
+      <p><strong>Co-PI and Statistical Lead</strong> for $30M metastatic breast cancer adaptive platform (2025-2031). Novel Bayesian design integrating serial ctDNA, tissue, and imaging biomarkers within TBCRC EVOLVE_BDT trial.</p>
+      <div class="focus-card__chips">
+        <span class="focus-chip">$30M funding</span>
+        <span class="focus-chip">Co-PI role</span>
+        <span class="focus-chip">2025-2031</span>
+      </div>
+    </article>
+
+    <article class="focus-card">
+      <p class="focus-card__badge">Research Infrastructure</p>
+      <h3>Dual NCI SPORE Core Leadership</h3>
+      <p>Simultaneously co-directing Integrated Quantitative Sciences cores for both Pancreatic Cancer SPORE (2022-2027) and Breast Cancer SPORE (2024-2029) at UNC Lineberger.</p>
+      <div class="focus-card__chips">
+        <span class="focus-chip">Pancreatic SPORE Core C</span>
+        <span class="focus-chip">Breast SPORE Core B</span>
+      </div>
+    </article>
+
+    <article class="focus-card">
+      <p class="focus-card__badge">Software & Tools</p>
+      <h3>Open-Source Software Ecosystem</h3>
+      <p>10+ actively maintained R/Bioconductor packages including glmmPen, dlGLM, NIMIWAE, and epigraHMM supporting genomics and clinical research.</p>
+      <div class="focus-card__chips">
+        <span class="focus-chip">CRAN/Bioconductor</span>
+        <span class="focus-chip">Active maintenance</span>
+      </div>
+    </article>
   </div>
 </section>
 
@@ -132,7 +189,7 @@ nav_order: 3
   </article>
   <article class="pillar-card">
     <h4>National Consortia</h4>
-    <p>Collaborations with Alliance, TBCRC, and PDAC Stromal Consortia on adaptive designs and biomarker analytics.</p>
+    <p>Statistical leadership in Translational Breast Cancer Research Consortium (TBCRC) Statistical Working Group, V Foundation Scientific Advisory Board, and PDAC Stromal Reprogramming Consortium.</p>
   </article>
   <article class="pillar-card">
     <h4>Methodology Partners</h4>

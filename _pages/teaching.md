@@ -87,11 +87,35 @@ nav_order: 5
   <p>Courses emphasize both rigorous theory and practical implementation, using collaborative datasets, version control, and reproducible documentation to prepare students for academic and industry positions.</p>
 </section>
 
-<section class="page-section" markdown="1">
-## Alumni Outcomes
+<section class="page-section">
+  <h2>Mentoring & Student Outcomes</h2>
 
-- Graduates working in precision-oncology methods development at Dana-Farber, GSK, and UNC.
-- Faculty appointments including Pedro Baldoni (Pitt), with ongoing collaborations in genomic methods and software development.
+  <div class="outcomes-section">
+    <p class="section-lede">Seven completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok) with 100% placement at leading institutions.</p>
+
+    <div class="focus-grid">
+      <article class="focus-card">
+        <p class="focus-card__badge">Academic Positions</p>
+        <h4>Faculty & Postdoctoral</h4>
+        <ul>
+          <li><strong>Pedro Baldoni</strong> (2020) — Assistant Professor, University of Pittsburgh Biostatistics</li>
+          <li><strong>Euphy Wu</strong> (2024) — Postdoctoral Fellow, UNC/Pittsburgh</li>
+        </ul>
+      </article>
+
+      <article class="focus-card">
+        <p class="focus-card__badge">Industry Positions</p>
+        <h4>Pharmaceutical & Biotech</h4>
+        <ul>
+          <li><strong>Hillary Heiling</strong> (2023) — Senior Biostatistician, Dana-Farber Cancer Institute</li>
+          <li><strong>David Lim</strong> (2022) — Scientist, GSK</li>
+          <li><strong>Scott Van Buren</strong> (2020) — Scientist, GSK</li>
+        </ul>
+      </article>
+    </div>
+
+    <p class="mt-4"><strong>Training approach:</strong> Independent research aims, embedded clinician collaborations, weekly manuscript meetings, and reproducible software deliverables. Students typically complete 3-5 first-author publications during their PhD program.</p>
+  </div>
 </section>
 
 <section class="page-section" markdown="1">

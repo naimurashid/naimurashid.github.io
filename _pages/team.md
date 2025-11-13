@@ -14,7 +14,7 @@ nav_rank: 2
     <p class="section-hero__eyebrow">Lab Ecosystem</p>
     <h1>Biostatisticians embedded with oncologists</h1>
     <p class="section-hero__lede">
-      We pair Gillings trainees with Lineberger disease-site teams to ship adaptive trials, biomarker pipelines, and patient-navigation AI. Alumni now lead analytics at Dana-Farber, GSK, UNC Molecular Diagnostics, and other cooperative groups.
+      We pair Gillings trainees with Lineberger disease-site teams to develop adaptive trials, biomarker pipelines, and patient-navigation AI. Alumni have advanced to faculty positions (University of Pittsburgh), leadership roles in pharmaceutical research (GSK), and senior biostatistician positions at top cancer centers (Dana-Farber).
     </p>
   </div>
   <div class="section-metrics">

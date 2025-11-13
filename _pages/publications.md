@@ -15,6 +15,7 @@ nav_order: 6
   <p class="page-intro__lede">
     {{ page.description }}
   </p>
+  <p>Our methodological contributions to adaptive trial design, cancer subtyping, and genomic inference support translational oncology research nationally. Editorial service includes the <em>Nature Medicine</em> Statistical Advisory Panel (2024–) and Associate Editor roles at <em>Annals of Applied Statistics</em> (2023–) and <em>Statistical Methods in Medical Research</em>, advancing methodological standards for reproducible cancer biomarker research.</p>
   <p class="mb-0">Browse metrics below or jump into theme filters to find methodology, genomics, machine-learning, and epigenomics work relevant to your review.</p>
   <ul>
     <li>75+ peer-reviewed papers across JASA, CCR, Nat Genet, Biostatistics</li>

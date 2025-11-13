@@ -13,11 +13,11 @@ nav_order: 5
   <p class="page-intro__lede">
     {{ page.description }}
   </p>
-  <p class="mb-0">Active awards supporting adaptive oncology research.</p>
+  <p class="mb-0">Leadership roles supporting adaptive oncology research and clinical translation.</p>
   <ul>
-    <li>Leadership roles in ARPA-H ADAPT, TBCRC, SPORE, and Lineberger P30</li>
-    <li>PI / Co-PI roles in adaptive trials, clinical decision support, and translational research</li>
-    <li>Details on budget, effort, and period for major awards</li>
+    <li>Co-PI and Statistical Lead for ARPA-H ADAPT ($30M metastatic breast cancer platform trial, 2025-2031)</li>
+    <li>Co-Director of NCI SPORE Biostatistics/Quantitative Sciences cores in breast and pancreatic cancer</li>
+    <li>PI for DOD-funded clinical trial matching tool using large language models</li>
   </ul>
 </section>
 
@@ -53,7 +53,7 @@ nav_order: 5
     </div>
   </div>
   <p class="grant-card__description">
-    Adaptive platform trial integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies for metastatic breast cancer.
+    Adaptive platform trial integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies for metastatic breast cancer. Serving as Co-PI and statistical lead for trial design, adaptive randomization, and biomarker integration strategy.
   </p>
 </div>
 

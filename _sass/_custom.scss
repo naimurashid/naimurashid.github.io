@@ -5,6 +5,154 @@
   --global-warm-accent: #f4a640;
   --global-neutral-dark: #1e2a36;
   --global-neutral-light: #f5f7fa;
+  --global-heading-color: #0f172a;
+  --global-text-muted: #6c757d;
+}
+
+/* Dark Mode Overrides */
+html[data-theme="dark"] {
+  --global-heading-color: #e2e8f0;
+  --global-text-muted: #94a3b8;
+  --global-neutral-dark: #e2e8f0;
+  --global-neutral-light: #1e293b;
+  --global-accent-blue: #60a5fa;
+
+  /* Improve readability of hero sections in dark mode */
+  .hero-panel {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .hero-panel__lead {
+    color: #cbd5e1;
+  }
+
+  .section-hero {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .section-hero__lede {
+    color: #cbd5e1;
+  }
+
+  .metric {
+    background: #334155;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .section-metrics .metric {
+    background: #334155;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .focus-card {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .focus-chip {
+    background: rgba(96, 165, 250, 0.15);
+    border-color: rgba(96, 165, 250, 0.3);
+    color: #e2e8f0;
+  }
+
+  .pillar-card {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .page-intro {
+    background: linear-gradient(120deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .page-intro__lede {
+    color: #cbd5e1;
+  }
+
+  .page-intro ul li {
+    background: rgba(51, 65, 85, 0.6);
+    border-color: rgba(100, 116, 139, 0.3);
+    color: #cbd5e1;
+  }
+
+  .team-callout {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .mission-panel {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .mission-panel__card {
+    background: rgba(51, 65, 85, 0.9);
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .mission-chip {
+    background: rgba(96, 165, 250, 0.15);
+    border-color: rgba(96, 165, 250, 0.3);
+    color: #e2e8f0;
+  }
+
+  .grant-card {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .grant-detail__value {
+    color: #e2e8f0;
+  }
+
+  .grant-card__description {
+    color: #cbd5e1;
+  }
+
+  .team-member-card {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .team-group-block {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .talk-card {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .talk-card h4 {
+    color: #e2e8f0;
+  }
+
+  .project-card {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .collaboration-callout {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .publication-highlights__card {
+    background: #1e293b;
+    border-left-color: #60a5fa;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  /* Logo adjustment for dark mode */
+  .site-logo {
+    filter: brightness(1.2) contrast(0.9);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 4px 8px;
+    border-radius: 6px;
+  }
 }
 
 .social-feed {
