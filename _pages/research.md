@@ -44,7 +44,7 @@ nav_order: 3
   <p class="page-intro__eyebrow">Program Overview</p>
   <h2 class="page-intro__title">Research program scope</h2>
   <p class="page-intro__lede">
-    Our research program spans methodological innovation, software development, and embedded collaborative science across precision oncology applications. We co-direct quantitative sciences infrastructure for two NCI SPOREs (pancreatic and breast cancer), lead statistical design for the ARPA-H ADAPT adaptive platform trial, and support translational research through the Lineberger Biostatistics Shared Resource. This integrative approach ensures statistical methods address real clinical needs while maintaining methodological rigor. Our work is supported by active funding as PI, Co-PI, or core leader totaling over $40M.
+    Our research program spans methodological innovation, software development, and embedded collaborative science across precision oncology applications. We develop adaptive trial designs, biomarker-driven stratification methods, and genomic analysis tools through partnerships with UNC Lineberger disease-site teams and national consortia. This integrative approach ensures statistical methods address real clinical needs while maintaining methodological rigor.
   </p>
 </section>
 
@@ -55,43 +55,45 @@ nav_order: 3
   <div class="focus-grid">
     <article class="focus-card focus-card--featured">
       <p class="focus-card__badge">Clinical Translation</p>
-      <h3>CLIA-Certified Diagnostic Tool</h3>
-      <p><strong>PurIST pancreatic cancer classifier</strong> achieved CLIA certification and is licensed to GeneCentric and Tempus Diagnostics for commercial implementation nationwide. Single-sample, platform-independent tumor subtyping tool with two issued US patents (2021-2024). Actively used in multiple active clinical trials for decision support and treatment evaluation.</p>
+      <h3>Single-Sample Tumor Subtyping</h3>
+      <p><strong>PurIST classifier</strong> enables platform-independent, reference-free pancreatic cancer subtyping using single bulk RNA-seq samples—addressing the challenge of tumor purity heterogeneity through novel deconvolution-informed modeling. Methodology supports clinical decision-making in biomarker-stratified trials.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">Clinical Cancer Research (2020)</span>
-        <span class="focus-chip">2 US Patents (2021-2024)</span>
-        <span class="focus-chip">CLIA certified (2024)</span>
+        <span class="focus-chip">J Molecular Diagnostics (2024)</span>
+        <span class="focus-chip">CLIA-certified implementation</span>
       </div>
     </article>
 
     <article class="focus-card focus-card--featured">
-      <p class="focus-card__badge">Trial Leadership</p>
-      <h3>ARPA-H ADAPT Platform Trial</h3>
-      <p><strong>Co-PI and Statistical Lead</strong> for $30M metastatic breast cancer adaptive platform (2025-2031). Novel Bayesian design integrating serial ctDNA, tissue, and imaging biomarkers within TBCRC EVOLVE_BDT trial.</p>
+      <p class="focus-card__badge">Adaptive Trials</p>
+      <h3>Bayesian Platform Design with Late-Arriving Biomarkers</h3>
+      <p>Novel adaptive randomization framework integrating serial ctDNA, tissue, and imaging data for metastatic breast cancer platforms. Methodology accommodates staggered biomarker availability and enables mid-trial enrichment based on early response signals.</p>
       <div class="focus-card__chips">
-        <span class="focus-chip">$30M funding</span>
-        <span class="focus-chip">Co-PI role</span>
-        <span class="focus-chip">2025-2031</span>
+        <span class="focus-chip">ARPA-H ADAPT platform</span>
+        <span class="focus-chip">TBCRC cooperative trials</span>
+        <span class="focus-chip">Bayesian response-adaptive design</span>
       </div>
     </article>
 
     <article class="focus-card">
-      <p class="focus-card__badge">Research Infrastructure</p>
-      <h3>Dual NCI SPORE Core Leadership</h3>
-      <p>Simultaneously co-directing Integrated Quantitative Sciences cores for both Pancreatic Cancer SPORE (2022-2027) and Breast Cancer SPORE (2024-2029) at UNC Lineberger.</p>
+      <p class="focus-card__badge">High-Dimensional Methods</p>
+      <h3>Penalized Mixed Models for Correlated Biomarkers</h3>
+      <p>glmmPen framework enables variable selection in high-dimensional longitudinal and clustered data, addressing over-fitting in genomic studies with complex correlation structures.</p>
       <div class="focus-card__chips">
-        <span class="focus-chip">Pancreatic SPORE Core C</span>
-        <span class="focus-chip">Breast SPORE Core B</span>
+        <span class="focus-chip">The R Journal (2024)</span>
+        <span class="focus-chip">CRAN package</span>
+        <span class="focus-chip">Multi-omic integration</span>
       </div>
     </article>
 
     <article class="focus-card">
-      <p class="focus-card__badge">Software & Tools</p>
-      <h3>Open-Source Software Ecosystem</h3>
-      <p>10+ actively maintained R/Bioconductor packages including glmmPen, dlGLM, NIMIWAE, and epigraHMM supporting genomics and clinical research.</p>
+      <p class="focus-card__badge">Missing Data</p>
+      <h3>Deep Learning for Non-Ignorable Missingness</h3>
+      <p>NIMIWAE and dlGLM methods use variational autoencoders and deep learning to handle informative missingness in clinical registries and genomic studies—outperforming standard imputation when data are missing not at random.</p>
       <div class="focus-card__chips">
-        <span class="focus-chip">CRAN/Bioconductor</span>
-        <span class="focus-chip">Active maintenance</span>
+        <span class="focus-chip">JCGS (2024)</span>
+        <span class="focus-chip">Stat Biopharm Res (2024)</span>
+        <span class="focus-chip">Neural imputation models</span>
       </div>
     </article>
   </div>

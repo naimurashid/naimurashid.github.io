@@ -269,23 +269,23 @@ talks:
   </div>
 </section>
 
-### Research Pillars
+### Quick Links
 
 <div class="pillar-grid">
   <article class="pillar-card">
-    <h4>Methodology</h4>
-    <p>Robust subtyping, penalized GLMMs, and generative-AI methods for translational data.</p>
-    <a href="/research/#methodology" class="link-arrow">Explore →</a>
+    <h4>Research Focus</h4>
+    <p>Methodological innovations in adaptive trials, tumor subtyping, and missing data.</p>
+    <a href="/research/" class="link-arrow">Explore research →</a>
   </article>
   <article class="pillar-card">
-    <h4>Translation</h4>
-    <p>Bayesian adaptive platforms integrating ctDNA, imaging, and microbiome data.</p>
-    <a href="/research/#translation" class="link-arrow">Explore →</a>
+    <h4>Software & Tools</h4>
+    <p>Open-source R packages and CLIA-certified diagnostic tools.</p>
+    <a href="/software/" class="link-arrow">Browse software →</a>
   </article>
   <article class="pillar-card">
-    <h4>Trial Leadership</h4>
-    <p>Statistics lead for ARPA-H ADAPT, TBCRC, SPORE, and DOD initiatives.</p>
-    <a href="/research/#trials" class="link-arrow">Explore →</a>
+    <h4>Funding & Support</h4>
+    <p>ARPA-H, NCI, DOD funding for adaptive platforms and precision oncology.</p>
+    <a href="/funding/" class="link-arrow">View grants →</a>
   </article>
 </div>
 
