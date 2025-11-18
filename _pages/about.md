@@ -55,7 +55,7 @@ talks:
           <span class="metric__label"><strong>Methods:</strong> glmmPen, dlGLM, PurIST</span>
         </div>
         <div class="metric">
-          <span class="metric__label"><strong>Translation:</strong> CLIA-certified diagnostic, 3 US patents</span>
+          <span class="metric__label"><strong>Translation:</strong> CLIA-certified diagnostic, 2 US patents</span>
         </div>
         <div class="metric">
           <span class="metric__label"><strong>Trials:</strong> ARPA-H ADAPT (Co-PI), TBCRC, SPORE</span>
@@ -174,6 +174,18 @@ talks:
   </div>
 </section>
 
+### Collaboration-Driven Methodology
+
+<section class="page-section page-section--methodology">
+  <h2>Embedded Clinical Partnerships</h2>
+  <p class="section-lede">
+    Our statistical methods emerge from embedded clinical partnerships rather than abstract theory. Working directly with UNC Lineberger oncologists, we identify unmet analytical needs in real trials and translate them into rigorous, reproducible software solutions.
+  </p>
+  <p>
+    This approach ensures methodological innovations address practical challenges in precision oncology—from single-sample tumor subtyping to adaptive platform designs that integrate serial biomarker data. Close collaboration with disease teams allows us to develop tools that are both statistically principled and clinically actionable.
+  </p>
+</section>
+
 ### Clinical Impact & Translation
 
 <section class="page-section">
@@ -184,16 +196,16 @@ talks:
       <p>The PurIST (Purity Independent Subtyping of Tumors) classifier represents a complete translational research arc—from methodological development to clinical deployment:</p>
       <ul>
         <li><strong>2020</strong> — Published classification method (<em>Clinical Cancer Research</em>)</li>
-        <li><strong>2021-2024</strong> — Three US patents issued</li>
+        <li><strong>2021-2024</strong> — Two US patents issued</li>
         <li><strong>2024</strong> — Analytical validation completed (<em>Journal of Molecular Diagnostics</em>)</li>
         <li><strong>2024</strong> — CLIA-certification achieved for clinical use</li>
-        <li><strong>Present</strong> — Active use in tumor board decision-making for pancreatic cancer patients</li>
+        <li><strong>Present</strong> — Licensed to GeneCentric and Tempus Diagnostics; actively used in clinical trials</li>
       </ul>
       <p>PurIST is one of few single-sample, platform-independent tumor subtyping tools to achieve CLIA certification and clinical deployment.</p>
       <div class="focus-card__chips">
-        <span class="focus-chip">3 US Patents (2021-2024)</span>
+        <span class="focus-chip">2 US Patents (2021-2024)</span>
         <span class="focus-chip">CLIA certified (2024)</span>
-        <span class="focus-chip">Active clinical use</span>
+        <span class="focus-chip">Licensed to GeneCentric & Tempus</span>
       </div>
     </article>
   </div>

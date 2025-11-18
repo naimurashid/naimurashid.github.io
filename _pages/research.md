@@ -56,10 +56,10 @@ nav_order: 3
     <article class="focus-card focus-card--featured">
       <p class="focus-card__badge">Clinical Translation</p>
       <h3>CLIA-Certified Diagnostic Tool</h3>
-      <p><strong>PurIST pancreatic cancer classifier</strong> achieved CLIA certification in 2024. Single-sample, platform-independent tumor subtyping tool with three issued US patents. Actively used in clinical tumor boards for treatment decision support.</p>
+      <p><strong>PurIST pancreatic cancer classifier</strong> achieved CLIA certification and is licensed to GeneCentric and Tempus Diagnostics for commercial implementation nationwide. Single-sample, platform-independent tumor subtyping tool with two issued US patents (2021-2024). Actively used in multiple active clinical trials for decision support and treatment evaluation.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">Clinical Cancer Research (2020)</span>
-        <span class="focus-chip">3 US Patents (2021-2024)</span>
+        <span class="focus-chip">2 US Patents (2021-2024)</span>
         <span class="focus-chip">CLIA certified (2024)</span>
       </div>
     </article>
@@ -185,7 +185,7 @@ nav_order: 3
 <div class="network-grid">
   <article class="pillar-card">
     <h4>UNC Lineberger</h4>
-    <p>Collaborations with Jen Jen Yeh, Lisa Carey, Chuck Perou, and Ben Vincent on pancreatic, breast, and immunotherapy trials.</p>
+    <p>Collaborations with Jen Jen Yeh (tumor-stroma organoid models, stromal reprogramming), Lisa Carey (TBCRC adaptive trials, endocrine resistance), Chuck Perou (breast subtype integration), and Ben Vincent (immunotherapy biomarkers, neoantigen prediction).</p>
   </article>
   <article class="pillar-card">
     <h4>National Consortia</h4>

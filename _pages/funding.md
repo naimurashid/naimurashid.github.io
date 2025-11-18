@@ -15,6 +15,7 @@ nav_order: 5
   </p>
   <p class="mb-0">Leadership roles supporting adaptive oncology research and clinical translation.</p>
   <ul>
+    <li>31 total grants as PI, Co-PI, or core leader representing over $40M in direct funding</li>
     <li>Co-PI and Statistical Lead for ARPA-H ADAPT ($30M metastatic breast cancer platform trial, 2025-2031)</li>
     <li>Co-Director of NCI SPORE Biostatistics/Quantitative Sciences cores in breast and pancreatic cancer</li>
     <li>PI for DOD-funded clinical trial matching tool using large language models</li>
@@ -53,7 +54,7 @@ nav_order: 5
     </div>
   </div>
   <p class="grant-card__description">
-    Adaptive platform trial integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies for metastatic breast cancer. Serving as Co-PI and statistical lead for trial design, adaptive randomization, and biomarker integration strategy.
+    Bayesian adaptive platform trial integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies for metastatic breast cancer. Serving as Co-PI and statistical lead for trial design, adaptive randomization, and biomarker integration strategy. Novel Bayesian framework accommodates late-arriving biomarker data and allows mid-trial enrichment based on early response signals.
   </p>
 </div>
 

@@ -14,6 +14,9 @@ nav_order: 5
     <p class="section-hero__lede">
       Core teaching includes BIOS 667 (longitudinal modeling) and BIOS 735 (statistical computing), complemented by advising, office hours, and workshops for Gillings and Lineberger students.
     </p>
+    <p class="section-hero__highlight">
+      Teaching evaluations consistently excellent (1.11-1.44 on 1-5 scale, where 1 is best, across all courses 2018-2024).
+    </p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="https://biodatascience.github.io/statcomp/" target="_blank" rel="noopener">BIOS 735 course site</a>
     </div>
@@ -45,7 +48,7 @@ nav_order: 5
     <article class="focus-card">
       <p class="focus-card__badge">Graduate core</p>
       <h3>BIOS 667 · Applied Longitudinal Data Analysis</h3>
-      <p>GEEs, mixed models, joint modeling, and missing-data tactics grounded in public health and medical case studies.</p>
+      <p>GEEs, mixed models, joint modeling, and missing-data tactics grounded in public health and medical case studies. Course re-implemented from scratch with lectures embedding live R code examples and illustrations, complemented by AI-friendly assignments that emphasize reproducible workflows.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">Canvas modules + R Markdown labs</span>
         <span class="focus-chip">SAS templates for regulatory deliverables</span>
@@ -76,9 +79,10 @@ nav_order: 5
 <section class="page-section">
   <h2>Mentoring &amp; advising</h2>
   <ul>
-    <li>Currently mentoring five PhD students; 12 completed mentees now at Dana-Farber, GSK, UNC, Pitt, and other institutions.</li>
-    <li>Recent PhD graduates include Hillary Heiling (Dana-Farber), David Lim and Scott Van Buren (GSK), Euphy Wu and Pedro Baldoni (UNC/Pitt).</li>
-    <li>Mentoring approach: independent research aims, clinician collaborations, regular manuscript meetings, and reproducible software deliverables.</li>
+    <li>Currently mentoring five PhD students in Biostatistics.</li>
+    <li>Five completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok) with 100% placement at leading institutions: Dana-Farber, GSK, UNC, University of Pittsburgh.</li>
+    <li>Students complete 2-4 first-author publications during PhD program, with topics ranging from statistical methodology to translational genomics.</li>
+    <li>Mentoring approach: Independent research aims with clinical collaboration, weekly manuscript meetings, reproducible software deliverables, and embedded trial experience.</li>
   </ul>
 </section>
 
@@ -91,7 +95,7 @@ nav_order: 5
   <h2>Mentoring & Student Outcomes</h2>
 
   <div class="outcomes-section">
-    <p class="section-lede">Seven completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok) with 100% placement at leading institutions.</p>
+    <p class="section-lede">Five completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok) with 100% placement at leading institutions.</p>
 
     <div class="focus-grid">
       <article class="focus-card">
@@ -114,7 +118,7 @@ nav_order: 5
       </article>
     </div>
 
-    <p class="mt-4"><strong>Training approach:</strong> Independent research aims, embedded clinician collaborations, weekly manuscript meetings, and reproducible software deliverables. Students typically complete 3-5 first-author publications during their PhD program.</p>
+    <p class="mt-4"><strong>Training approach:</strong> Independent research aims, embedded clinician collaborations, weekly manuscript meetings, and reproducible software deliverables. Students typically complete 2-4 first-author publications during their PhD program.</p>
   </div>
 </section>
 
