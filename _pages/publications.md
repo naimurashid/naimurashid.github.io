@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: 75+ peer-reviewed publications in biostatistics, clinical trials, and cancer genomics. h-index 28, 5000+ citations in precision oncology and adaptive trial design.
+description: 75+ peer-reviewed publications in biostatistics, machine learning, cancer genomics, and precision oncology. h-index 28, 5000+ citations. Research in AI, adaptive trials, RNA-seq, and tumor subtyping.
 nav: true
 nav_order: 6
 ---

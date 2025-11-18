@@ -294,16 +294,32 @@ talks:
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Naim U. Rashid",
+  "givenName": "Naim",
+  "familyName": "Rashid",
+  "honorificSuffix": "PhD",
   "jobTitle": "Associate Professor of Biostatistics",
-  "description": "Biostatistician developing methods for adaptive precision-oncology trials, ARPA-H ADAPT analytics, and CLIA-certified PurIST diagnostics.",
+  "description": "Biostatistician developing methods for cancer genomics, machine learning, and adaptive precision oncology trials. Expertise in AI, statistical computing, and translational research.",
   "image": "{{ '/assets/img/prof.jpg' | relative_url | absolute_url }}",
   "url": "{{ '/' | absolute_url }}",
   "email": "mailto:naim@unc.edu",
   "telephone": "+1-919-966-8150",
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Harvard School of Public Health",
+      "url": "https://www.hsph.harvard.edu/"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of North Carolina at Chapel Hill",
+      "url": "https://www.unc.edu/"
+    }
+  ],
   "affiliation": [
     {
       "@type": "CollegeOrUniversity",
       "name": "UNC Gillings School of Global Public Health",
+      "department": "Department of Biostatistics",
       "url": "https://sph.unc.edu/"
     },
     {
@@ -312,17 +328,52 @@ talks:
       "url": "https://unclineberger.org/"
     }
   ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "Translational Breast Cancer Research Consortium",
+      "url": "https://tbcrc.org/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Nature Medicine Statistical Advisory Panel"
+    }
+  ],
+  "knowsAbout": [
+    "Biostatistics",
+    "Cancer Genomics",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Precision Medicine",
+    "Adaptive Clinical Trials",
+    "Statistical Computing",
+    "Deep Learning",
+    "RNA-seq Analysis",
+    "Epigenomics",
+    "Tumor Subtyping",
+    "Penalized Regression",
+    "Missing Data Methods",
+    "Bayesian Statistics"
+  ],
+  "award": [
+    "Gillings Research Excellence Award (2025)",
+    "James E. Grizzle Distinguished Alumnus Award (2024)",
+    "Teaching Innovation Award, UNC Gillings (2023)"
+  ],
   "worksFor": {
     "@type": "Organization",
     "name": "Rashid Lab",
-    "url": "{{ '/' | absolute_url }}"
+    "url": "{{ '/' | absolute_url }}",
+    "description": "Statistical methods research lab focused on cancer genomics, AI, and precision oncology"
   },
   "sameAs": [
     "https://scholar.google.com/citations?user=3Cz_lcEAAAAJ",
     "https://www.linkedin.com/in/naim-rashid-a767aba/",
+    "https://orcid.org/0000-0001-5796-0836",
     "https://bsky.app/profile/naimurashid.bsky.social",
     "https://twitter.com/naimurashid",
-    "https://github.com/naimurashid"
+    "https://github.com/naimurashid",
+    "https://sph.unc.edu/adv_profile/naim-rashid-phd/"
   ]
 }
 </script>

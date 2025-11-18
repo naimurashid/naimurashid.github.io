@@ -2,7 +2,7 @@
 layout: page
 title: Funding
 permalink: /funding/
-description: Research funding for adaptive clinical trials, cancer genomics, and precision oncology from ARPA-H, NCI, DOD, and other federal agencies
+description: $40M+ research funding for cancer genomics, AI, machine learning, and adaptive clinical trials from ARPA-H, NCI, DOD. SPORE biostatistics cores, precision oncology platforms, and translational research.
 nav: true
 nav_order: 5
 ---
