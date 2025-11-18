@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Graduate courses in biostatistics, statistical computing, machine learning, and longitudinal data analysis. PhD mentoring in cancer genomics, AI methods, and precision oncology research.
+description: Graduate courses in biostatistics, statistical computing, machine learning, and longitudinal data analysis. PhD mentoring in cancer genomics, clinical trials, AI methods, and precision oncology research.
 nav: true
 nav_order: 5
 ---

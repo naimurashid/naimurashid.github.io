@@ -2,7 +2,7 @@
 layout: page
 title: Software
 permalink: /software/
-description: Open-source R packages and AI tools for cancer genomics, biostatistics, and precision medicine. Includes glmmPen, PurIST, dlGLM, NIMIWAE, and epigraHMM for RNA-seq, machine learning, and clinical research.
+description: Open-source R packages and AI tools for cancer genomics, biostatistics, and clinical trials. Includes glmmPen, PurIST, dlGLM, NIMIWAE, and epigraHMM for RNA-seq, machine learning, precision medicine, and clinical research.
 nav: true
 nav_order: 4
 ---

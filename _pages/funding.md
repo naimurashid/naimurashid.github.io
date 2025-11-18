@@ -2,7 +2,7 @@
 layout: page
 title: Funding
 permalink: /funding/
-description: $40M+ research funding for cancer genomics, AI, machine learning, and adaptive clinical trials from ARPA-H, NCI, DOD. SPORE biostatistics cores, precision oncology platforms, and translational research.
+description: $40M+ research funding for clinical trials, cancer genomics, AI, and machine learning from ARPA-H, NCI, DOD. SPORE biostatistics cores, adaptive trial platforms, precision oncology, and translational research.
 nav: true
 nav_order: 5
 ---

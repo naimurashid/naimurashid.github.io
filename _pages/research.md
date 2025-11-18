@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: Statistical methods and machine learning for cancer genomics, precision oncology, and adaptive clinical trials. Expertise in AI, biostatistics, tumor subtyping, and translational research.
+description: Statistical methods and machine learning for cancer genomics, clinical trials, and precision oncology. Expertise in adaptive trial design, AI, biostatistics, tumor subtyping, and translational research.
 nav: true
 nav_order: 3
 
