@@ -46,7 +46,7 @@ talks:
 <section class="hero-panel">
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
-      <h1 class="hero-panel__title">Statistical methods for cancer precision medicine</h1>
+      <h1 class="hero-panel__title">Statistical methods for cancer genomics, AI, and precision oncology</h1>
       <p class="hero-panel__lead">
         Dr. Rashid is an associate professor in Biostatistics at the Gillings School and Lineberger Comprehensive Cancer Center. He serves as associate director of the Biostatistics Shared Resource, co-director of the pancreatic and breast SPORE biostatistics cores, Co-PI and statistical lead for ARPA-H ADAPT, and statistical lead for the Translational Breast Cancer Research Consortium.
       </p>
@@ -113,13 +113,13 @@ talks:
           <i class="ti ti-function"></i>
         </span>
         <div>
-          <p class="mission-panel__badge">AI &amp; Stat. Methods</p>
+          <p class="mission-panel__badge">Machine Learning &amp; Biostatistics</p>
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">CompDTUReg for isoform-level RNA testing</span>
-        <span class="mission-chip">dlGLM deep-learning GLMs for missing omics</span>
-        <span class="mission-chip">glmmPen penalties for correlated biomarkers</span>
+        <span class="mission-chip">Deep learning for missing genomic data (dlGLM, NIMIWAE)</span>
+        <span class="mission-chip">Penalized mixed models for high-dimensional biomarkers</span>
+        <span class="mission-chip">AI-assisted clinical trial navigation tools</span>
       </div>
       <a class="mission-panel__link" href="/research/#methodology">Explore methodology →</a>
     </article>
@@ -129,13 +129,13 @@ talks:
           <i class="ti ti-hospital"></i>
         </span>
         <div>
-          <p class="mission-panel__badge">Trial Applications</p>
+          <p class="mission-panel__badge">Precision Medicine &amp; Genomics</p>
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">PurIST subtype classification for GI tumors</span>
-        <span class="mission-chip">Kinome profiling for pancreatic cancer</span>
-        <span class="mission-chip">HER2 residual-risk modeling for neoadjuvant trials</span>
+        <span class="mission-chip">PurIST genomic classifier for tumor subtyping</span>
+        <span class="mission-chip">Multi-omic integration for treatment stratification</span>
+        <span class="mission-chip">RNA-seq and epigenomic analysis pipelines</span>
       </div>
       <a class="mission-panel__link" href="/projects/">View translational projects →</a>
     </article>
