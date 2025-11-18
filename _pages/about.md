@@ -221,7 +221,6 @@ talks:
       <ul>
         <li><strong>2025</strong> — Gillings Research Excellence Award</li>
         <li><strong>2024</strong> — James E. Grizzle Distinguished Alumnus Award</li>
-        <li><strong>2024</strong> — Nature Medicine Statistical Advisory Panel</li>
         <li><strong>2023</strong> — Teaching Innovation Award, UNC Gillings</li>
       </ul>
     </article>
@@ -231,6 +230,7 @@ talks:
       <ul>
         <li>Co-Director, Breast Cancer SPORE Biostatistics Core (2024-)</li>
         <li>Co-Director, Pancreatic Cancer SPORE Quantitative Sciences Core (2022-)</li>
+        <li>Nature Medicine Statistical Advisory Panel (2024-)</li>
         <li>Associate Editor, Annals of Applied Statistics (2023-)</li>
         <li>V Foundation Scientific Advisory Board (2023-)</li>
         <li>TBCRC Statistical Working Group (2017-)</li>
