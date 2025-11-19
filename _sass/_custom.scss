@@ -1570,6 +1570,22 @@ html[data-theme="dark"] {
   gap: 0.6rem;
 }
 
+/* Mobile responsiveness for faculty cards */
+@media (max-width: 768px) {
+  .team-member-card--faculty {
+    flex-direction: column;
+  }
+
+  .team-member-card--faculty .team-member-card__media {
+    flex: 0 0 auto;
+  }
+
+  .team-member-card--faculty .team-member-card__media img {
+    height: auto;
+    aspect-ratio: 1;
+  }
+}
+
 .mission-panel {
   background: #f5f8fc;
   border: 1px solid rgba(0, 60, 113, 0.08);
