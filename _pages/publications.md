@@ -16,11 +16,11 @@ nav_order: 6
     {{ page.description }}
   </p>
   <p>Our methodological contributions to adaptive trial design, cancer subtyping, and genomic inference support translational oncology research nationally. Editorial service includes the <em>Nature Medicine</em> Statistical Advisory Panel (2024–) and Associate Editor roles at <em>Annals of Applied Statistics</em> (2023–) and <em>Statistical Methods in Medical Research</em>, advancing methodological standards for reproducible cancer biomarker research.</p>
-  <p class="mb-0">Browse metrics below or jump into theme filters to find methodology, genomics, machine-learning, and epigenomics work relevant to your review.</p>
+  <p class="mb-0">Publications span clinical trials methodology, genomics, machine learning, and epigenomics across top-tier journals:</p>
   <ul>
-    <li>75+ peer-reviewed papers across JASA, CCR, Nat Genet, Biostatistics</li>
-    <li>Altmetric, Dimensions, and Scholar badges enabled for fast vetting</li>
-    <li>Theme filters route reviewers to trials, mixed-models, AI, or omics</li>
+    <li>Methodological journals: <em>JASA</em>, <em>Biostatistics</em>, <em>Biometrics</em>, <em>Annals of Applied Statistics</em></li>
+    <li>Clinical/translational journals: <em>Clinical Cancer Research</em>, <em>Nature Genetics</em>, <em>JCO</em>, <em>PNAS</em></li>
+    <li>Areas: Adaptive trials, penalized regression, tumor subtyping, RNA-seq, deep learning</li>
   </ul>
 </section>
 
