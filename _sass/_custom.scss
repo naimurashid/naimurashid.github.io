@@ -2011,3 +2011,219 @@ header #navbar .container {
     align-items: center;
   }
 }
+
+/* ============================================================================
+   ENHANCED TYPOGRAPHY & SPACING - Lineberger Site Improvements
+   ========================================================================= */
+
+/* Section Heading Hierarchy - Page Content Only */
+/* Target major section headings like "Recognition & Leadership", "Quick Links", etc. */
+.post-content > h2,
+article > h2,
+main > h2,
+.page > h2 {
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 700;
+  color: var(--global-hover-color); /* Navy #13294B */
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+/* First h2 on page shouldn't have excessive top margin */
+.post-content > h2:first-child,
+article > h2:first-child,
+main > h2:first-child,
+.page > h2:first-child {
+  margin-top: 1.5rem;
+}
+
+/* Subheadings - like "Embedded Clinical Partnerships", "Awards & Recognition" */
+.post-content > h3,
+article > h3,
+main > h3,
+.page > h3,
+.post-content h3,
+article h3 {
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  font-weight: 600;
+  color: var(--global-text-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+/* Publication List Spacing */
+.publications ol.bibliography li {
+  margin-bottom: 1.75rem; /* Increased from ~1rem */
+  padding-bottom: 0.5rem;
+}
+
+.publications ol.bibliography li:last-child {
+  margin-bottom: 0;
+}
+
+/* News List Spacing */
+.news-list,
+.news-items {
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li,
+.news-item {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.news-list li:not(:last-child),
+.news-item:not(:last-child) {
+  border-bottom: 1px solid rgba(19, 41, 75, 0.06);
+}
+
+/* Section Spacing - More breathing room between major sections */
+.page-section + .page-section,
+section + section {
+  margin-top: 3.5rem;
+}
+
+/* Mission Panel Spacing */
+.mission-panel {
+  margin-bottom: 3.5rem;
+}
+
+/* Improved Text Contrast for Accessibility */
+/* Darken gray supporting text for WCAG AA compliance */
+.hero-panel__lead,
+.mission-panel__summary,
+.section-hero__lede,
+.talk-card p,
+.news-description,
+.update-description {
+  color: #5b6877; /* Improved from lighter grays */
+}
+
+/* Even lighter/secondary text */
+p.text-muted,
+.text-muted,
+span.text-muted {
+  color: #6b7485 !important; /* Darkened for better contrast */
+}
+
+/* Recognition Cards - Natural Height */
+.recognition-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: start; /* Allow natural height differences */
+}
+
+.recognition-card {
+  height: auto; /* Remove fixed height */
+  min-height: 0; /* Remove min-height constraint */
+}
+
+/* Quick Links Enhancement */
+.quick-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.quick-link-card a,
+.quick-link-card .btn,
+a.quick-link {
+  font-weight: 600; /* Increased from 500 */
+  transition: all 200ms ease;
+}
+
+.quick-link-card a:hover,
+.quick-link-card .btn:hover,
+a.quick-link:hover {
+  color: var(--global-hover-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* Talk Cards - Remove Truncation */
+.talk-card h4,
+.talk-card__title {
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal; /* Allow wrapping */
+}
+
+.talk-card p,
+.talk-card__description {
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+  display: block; /* Remove any line-clamp */
+  -webkit-line-clamp: unset;
+}
+
+/* LinkedIn Update Cards - Less Aggressive Truncation */
+.update-card__text,
+.linkedin-update p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Increased from 3 or less */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Publication Badges - Subtle Enhancement */
+.publications .abbr abbr,
+.pub-badge {
+  box-shadow: 0 2px 4px rgba(19, 41, 75, 0.08);
+  border-radius: 4px;
+}
+
+/* Section Headers with Eyebrow Labels */
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.section-header__eyebrow,
+.page-intro__eyebrow {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin-bottom: 0.75rem;
+}
+
+/* Improved Card Spacing */
+.card-grid {
+  gap: 2rem;
+}
+
+.card-grid--tight {
+  gap: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .post-content > h2,
+  article > h2,
+  main > h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .post-content > h3,
+  article > h3 {
+    margin-top: 1.5rem;
+  }
+
+  .publications ol.bibliography li {
+    margin-bottom: 1.5rem;
+  }
+
+  .page-section + .page-section,
+  section + section {
+    margin-top: 2.5rem;
+  }
+}
