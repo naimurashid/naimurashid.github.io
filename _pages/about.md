@@ -48,29 +48,22 @@ talks:
     <div class="hero-panel__content">
       <h1 class="hero-panel__title">Statistical methods for cancer genomics, AI, and precision oncology</h1>
       <p class="hero-panel__lead">
-        Dr. Rashid is an associate professor in Biostatistics at the Gillings School and Lineberger Comprehensive Cancer Center. He serves as associate director of the Biostatistics Shared Resource, co-director of the pancreatic and breast SPORE biostatistics cores, Co-PI and statistical lead for ARPA-H ADAPT, and statistical lead for the Translational Breast Cancer Research Consortium.
+        Dr. Rashid is an associate professor in Biostatistics at Gillings and Lineberger. He co-leads the Biostatistics Shared Resource, co-directs dual NCI SPORE cores, and serves as Co-PI and statistical lead for ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
       </p>
       <div class="hero-panel__metrics metrics-condensed">
         <div class="metric">
-          <span class="metric__label"><strong>Methods:</strong> glmmPen, dlGLM, PurIST</span>
+          <span class="metric__label"><strong>Translation:</strong> PurIST CLIA diagnostic; 2 US patents</span>
         </div>
         <div class="metric">
-          <span class="metric__label"><strong>Translation:</strong> CLIA-certified diagnostic, 2 US patents</span>
-        </div>
-        <div class="metric">
-          <span class="metric__label"><strong>Trials:</strong> ARPA-H ADAPT (Co-PI), TBCRC, SPORE</span>
-        </div>
-        <div class="metric">
-          <span class="metric__label"><strong>Leadership:</strong> Dual NCI SPORE core co-director</span>
+          <span class="metric__label"><strong>Trials &amp; leadership:</strong> ARPA-H ADAPT (Co-PI); dual NCI SPORE cores</span>
         </div>
       </div>
       <div class="hero-panel__cta">
-        <a class="btn btn-outline-primary btn-lg" href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
         <p class="hero-panel__microcopy mb-3">
           Lineberger members can email <a href="mailto:LCCC_BIOS@med.unc.edu">LCCC_BIOS@med.unc.edu</a> for consultations or join the Wednesday Zoom office hours for trial support.
         </p>
         <a class="btn btn-primary btn-lg" href="mailto:LCCC_BIOS@med.unc.edu?subject=Consultation%20Request%20for%20Lineberger%20Biostatistics">Request a Lineberger consultation</a>
-        <a class="btn btn-outline-secondary btn-lg" href="https://zoom.us/j/98595369470" target="_blank" rel="noopener">Join Wednesday drop-in (12–1 PM)</a>
+        <a class="btn btn-outline-primary btn-lg" href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
       </div>
     </div>
     <aside class="hero-panel__aside">

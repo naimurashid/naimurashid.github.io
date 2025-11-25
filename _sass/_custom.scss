@@ -98,6 +98,16 @@ html[data-theme="dark"] {
     color: #e2e8f0;
   }
 
+  .news-card {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .news-card__date,
+  .news-card__summary {
+    color: #cbd5e1;
+  }
+
   .grant-card {
     background: #1e293b;
     border-color: rgba(100, 116, 139, 0.3);
@@ -153,6 +163,52 @@ html[data-theme="dark"] {
     padding: 4px 8px;
     border-radius: 6px;
   }
+}
+
+.news-cards__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.news-card {
+  background-color: var(--global-neutral-light);
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: 0.9rem;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+  padding: 1.1rem 1.25rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
+}
+
+.news-card__date {
+  color: var(--global-text-muted, #6c757d);
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.35rem;
+}
+
+.news-card__title {
+  color: var(--global-heading-color, #0f172a);
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+  text-decoration: none;
+}
+
+.news-card__title:hover {
+  text-decoration: underline;
+}
+
+.news-card__summary,
+.news-card__inline {
+  color: var(--global-text-muted, #6c757d);
+  font-size: 0.95rem;
+  margin-bottom: 0;
 }
 
 .social-feed {
