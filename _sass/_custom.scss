@@ -1,113 +1,15 @@
-/* Color Variables */
-:root {
-  --global-primary-blue: #4b9cd3;
-  --global-accent-blue: #003c71;
-  --global-warm-accent: #f4a640;
-  --global-neutral-dark: #1e2a36;
-  --global-neutral-light: #f5f7fa;
-  --global-heading-color: #0f172a;
-  --global-text-muted: #6c757d;
-}
+/*******************************************************************************
+ * Custom Styles - Modular Organization
+ *
+ * This file imports modular component stylesheets for better maintainability.
+ * All custom variables and dark mode overrides are now in separate modules.
+ ******************************************************************************/
 
-/* Dark Mode Overrides */
-html[data-theme="dark"] {
-  --global-heading-color: #e2e8f0;
-  --global-text-muted: #94a3b8;
-  --global-neutral-dark: #e2e8f0;
-  --global-neutral-light: #1e293b;
-  --global-accent-blue: #60a5fa;
+/* Import modular components */
+@import 'custom/variables';
+@import 'custom/dark-mode';
 
-  /* Standard card backgrounds and borders */
-  .hero-panel,
-  .section-hero,
-  .focus-card,
-  .pillar-card,
-  .mission-panel,
-  .news-card,
-  .social-feed__card,
-  .grant-card,
-  .team-member-card,
-  .project-card,
-  .team-group-block,
-  .talk-card,
-  .collaboration-callout,
-  .publication-highlights__card {
-    background: var(--global-card-bg-color);
-    border-color: var(--global-card-border-color);
-  }
-
-  /* Publication cards have left accent border */
-  .publication-highlights__card {
-    border-left-color: #60a5fa;
-  }
-
-  /* Muted text elements */
-  .hero-panel__lead,
-  .section-hero__lede,
-  .page-intro__lede,
-  .news-card__date,
-  .news-card__summary,
-  .social-feed__title a,
-  .social-feed__summary,
-  .social-feed__date,
-  .grant-card__description,
-  .page-intro ul li {
-    color: var(--global-text-muted);
-  }
-
-  /* Metric badges with darker background */
-  .metric,
-  .section-metrics .metric {
-    background: #334155;
-    border-color: var(--global-card-border-color);
-  }
-
-  /* Gradient backgrounds */
-  .page-intro {
-    background: linear-gradient(120deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
-    border-color: var(--global-card-border-color);
-  }
-
-  .team-callout {
-    background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
-    border-color: var(--global-card-border-color);
-  }
-
-  .mission-panel__card {
-    background: rgba(51, 65, 85, 0.9);
-    border-color: var(--global-card-border-color);
-  }
-
-  /* Chip and badge styles */
-  .focus-chip,
-  .mission-chip {
-    background: rgba(96, 165, 250, 0.15);
-    border-color: rgba(96, 165, 250, 0.3);
-    color: #e2e8f0;
-  }
-
-  /* Headings and text in cards */
-  .grant-detail__value,
-  .team-member-card__role,
-  .team-member-card__teaser,
-  .team-member-card__title a,
-  .project-card h3,
-  .project-card p,
-  .project-meta,
-  .project-meta strong,
-  .project-card__badge,
-  .talk-card h4 {
-    color: #e2e8f0;
-  }
-
-  /* Logo adjustment for dark mode */
-  .site-logo {
-    filter: brightness(1.2) contrast(0.9);
-    background: rgba(255, 255, 255, 0.95);
-    padding: 4px 8px;
-    border-radius: var(--global-radius-sm);
-  }
-}
+/* Component Styles - Remaining styles to be modularized in future iterations */
 
 .news-cards__grid {
   display: grid;
