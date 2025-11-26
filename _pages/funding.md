@@ -16,7 +16,7 @@ nav_order: 5
   <p class="mb-0">Leadership roles supporting adaptive oncology research and clinical translation.</p>
   <ul>
     <li>{{ site.data.metrics.funding.total_grants }} total grants as PI, Co-PI, or core leader representing over {{ site.data.metrics.funding.total_funding }} in direct funding</li>
-    <li>Co-PI and Statistical Lead for ARPA-H ADAPT ({{ site.data.metrics.funding.arpa_h_total }} metastatic breast cancer platform trial, {{ site.data.metrics.funding.arpa_h_period }})</li>
+    <li>Co-PI and Statistical Member for ARPA-H ADAPT ({{ site.data.metrics.funding.arpa_h_total }} metastatic breast cancer platform trial, {{ site.data.metrics.funding.arpa_h_period }})</li>
     <li>Co-Director of NCI SPORE Biostatistics/Quantitative Sciences cores in breast and pancreatic cancer</li>
     <li>PI for DOD-funded clinical trial matching tool using large language models</li>
   </ul>
@@ -28,7 +28,7 @@ nav_order: 5
 ## Active Funding
 
 <ul class="funding-highlights">
-  <li><strong>ARPA-H ADAPT Platform</strong> – Co-PI and statistical lead for metastatic breast cancer adaptive platform (2025–2031).</li>
+  <li><strong>ARPA-H ADAPT Platform</strong> – Co-PI and statistical member for metastatic breast cancer adaptive platform (2025–2031).</li>
   <li><strong>NIH/NCI Breast SPORE</strong> – Core B co-lead supporting analytics for multi-site trials (2024–2029).</li>
   <li><strong>NIH/NCI Pancreatic SPORE</strong> – Core C co-lead for integrated quantitative science (2022–2027).</li>
   <li><strong>DOD PCARP TrialMatch LLM</strong> – PI for clinical trial navigation tool development (2024–2026).</li>
@@ -52,11 +52,11 @@ nav_order: 5
     </div>
     <div class="grant-detail">
       <span class="grant-detail__label">Role</span>
-      <span class="grant-detail__value">Co-PI / Statistical Lead (1.8 CM)</span>
+      <span class="grant-detail__value">Co-PI / Statistical Member (1.8 CM)</span>
     </div>
   </div>
   <p class="grant-card__description">
-    Bayesian adaptive platform trial integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies for metastatic breast cancer. Serving as Co-PI and statistical lead for trial design, adaptive randomization, and biomarker integration strategy. Novel Bayesian framework accommodates late-arriving biomarker data and allows mid-trial enrichment based on early response signals.
+    Bayesian adaptive platform trial integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies for metastatic breast cancer. Serving as Co-PI and statistical member for trial design, adaptive randomization, and biomarker integration strategy. Novel Bayesian framework accommodates late-arriving biomarker data and allows mid-trial enrichment based on early response signals.
   </p>
 </div>
 
@@ -116,7 +116,7 @@ nav_order: 5
   </div>
   <div class="grant-card">
     <div class="grant-card__header">
-      <h3>UNC Lineberger P30 Biostatistics Shared Resource</h3>
+      <h3>UNC Lineberger P30 LCCC Biostatistics Shared Resource</h3>
       <span class="badge badge-success">Active</span>
     </div>
     <p class="grant-card__description">
@@ -131,7 +131,7 @@ nav_order: 5
 
 <div class="leadership-grid">
   <div class="leadership-card">
-    <h3>Dual NCI SPORE Cores</h3>
+    <h3>Dual NCI SPORE Core Director</h3>
     <div class="leadership-details">
       <p><strong>Breast SPORE Core B</strong>: Biostatistics & bioinformatics support for multi-site breast cancer translational research</p>
       <ul>
@@ -165,7 +165,7 @@ nav_order: 5
   <div class="leadership-card">
     <h3>ARPA-H ADAPT Platform</h3>
     <div class="leadership-details">
-      <p><strong>Co-PI & Statistical Lead</strong> responsibilities:</p>
+      <p><strong>Co-PI & Statistical Member</strong> responsibilities:</p>
       <ul>
         <li>Bayesian platform design with borrowing across cohorts</li>
         <li>ML allocation strategy integrating serial biomarkers</li>

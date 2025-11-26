@@ -46,16 +46,16 @@ talks:
 <section class="hero-panel">
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
-      <h1 class="hero-panel__title">AI & statistical methods for precision oncology: Missing data, biomarkers, and adaptive trials</h1>
+      <h1 class="hero-panel__title">AI & statistical methods for precision oncology: Biomarker discovery and adaptive trials</h1>
       <p class="hero-panel__lead">
-        Dr. Rashid is an associate professor in Biostatistics at Gillings and Lineberger. He co-leads the Biostatistics Shared Resource, co-directs dual NCI SPORE cores, and serves as Co-PI and statistical lead for ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
+        Dr. Rashid is an associate professor in Biostatistics at Gillings and Lineberger. He co-leads the LCCC Biostatistics Shared Resource, is Dual NCI SPORE core director, and serves as Co-PI and statistical member for ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
       </p>
       <div class="hero-panel__metrics metrics-condensed">
         <div class="metric">
           <span class="metric__label"><strong>Translation:</strong> {{ site.data.metrics.translation.clia_diagnostics }} CLIA diagnostic; {{ site.data.metrics.translation.patents }} US patents</span>
         </div>
         <div class="metric">
-          <span class="metric__label"><strong>Trials &amp; leadership:</strong> ARPA-H ADAPT (Co-PI); dual NCI SPORE cores</span>
+          <span class="metric__label"><strong>Trials &amp; leadership:</strong> ARPA-H ADAPT (Co-PI); Dual NCI SPORE core director</span>
         </div>
         <div class="metric">
           <span class="metric__label"><strong>Methods:</strong> {{ site.data.metrics.translation.key_methods }}</span>
@@ -99,8 +99,8 @@ talks:
 <section class="mission-panel" aria-label="Research overview">
   <div class="mission-panel__intro">
     <p class="mission-panel__eyebrow">Purpose</p>
-    <h3>We develop statistical methods and software that enable clinical translation of biomarker discoveries, from methodological innovation through CLIA-certified diagnostic tools.</h3>
-    <p class="mission-panel__summary">Our lab collaborates with disease teams to develop methodology, software, and analytical frameworks for adaptive platforms, diagnostics, and clinical decision support tools. As associate director of the Lineberger Biostatistics Shared Resource, our team <strong>provides statistical leadership</strong> for 40+ cancer center investigators and clinical trials annually, including <strong>regulatory-grade analytics for multi-site cooperative group protocols</strong>.</p>
+    <h3>We develop statistical methods and software that enable biomarker discovery and their clinical translation, from methodological innovation through CLIA-certified diagnostic tools.</h3>
+    <p class="mission-panel__summary">Our lab collaborates with cancer researchers to develop methodology, software, and analytical frameworks for adaptive platforms, diagnostics, and clinical decision support tools. As associate director of the Lineberger LCCC Biostatistics Shared Resource, our team <strong>provides statistical memberership</strong> for 40+ cancer center investigators and clinical trials annually, including <strong>regulatory-grade analytics for multi-site cooperative group protocols</strong>.</p>
   </div>
   <div class="mission-panel__grid">
     <article class="mission-panel__card">
@@ -161,7 +161,7 @@ talks:
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">Lineberger Biostatistics Shared Resource</span>
+        <span class="mission-chip">Lineberger LCCC Biostatistics Shared Resource</span>
         <span class="mission-chip">ARPA-H ADAPT analytics for PSRC/NCI teams</span>
         <span class="mission-chip">TBCRC &amp; V Foundation cooperative groups</span>
       </div>
@@ -174,10 +174,10 @@ talks:
 
 <section class="page-section page-section--methodology">
   <p class="section-lede">
-    Our statistical methods emerge from embedded clinical partnerships rather than abstract theory. Working directly with UNC Lineberger oncologists, we identify unmet analytical needs in real trials and translate them into rigorous, reproducible software solutions.
+    Our statistical methods emerge from embedded clinical partnerships rather than abstract theory. Working directly with UNC Lineberger oncologists, we identify unmet analytical needs in real trials and translate them into rigorous, reproducible computational solutions.
   </p>
   <p>
-    This approach ensures methodological innovations address practical challenges in precision oncology—from single-sample tumor subtyping to adaptive platform designs that integrate serial biomarker data. Close collaboration with disease teams allows us to develop tools that are both statistically principled and clinically actionable.
+    This approach ensures methodological innovations address practical challenges in precision oncology—from single-sample tumor subtyping to adaptive platform designs that integrate serial biomarker data. Close collaboration with cancer researchers allows us to develop tools that are both statistically principled and clinically actionable.
   </p>
 </section>
 
@@ -213,11 +213,11 @@ talks:
     <div class="funding-highlight">
       <h3>ARPA-H EVOLVE Platform</h3>
       <p class="funding-amount">{{ site.data.metrics.funding.arpa_h_total }}</p>
-      <p class="funding-role">Co-PI & Statistical Lead</p>
+      <p class="funding-role">Co-PI & Statistical Member</p>
       <p>Bayesian adaptive platform for metastatic breast cancer</p>
     </div>
     <div class="funding-highlight">
-      <h3>Dual NCI SPORE Cores</h3>
+      <h3>Dual NCI SPORE Core Director</h3>
       <p class="funding-amount">2 Centers</p>
       <p class="funding-role">Core Co-Director</p>
       <p>Breast & pancreatic cancer biostatistics leadership supporting 40+ investigators</p>
@@ -251,7 +251,7 @@ talks:
       <ul>
         <li><strong>Breast SPORE Core B Co-Director</strong> (P50-CA058223, 2024–2029): Biostatistics support for 4 translational projects, TBCRC trial correlatives, and ctDNA resistance monitoring</li>
         <li><strong>Pancreatic SPORE Core C Co-Director</strong> (P50-CA257911, 2022–2027): Integrated quantitative science for 5 SPORE projects spanning organoid models, immunotherapy, and stromal reprogramming</li>
-        <li><strong>Lineberger Biostatistics Shared Resource Associate Director</strong> (P30-CA016086): Statistical leadership for 40+ cancer center investigators annually, trial design consultation, grant development, regulatory analytics</li>
+        <li><strong>Lineberger LCCC Biostatistics Shared Resource Associate Director</strong> (P30-CA016086): Statistical leadership for 40+ cancer center investigators annually, trial design consultation, grant development, regulatory analytics</li>
         <li>Nature Medicine Statistical Advisory Panel (2024-)</li>
         <li>Associate Editor, Annals of Applied Statistics (2023-)</li>
         <li>V Foundation Scientific Advisory Board (2023-)</li>
