@@ -137,6 +137,12 @@ html[data-theme="dark"] {
     border-color: rgba(100, 116, 139, 0.3);
   }
 
+  .team-member-card__role,
+  .team-member-card__teaser,
+  .team-member-card__title a {
+    color: #e2e8f0;
+  }
+
   .team-group-block {
     background: #1e293b;
     border-color: rgba(100, 116, 139, 0.3);
@@ -1649,7 +1655,7 @@ html[data-theme="dark"] {
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
-  padding: 1.1rem;
+  padding: 1.25rem;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
 
@@ -1696,6 +1702,10 @@ html[data-theme="dark"] {
 .team-member-card__teaser {
   margin-bottom: 0.4rem;
   color: var(--global-text-muted, #5b6877);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .team-member-card__badges {

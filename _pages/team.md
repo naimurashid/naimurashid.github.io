@@ -14,7 +14,7 @@ nav_rank: 2
     <p class="section-hero__eyebrow">Lab Ecosystem</p>
     <h1>Biostatisticians embedded with oncologists</h1>
     <p class="section-hero__lede">
-      We pair Gillings trainees with Lineberger disease-site teams to develop adaptive trials, biomarker pipelines, and patient-navigation AI. Alumni have advanced to faculty positions (University of Pittsburgh), leadership roles in pharmaceutical research (GSK), and senior biostatistician positions at top cancer centers (Dana-Farber).
+      We pair Gillings trainees with Lineberger disease-site teams to deliver adaptive trials, biomarker pipelines, and patient-navigation AI. Alumni move into faculty roles, pharma leadership, and senior cancer-center biostatistics positions.
     </p>
   </div>
   <div class="section-metrics">
@@ -50,6 +50,8 @@ nav_rank: 2
     <p class="mb-0">Send a one-page research blurb, CV, and unofficial transcript to <a href="mailto:naim@unc.edu?subject=Prospective%20PhD%20-%20Rashid%20Lab">naim@unc.edu</a>.</p>
   </div>
 </section>
+
+<hr class="section-divider">
 
 <section class="page-section team-groups">
   <p class="page-intro__eyebrow">People</p>
