@@ -249,8 +249,9 @@ talks:
       <p class="focus-card__badge">National Leadership</p>
       <h4>Collaborative Roles</h4>
       <ul>
-        <li>Co-Director, Breast Cancer SPORE Biostatistics Core (2024-) — <strong>Providing statistical leadership</strong> for multi-site breast cancer translational research</li>
-        <li>Co-Director, Pancreatic Cancer SPORE Quantitative Sciences Core (2022-) — <strong>Providing statistical leadership</strong> for integrated quantitative science across 5 SPORE projects</li>
+        <li><strong>Breast SPORE Core B Co-Director</strong> (P50-CA058223, 2024–2029): Biostatistics support for 4 translational projects, TBCRC trial correlatives, and ctDNA resistance monitoring</li>
+        <li><strong>Pancreatic SPORE Core C Co-Director</strong> (P50-CA257911, 2022–2027): Integrated quantitative science for 5 SPORE projects spanning organoid models, immunotherapy, and stromal reprogramming</li>
+        <li><strong>Lineberger Biostatistics Shared Resource Associate Director</strong> (P30-CA016086): Statistical leadership for 40+ cancer center investigators annually, trial design consultation, grant development, regulatory analytics</li>
         <li>Nature Medicine Statistical Advisory Panel (2024-)</li>
         <li>Associate Editor, Annals of Applied Statistics (2023-)</li>
         <li>V Foundation Scientific Advisory Board (2023-)</li>
@@ -287,6 +288,56 @@ talks:
         {% endif %}
       </article>
     {% endfor %}
+  </div>
+</section>
+
+## Navigate by Role
+
+<section class="audience-pathways">
+  <p class="section-intro">Find information most relevant to you</p>
+
+  <div class="pathway-grid">
+    <!-- For Students -->
+    <div class="pathway-card pathway-card--students">
+      <h3>For Prospective Students</h3>
+      <p>Interested in PhD training in adaptive trial design, AI/ML, or cancer genomics?</p>
+      <ul class="pathway-links">
+        <li><a href="/teaching/">Courses & Teaching Philosophy</a></li>
+        <li><a href="/team/">Current Students & Alumni</a></li>
+        <li><a href="/research/">Research Projects</a></li>
+        <li><a href="/software/">Software & Tools Training</a></li>
+        <li><a href="/publications/">Recent Publications</a></li>
+      </ul>
+      <a href="/teaching/" class="btn btn-outline-primary">View Training Program →</a>
+    </div>
+
+    <!-- For Collaborators -->
+    <div class="pathway-card pathway-card--collaborators">
+      <h3>For Clinical Collaborators</h3>
+      <p>Looking for biostatistics expertise for your trial or research project?</p>
+      <ul class="pathway-links">
+        <li><a href="/research/">Research Focus Areas</a></li>
+        <li><a href="/projects/">Active Projects & Tools</a></li>
+        <li><a href="/software/">Available Software</a></li>
+        <li><a href="/publications/">Methods Papers</a></li>
+        <li><a href="mailto:LCCC_BIOS@med.unc.edu">Request Consultation</a></li>
+      </ul>
+      <a href="mailto:LCCC_BIOS@med.unc.edu?subject=Consultation%20Request" class="btn btn-outline-primary">Request Consultation →</a>
+    </div>
+
+    <!-- For Funders -->
+    <div class="pathway-card pathway-card--funders">
+      <h3>For Funders & Reviewers</h3>
+      <p>Evaluating research portfolio, productivity, or collaborative impact?</p>
+      <ul class="pathway-links">
+        <li><a href="/funding/">Active Funding Portfolio</a></li>
+        <li><a href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}">Download CV (PDF)</a></li>
+        <li><a href="/publications/">Publications by Theme</a></li>
+        <li><a href="/team/">Training & Mentoring Record</a></li>
+        <li><a href="/projects/">Translation & Impact</a></li>
+      </ul>
+      <a href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" class="btn btn-outline-primary">Download CV →</a>
+    </div>
   </div>
 </section>
 

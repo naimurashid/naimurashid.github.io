@@ -199,3 +199,7 @@ nav_order: 3
   </article>
 </div>
 </section>
+
+<div class="page-cta page-cta--student">
+  <p><strong>Interested in PhD research?</strong> We're recruiting for Fall 2026. <a href="/teaching/">Learn about our training program →</a></p>
+</div>

@@ -2347,6 +2347,165 @@ a.quick-link:hover {
   color: var(--global-text-muted);
 }
 
+/* Audience Pathways Component */
+.audience-pathways {
+  margin: 3rem 0;
+}
+
+.audience-pathways .section-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--global-text-muted);
+  margin-bottom: 2rem;
+}
+
+.pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.pathway-card {
+  background: var(--global-card-bg-color, white);
+  border: 2px solid;
+  border-radius: var(--global-radius-lg);
+  padding: var(--card-padding-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pathway-card--students {
+  border-color: #42b983;
+}
+
+.pathway-card--collaborators {
+  border-color: var(--global-theme-color);
+}
+
+.pathway-card--funders {
+  border-color: #00A5AD;
+}
+
+.pathway-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--global-shadow-lg);
+}
+
+.pathway-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--global-heading-color);
+}
+
+.pathway-card > p {
+  margin-bottom: 1rem;
+  color: var(--global-text-muted);
+}
+
+.pathway-links {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.pathway-links li {
+  padding: 0.35rem 0;
+}
+
+.pathway-links a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.pathway-links a:hover {
+  color: var(--global-accent-blue);
+  text-decoration: underline;
+}
+
+/* Page CTA Component */
+.page-cta {
+  background: linear-gradient(135deg, rgba(75, 156, 211, 0.08), rgba(0, 165, 173, 0.08));
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: var(--global-radius-md);
+  padding: 1.5rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.page-cta p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.page-cta a {
+  color: var(--global-theme-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.page-cta a:hover {
+  color: var(--global-accent-blue);
+  text-decoration: underline;
+}
+
+.page-cta--student {
+  border-left-color: #42b983;
+}
+
+.page-cta--collab {
+  border-left-color: var(--global-theme-color);
+}
+
+.page-cta--usage {
+  border-left-color: #00A5AD;
+}
+
+/* Leadership Scope Component */
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.leadership-card {
+  background: var(--global-card-bg-color, white);
+  border: 1px solid rgba(75, 156, 211, 0.2);
+  border-radius: var(--global-radius-lg);
+  padding: var(--card-padding-md);
+  box-shadow: var(--global-shadow-sm);
+  transition: box-shadow 0.2s ease;
+}
+
+.leadership-card:hover {
+  box-shadow: var(--global-shadow-md);
+}
+
+.leadership-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--global-heading-color);
+  border-bottom: 2px solid var(--global-theme-color);
+  padding-bottom: 0.5rem;
+}
+
+.leadership-details p {
+  margin: 1rem 0 0.5rem 0;
+  font-weight: 500;
+}
+
+.leadership-details ul {
+  margin: 0.5rem 0 1rem 1.5rem;
+  padding: 0;
+}
+
+.leadership-details li {
+  margin: 0.35rem 0;
+  color: var(--global-text-muted);
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .post-content > h2,

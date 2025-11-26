@@ -115,6 +115,10 @@ Many packages are developed in close collaboration with lab members and trainees
 - **Amber Young**: CompDTUReg co-developer; current PhD student working on semi-supervised matrix factorization for PDAC subtyping
 </section>
 
+<div class="page-cta page-cta--usage">
+  <p><strong>Using these tools in your research?</strong> We'd love to hear about it. <a href="mailto:naim@unc.edu">Get in touch →</a></p>
+</div>
+
 <section class="page-section page-section--alt" markdown="1">
 ## Support & Contact
 

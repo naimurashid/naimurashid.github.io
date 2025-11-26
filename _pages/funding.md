@@ -126,6 +126,57 @@ nav_order: 5
 </details>
 </section>
 
+<section class="page-section">
+<h2>Leadership Roles: Scope & Impact</h2>
+
+<div class="leadership-grid">
+  <div class="leadership-card">
+    <h3>Dual NCI SPORE Cores</h3>
+    <div class="leadership-details">
+      <p><strong>Breast SPORE Core B</strong>: Biostatistics & bioinformatics support for multi-site breast cancer translational research</p>
+      <ul>
+        <li>4 SPORE projects + TBCRC trial correlatives</li>
+        <li>ctDNA resistance monitoring pipelines</li>
+        <li>Multi-omic integration strategies</li>
+      </ul>
+
+      <p><strong>Pancreatic SPORE Core C</strong>: Integrated quantitative sciences</p>
+      <ul>
+        <li>5 SPORE projects (organoids, immunotherapy, stroma)</li>
+        <li>Single-cell analysis frameworks</li>
+        <li>Biomarker validation pipelines</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="leadership-card">
+    <h3>Lineberger Shared Resource</h3>
+    <div class="leadership-details">
+      <p><strong>Associate Director</strong> role includes:</p>
+      <ul>
+        <li>Trial design consultation for 40+ investigators annually</li>
+        <li>Grant development support (statistical sections, power)</li>
+        <li>Regulatory analytics for multi-site trials</li>
+        <li>Embedded support model with disease-site teams</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="leadership-card">
+    <h3>ARPA-H ADAPT Platform</h3>
+    <div class="leadership-details">
+      <p><strong>Co-PI & Statistical Lead</strong> responsibilities:</p>
+      <ul>
+        <li>Bayesian platform design with borrowing across cohorts</li>
+        <li>ML allocation strategy integrating serial biomarkers</li>
+        <li>12+ clinical sites coordination</li>
+        <li>FDA engagement for adaptive framework</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+
 <details class="funding-accordion">
   <summary>See Co-Investigator &amp; Biostatistician portfolio</summary>
   <div class="funding-list">
@@ -139,3 +190,7 @@ nav_order: 5
     <p>Lineberger shared-resource consults, adaptive trial working groups, and multi-institutional analytics collaborations.</p>
   </div>
 </details>
+
+<div class="page-cta page-cta--collab">
+  <p><strong>Interested in collaboration?</strong> Lineberger members can request consultations. <a href="mailto:LCCC_BIOS@med.unc.edu">Email LCCC_BIOS →</a></p>
+</div>
