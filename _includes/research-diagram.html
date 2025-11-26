@@ -13,7 +13,7 @@
       </div>
       <div>
         <span style="display: inline-block; width: 12px; height: 12px; background: #9333ea; border-radius: 50%; margin-right: 8px;"></span>
-        <strong>AI/Deep Learning</strong> (2 papers)
+        <strong>AI/Deep Learning</strong> (5+ AI/ML methods & papers)
       </div>
       <div>
         <span style="display: inline-block; width: 12px; height: 12px; background: #ea580c; border-radius: 50%; margin-right: 8px;"></span>
@@ -84,6 +84,9 @@
     // Theme 3: AI/Deep Learning
     { id: 'autoencoders2024', label: 'Importance-Weighted Autoencoders\nLim, Rashid 2024\nStat Biopharm Res', theme: 'ai-deep-learning', size: 30, type: 'flagship', year: 2024, description: 'Non-ignorable missing data' },
     { id: 'deepglm2024', label: 'Deep GLMs\nLim, Rashid 2024\nJ Comp Graph Stat', theme: 'ai-deep-learning', size: 30, type: 'flagship', year: 2024, description: 'Deep learning + classical stats' },
+    { id: 'semisupervised2021', label: 'Semi-Supervised Factorization\nLim, Rashid 2021', theme: 'ai-deep-learning', size: 22, type: 'collaborative', year: 2021, description: 'Cancer subtyping with partial labels' },
+    { id: 'llm-trial-matching2024', label: 'LLM Trial Navigation\nDOD TrialMatch 2024-2026', theme: 'ai-deep-learning', size: 22, type: 'collaborative', year: 2024, description: 'AI-powered clinical trial matching' },
+    { id: 'rl-adapt2025', label: 'RL Allocation Strategy\nARPA-H ADAPT 2025', theme: 'ai-deep-learning', size: 22, type: 'collaborative', year: 2025, description: 'Reinforcement learning for adaptive trials' },
 
     // Theme 4: Adaptive Trials
     { id: 'calgb80405', label: 'CALGB 80405 Correlatives\nInnocenti et al. 2022', theme: 'adaptive-trials', size: 25, type: 'collaborative', year: 2022 },
@@ -112,9 +115,13 @@
     { source: 'rnaseq-clustering2021', target: 'glmmpen2024', strength: 'medium' },
 
     // AI connections
+    { source: 'rnaseq-clustering2021', target: 'semisupervised2021', strength: 'medium' },
+    { source: 'semisupervised2021', target: 'autoencoders2024', strength: 'medium' },
     { source: 'rnaseq-clustering2021', target: 'autoencoders2024', strength: 'medium' },
     { source: 'autoencoders2024', target: 'deepglm2024', strength: 'strong' },
     { source: 'glmmpen2024', target: 'deepglm2024', strength: 'medium' },
+    { source: 'deepglm2024', target: 'llm-trial-matching2024', strength: 'weak' },
+    { source: 'deepglm2024', target: 'rl-adapt2025', strength: 'medium' },
 
     // Cross-theme: Precision Medicine + Tools
     { source: 'moffitt2015', target: 'heterogeneity2020', strength: 'medium' },

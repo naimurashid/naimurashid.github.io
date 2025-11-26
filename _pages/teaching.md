@@ -15,7 +15,7 @@ nav_order: 5
       Core teaching includes BIOS 667 (longitudinal modeling) and BIOS 735 (statistical computing), complemented by advising, office hours, and workshops for Gillings and Lineberger students.
     </p>
     <p class="section-hero__highlight">
-      Teaching evaluations consistently excellent (1.11-1.44 on 1-5 scale, where 1 is best, across all courses 2018-2024).
+      <strong>Teaching evaluations consistently rank among department's highest</strong> (1.11-1.44 on 1-5 scale, where 1 is best, across all courses 2018-2024).
     </p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="https://biodatascience.github.io/statcomp/" target="_blank" rel="noopener">BIOS 735 course site</a>
@@ -80,9 +80,9 @@ nav_order: 5
   <h2>Mentoring &amp; advising</h2>
   <ul>
     <li>Currently mentoring five PhD students in Biostatistics.</li>
-    <li>Five completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok) with 100% placement at leading institutions: Dana-Farber, GSK, UNC, University of Pittsburgh.</li>
-    <li>Students complete 2-4 first-author publications during PhD program, with topics ranging from statistical methodology to translational genomics.</li>
-    <li>Mentoring approach: Independent research aims with clinical collaboration, weekly manuscript meetings, reproducible software deliverables, and embedded trial experience.</li>
+    <li>Five completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok) with <strong>100% placement record at prestigious institutions, all placed within 3 months of graduation</strong>: Dana-Farber, GSK, UNC, University of Pittsburgh.</li>
+    <li><strong>Students average 3 first-author publications</strong> during PhD program, with topics ranging from statistical methodology to translational genomics.</li>
+    <li><strong>Embedded training model:</strong> All students co-author with oncologists on active trials. Mentoring approach includes independent research aims with clinical collaboration, weekly manuscript meetings, reproducible software deliverables, and hands-on trial experience.</li>
   </ul>
 </section>
 

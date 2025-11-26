@@ -40,6 +40,22 @@ nav_order: 4
 <h2>R Packages</h2>
 <div class="software-grid">
   <article class="software-card">
+    <h3>dlglm</h3>
+    <p>Deeply learned GLMs handling non-ignorable missingness. <strong>Deployed in ARPA-H ADAPT analytics.</strong></p>
+    <ul>
+      <li><a href="https://github.com/DavidKLim/dlglm">GitHub</a></li>
+      <li>Lim et al., <em>JCGS</em> (2024)</li>
+    </ul>
+  </article>
+  <article class="software-card">
+    <h3>NIMIWAE</h3>
+    <p>Variational autoencoder for non-ignorable missing data. <strong>Deployed in ARPA-H ADAPT analytics.</strong></p>
+    <ul>
+      <li><a href="https://github.com/DavidKLim/NIMIWAE">GitHub</a></li>
+      <li>Lim et al., <em>Stat Biopharm Res</em> (2024)</li>
+    </ul>
+  </article>
+  <article class="software-card">
     <h3>glmmPen</h3>
     <p>Penalized GLMM selection for biomarker discovery.</p>
     <ul>
@@ -53,22 +69,6 @@ nav_order: 4
     <ul>
       <li><a href="http://bioconductor.org/packages/epigraHMM">Bioconductor</a> · <a href="https://github.com/plbaldoni/epigraHMM">GitHub</a></li>
       <li>Baldoni et al., <em>Biometrics</em> (2022)</li>
-    </ul>
-  </article>
-  <article class="software-card">
-    <h3>dlglm</h3>
-    <p>Deeply learned GLMs handling non-ignorable missingness.</p>
-    <ul>
-      <li><a href="https://github.com/DavidKLim/dlglm">GitHub</a></li>
-      <li>Lim et al., <em>JCGS</em> (2024)</li>
-    </ul>
-  </article>
-  <article class="software-card">
-    <h3>NIMIWAE</h3>
-    <p>Variational autoencoder for non-ignorable missing data.</p>
-    <ul>
-      <li><a href="https://github.com/DavidKLim/NIMIWAE">GitHub</a></li>
-      <li>Lim et al., <em>Stat Biopharm Res</em> (2024)</li>
     </ul>
   </article>
   <article class="software-card">

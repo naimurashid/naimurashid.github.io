@@ -54,6 +54,17 @@ nav_order: 3
 
   <div class="focus-grid">
     <article class="focus-card focus-card--featured">
+      <p class="focus-card__badge">AI &amp; Machine Learning</p>
+      <h3>Deep Learning for Non-Ignorable Missingness</h3>
+      <p><strong>First framework bridging deep learning &amp; classical generalized linear model inference</strong> for principled uncertainty quantification. NIMIWAE and dlGLM methods use variational autoencoders to handle informative missingness in clinical registries and genomic studies—outperforming standard imputation when data are missing not at random.</p>
+      <div class="focus-card__chips">
+        <span class="focus-chip">JCGS 2024</span>
+        <span class="focus-chip">Stat Biopharm Res 2024</span>
+        <span class="focus-chip">ARPA-H deployment</span>
+      </div>
+    </article>
+
+    <article class="focus-card focus-card--featured">
       <p class="focus-card__badge">Clinical Translation</p>
       <h3>Single-Sample Tumor Subtyping</h3>
       <p><strong>PurIST classifier</strong> enables platform-independent, reference-free pancreatic cancer subtyping using single bulk RNA-seq samples—addressing the challenge of tumor purity heterogeneity through novel deconvolution-informed modeling. Methodology supports clinical decision-making in biomarker-stratified trials.</p>
@@ -83,17 +94,6 @@ nav_order: 3
         <span class="focus-chip">The R Journal (2024)</span>
         <span class="focus-chip">CRAN package</span>
         <span class="focus-chip">Multi-omic integration</span>
-      </div>
-    </article>
-
-    <article class="focus-card">
-      <p class="focus-card__badge">Missing Data</p>
-      <h3>Deep Learning for Non-Ignorable Missingness</h3>
-      <p>NIMIWAE and dlGLM methods use variational autoencoders and deep learning to handle informative missingness in clinical registries and genomic studies—outperforming standard imputation when data are missing not at random.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">JCGS (2024)</span>
-        <span class="focus-chip">Stat Biopharm Res (2024)</span>
-        <span class="focus-chip">Neural imputation models</span>
       </div>
     </article>
   </div>

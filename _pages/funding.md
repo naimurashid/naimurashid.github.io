@@ -22,6 +22,8 @@ nav_order: 5
   </ul>
 </section>
 
+{% include funding-timeline.html %}
+
 <section class="page-section" markdown="1">
 ## Active Funding
 

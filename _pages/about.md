@@ -46,7 +46,7 @@ talks:
 <section class="hero-panel">
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
-      <h1 class="hero-panel__title">Statistical methods for cancer genomics, AI, and precision oncology</h1>
+      <h1 class="hero-panel__title">AI & statistical methods for precision oncology: Missing data, biomarkers, and adaptive trials</h1>
       <p class="hero-panel__lead">
         Dr. Rashid is an associate professor in Biostatistics at Gillings and Lineberger. He co-leads the Biostatistics Shared Resource, co-directs dual NCI SPORE cores, and serves as Co-PI and statistical lead for ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
       </p>
@@ -100,7 +100,7 @@ talks:
   <div class="mission-panel__intro">
     <p class="mission-panel__eyebrow">Purpose</p>
     <h3>We develop statistical methods and software that enable clinical translation of biomarker discoveries, from methodological innovation through CLIA-certified diagnostic tools.</h3>
-    <p class="mission-panel__summary">Our lab collaborates with disease teams to develop methodology, software, and analytical frameworks for adaptive platforms, diagnostics, and clinical decision support tools. As associate director of the Lineberger Biostatistics Shared Resource, our team supports design and analysis for 40+ cancer center investigators and clinical trials annually.</p>
+    <p class="mission-panel__summary">Our lab collaborates with disease teams to develop methodology, software, and analytical frameworks for adaptive platforms, diagnostics, and clinical decision support tools. As associate director of the Lineberger Biostatistics Shared Resource, our team <strong>provides statistical leadership</strong> for 40+ cancer center investigators and clinical trials annually, including <strong>regulatory-grade analytics for multi-site cooperative group protocols</strong>.</p>
   </div>
   <div class="mission-panel__grid">
     <article class="mission-panel__card">
@@ -196,7 +196,7 @@ talks:
         <li><strong>2024</strong> — CLIA-certification achieved for clinical use</li>
         <li><strong>Present</strong> — Licensed to GeneCentric and Tempus Diagnostics; actively used in clinical trials</li>
       </ul>
-      <p>PurIST is one of few single-sample, platform-independent tumor subtyping tools to achieve CLIA certification and clinical deployment.</p>
+      <p><strong>Among the first reference-free, single-sample pancreatic cancer classifiers to achieve CLIA certification.</strong> The "reference-free" design eliminates the need for matched normal tissue, enabling subtype classification directly from tumor biopsies—a critical advantage for clinical implementation.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">2 US Patents (2021-2024)</span>
         <span class="focus-chip">CLIA certified (2024)</span>
@@ -204,6 +204,32 @@ talks:
       </div>
     </article>
   </div>
+</section>
+
+<section class="funding-snapshot">
+  <p class="section-eyebrow">Active Funding</p>
+  <h2>{{ site.data.metrics.funding.total_funding }} Research Portfolio</h2>
+  <div class="funding-highlights-grid">
+    <div class="funding-highlight">
+      <h3>ARPA-H EVOLVE Platform</h3>
+      <p class="funding-amount">{{ site.data.metrics.funding.arpa_h_total }}</p>
+      <p class="funding-role">Co-PI & Statistical Lead</p>
+      <p>Bayesian adaptive platform for metastatic breast cancer</p>
+    </div>
+    <div class="funding-highlight">
+      <h3>Dual NCI SPORE Cores</h3>
+      <p class="funding-amount">2 Centers</p>
+      <p class="funding-role">Core Co-Director</p>
+      <p>Breast & pancreatic cancer biostatistics leadership supporting 40+ investigators</p>
+    </div>
+    <div class="funding-highlight">
+      <h3>DOD TrialMatch LLM</h3>
+      <p class="funding-amount">$311K</p>
+      <p class="funding-role">Principal Investigator</p>
+      <p>AI-powered clinical trial navigation tool</p>
+    </div>
+  </div>
+  <a href="/funding/" class="btn btn-primary">View Full Funding Portfolio →</a>
 </section>
 
 ## Recognition & Leadership
@@ -223,8 +249,8 @@ talks:
       <p class="focus-card__badge">National Leadership</p>
       <h4>Collaborative Roles</h4>
       <ul>
-        <li>Co-Director, Breast Cancer SPORE Biostatistics Core (2024-)</li>
-        <li>Co-Director, Pancreatic Cancer SPORE Quantitative Sciences Core (2022-)</li>
+        <li>Co-Director, Breast Cancer SPORE Biostatistics Core (2024-) — <strong>Providing statistical leadership</strong> for multi-site breast cancer translational research</li>
+        <li>Co-Director, Pancreatic Cancer SPORE Quantitative Sciences Core (2022-) — <strong>Providing statistical leadership</strong> for integrated quantitative science across 5 SPORE projects</li>
         <li>Nature Medicine Statistical Advisory Panel (2024-)</li>
         <li>Associate Editor, Annals of Applied Statistics (2023-)</li>
         <li>V Foundation Scientific Advisory Board (2023-)</li>

@@ -31,4 +31,4 @@ funding:
 translation:
   patents: "2"
   clia_diagnostics: "PurIST"
-  key_methods: "glmmPen; dlGLM; PurIST"
+  key_methods: "dlGLM & NIMIWAE (AI/missing data); PurIST; glmmPen"

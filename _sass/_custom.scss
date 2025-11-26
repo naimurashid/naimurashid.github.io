@@ -2153,6 +2153,200 @@ a.quick-link:hover {
   gap: 1.5rem;
 }
 
+/* Funding Timeline Component */
+.funding-timeline {
+  background: linear-gradient(135deg, rgba(75, 156, 211, 0.05), rgba(0, 165, 173, 0.05));
+  border: 1px solid rgba(75, 156, 211, 0.2);
+  border-radius: var(--global-radius-lg);
+  padding: var(--card-padding-lg);
+  margin: 2rem 0;
+}
+
+.timeline-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.timeline-header h3 {
+  margin-bottom: 1rem;
+  color: var(--global-heading-color);
+}
+
+.timeline-summary {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.timeline-stat {
+  background: white;
+  border: 1px solid rgba(75, 156, 211, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: var(--global-radius-sm);
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+.timeline-track {
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 3px solid var(--global-theme-color);
+}
+
+.timeline-period {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  text-align: center;
+  color: var(--global-text-muted);
+  font-style: italic;
+}
+
+.period-label {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.period-desc {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.timeline-milestone {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: white;
+  border-left: 4px solid;
+  border-radius: var(--global-radius-sm);
+  box-shadow: var(--global-shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timeline-milestone:hover {
+  transform: translateX(4px);
+  box-shadow: var(--global-shadow-md);
+}
+
+.milestone-spore {
+  border-left-color: #42b983;
+}
+
+.milestone-arpa {
+  border-left-color: #9370DB;
+}
+
+.milestone-nih {
+  border-left-color: #4b9cd3;
+}
+
+.milestone-collab {
+  border-left-color: #00A5AD;
+}
+
+.milestone-year {
+  display: block;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--global-theme-color);
+  margin-bottom: 0.25rem;
+}
+
+.milestone-title {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.milestone-desc {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--global-text-muted);
+  margin-top: 0.25rem;
+}
+
+.milestone-highlight {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: var(--global-accent-blue);
+}
+
+/* Funding Snapshot Component */
+.funding-snapshot {
+  background: linear-gradient(135deg, rgba(75, 156, 211, 0.05), rgba(244, 166, 64, 0.05));
+  border-radius: var(--global-radius-lg);
+  padding: var(--card-padding-lg);
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.funding-snapshot .section-eyebrow {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin-bottom: 0.5rem;
+}
+
+.funding-snapshot h2 {
+  margin-bottom: 2rem;
+  color: var(--global-heading-color);
+}
+
+.funding-highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.funding-highlight {
+  background: white;
+  border: 1px solid rgba(75, 156, 211, 0.2);
+  border-radius: var(--global-radius-md);
+  padding: var(--card-padding-md);
+  box-shadow: var(--global-shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.funding-highlight:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--global-shadow-lg);
+}
+
+.funding-highlight h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--global-heading-color);
+}
+
+.funding-amount {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--global-theme-color);
+  margin: 0.5rem 0;
+}
+
+.funding-role {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--global-accent-blue);
+  margin: 0.5rem 0;
+}
+
+.funding-highlight p:last-of-type {
+  margin-top: 1rem;
+  color: var(--global-text-muted);
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .post-content > h2,
