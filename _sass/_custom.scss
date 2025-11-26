@@ -192,6 +192,15 @@ html[data-theme="dark"] {
   margin-bottom: 0.35rem;
 }
 
+.news-card__eyebrow {
+  color: var(--global-text-muted, #6c757d);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.15rem;
+  text-transform: uppercase;
+}
+
 .news-card__title {
   color: var(--global-heading-color, #0f172a);
   display: block;
@@ -209,6 +218,17 @@ html[data-theme="dark"] {
   color: var(--global-text-muted, #6c757d);
   font-size: 0.95rem;
   margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .hero-panel__cta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-panel__aside {
+    margin-top: 0.5rem;
+  }
 }
 
 .social-feed {

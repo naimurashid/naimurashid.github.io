@@ -2,6 +2,7 @@
 layout: post
 date: 2024-10-03 10:15:00 -0400
 title: DOD invests in patient-centered pancreatic cancer trial navigator
+label: Grant
 inline: false
 related_posts: true
 ---

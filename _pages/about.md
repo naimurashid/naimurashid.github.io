@@ -57,10 +57,13 @@ talks:
         <div class="metric">
           <span class="metric__label"><strong>Trials &amp; leadership:</strong> ARPA-H ADAPT (Co-PI); dual NCI SPORE cores</span>
         </div>
+        <div class="metric">
+          <span class="metric__label"><strong>Methods:</strong> glmmPen, dlGLM, PurIST</span>
+        </div>
       </div>
       <div class="hero-panel__cta">
         <p class="hero-panel__microcopy mb-3">
-          Lineberger members can email <a href="mailto:LCCC_BIOS@med.unc.edu">LCCC_BIOS@med.unc.edu</a> for consultations or join the Wednesday Zoom office hours for trial support.
+          Lineberger members can email <a href="mailto:LCCC_BIOS@med.unc.edu">LCCC_BIOS@med.unc.edu</a> for consultations or join the Wednesday <a href="https://zoom.us/j/98595369470" target="_blank" rel="noopener">drop-in on Zoom (12–1 PM)</a>.
         </p>
         <a class="btn btn-primary btn-lg" href="mailto:LCCC_BIOS@med.unc.edu?subject=Consultation%20Request%20for%20Lineberger%20Biostatistics">Request a Lineberger consultation</a>
         <a class="btn btn-outline-primary btn-lg" href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>

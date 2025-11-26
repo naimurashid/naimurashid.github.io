@@ -2,6 +2,7 @@
 layout: post
 date: 2024-04-26 08:30:00 -0400
 title: Rashid honored with Gillings James E. Grizzle Distinguished Alumnus Award
+label: Award
 inline: false
 related_posts: true
 ---
