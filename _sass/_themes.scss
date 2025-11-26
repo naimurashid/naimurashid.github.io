@@ -22,6 +22,27 @@
   --global-newsletter-bg-color: #ffffff;
   --global-newsletter-text-color: #1e2a36;
 
+  /* Card and border design tokens */
+  --global-card-border-color: rgba(0, 60, 113, 0.08);
+  --global-text-muted: #64748b;
+
+  /* Border radius scale */
+  --global-radius-sm: 0.75rem;
+  --global-radius-md: 1rem;
+  --global-radius-lg: 1.25rem;
+  --global-radius-full: 999px;
+
+  /* Box shadow scale */
+  --global-shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.05);
+  --global-shadow-md: 0 8px 20px rgba(15, 23, 42, 0.08);
+  --global-shadow-lg: 0 16px 36px rgba(15, 23, 42, 0.12);
+  --global-shadow-xl: 0 24px 56px rgba(15, 23, 42, 0.15);
+
+  /* Card padding scale */
+  --card-padding-sm: 1rem;
+  --card-padding-md: 1.5rem;
+  --card-padding-lg: 2rem;
+
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
@@ -85,6 +106,10 @@ html[data-theme="dark"] {
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
+
+  /* Dark mode overrides for design tokens */
+  --global-card-border-color: rgba(100, 116, 139, 0.3);
+  --global-text-muted: #cbd5e1;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
