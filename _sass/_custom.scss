@@ -108,6 +108,17 @@ html[data-theme="dark"] {
     color: #cbd5e1;
   }
 
+  .social-feed__card {
+    background: #1e293b;
+    border-color: rgba(100, 116, 139, 0.3);
+  }
+
+  .social-feed__title a,
+  .social-feed__summary,
+  .social-feed__date {
+    color: #cbd5e1;
+  }
+
   .grant-card {
     background: #1e293b;
     border-color: rgba(100, 116, 139, 0.3);
@@ -985,7 +996,7 @@ html[data-theme="dark"] {
 .pillar-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   margin-bottom: 2.5rem;
 }
 
@@ -1739,7 +1750,7 @@ html[data-theme="dark"] {
   border-radius: 1.25rem;
   display: grid;
   gap: 2rem;
-  grid-template-columns: minmax(240px, 1fr) 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   margin: 2.5rem 0 2.5rem;
   padding: 2rem;
   box-shadow: 0 25px 60px rgba(15, 23, 42, 0.12);
@@ -1792,7 +1803,7 @@ html[data-theme="dark"] {
 .mission-panel__grid {
   display: grid;
   gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .mission-panel__card {
