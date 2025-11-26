@@ -22,20 +22,20 @@ nav_order: 3
   </div>
   <div class="section-metrics">
     <div class="metric">
-      <span class="metric__value">4</span>
-      <span class="metric__label">research focus areas</span>
+      <span class="metric__value">{{ site.data.metrics.research.focus_areas }}</span>
+      <span class="metric__label">{{ site.data.metrics.research.focus_areas_label }}</span>
     </div>
     <div class="metric">
-      <span class="metric__value">Multiple</span>
-      <span class="metric__label">active adaptive trials</span>
+      <span class="metric__value">{{ site.data.metrics.research.active_trials }}</span>
+      <span class="metric__label">{{ site.data.metrics.research.active_trials_label }}</span>
     </div>
     <div class="metric">
-      <span class="metric__value">10+</span>
-      <span class="metric__label">software packages</span>
+      <span class="metric__value">{{ site.data.metrics.research.software_packages }}</span>
+      <span class="metric__label">{{ site.data.metrics.research.software_packages_label }}</span>
     </div>
     <div class="metric">
-      <span class="metric__value">Broad</span>
-      <span class="metric__label">collaborative network</span>
+      <span class="metric__value">{{ site.data.metrics.research.collaborative_network }}</span>
+      <span class="metric__label">{{ site.data.metrics.research.collaborative_network_label }}</span>
     </div>
   </div>
 </section>

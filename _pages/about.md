@@ -52,13 +52,13 @@ talks:
       </p>
       <div class="hero-panel__metrics metrics-condensed">
         <div class="metric">
-          <span class="metric__label"><strong>Translation:</strong> PurIST CLIA diagnostic; 2 US patents</span>
+          <span class="metric__label"><strong>Translation:</strong> {{ site.data.metrics.translation.clia_diagnostics }} CLIA diagnostic; {{ site.data.metrics.translation.patents }} US patents</span>
         </div>
         <div class="metric">
           <span class="metric__label"><strong>Trials &amp; leadership:</strong> ARPA-H ADAPT (Co-PI); dual NCI SPORE cores</span>
         </div>
         <div class="metric">
-          <span class="metric__label"><strong>Methods:</strong> glmmPen; dlGLM; PurIST</span>
+          <span class="metric__label"><strong>Methods:</strong> {{ site.data.metrics.translation.key_methods }}</span>
         </div>
       </div>
       <div class="hero-panel__cta">

@@ -19,20 +19,20 @@ nav_rank: 2
   </div>
   <div class="section-metrics">
     <div class="metric">
-      <span class="metric__value">40+</span>
-      <span class="metric__label">oncology collaborations</span>
+      <span class="metric__value">{{ site.data.metrics.team.oncology_collaborations }}</span>
+      <span class="metric__label">{{ site.data.metrics.team.oncology_collaborations_label }}</span>
     </div>
     <div class="metric">
-      <span class="metric__value">12</span>
-      <span class="metric__label">current trainees</span>
+      <span class="metric__value">{{ site.data.metrics.team.current_trainees }}</span>
+      <span class="metric__label">{{ site.data.metrics.team.current_trainees_label }}</span>
     </div>
     <div class="metric">
-      <span class="metric__value">6</span>
-      <span class="metric__label">disease-site partners</span>
+      <span class="metric__value">{{ site.data.metrics.team.disease_site_partners }}</span>
+      <span class="metric__label">{{ site.data.metrics.team.disease_site_partners_label }}</span>
     </div>
     <div class="metric">
-      <span class="metric__value">20+</span>
-      <span class="metric__label">alumni placements</span>
+      <span class="metric__value">{{ site.data.metrics.team.alumni_placements }}</span>
+      <span class="metric__label">{{ site.data.metrics.team.alumni_placements_label }}</span>
     </div>
   </div>
 </section>

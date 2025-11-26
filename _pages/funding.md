@@ -15,8 +15,8 @@ nav_order: 5
   </p>
   <p class="mb-0">Leadership roles supporting adaptive oncology research and clinical translation.</p>
   <ul>
-    <li>31 total grants as PI, Co-PI, or core leader representing over $40M in direct funding</li>
-    <li>Co-PI and Statistical Lead for ARPA-H ADAPT ($30M metastatic breast cancer platform trial, 2025-2031)</li>
+    <li>{{ site.data.metrics.funding.total_grants }} total grants as PI, Co-PI, or core leader representing over {{ site.data.metrics.funding.total_funding }} in direct funding</li>
+    <li>Co-PI and Statistical Lead for ARPA-H ADAPT ({{ site.data.metrics.funding.arpa_h_total }} metastatic breast cancer platform trial, {{ site.data.metrics.funding.arpa_h_period }})</li>
     <li>Co-Director of NCI SPORE Biostatistics/Quantitative Sciences cores in breast and pancreatic cancer</li>
     <li>PI for DOD-funded clinical trial matching tool using large language models</li>
   </ul>
