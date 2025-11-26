@@ -94,7 +94,7 @@ talks:
   </div>
 </section>
 
-### Research Overview
+## Research Overview
 
 <section class="mission-panel" aria-label="Research overview">
   <div class="mission-panel__intro">
@@ -170,7 +170,7 @@ talks:
   </div>
 </section>
 
-### Collaboration-Driven Methodology
+## Collaboration-Driven Methodology
 
 <section class="page-section page-section--methodology">
   <h2>Embedded Clinical Partnerships</h2>
@@ -182,7 +182,7 @@ talks:
   </p>
 </section>
 
-### Clinical Impact & Translation
+## Clinical Impact & Translation
 
 <section class="page-section">
   <div class="focus-grid">
@@ -207,7 +207,7 @@ talks:
   </div>
 </section>
 
-### Recognition & Leadership
+## Recognition & Leadership
 
 <section class="page-section">
   <div class="focus-grid">
@@ -235,7 +235,7 @@ talks:
   </div>
 </section>
 
-### Recent Invited Talks
+## Recent Invited Talks
 
 <section class="talks-section" aria-label="Recent invited talks">
   <div class="talks-section__intro">
@@ -265,7 +265,7 @@ talks:
   </div>
 </section>
 
-### Quick Links
+## Quick Links
 
 <div class="pillar-grid">
   <article class="pillar-card">

@@ -101,6 +101,7 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
+      <p class="section-eyebrow">Lab updates</p>
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
@@ -108,6 +109,7 @@ layout: default
     {% endif %}
 
     {% if page.social_feed and site.social_feed.enabled %}
+      <p class="section-eyebrow">Latest updates</p>
       <h2>
         {{ site.social_feed.title | default: "Latest updates" }}
       </h2>
