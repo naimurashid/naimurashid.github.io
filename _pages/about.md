@@ -172,14 +172,19 @@ talks:
 
 ## Collaboration-Driven Methodology
 
-<section class="page-section page-section--methodology">
-  <h2>Embedded Clinical Partnerships</h2>
-  <p class="section-lede">
-    Our statistical methods emerge from embedded clinical partnerships rather than abstract theory. Working directly with UNC Lineberger oncologists, we identify unmet analytical needs in real trials and translate them into rigorous, reproducible software solutions.
-  </p>
-  <p>
-    This approach ensures methodological innovations address practical challenges in precision oncology—from single-sample tumor subtyping to adaptive platform designs that integrate serial biomarker data. Close collaboration with disease teams allows us to develop tools that are both statistically principled and clinically actionable.
-  </p>
+<section class="page-section">
+  <div class="focus-grid">
+    <article class="focus-card">
+      <p class="focus-card__badge">Methodology</p>
+      <h3>Embedded clinical partnerships</h3>
+      <p class="section-lede">
+        Our statistical methods emerge from embedded clinical partnerships rather than abstract theory. Working directly with UNC Lineberger oncologists, we identify unmet analytical needs in real trials and translate them into rigorous, reproducible software solutions.
+      </p>
+      <p>
+        This approach ensures methodological innovations address practical challenges in precision oncology—from single-sample tumor subtyping to adaptive platform designs that integrate serial biomarker data. Close collaboration with disease teams allows us to develop tools that are both statistically principled and clinically actionable.
+      </p>
+    </article>
+  </div>
 </section>
 
 ## Clinical Impact & Translation
