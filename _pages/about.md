@@ -58,7 +58,7 @@ talks:
           <span class="metric__label"><strong>Trials &amp; leadership:</strong> ARPA-H ADAPT (Co-PI); dual NCI SPORE cores</span>
         </div>
         <div class="metric">
-          <span class="metric__label"><strong>Methods:</strong> glmmPen, dlGLM, PurIST</span>
+          <span class="metric__label"><strong>Methods:</strong> glmmPen; dlGLM; PurIST</span>
         </div>
       </div>
       <div class="hero-panel__cta">
@@ -113,9 +113,9 @@ talks:
         </div>
       </div>
       <div class="mission-panel__chips">
-        <span class="mission-chip">Deep learning for missing genomic data (dlGLM, NIMIWAE)</span>
-        <span class="mission-chip">Penalized mixed models for high-dimensional biomarkers</span>
-        <span class="mission-chip">AI-assisted clinical trial navigation tools</span>
+        <span class="mission-chip">Missing data deep learning (dlGLM, NIMIWAE)</span>
+        <span class="mission-chip">Penalized mixed models</span>
+        <span class="mission-chip">AI trial navigation tools</span>
       </div>
       <a class="mission-panel__link" href="/research/#methodology">Explore methodology →</a>
     </article>
@@ -173,7 +173,6 @@ talks:
 ## Collaboration-Driven Methodology
 
 <section class="page-section page-section--methodology">
-  <h2>Embedded Clinical Partnerships</h2>
   <p class="section-lede">
     Our statistical methods emerge from embedded clinical partnerships rather than abstract theory. Working directly with UNC Lineberger oncologists, we identify unmet analytical needs in real trials and translate them into rigorous, reproducible software solutions.
   </p>
