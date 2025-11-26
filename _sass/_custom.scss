@@ -17,173 +17,87 @@ html[data-theme="dark"] {
   --global-neutral-light: #1e293b;
   --global-accent-blue: #60a5fa;
 
-  /* Improve readability of hero sections in dark mode */
-  .hero-panel {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
+  /* Standard card backgrounds and borders */
+  .hero-panel,
+  .section-hero,
+  .focus-card,
+  .pillar-card,
+  .mission-panel,
+  .news-card,
+  .social-feed__card,
+  .grant-card,
+  .team-member-card,
+  .project-card,
+  .team-group-block,
+  .talk-card,
+  .collaboration-callout,
+  .publication-highlights__card {
+    background: var(--global-card-bg-color);
+    border-color: var(--global-card-border-color);
   }
 
-  .hero-panel__lead {
-    color: #cbd5e1;
+  /* Publication cards have left accent border */
+  .publication-highlights__card {
+    border-left-color: #60a5fa;
   }
 
-  .section-hero {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
+  /* Muted text elements */
+  .hero-panel__lead,
+  .section-hero__lede,
+  .page-intro__lede,
+  .news-card__date,
+  .news-card__summary,
+  .social-feed__title a,
+  .social-feed__summary,
+  .social-feed__date,
+  .grant-card__description,
+  .page-intro ul li {
+    color: var(--global-text-muted);
   }
 
-  .section-hero__lede {
-    color: #cbd5e1;
-  }
-
-  .metric {
-    background: #334155;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
+  /* Metric badges with darker background */
+  .metric,
   .section-metrics .metric {
     background: #334155;
-    border-color: rgba(100, 116, 139, 0.3);
+    border-color: var(--global-card-border-color);
   }
 
-  .focus-card {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
-  .focus-chip {
-    background: rgba(96, 165, 250, 0.15);
-    border-color: rgba(96, 165, 250, 0.3);
-    color: #e2e8f0;
-  }
-
-  .pillar-card {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
+  /* Gradient backgrounds */
   .page-intro {
     background: linear-gradient(120deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
-  .page-intro__lede {
-    color: #cbd5e1;
-  }
-
-  .page-intro ul li {
-    background: rgba(51, 65, 85, 0.6);
-    border-color: rgba(100, 116, 139, 0.3);
-    color: #cbd5e1;
+    border-color: var(--global-card-border-color);
   }
 
   .team-callout {
     background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
-  .mission-panel {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
+    border-color: var(--global-card-border-color);
   }
 
   .mission-panel__card {
     background: rgba(51, 65, 85, 0.9);
-    border-color: rgba(100, 116, 139, 0.3);
+    border-color: var(--global-card-border-color);
   }
 
+  /* Chip and badge styles */
+  .focus-chip,
   .mission-chip {
     background: rgba(96, 165, 250, 0.15);
     border-color: rgba(96, 165, 250, 0.3);
     color: #e2e8f0;
   }
 
-  .news-card {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
-  .news-card__date,
-  .news-card__summary {
-    color: #cbd5e1;
-  }
-
-  .social-feed__card {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
-  .social-feed__title a,
-  .social-feed__summary,
-  .social-feed__date {
-    color: #cbd5e1;
-  }
-
-  .grant-card {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
-  .grant-detail__value {
-    color: #e2e8f0;
-  }
-
-  .grant-card__description {
-    color: #cbd5e1;
-  }
-
-  .team-member-card {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
+  /* Headings and text in cards */
+  .grant-detail__value,
   .team-member-card__role,
   .team-member-card__teaser,
-  .team-member-card__title a {
-    color: #e2e8f0;
-  }
-
-  .project-card {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
+  .team-member-card__title a,
   .project-card h3,
   .project-card p,
   .project-meta,
   .project-meta strong,
-  .project-card__badge {
-    color: #e2e8f0;
-  }
-
-  .team-group-block {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
-  .talk-card {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
+  .project-card__badge,
   .talk-card h4 {
     color: #e2e8f0;
-  }
-
-  .project-card {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
-  .collaboration-callout {
-    background: #1e293b;
-    border-color: rgba(100, 116, 139, 0.3);
-  }
-
-  .publication-highlights__card {
-    background: #1e293b;
-    border-left-color: #60a5fa;
-    border-color: rgba(100, 116, 139, 0.3);
   }
 
   /* Logo adjustment for dark mode */
