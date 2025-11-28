@@ -167,6 +167,15 @@ html[data-theme="dark"] {
     color: #e2e8f0 !important;
   }
 
+  /* All paragraphs in alt sections */
+  .page-section--alt p {
+    color: var(--global-text-muted) !important;
+  }
+
+  .page-section--alt > p {
+    color: var(--global-text-muted) !important;
+  }
+
   /* Software list */
   .software-list li {
     color: var(--global-text-muted);
