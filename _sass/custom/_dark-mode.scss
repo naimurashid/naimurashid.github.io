@@ -181,4 +181,137 @@ html[data-theme="dark"] {
   .software-card li {
     color: var(--global-text-muted);
   }
+
+  /* Publication highlights */
+  .publication-highlights__card {
+    background: var(--global-card-bg-color);
+    border-color: var(--global-card-border-color);
+  }
+
+  .publication-highlights__card h3,
+  .publication-highlights__card h4 {
+    color: #e2e8f0;
+  }
+
+  /* Research themes and network grids */
+  .research-theme,
+  .network-grid .pillar-card {
+    background: var(--global-card-bg-color);
+    border-color: var(--global-card-border-color);
+  }
+
+  .research-theme h3,
+  .research-theme h4,
+  .network-grid .pillar-card h4 {
+    color: #e2e8f0;
+  }
+
+  .research-theme p,
+  .network-grid .pillar-card p {
+    color: var(--global-text-muted);
+  }
+
+  /* Funding highlights */
+  .funding-highlight {
+    background: var(--global-card-bg-color);
+    border-color: var(--global-card-border-color);
+  }
+
+  .funding-highlight h3 {
+    color: #e2e8f0;
+  }
+
+  .funding-highlight p {
+    color: var(--global-text-muted);
+  }
+
+  .funding-highlights li {
+    color: var(--global-text-muted);
+  }
+
+  /* Page CTAs */
+  .page-cta {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
+    border-color: var(--global-card-border-color);
+  }
+
+  .page-cta p,
+  .page-cta strong {
+    color: #e2e8f0;
+  }
+
+  /* Teaching and impact sections */
+  .teaching-philosophy,
+  .impact-highlights {
+    color: var(--global-text-muted);
+  }
+
+  .teaching-philosophy h2,
+  .teaching-philosophy h3,
+  .impact-highlights h2,
+  .impact-highlights h3 {
+    color: #e2e8f0;
+  }
+
+  /* Pillar cards (cross-cutting innovations, collaborative network) */
+  .pillar-card {
+    background: var(--global-card-bg-color);
+    border-color: var(--global-card-border-color);
+  }
+
+  .pillar-card h3,
+  .pillar-card h4 {
+    color: #e2e8f0;
+  }
+
+  .pillar-card p {
+    color: var(--global-text-muted);
+  }
+
+  /* Leadership cards */
+  .leadership-card,
+  .leadership-grid .leadership-card {
+    background: var(--global-card-bg-color);
+    border-color: var(--global-card-border-color);
+  }
+
+  .leadership-card h3,
+  .leadership-card h4,
+  .leadership-details p strong {
+    color: #e2e8f0;
+  }
+
+  .leadership-card p,
+  .leadership-card li {
+    color: var(--global-text-muted);
+  }
+
+  /* Diagram wrapper and research portfolio map */
+  .diagram-wrapper {
+    background: transparent;
+  }
+
+  /* All list items in page sections */
+  .page-section ul li,
+  .page-section ol li {
+    color: var(--global-text-muted);
+  }
+
+  .page-section ul li strong,
+  .page-section ol li strong {
+    color: #e2e8f0;
+  }
+
+  /* Funding accordion content */
+  .funding-accordion summary {
+    color: #e2e8f0;
+  }
+
+  .funding-list h4 {
+    color: #e2e8f0;
+  }
+
+  .funding-list p {
+    color: var(--global-text-muted);
+  }
 }
