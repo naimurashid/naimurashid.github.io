@@ -314,4 +314,30 @@ html[data-theme="dark"] {
   .funding-list p {
     color: var(--global-text-muted);
   }
+
+  /* Impact Highlights cards on Publications page */
+  .bg-white {
+    background-color: var(--global-card-bg-color) !important;
+  }
+
+  .text-muted {
+    color: var(--global-text-muted) !important;
+  }
+
+  .shadow-sm {
+    box-shadow: var(--global-shadow-sm) !important;
+  }
+
+  .display-6 {
+    color: #e2e8f0 !important;
+  }
+
+  /* Ensure all p elements in white bg cards are readable */
+  .bg-white p:not(.text-muted) {
+    color: var(--global-text-muted);
+  }
+
+  .bg-white .text-uppercase {
+    color: #94a3b8;
+  }
 }
