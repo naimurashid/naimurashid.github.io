@@ -11,7 +11,7 @@ nav_order: 3
 <section class="section-hero section-hero--projects">
   <div class="section-hero__content">
     <p class="section-hero__eyebrow">Build Tracker</p>
-    <h1>Bench-to-bedside projects</h1>
+    <h1>Code-to-clinic projects</h1>
     <p class="section-hero__lede">
       Each card shows where a method sits on the journey from prototype to patient deployment. Readiness badges and links make it clear how collaborators or funders can plug into the next milestone.
     </p>
@@ -153,7 +153,7 @@ nav_order: 3
 
 <section class="page-section page-section--alt">
   <p class="page-intro__eyebrow">Journeys</p>
-  <h2 class="page-intro__title">Bench-to-bedside stories</h2>
+  <h2 class="page-intro__title">Code-to-clinic stories</h2>
   <div class="focus-grid project-grid">
     <article class="project-card project-card--story">
       <p class="project-card__badge project-card__badge--story">Diagnostics</p>
