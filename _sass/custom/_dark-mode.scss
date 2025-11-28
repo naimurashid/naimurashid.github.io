@@ -96,4 +96,89 @@ html[data-theme="dark"] {
     padding: 4px 8px;
     border-radius: 6px;
   }
+
+  /* Project card badges - lighter colors for dark mode */
+  .project-card__badge--develop {
+    background: rgba(56, 189, 248, 0.25);
+    color: #7dd3fc;
+  }
+
+  .project-card__badge--pilot {
+    background: rgba(251, 191, 36, 0.25);
+    color: #fcd34d;
+  }
+
+  .project-card__badge--adopt {
+    background: rgba(134, 239, 172, 0.25);
+    color: #86efac;
+  }
+
+  .project-card__badge--story {
+    background: rgba(191, 219, 254, 0.25);
+    color: #93c5fd;
+  }
+
+  /* Bootstrap badges - better contrast for dark mode */
+  .badge-primary {
+    background-color: #3b82f6 !important;
+    color: #fff !important;
+  }
+
+  .badge-success {
+    background-color: #10b981 !important;
+    color: #fff !important;
+  }
+
+  .badge-info {
+    background-color: #06b6d4 !important;
+    color: #fff !important;
+  }
+
+  /* Funding timeline - dark backgrounds */
+  .timeline-stat {
+    background: #334155;
+    border-color: var(--global-card-border-color);
+    color: #e2e8f0;
+  }
+
+  .timeline-milestone {
+    background: #1e293b;
+    border-color: var(--global-card-border-color);
+  }
+
+  .milestone-title {
+    color: #e2e8f0;
+  }
+
+  .milestone-desc,
+  .milestone-highlight {
+    color: var(--global-text-muted);
+  }
+
+  /* Section headings in alt sections */
+  .page-section--alt h2,
+  .page-section--alt h3,
+  .page-section--alt h4 {
+    color: #e2e8f0;
+  }
+
+  /* Software list */
+  .software-list li {
+    color: var(--global-text-muted);
+  }
+
+  .software-list strong {
+    color: #e2e8f0;
+  }
+
+  /* Software and grant cards */
+  .software-card h3,
+  .grant-card h3 {
+    color: #e2e8f0;
+  }
+
+  .software-card p,
+  .software-card li {
+    color: var(--global-text-muted);
+  }
 }
