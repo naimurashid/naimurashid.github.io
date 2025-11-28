@@ -40,14 +40,6 @@ nav_order: 3
   </div>
 </section>
 
-<section class="page-section">
-  <p class="page-intro__eyebrow">Program Overview</p>
-  <h2 class="page-intro__title">Research program scope</h2>
-  <p class="page-intro__lede">
-    Our research program spans methodological innovation, software development, and embedded collaborative science across precision oncology applications. We develop adaptive trial designs, biomarker-driven stratification methods, and genomic analysis tools through partnerships with UNC Lineberger disease-site teams and national consortia. This integrative approach ensures statistical methods address real clinical needs while maintaining methodological rigor.
-  </p>
-</section>
-
 <section class="page-section page-section--featured">
   <p class="page-intro__eyebrow">Translational Impact</p>
   <h2 class="page-intro__title">Featured achievements</h2>

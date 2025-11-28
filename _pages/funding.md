@@ -38,7 +38,7 @@ nav_order: 5
 
 <div class="grant-card grant-card--featured">
   <div class="grant-card__header">
-    <h3>TBCRC EVOLVE_BDT Platform Trial (ARPA-H)</h3>
+    <h3>TBCRC Evolutionary Clinical Trial For Novel Biomarker-Driven Therapies (EVOLVE-BDT)</h3>
     <span class="badge badge-success">Active</span>
   </div>
   <div class="grant-card__details">
@@ -62,7 +62,7 @@ nav_order: 5
 
 <div class="grant-card">
   <div class="grant-card__header">
-    <h3>TrialMatch LLM for Pancreatic Cancer (DOD PCARP)</h3>
+    <h3>Enhancing clinical trial discovery, matching, and enrollment in PDAC using fine-tuned large language models</h3>
     <span class="badge badge-success">Active</span>
   </div>
   <div class="grant-card__details">
@@ -80,17 +80,17 @@ nav_order: 5
     </div>
   </div>
   <p class="grant-card__description">
-    Large language model to translate pancreatic trial eligibility criteria into accessible patient summaries.
+    We propose to fine-tune a pretrained LLM on pancreatic cancer trial data from clinicaltrials.gov that is manually matched to retrospective clinical data from prior UNC PC patients. Retrospective matches will be expertly curated by our physician-led team to generate high-quality training data that will be used to fine-tune an LLM to improve recommendations for prospectively recruited PC patients given their clinical data and preferences.
   </p>
 </div>
 
 <div class="grant-card">
   <div class="grant-card__header">
-    <h3>Tumor–Stroma Integration U01 (NCI)</h3>
+    <h3>Integrating tumor and stroma to understand and predict treatment response</h3>
     <span class="badge badge-success">Active</span>
   </div>
   <p class="grant-card__description">
-    Co-PI with Jen Jen Yeh to map tumor–stroma responses across organoids, mixtures, and tissues and link phenotypes to therapeutic vulnerabilities.
+    Co-PI with Jen Jen Yeh. We propose to establish predictive models that will link phenotypic responses in tissues to underlying changes in molecular states. Models will be built on data from our experimental platform characterizing transcriptomic, proteomic, and phosphoproteomic states in response to targeted treatments across tissue complexity.
   </p>
 </div>
 
@@ -98,20 +98,20 @@ nav_order: 5
   <summary>See additional PI / Core leadership awards</summary>
   <div class="grant-card">
     <div class="grant-card__header">
-      <h3>UNC Breast Cancer SPORE – Core B</h3>
+      <h3>SPORE in Breast Cancer (Core B: Biostatistics and Bioinformatics)</h3>
       <span class="badge badge-success">Active</span>
     </div>
     <p class="grant-card__description">
-      Core B co-lead with Katie Hoadley (P50-CA058223, 2024–2029) supporting analytics, biomarker development, and resistance monitoring.
+      Core Co-Leader with Katie Hoadley (P50-CA058223, 2024–2029). The main goal of the Biostatistics and Bioinformatics Core (Core B) is to provide a complete and well-integrated Core for the analysis of complex multi-analyte data sets coming from our translational research of breast tumor specimens.
     </p>
   </div>
   <div class="grant-card">
     <div class="grant-card__header">
-      <h3>UNC Pancreatic Cancer SPORE – Core C (IQS)</h3>
+      <h3>SPORE in Pancreatic Cancer (Core C: Integrated Quantitative Sciences Core)</h3>
       <span class="badge badge-success">Active</span>
     </div>
     <p class="grant-card__description">
-      Core C co-lead with Michael Kosorok (P50-CA257911, 2022–2027) building integrated quantitative science pipelines for PDAC translational studies.
+      Core Co-Leader with Michael Kosorok (P50-CA257911, 2022–2027). The Integrated Quantitative Sciences Core participates in the design of all clinical trials, animal studies, and translational research proposed in the SPORE to ensure that all relevant studies are well powered, utilize appropriate statistical methods, and are properly designed to address relevant hypotheses.
     </p>
   </div>
   <div class="grant-card">

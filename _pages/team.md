@@ -12,9 +12,9 @@ nav_rank: 2
 <section class="section-hero section-hero--team">
   <div class="section-hero__content">
     <p class="section-hero__eyebrow">Lab Ecosystem</p>
-    <h1>Biostatisticians embedded with oncologists</h1>
+    <h1>Biostatisticians embedded with Oncologists</h1>
     <p class="section-hero__lede">
-      We pair Gillings trainees with Lineberger disease-site teams to deliver adaptive trials, biomarker pipelines, and patient-navigation AI. Alumni move into faculty roles, pharma leadership, and senior cancer-center biostatistics positions.
+      We pair trainees with Lineberger research teams to deliver novel clinical prediction models, genomic biomarker discovery tools, and advanced statistical techniques to support unmet research needs. Alumni move into faculty roles, pharma leadership, and senior cancer-center biostatistics positions.
     </p>
   </div>
   <div class="section-metrics">
@@ -43,11 +43,10 @@ nav_rank: 2
     <h2>Fall 2026 cohort</h2>
     <p>We’re recruiting students excited about adaptive platforms, biomarker genomics, missing-data ML, and precision-oncology software.</p>
     <ul>
-      <li><strong>Apply by Dec 10, 2025:</strong> Mention “Rashid Lab – adaptive oncology statistics.”</li>
-      <li><strong>January 2026:</strong> Invite-only Q&amp;A with current trainees (travel support for visit weekend).</li>
-      <li><strong>Funding:</strong> NIH SPORE, ARPA-H ADAPT, and Lineberger traineeships.</li>
+      <li><strong>Apply by Dec 10, 2025:</strong> Mention "Rashid Lab – adaptive oncology statistics."</li>
+      <li><strong>January/February 2026:</strong> Invite-only Q&amp;A with current trainees (travel support for visit weekend).</li>
     </ul>
-    <p class="mb-0">Send a one-page research blurb, CV, and unofficial transcript to <a href="mailto:naim@unc.edu?subject=Prospective%20PhD%20-%20Rashid%20Lab">naim@unc.edu</a>.</p>
+    <p class="mb-0">Apply through the UNC Graduate School; research advisors are selected after students complete their first two years of coursework. Contact <a href="mailto:sph-admissions@unc.edu">sph-admissions@unc.edu</a> for application questions.</p>
   </div>
 </section>
 

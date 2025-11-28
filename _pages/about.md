@@ -31,22 +31,22 @@ talks:
     location: "Washington, DC & virtual"
     date: "May 2025"
     description: "Presented reinforcement learning, platform-level borrowing, and LLM tools for the ADAPT network."
-  - title: "Integrating tumor and stroma to guide precision oncology"
+  - title: "Replicability, semi-supervised learning and generative AI: recent statistical work in cancer biostatistics"
     venue: "James E. Grizzle Distinguished Alumnus Lecture, UNC Gillings"
     location: "Chapel Hill, NC"
     date: "October 2024"
-    description: "Presented multi-omic models that pair PurIST and kinome readouts with stromal remodeling signals to prioritize translational studies."
-  - title: "STATGEN keynote: multi-omic signatures for pancreatic cancer trials"
-    venue: "STATGEN Conference, University of Pittsburgh"
+    description: "Grizzle Award Lecture covering recent methodological developments in replicable genomic prediction, semi-supervised learning for cancer subtyping, and generative AI applications."
+  - title: "Joint Nonnegative Matrix Factorization and Survival Modeling to Select Clinically-relevant Gene Signatures"
+    venue: "STATGEN 2024 Conference (Invited Talk)"
     location: "Pittsburgh, PA"
     date: "June 2024"
-    description: "Presented adaptive genomics pipelines—DeCAF, PurIST, and immune deconvolution—for basket trial applications."
+    description: "Presented joint NMF-survival modeling methods for selecting clinically-relevant gene signatures in cancer genomics."
 ---
 
 <section class="hero-panel">
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
-      <h1 class="hero-panel__title">AI & statistical methods for precision oncology: Biomarker discovery and adaptive trials</h1>
+      <h1 class="hero-panel__title">AI & statistical methods for precision oncology, biomarker discoveries, and adaptive trials</h1>
       <p class="hero-panel__lead">
         Dr. Rashid is an associate professor in Biostatistics at Gillings and Lineberger. He co-leads the LCCC Biostatistics Shared Resource, is Dual NCI SPORE core director, and serves as Co-PI and statistical member for ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
       </p>
@@ -99,7 +99,7 @@ talks:
 <section class="mission-panel" aria-label="Research overview">
   <div class="mission-panel__intro">
     <p class="mission-panel__eyebrow">Purpose</p>
-    <h3>We develop statistical methods and software that enable biomarker discovery and their clinical translation, from methodological innovation through CLIA-certified diagnostic tools.</h3>
+    <h3>We develop statistical methods and software that enable biomarker discoveries and their clinical translation, from methodological innovation through CLIA-certified diagnostic tools.</h3>
     <p class="mission-panel__summary">Our lab collaborates with cancer researchers to develop methodology, software, and analytical frameworks for adaptive platforms, diagnostics, and clinical decision support tools. As associate director of the Lineberger LCCC Biostatistics Shared Resource, our team <strong>provides statistical memberership</strong> for 40+ cancer center investigators and clinical trials annually, including <strong>regulatory-grade analytics for multi-site cooperative group protocols</strong>.</p>
   </div>
   <div class="mission-panel__grid">
@@ -190,15 +190,15 @@ talks:
       <h3>PurIST Diagnostic: From Statistical Method to Clinical Tool</h3>
       <p>The PurIST (Purity Independent Subtyping of Tumors) classifier represents a complete translational research arc—from methodological development to clinical deployment:</p>
       <ul>
-        <li><strong>2020</strong> — Published classification method (<em>Clinical Cancer Research</em>)</li>
-        <li><strong>2021-2024</strong> — Two US patents issued</li>
-        <li><strong>2024</strong> — Analytical validation completed (<em>Journal of Molecular Diagnostics</em>)</li>
+        <li><strong>2020</strong> — Published classification method (<a href="https://doi.org/10.1158/1078-0432.CCR-19-1467" target="_blank" rel="noopener"><em>Clinical Cancer Research</em></a>)</li>
+        <li><strong>2021-2024</strong> — <a href="https://patents.google.com/patent/US11053550B2" target="_blank" rel="noopener">Three US patents</a> issued (<a href="https://patents.google.com/patent/US11053550B2" target="_blank" rel="noopener">11,053,550</a>, <a href="https://patents.google.com/patent/US17336600" target="_blank" rel="noopener">17/336,600</a>, <a href="https://patents.google.com/patent/US12000003B2" target="_blank" rel="noopener">12,000,003</a>)</li>
+        <li><strong>2024</strong> — Analytical validation completed (<a href="https://doi.org/10.1016/j.jmoldx.2024.07.003" target="_blank" rel="noopener"><em>Journal of Molecular Diagnostics</em></a>)</li>
         <li><strong>2024</strong> — CLIA-certification achieved for clinical use</li>
-        <li><strong>Present</strong> — Licensed to GeneCentric and Tempus Diagnostics; actively used in clinical trials</li>
+        <li><strong>Present</strong> — Licensed to GeneCentric and <a href="https://www.tempus.com/oncology/purist/" target="_blank" rel="noopener">Tempus Diagnostics</a>; actively used in clinical trials</li>
       </ul>
       <p><strong>Among the first reference-free, single-sample pancreatic cancer classifiers to achieve CLIA certification.</strong> The "reference-free" design eliminates the need for matched normal tissue, enabling subtype classification directly from tumor biopsies—a critical advantage for clinical implementation.</p>
       <div class="focus-card__chips">
-        <span class="focus-chip">2 US Patents (2021-2024)</span>
+        <span class="focus-chip">3 US Patents (2021-2024)</span>
         <span class="focus-chip">CLIA certified (2024)</span>
         <span class="focus-chip">Licensed to GeneCentric & Tempus</span>
       </div>
@@ -243,6 +243,9 @@ talks:
         <li><strong>2025</strong> — Gillings Research Excellence Award</li>
         <li><strong>2024</strong> — James E. Grizzle Distinguished Alumnus Award</li>
         <li><strong>2023</strong> — Teaching Innovation Award, UNC Gillings</li>
+        <li><strong>2021</strong> — Delta Omega Faculty Award, Gillings School of Global Public Health</li>
+        <li><strong>2017</strong> — IBM and R.J. Reynolds Junior Faculty Development Award, UNC-CH</li>
+        <li><strong>2013</strong> — Barry H. Margolin Dissertation Award for best doctoral dissertation</li>
       </ul>
     </article>
     <article class="focus-card">

@@ -9,7 +9,7 @@ nav_order: 4
 
 <section class="page-section page-intro">
   <p class="page-intro__eyebrow">Overview</p>
-  <h2 class="page-intro__title">Software &amp; Tooling</h2>
+  <h2 class="page-intro__title">Software</h2>
   <p class="page-intro__lede">
     {{ page.description }}
   </p>
@@ -22,14 +22,20 @@ nav_order: 4
 </section>
 
 <section class="page-section page-section--alt">
-<h2>Clinical Tools &amp; Patents</h2>
+<h2>Decision Support Tools &amp; Patents</h2>
 <div class="software-grid">
   <article class="software-card">
     <h3>PurIST Pancreatic Classifier</h3>
     <p>CLIA-ready, single-sample PDAC subtype assay embedded in cooperative trials.</p>
     <ul>
-      <li><strong>Patent:</strong> US 12,000,003 (June 2024)</li>
-      <li><strong>Key paper:</strong> Rashid et al., <em>Clin Cancer Res</em> (2020)</li>
+      <li><strong>Patents:</strong>
+        <ul>
+          <li><a href="https://patents.google.com/patent/US11053550B2" target="_blank" rel="noopener">US 11,053,550</a> (July 2021) – Gene-expression based subtyping of PDAC</li>
+          <li><a href="https://patents.google.com/patent/US17336600" target="_blank" rel="noopener">US Patent App. 17/336,600</a> (April 2022) – Methods and compositions for prognostic/diagnostic subtyping</li>
+          <li><a href="https://patents.google.com/patent/US12000003B2" target="_blank" rel="noopener">US 12,000,003</a> (June 2024) – Platform-independent single sample classifier</li>
+        </ul>
+      </li>
+      <li><strong>Key papers:</strong> Rashid et al., <em>Clin Cancer Res</em> (2020); Li et al., <em>J Mol Diagnostics</em> (2024)</li>
       <li><strong>Code:</strong> <a href="https://github.com/naimurashid/PurIST">GitHub</a> · <a href="https://github.com/naimurashid/runPurIST">Shiny GUI</a></li>
     </ul>
   </article>

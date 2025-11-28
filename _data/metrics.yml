@@ -29,6 +29,6 @@ funding:
   arpa_h_period: "2025-2031"
 
 translation:
-  patents: "2"
+  patents: "3"
   clia_diagnostics: "PurIST"
   key_methods: "dlGLM & NIMIWAE (AI/missing data); PurIST; glmmPen"
