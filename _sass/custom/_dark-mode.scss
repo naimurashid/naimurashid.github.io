@@ -159,7 +159,12 @@ html[data-theme="dark"] {
   .page-section--alt h2,
   .page-section--alt h3,
   .page-section--alt h4 {
-    color: #e2e8f0;
+    color: #e2e8f0 !important;
+  }
+
+  /* Featured Publications heading specifically */
+  .page-section--alt > h2 {
+    color: #e2e8f0 !important;
   }
 
   /* Software list */
