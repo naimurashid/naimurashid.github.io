@@ -43,7 +43,7 @@ nav_rank: 2
     <h2>Fall 2026 cohort</h2>
     <p>We’re recruiting students excited about adaptive platforms, biomarker genomics, missing-data ML, and precision-oncology software.</p>
     <ul>
-      <li><strong>Apply by Dec 10, 2025:</strong> Mention "Rashid Lab – adaptive oncology statistics."</li>
+      <li><strong>Apply by Dec 10, 2025:</strong> Mention the Rashid Lab in your application statement and your interest in the lab's work.</li>
       <li><strong>January/February 2026:</strong> Invite-only Q&amp;A with current trainees (travel support for visit weekend).</li>
     </ul>
     <p class="mb-0">Apply through the UNC Graduate School; research advisors are selected after students complete their first two years of coursework. Contact <a href="mailto:sph-admissions@unc.edu">sph-admissions@unc.edu</a> for application questions.</p>
