@@ -1,5 +1,46 @@
 /* Site Enhancements - Custom styles for Priority 1 additions */
 
+/* Hero panel highlights */
+.hero-panel__highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  background: var(--global-bg-color-alt);
+  border-radius: 8px;
+  border-left: 3px solid var(--global-theme-color);
+}
+
+.highlight-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.highlight-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--global-text-color-light);
+}
+
+.highlight-value {
+  font-size: 0.9rem;
+  color: var(--global-text-color);
+  line-height: 1.5;
+}
+
+html[data-theme='dark'] .hero-panel__highlights {
+  background: rgba(255, 255, 255, 0.03);
+  border-left-color: var(--global-theme-color);
+}
+
+html[data-theme='dark'] .highlight-label {
+  color: var(--global-text-color-muted);
+}
+
 /* Plain-language one-liners for research cards */
 .focus-card__plain-language {
   font-size: 0.95rem;

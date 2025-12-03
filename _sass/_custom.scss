@@ -1602,9 +1602,6 @@
   background: #f5f8fc;
   border: 1px solid rgba(0, 60, 113, 0.08);
   border-radius: var(--global-radius-lg);
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   margin: 2.5rem 0 2.5rem;
   padding: 2rem;
   box-shadow: var(--global-shadow-xl);
@@ -1633,6 +1630,10 @@
 .mission-panel > * {
   position: relative;
   z-index: 1;
+}
+
+.mission-panel__intro {
+  margin-bottom: 2rem;
 }
 
 .mission-panel__intro h3 {

@@ -56,22 +56,7 @@ nav_order: 5
 </section>
 
 <section class="page-section">
-  <h2>Mentoring &amp; advising</h2>
-  <ul>
-    <li>Currently mentoring two PhD students in Biostatistics.</li>
-    <li>Five completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok) placed in academia and industry, including Dana-Farber, GSK, UNC, and University of Pittsburgh.</li>
-    <li>Students typically publish multiple first-author papers during their PhD, spanning methodology and translational genomics.</li>
-    <li><strong>Training model:</strong> Students co-author with oncologists on active trials, with weekly manuscript meetings, reproducible software deliverables, and trial experience.</li>
-  </ul>
-</section>
-
-<section class="page-section page-section--alt">
-  <h2>Teaching philosophy</h2>
-  <p>Courses emphasize both rigorous theory and practical implementation, using collaborative datasets, version control, and reproducible documentation to prepare students for academic and industry positions.</p>
-</section>
-
-<section class="page-section">
-  <h2>Mentoring & Student Outcomes</h2>
+  <h2>Mentoring &amp; Student Outcomes</h2>
 
   <div class="outcomes-section">
     <p class="section-lede">Five completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok).</p>
@@ -79,25 +64,25 @@ nav_order: 5
     <div class="focus-grid">
       <article class="focus-card">
         <p class="focus-card__badge">Academic Positions</p>
-        <h4>Faculty & Postdoctoral</h4>
+        <h4>Faculty & Research Staff</h4>
         <ul>
           <li><strong>Pedro Baldoni</strong> (2020) — Assistant Professor, University of Pittsburgh Biostatistics</li>
-          <li><strong>Euphy Wu</strong> (2024) — Postdoctoral Fellow, UNC/Pittsburgh</li>
+          <li><strong>Hillary Heiling</strong> (2023) — Senior Biostatistician, Dana-Farber Cancer Institute</li>
         </ul>
       </article>
 
       <article class="focus-card">
         <p class="focus-card__badge">Industry Positions</p>
-        <h4>Pharmaceutical & Biotech</h4>
+        <h4>Pharmaceutical, Biotech & Genomics</h4>
         <ul>
-          <li><strong>Hillary Heiling</strong> (2023) — Senior Biostatistician, Dana-Farber Cancer Institute</li>
+          <li><strong>Euphy Wu</strong> (2024) — Biostatistician, Precision Genomics</li>
           <li><strong>David Lim</strong> (2022) — Scientist, GSK</li>
           <li><strong>Scott Van Buren</strong> (2020) — Scientist, GSK</li>
         </ul>
       </article>
     </div>
 
-    <p class="mt-4"><strong>Training approach:</strong> Independent research aims, embedded clinician collaborations, weekly manuscript meetings, and reproducible software deliverables. Students typically complete 2-4 first-author publications during their PhD program.</p>
+    <p class="mt-4"><strong>Training approach:</strong> Independent research aims, embedded clinician collaborations, weekly manuscript meetings, and reproducible software deliverables. I help students prepare for the careers they want—whether in academia, industry, or government—and tailor their projects to best position them for their goals. Students typically complete 2-4 first-author publications during their PhD program.</p>
   </div>
 </section>
 
@@ -114,7 +99,7 @@ nav_order: 5
         <h4>Coding & software development</h4>
         <p><strong>Required:</strong> R programming (or strong willingness to learn intensively in Year 1). Students should be comfortable with data manipulation, visualization, and basic statistical modeling.</p>
         <p><strong>Developed during training:</strong> Git/GitHub workflows, R package development, reproducible research practices (Quarto/RMarkdown), high-performance computing. Python, Julia, or C++ for specialized projects as needed.</p>
-        <p><strong>Software contribution:</strong> Most students contribute to existing lab packages (glmmPen, epigraHMM, etc.) and develop new packages as part of dissertation work. CRAN/Bioconductor submission expected for methods projects.</p>
+        <p><strong>Software contribution:</strong> Most students develop new packages as part of dissertation work. CRAN/Bioconductor submission expected for methods projects.</p>
       </article>
 
       <article class="focus-card">
@@ -136,9 +121,9 @@ nav_order: 5
       <article class="focus-card">
         <p class="focus-card__badge">Funding & Support</p>
         <h4>Financial support model</h4>
-        <p><strong>Typical funding:</strong> Mix of RA (research assistantship on grants) and TA (teaching assistantship). Most students are 50-75% RA-funded after Year 1.</p>
+        <p><strong>Typical funding:</strong> Students are typically 100% GRA-funded through lab research grants.</p>
         <p><strong>Grant applications:</strong> Students are encouraged to apply for F31 (predoctoral fellowship) or departmental training grants. Advisor provides proposal feedback and budget support.</p>
-        <p><strong>Conference travel:</strong> Funding available for 1-2 conferences per year (JSM, ENAR, ISCB) when presenting work.</p>
+        <p><strong>Conference travel:</strong> Funding available for 1-2 conferences per year (JSM, ENAR) when presenting work.</p>
       </article>
 
       <article class="focus-card">
@@ -152,7 +137,7 @@ nav_order: 5
       <article class="focus-card">
         <p class="focus-card__badge">Lab Environment</p>
         <h4>Work culture & resources</h4>
-        <p><strong>Collaboration:</strong> Embedded in UNC Lineberger with regular contact with oncologists. Students co-author on active trials and can attend tumor boards.</p>
+        <p><strong>Collaboration:</strong> Embedded in UNC Lineberger with regular contact with cancer researchers. Students often contribute and support computational and statistical needs of ongoing Lineberger studies.</p>
         <p><strong>Computational resources:</strong> Access to Longleaf HPC cluster, lab GitHub organization, shared codebases for common workflows.</p>
         <p><strong>Work expectations:</strong> Flexible hours; no expectation of evening/weekend work except near deadlines.</p>
       </article>
@@ -162,37 +147,9 @@ nav_order: 5
 </section>
 
 <section class="page-section">
-  <div class="prospective-student-cta">
-    <h2>Prospective PhD students</h2>
-    <p class="section-lede">Recruiting for <strong>Fall 2026</strong> admission through the UNC Biostatistics PhD program.</p>
-
-    <div class="cta-grid">
-      <div class="cta-card">
-        <h4>How to reach out</h4>
-        <p>Email <a href="mailto:naim@unc.edu">naim@unc.edu</a> with subject line <strong>"Prospective PhD student"</strong> and include:</p>
-        <ul>
-          <li>Brief research interests (2-3 sentences)</li>
-          <li>Relevant coursework or experience (statistics, coding, biology)</li>
-          <li>2-3 questions about the lab or potential projects</li>
-          <li>CV or resume (optional but helpful)</li>
-        </ul>
-        <p><strong>Response time:</strong> Typically within 1 week.</p>
-      </div>
-
-      <div class="cta-card">
-        <h4>Office hours for applicants</h4>
-        <p><strong>Virtual drop-in (October-December):</strong> Wednesdays 2-3pm ET via Zoom. No appointment needed—join to ask questions about research, lab culture, or the UNC program.</p>
-        <p><a href="https://unc.zoom.us/my/naimrashid" class="btn btn-outline-primary" target="_blank" rel="noopener">Join drop-in hours</a></p>
-        <p class="mt-2"><em>Can't make office hours? Email to schedule a brief call.</em></p>
-      </div>
-    </div>
-
-    <div class="application-info mt-4">
-      <h4>Application process</h4>
-      <p>Apply through the <a href="https://sph.unc.edu/bios/biostatistics/admissions/" target="_blank" rel="noopener">UNC Biostatistics PhD program</a>. Application deadline is typically <strong>December 1</strong>. Mention my name in your statement if interested in joining the lab.</p>
-      <p><strong>For UNC master's students or current trainees:</strong> Email directly to discuss rotation opportunities or K-award consulting.</p>
-    </div>
-  </div>
+  <h2>For Prospective PhD Students</h2>
+  <p>Apply through the <a href="https://sph.unc.edu/bios/biostatistics/admissions/" target="_blank" rel="noopener">UNC Biostatistics PhD program</a>. Prospective students interested in the lab can email <a href="mailto:naim@unc.edu">naim@unc.edu</a> with questions about research directions, lab culture, or training philosophy.</p>
+  <p><strong>For current UNC Biostatistics PhD trainees:</strong> Email directly to discuss joining the lab or participating in collaborative projects.</p>
 </section>
 
 <section class="page-section" markdown="1">

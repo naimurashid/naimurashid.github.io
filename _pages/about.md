@@ -48,11 +48,22 @@ talks:
     <div class="hero-panel__content">
       <h1 class="hero-panel__title">Biostatistics for precision oncology and clinical trials</h1>
       <p class="hero-panel__lead">
-        Associate professor in Biostatistics at Gillings and Lineberger. My work focuses on adaptive trial design, biomarker-driven methods, and software developed with UNC Lineberger collaborators. I co-lead the LCCC Biostatistics Shared Resource and the biostatistics cores for the breast and pancreatic cancer SPOREs.
+        I'm an associate professor in Biostatistics at UNC Gillings and Lineberger, where I develop statistical methods and software for cancer research. My work bridges methodological innovation with clinical application—from adaptive trial designs that integrate real-time biomarker data to machine learning tools for tumor classification and missing data problems. As co-director of the LCCC Biostatistics Shared Resource and biostatistics cores for two NCI SPOREs (breast and pancreatic cancer), I collaborate with oncologists and trialists to translate statistical methods into clinical decision support tools.
       </p>
+      <div class="hero-panel__highlights">
+        <div class="highlight-item">
+          <span class="highlight-label">Focus areas</span>
+          <span class="highlight-value">Adaptive platforms • Tumor subtyping • Missing data ML</span>
+        </div>
+        <div class="highlight-item">
+          <span class="highlight-label">Clinical translation</span>
+          <span class="highlight-value">CLIA-certified diagnostics • ARPA-H ADAPT Co-PI • Dual SPORE cores</span>
+        </div>
+      </div>
       <div class="hero-panel__cta">
-        <a class="btn btn-outline-primary btn-lg" href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
-        <a class="btn btn-primary btn-lg" href="/research/">View research</a>
+        <a class="btn btn-primary btn-lg" href="/research/">Research overview</a>
+        <a class="btn btn-outline-primary btn-lg" href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV</a>
+        <a class="btn btn-outline-primary btn-lg" href="/projects/">Current projects</a>
       </div>
     </div>
     <aside class="hero-panel__aside">
@@ -137,22 +148,6 @@ talks:
       </div>
       <a class="mission-panel__link" href="/software/">Browse software packages →</a>
     </article>
-    <article class="mission-panel__card mission-panel__card--alt">
-      <div class="mission-panel__header">
-        <span class="mission-panel__icon">
-          <i class="ti ti-users-group"></i>
-        </span>
-        <div>
-          <p class="mission-panel__badge">Collaboration</p>
-        </div>
-      </div>
-      <div class="mission-panel__chips">
-        <span class="mission-chip">Lineberger LCCC Biostatistics Shared Resource</span>
-        <span class="mission-chip">ARPA-H ADAPT analytics for PSRC/NCI teams</span>
-        <span class="mission-chip">TBCRC &amp; V Foundation cooperative groups</span>
-      </div>
-      <a class="mission-panel__link" href="/news/">View news updates →</a>
-    </article>
   </div>
 </section>
 
@@ -196,9 +191,9 @@ talks:
   <p class="section-eyebrow">Active Funding</p>
   <h2>Current roles</h2>
   <ul>
-    <li>Co-PI and statistical member for the ARPA-H ADAPT/EVOLVE platform</li>
+    <li>Co-PI and statistical member for the ARPA-H ADAPT platform (metastatic breast cancer)</li>
     <li>Co-director of NCI breast and pancreatic cancer SPORE biostatistics cores</li>
-    <li>PI on an LLM-based clinical trial navigation project</li>
+    <li>PI on DOD-funded LLM clinical trial navigation tool</li>
   </ul>
   <a href="/funding/" class="btn btn-primary">View full funding portfolio →</a>
 </section>

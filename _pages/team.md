@@ -21,14 +21,10 @@ nav_rank: 2
 
 <section class="team-callout">
   <div class="team-callout__content">
-    <p class="team-callout__eyebrow">Prospective PhD students</p>
-    <h2>Fall 2026 cohort</h2>
-    <p>We’re recruiting students excited about adaptive platforms, biomarker genomics, missing-data ML, and precision-oncology software.</p>
-    <ul>
-      <li><strong>Apply by Dec 10, 2025:</strong> Mention the Rashid Lab in your application statement and your interest in the lab's work.</li>
-      <li><strong>January/February 2026:</strong> Invite-only departmental prospective student visitation weekend (with travel support).</li>
-    </ul>
-    <p class="mb-0">Apply through the UNC Graduate School; research advisors are selected after students complete their first two years of coursework. Contact <a href="mailto:sph-admissions@unc.edu">sph-admissions@unc.edu</a> for application questions.</p>
+    <p class="team-callout__eyebrow">Joining the lab</p>
+    <h2>PhD training opportunities</h2>
+    <p>The lab welcomes PhD students interested in adaptive trial design, cancer genomics, machine learning for missing data, and precision oncology software development.</p>
+    <p>Apply through the <a href="https://sph.unc.edu/bios/biostatistics/admissions/" target="_blank" rel="noopener">UNC Biostatistics PhD program</a>. Research advisors are selected after students complete their first two years of coursework. Prospective students can email <a href="mailto:naim@unc.edu">naim@unc.edu</a> with questions about research directions and lab culture.</p>
   </div>
 </section>
 
