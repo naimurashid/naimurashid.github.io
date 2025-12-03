@@ -33,7 +33,17 @@ profile:
 
 [Dr. Naim Rashid](https://naimurashid.github.io/assets/pdf/Naim.Rashid.cv.pdf) is an associate professor in the [Department of Biostatistics](https://sph.unc.edu/bios/biostatistics/) at the [UNC Gillings School of Global Public Health](https://sph.unc.edu/), and has a joint appointment at the [Lineberger Comprehensive Cancer Center (LCCC)](https://unclineberger.org/). His methodological work spans several areas in genomics and statistics, addressing problems facing basic science, translational, and clinical researchers in cancer. 
 
-Previously, Dr. Rashid was a postdoctoral fellow in the [Department of Biostatistics](https://www.hsph.harvard.edu/biostatistics/) at the Harvard School of Public Health, and the [Department of Data Sciences](https://ds.dfci.harvard.edu/) at the Dana Farber Cancer Institute, under [Giovanni Parmigiani](https://scholar.harvard.edu/parmigiani/home) and Nikhil Munshi.  
+Previously, Dr. Rashid was a postdoctoral fellow in the [Department of Biostatistics](https://www.hsph.harvard.edu/biostatistics/) at the Harvard School of Public Health, and the [Department of Data Sciences](https://ds.dfci.harvard.edu/) at the Dana Farber Cancer Institute, under [Giovanni Parmigiani](https://scholar.harvard.edu/parmigiani/home) and Nikhil Munshi.
+
+## Awards & Honors
+
+**Recent honors:**
+- **Gillings Research Excellence Award** — Gillings School of Global Public Health, 2025
+- **James E. Grizzle Distinguished Alumnus Award** — Department of Biostatistics, Gillings School of Global Public Health, 2024
+- **Teaching Innovation Award** — Gillings School of Global Public Health, 2023
+- **Delta Omega Faculty Award** — Gillings School of Global Public Health, 2021
+- **IBM and R.J. Reynolds Junior Faculty Development Award** — UNC-Chapel Hill, 2017
+- **Barry H. Margolin Dissertation Award** — UNC Gillings School of Global Public Health, 2013
 
 ## Research
 
@@ -47,15 +57,33 @@ He also engages in collaborative studies at Lineberger, working with physicians 
 
 ## Funding
 
-Dr. Rashid is currently co-PI of U01 CA274298 "Integrating tumor and stroma to understand and predict treatment response," which proposes machine learning tools to subtype patient stroma in pancreatic cancer and examine its interaction with tumor subtypes on patient outcomes. 
+Active funding includes co-lead roles in NCI breast and pancreatic SPORE biostatistics cores, Co-PI for an ARPA-H adaptive platform, and PI for a DoD clinical trial navigation project. NIH support has been continuous since 2017.
 
-He is also co-leader of the UNC SPORE in Pancreatic Cancer’s Integrated Quantitative Sciences Core, where he coordinates the design and analysis of SPORE project data and develop new statistical tools in support of SPORE aims.  He similarly co-leads the UNC SPORE in Breast cancer's Biostatistics and Bioinformatics Core.  
+**Selected current awards:**
+- **Co-PI:** U01 CA274298 (tumor and stroma integration)
+- **PI:** W81XWH-23-1-0665 (LLM-based clinical trial navigator for PDAC patients)
+- **Core co-lead:** P50 CA236733 (UNC SPORE in Pancreatic Cancer)
+- **Core co-lead:** P50 CA058223 (UNC SPORE in Breast Cancer)
 
-Dr. Rashid is  PI of a Department of Defense Grant to build an Large Language Model-based AI tool that generates personalized clinical trial recommendations for patients with pancreatic ductal adenocarcinoma to help with self-advocacy and increase awareness of eligible trials. 
+**Peer review service:**
+- NIH ad hoc reviewer (ITCR, SBIR, R01); NSF DMS (2023); DoD CDMRP (2021, 2024); PCORI (2022)
 
 ## Teaching
 
-Each spring, Dr. Rashid also teaches [BIOS 735](https://biodatascience.github.io/statcomp/), a doctoral-level course in the Department of Biostatistics covering topics such as writing efficient and reproducible code, implementing various optimization and numerical integration algorithms, and applying multiple machine learning methods.  He also chairs the department's doctoral applied exam committee, and serves on the UNC Gillings Research Council. 
+Each spring, Dr. Rashid also teaches [BIOS 735](https://biodatascience.github.io/statcomp/), a doctoral-level course in the Department of Biostatistics covering topics such as writing efficient and reproducible code, implementing various optimization and numerical integration algorithms, and applying multiple machine learning methods.  He also chairs the department's doctoral applied exam committee, and serves on the UNC Gillings Research Council.
 
+## Collaboration
+
+I work with clinicians and researchers at UNC Lineberger, cooperative groups, and other cancer centers on biostatistics and computational analyses. Current collaboration areas include:
+
+**Services:**
+- **Clinical trial design** — Phase I/II adaptive designs, platform trials, biomarker-stratified randomization
+- **Correlative analyses** — Genomic data integration, tumor subtyping, stromal modeling
+- **Biomarker discovery** — Multi-omic integration, prognostic/predictive signature development
+- **Statistical methods consulting** — Power calculations, missing data strategies, high-dimensional analyses
+
+**Contact:** Email [naim@unc.edu](mailto:naim@unc.edu) with a brief project summary.
+
+**For UNC investigators**: Contact the [LCCC Biostatistics Shared Resource](https://unclineberger.org/biostats/) for support on SPORE projects and Lineberger trials.
 
 

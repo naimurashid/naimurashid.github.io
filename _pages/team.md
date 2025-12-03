@@ -12,28 +12,10 @@ nav_rank: 2
 <section class="section-hero section-hero--team">
   <div class="section-hero__content">
     <p class="section-hero__eyebrow">Lab Ecosystem</p>
-    <h1>Biostatisticians embedded with Oncologists</h1>
+    <h1>Biostatistics team and collaborators</h1>
     <p class="section-hero__lede">
-      We pair trainees with Lineberger research teams to deliver novel clinical prediction models, genomic biomarker discovery tools, and advanced statistical techniques to support unmet research needs. Alumni move into faculty roles, pharma leadership, and senior cancer-center biostatistics positions.
+      Trainees work with Lineberger research teams on clinical prediction models, biomarker discovery tools, and statistical methods. Alumni have taken faculty, pharma, and cancer-center biostatistics roles.
     </p>
-  </div>
-  <div class="section-metrics">
-    <div class="metric">
-      <span class="metric__value">{{ site.data.metrics.team.oncology_collaborations }}</span>
-      <span class="metric__label">{{ site.data.metrics.team.oncology_collaborations_label }}</span>
-    </div>
-    <div class="metric">
-      <span class="metric__value">{{ site.data.metrics.team.current_trainees }}</span>
-      <span class="metric__label">{{ site.data.metrics.team.current_trainees_label }}</span>
-    </div>
-    <div class="metric">
-      <span class="metric__value">{{ site.data.metrics.team.disease_site_partners }}</span>
-      <span class="metric__label">{{ site.data.metrics.team.disease_site_partners_label }}</span>
-    </div>
-    <div class="metric">
-      <span class="metric__value">{{ site.data.metrics.team.alumni_placements }}</span>
-      <span class="metric__label">{{ site.data.metrics.team.alumni_placements_label }}</span>
-    </div>
   </div>
 </section>
 

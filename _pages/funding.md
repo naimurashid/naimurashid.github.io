@@ -2,7 +2,7 @@
 layout: page
 title: Funding
 permalink: /funding/
-description: $40M+ research funding for clinical trials, cancer genomics, AI, and machine learning from ARPA-H, NCI, DOD. SPORE biostatistics cores, adaptive trial platforms, precision oncology, and translational research.
+description: Research funding for clinical trials, cancer genomics, AI, and machine learning from ARPA-H, NCI, and DOD. Roles include SPORE biostatistics cores, adaptive trial platforms, and translational research.
 nav: true
 nav_order: 5
 ---
@@ -15,7 +15,6 @@ nav_order: 5
   </p>
   <p class="mb-0">Leadership roles supporting adaptive oncology research and clinical translation.</p>
   <ul>
-    <li>{{ site.data.metrics.funding.total_grants }} total grants as PI, Co-PI, or core leader representing over {{ site.data.metrics.funding.total_funding }} in direct funding</li>
     <li>Co-PI and Statistical Member for ARPA-H ADAPT ({{ site.data.metrics.funding.arpa_h_total }} metastatic breast cancer platform trial, {{ site.data.metrics.funding.arpa_h_period }})</li>
     <li>Co-Director of NCI SPORE Biostatistics/Quantitative Sciences cores in breast and pancreatic cancer</li>
     <li>PI for DOD-funded clinical trial matching tool using large language models</li>
@@ -56,7 +55,7 @@ nav_order: 5
     </div>
   </div>
   <p class="grant-card__description">
-    Bayesian adaptive platform trial integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies for metastatic breast cancer. Serving as Co-PI and statistical member for trial design, adaptive randomization, and biomarker integration strategy. Novel Bayesian framework accommodates late-arriving biomarker data and allows mid-trial enrichment based on early response signals.
+    Bayesian adaptive platform trial integrating serial tissue, ctDNA, imaging, and machine-learning allocation strategies for metastatic breast cancer. Serving as Co-PI and statistical member for trial design, adaptive randomization, and biomarker integration. Design accommodates late-arriving biomarker data and allows mid-trial enrichment based on early response signals.
   </p>
 </div>
 
@@ -80,7 +79,7 @@ nav_order: 5
     </div>
   </div>
   <p class="grant-card__description">
-    We propose to fine-tune a pretrained LLM on pancreatic cancer trial data from clinicaltrials.gov that is manually matched to retrospective clinical data from prior UNC PC patients. Retrospective matches will be expertly curated by our physician-led team to generate high-quality training data that will be used to fine-tune an LLM to improve recommendations for prospectively recruited PC patients given their clinical data and preferences.
+    Fine-tuning a pretrained LLM on curated pancreatic cancer trial data matched to retrospective UNC cases to improve trial matching recommendations for prospectively recruited patients.
   </p>
 </div>
 
@@ -169,8 +168,7 @@ nav_order: 5
       <ul>
         <li>Bayesian platform design with borrowing across cohorts</li>
         <li>ML allocation strategy integrating serial biomarkers</li>
-        <li>12+ clinical sites coordination</li>
-        <li>FDA engagement for adaptive framework</li>
+        <li>Coordination across participating clinical sites</li>
       </ul>
     </div>
   </div>

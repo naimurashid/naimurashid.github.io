@@ -13,12 +13,7 @@ nav_order: 4
   <p class="page-intro__lede">
     {{ page.description }}
   </p>
-  <p class="mb-0">Clinical tools, R packages, and legacy utilities are grouped below so collaborators can jump straight to validated builds.</p>
-  <ul>
-    <li>PurIST CLIA assay + TrialMatch navigation stack</li>
-    <li>Bioconductor / CRAN releases for GLMMs, DTU, and imputation</li>
-    <li>Legacy research utilities archived with documentation</li>
-  </ul>
+  <p class="mb-0">Clinical tools, R packages, and legacy utilities are grouped below with links to papers and code.</p>
 </section>
 
 <section class="page-section page-section--alt">
@@ -26,7 +21,7 @@ nav_order: 4
 <div class="software-grid">
   <article class="software-card">
     <h3>PurIST Pancreatic Classifier</h3>
-    <p>CLIA-ready, single-sample PDAC subtype assay embedded in cooperative trials.</p>
+    <p>Single-sample PDAC subtype assay used in cooperative trials.</p>
     <ul>
       <li><strong>Patents:</strong>
         <ul>
@@ -47,7 +42,7 @@ nav_order: 4
 <div class="software-grid">
   <article class="software-card">
     <h3>dlglm</h3>
-    <p>Deeply learned GLMs handling non-ignorable missingness. <strong>Deployed in ARPA-H ADAPT analytics.</strong></p>
+    <p>Deeply learned GLMs handling non-ignorable missingness.</p>
     <ul>
       <li><a href="https://github.com/DavidKLim/dlglm">GitHub</a></li>
       <li>Lim et al., <em>JCGS</em> (2024)</li>
@@ -55,7 +50,7 @@ nav_order: 4
   </article>
   <article class="software-card">
     <h3>NIMIWAE</h3>
-    <p>Variational autoencoder for non-ignorable missing data. <strong>Deployed in ARPA-H ADAPT analytics.</strong></p>
+    <p>Variational autoencoder for non-ignorable missing data.</p>
     <ul>
       <li><a href="https://github.com/DavidKLim/NIMIWAE">GitHub</a></li>
       <li>Lim et al., <em>Stat Biopharm Res</em> (2024)</li>
@@ -122,7 +117,7 @@ Many packages are developed in close collaboration with lab members and trainees
 </section>
 
 <div class="page-cta page-cta--usage">
-  <p><strong>Using these tools in your research?</strong> We'd love to hear about it. <a href="mailto:naim@unc.edu">Get in touch →</a></p>
+  <p><strong>Using these tools in your research?</strong> Please let us know or open an issue. <a href="mailto:naim@unc.edu">Email</a></p>
 </div>
 
 <section class="page-section page-section--alt" markdown="1">

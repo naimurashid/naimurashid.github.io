@@ -46,27 +46,13 @@ talks:
 <section class="hero-panel">
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
-      <h1 class="hero-panel__title">AI & statistical methods for precision oncology, biomarker discoveries, and adaptive trials</h1>
+      <h1 class="hero-panel__title">Biostatistics for precision oncology and clinical trials</h1>
       <p class="hero-panel__lead">
-        Dr. Rashid is an associate professor in Biostatistics at Gillings and Lineberger. He co-leads the LCCC Biostatistics Shared Resource, is Dual NCI SPORE core director, and serves as Co-PI and statistical member for ARPA-H ADAPT and the Translational Breast Cancer Research Consortium.
+        Associate professor in Biostatistics at Gillings and Lineberger. My work focuses on adaptive trial design, biomarker-driven methods, and software developed with UNC Lineberger collaborators. I co-lead the LCCC Biostatistics Shared Resource and the biostatistics cores for the breast and pancreatic cancer SPOREs.
       </p>
-      <div class="hero-panel__metrics metrics-condensed">
-        <div class="metric">
-          <span class="metric__label"><strong>Translation:</strong> {{ site.data.metrics.translation.clia_diagnostics }} CLIA diagnostic; {{ site.data.metrics.translation.patents }} US patents</span>
-        </div>
-        <div class="metric">
-          <span class="metric__label"><strong>Trials &amp; leadership:</strong> ARPA-H ADAPT (Co-PI); Dual NCI SPORE core director</span>
-        </div>
-        <div class="metric">
-          <span class="metric__label"><strong>Methods:</strong> {{ site.data.metrics.translation.key_methods }}</span>
-        </div>
-      </div>
       <div class="hero-panel__cta">
-        <p class="hero-panel__microcopy mb-3">
-          Lineberger members can email <a href="mailto:LCCC_BIOS@med.unc.edu">LCCC_BIOS@med.unc.edu</a> for consultations or join the Wednesday <a href="https://zoom.us/j/98595369470" target="_blank" rel="noopener">drop-in on Zoom (12–1 PM)</a>.
-        </p>
-        <a class="btn btn-primary btn-lg" href="mailto:LCCC_BIOS@med.unc.edu?subject=Consultation%20Request%20for%20Lineberger%20Biostatistics">Request a Lineberger consultation</a>
         <a class="btn btn-outline-primary btn-lg" href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
+        <a class="btn btn-primary btn-lg" href="/research/">View research</a>
       </div>
     </div>
     <aside class="hero-panel__aside">
@@ -99,8 +85,8 @@ talks:
 <section class="mission-panel" aria-label="Research overview">
   <div class="mission-panel__intro">
     <p class="mission-panel__eyebrow">Purpose</p>
-    <h3>We develop statistical methods and software that enable biomarker discoveries and their clinical translation, from methodological innovation through CLIA-certified diagnostic tools.</h3>
-    <p class="mission-panel__summary">Our lab collaborates with cancer researchers to develop methodology, software, and analytical frameworks for adaptive platforms, diagnostics, and clinical decision support tools. As associate director of the Lineberger LCCC Biostatistics Shared Resource, our team <strong>provides statistical memberership</strong> for 40+ cancer center investigators and clinical trials annually, including <strong>regulatory-grade analytics for multi-site cooperative group protocols</strong>.</p>
+    <h3>We build statistical methods and software in partnership with oncology teams to support biomarker discovery, clinical trials, and translational research.</h3>
+    <p class="mission-panel__summary">Collaboration with UNC Lineberger researchers shapes our problems and keeps tools aligned with clinical needs, from trial design to data analysis and software delivery.</p>
   </div>
   <div class="mission-panel__grid">
     <article class="mission-panel__card">
@@ -196,7 +182,7 @@ talks:
         <li><strong>2024</strong> — CLIA-certification achieved for clinical use</li>
         <li><strong>Present</strong> — Licensed to GeneCentric and <a href="https://www.tempus.com/oncology/purist/" target="_blank" rel="noopener">Tempus Diagnostics</a>; actively used in clinical trials</li>
       </ul>
-      <p><strong>Among the first reference-free, single-sample pancreatic cancer classifiers to achieve CLIA certification.</strong> The "reference-free" design eliminates the need for matched normal tissue, enabling subtype classification directly from tumor biopsies—a critical advantage for clinical implementation.</p>
+      <p>Reference-free design allows subtype classification from a single RNA sample without matched normals, supporting clinical use in current pancreatic cancer trials.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">3 US Patents (2021-2024)</span>
         <span class="focus-chip">CLIA certified (2024)</span>
@@ -208,28 +194,13 @@ talks:
 
 <section class="funding-snapshot">
   <p class="section-eyebrow">Active Funding</p>
-  <h2>{{ site.data.metrics.funding.total_funding }} Research Portfolio</h2>
-  <div class="funding-highlights-grid">
-    <div class="funding-highlight">
-      <h3>ARPA-H EVOLVE Platform</h3>
-      <p class="funding-amount">{{ site.data.metrics.funding.arpa_h_total }}</p>
-      <p class="funding-role">Co-PI & Statistical Member</p>
-      <p>Bayesian adaptive platform for metastatic breast cancer</p>
-    </div>
-    <div class="funding-highlight">
-      <h3>Dual NCI SPORE Core Director</h3>
-      <p class="funding-amount">2 Centers</p>
-      <p class="funding-role">Core Co-Director</p>
-      <p>Breast & pancreatic cancer biostatistics leadership supporting 40+ investigators</p>
-    </div>
-    <div class="funding-highlight">
-      <h3>DOD TrialMatch LLM</h3>
-      <p class="funding-amount">$311K</p>
-      <p class="funding-role">Principal Investigator</p>
-      <p>AI-powered clinical trial navigation tool</p>
-    </div>
-  </div>
-  <a href="/funding/" class="btn btn-primary">View Full Funding Portfolio →</a>
+  <h2>Current roles</h2>
+  <ul>
+    <li>Co-PI and statistical member for the ARPA-H ADAPT/EVOLVE platform</li>
+    <li>Co-director of NCI breast and pancreatic cancer SPORE biostatistics cores</li>
+    <li>PI on an LLM-based clinical trial navigation project</li>
+  </ul>
+  <a href="/funding/" class="btn btn-primary">View full funding portfolio →</a>
 </section>
 
 ## Recognition & Leadership
@@ -317,7 +288,7 @@ talks:
     <!-- For Collaborators -->
     <div class="pathway-card pathway-card--collaborators">
       <h3>For Clinical Collaborators</h3>
-      <p>Looking for biostatistics expertise for your trial or research project?</p>
+      <p>Biostatistics support for clinical or translational projects.</p>
       <ul class="pathway-links">
         <li><a href="/research/">Research Focus Areas</a></li>
         <li><a href="/projects/">Active Projects & Tools</a></li>
@@ -325,7 +296,7 @@ talks:
         <li><a href="/publications/">Methods Papers</a></li>
         <li><a href="mailto:LCCC_BIOS@med.unc.edu">Request Consultation</a></li>
       </ul>
-      <a href="mailto:LCCC_BIOS@med.unc.edu?subject=Consultation%20Request" class="btn btn-outline-primary">Request Consultation →</a>
+      <a href="mailto:LCCC_BIOS@med.unc.edu?subject=Consultation%20Request" class="btn btn-outline-primary">Contact the LCCC Biostatistics Shared Resource →</a>
     </div>
 
     <!-- For Funders -->

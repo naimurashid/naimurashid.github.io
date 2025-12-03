@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: 75+ peer-reviewed publications in biostatistics, clinical trials, machine learning, cancer genomics, and precision oncology. h-index 28, 5000+ citations. Research in AI, adaptive trial design, RNA-seq, and tumor subtyping.
+description: Peer-reviewed publications in biostatistics, clinical trials, machine learning, cancer genomics, and precision oncology. Research in AI, adaptive trial design, RNA-seq, and tumor subtyping.
 nav: true
 nav_order: 6
 ---
@@ -15,41 +15,7 @@ nav_order: 6
   <p class="page-intro__lede">
     {{ page.description }}
   </p>
-  <p>Our methodological contributions to adaptive trial design, cancer subtyping, and genomic inference support translational oncology research nationally. Editorial service includes the <em>Nature Medicine</em> Statistical Advisory Panel (2024–) and Associate Editor roles at <em>Annals of Applied Statistics</em> (2023–) and <em>Statistical Methods in Medical Research</em>, advancing methodological standards for reproducible cancer biomarker research.</p>
-  <p class="mb-0">Publications span clinical trials methodology, genomics, machine learning, and epigenomics across top-tier journals:</p>
-  <ul>
-    <li>Methodological journals: <em>JASA</em>, <em>Biostatistics</em>, <em>Biometrics</em>, <em>Annals of Applied Statistics</em></li>
-    <li>Clinical/translational journals: <em>Clinical Cancer Research</em>, <em>Nature Genetics</em>, <em>JCO</em>, <em>PNAS</em></li>
-    <li>Areas: Adaptive trials, penalized regression, tumor subtyping, RNA-seq, deep learning</li>
-  </ul>
-</section>
-
-<section class="page-section">
-  <h2 class="mb-4">Impact Highlights</h2>
-  <div class="row g-4">
-    <div class="col-md-4">
-      <div class="p-4 h-100 rounded shadow-sm bg-white">
-        <p class="text-muted text-uppercase small mb-1">Peer-Reviewed Output</p>
-        <p class="display-6 mb-2">75+</p>
-        <p class="mb-0">Articles across JASA, Clin Cancer Res, Nature Genetics, and allied oncology journals.</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="p-4 h-100 rounded shadow-sm bg-white">
-        <p class="text-muted text-uppercase small mb-1">Citation Profile</p>
-        <p class="display-6 mb-2">h-index 28</p>
-        <p class="mb-0"><a href="https://scholar.google.com/citations?user=3Cz_lcEAAAAJ" target="_blank" rel="noopener">View on Google Scholar</a></p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="p-4 h-100 rounded shadow-sm bg-white">
-        <p class="text-muted text-uppercase small mb-1">Mentored Scholarship</p>
-        <p class="display-6 mb-2">25*</p>
-        <p class="mb-0">Student or postdoc first-author papers spanning genomics, trials, and AI.</p>
-      </div>
-    </div>
-  </div>
-  <p class="small text-muted mt-3">*indicates student or postdoc lead author.</p>
+  <p>Work spans clinical trials methodology, genomics, machine learning, and epigenomics, with service on the <em>Nature Medicine</em> Statistical Advisory Panel (2024–) and as Associate Editor for <em>Annals of Applied Statistics</em> (2023–) and <em>Statistical Methods in Medical Research</em>.</p>
 </section>
 
 <section class="page-section page-section--alt">

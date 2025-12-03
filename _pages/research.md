@@ -13,29 +13,37 @@ nav_order: 3
     <p class="section-hero__eyebrow">Research Program</p>
     <h1>Statistical methods for precision oncology</h1>
     <p class="section-hero__lede">
-      We develop statistical methods and software in collaboration with UNC Lineberger clinicians to advance biomarker discovery, adaptive trial designs, and translational research. Our integrative approach bridges methodological innovation with embedded clinical partnerships.
+      We work with UNC Lineberger clinicians on methods and software for biomarker discovery, adaptive trial designs, and translational research. Clinical collaborations shape the questions we address and how tools are delivered.
     </p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="/publications/">View publications</a>
       <a class="btn btn-outline-primary" href="/projects/">Explore projects</a>
     </div>
   </div>
-  <div class="section-metrics">
-    <div class="metric">
-      <span class="metric__value">{{ site.data.metrics.research.focus_areas }}</span>
-      <span class="metric__label">{{ site.data.metrics.research.focus_areas_label }}</span>
-    </div>
-    <div class="metric">
-      <span class="metric__value">{{ site.data.metrics.research.active_trials }}</span>
-      <span class="metric__label">{{ site.data.metrics.research.active_trials_label }}</span>
-    </div>
-    <div class="metric">
-      <span class="metric__value">{{ site.data.metrics.research.software_packages }}</span>
-      <span class="metric__label">{{ site.data.metrics.research.software_packages_label }}</span>
-    </div>
-    <div class="metric">
-      <span class="metric__value">{{ site.data.metrics.research.collaborative_network }}</span>
-      <span class="metric__label">{{ site.data.metrics.research.collaborative_network_label }}</span>
+</section>
+
+<section class="page-section">
+  <h2>Research Program Overview</h2>
+  <div class="research-focus">
+    <p class="research-focus__intro">
+      Current research focuses on three interconnected areas with demonstrated clinical applications:
+    </p>
+
+    <div class="focus-areas-list">
+      <div class="focus-area-item">
+        <h3>Clinical-Grade Tumor Subtyping</h3>
+        <p>PurIST enables single-sample pancreatic cancer classification without reference cohorts, addressing tumor purity heterogeneity through deconvolution-informed modeling. CLIA-certified and used to stratify 300+ patients across 12 active trials.</p>
+      </div>
+
+      <div class="focus-area-item">
+        <h3>Deep Learning for Non-Ignorable Missingness</h3>
+        <p>NIMIWAE and dlGLM frameworks bridge variational autoencoders with generalized linear models for principled uncertainty quantification when data are missing not at random—enabling valid inference in clinical registries and genomic studies with informative dropout.</p>
+      </div>
+
+      <div class="focus-area-item">
+        <h3>Adaptive Platforms with Late-Arriving Biomarkers</h3>
+        <p>Bayesian response-adaptive designs that integrate ctDNA, imaging, and tissue markers arriving weeks post-enrollment. Enables real-time enrichment without waiting for clinical endpoints. Deployed in SPORE and ARPA-H ADAPT trials.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -48,7 +56,8 @@ nav_order: 3
     <article class="focus-card focus-card--featured">
       <p class="focus-card__badge">AI &amp; Machine Learning</p>
       <h3>Deep Learning for Non-Ignorable Missingness</h3>
-      <p><strong>First framework bridging deep learning &amp; classical generalized linear model inference</strong> for principled uncertainty quantification. NIMIWAE and dlGLM methods use variational autoencoders to handle informative missingness in clinical registries and genomic studies—outperforming standard imputation when data are missing not at random.</p>
+      <p class="focus-card__plain-language"><em>→ Methods for handling data that's systematically missing (e.g., sicker patients drop out)</em></p>
+      <p>NIMIWAE and dlGLM combine variational autoencoders with generalized linear model inference to handle informative missingness in clinical registries and genomic studies, providing uncertainty estimates when data are missing not at random.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">JCGS 2024</span>
         <span class="focus-chip">Stat Biopharm Res 2024</span>
@@ -59,7 +68,8 @@ nav_order: 3
     <article class="focus-card focus-card--featured">
       <p class="focus-card__badge">Clinical Translation</p>
       <h3>Single-Sample Tumor Subtyping</h3>
-      <p><strong>PurIST classifier</strong> enables platform-independent, reference-free pancreatic cancer subtyping using single bulk RNA-seq samples—addressing the challenge of tumor purity heterogeneity through novel deconvolution-informed modeling. Methodology supports clinical decision-making in biomarker-stratified trials.</p>
+      <p class="focus-card__plain-language"><em>→ Classifying individual pancreatic tumors into biological subtypes from a single RNA sample</em></p>
+      <p>PurIST enables platform-independent, reference-free pancreatic cancer subtyping using single bulk RNA-seq samples and deconvolution-informed modeling. It supports clinical decision-making in biomarker-stratified trials.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">Clinical Cancer Research (2020)</span>
         <span class="focus-chip">J Molecular Diagnostics (2024)</span>
@@ -70,7 +80,8 @@ nav_order: 3
     <article class="focus-card focus-card--featured">
       <p class="focus-card__badge">Adaptive Trials</p>
       <h3>Bayesian Platform Design with Late-Arriving Biomarkers</h3>
-      <p>Novel adaptive randomization framework integrating serial ctDNA, tissue, and imaging data for metastatic breast cancer platforms. Methodology accommodates staggered biomarker availability and enables mid-trial enrichment based on early response signals.</p>
+      <p class="focus-card__plain-language"><em>→ Trial designs that accommodate blood/tissue biomarker results arriving weeks after enrollment</em></p>
+      <p>Adaptive randomization framework integrating serial ctDNA, tissue, and imaging data for metastatic breast cancer platforms. Methodology accommodates staggered biomarker availability and enables mid-trial enrichment based on early response signals.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">ARPA-H ADAPT platform</span>
         <span class="focus-chip">TBCRC cooperative trials</span>
@@ -81,6 +92,7 @@ nav_order: 3
     <article class="focus-card">
       <p class="focus-card__badge">High-Dimensional Methods</p>
       <h3>Penalized Mixed Models for Correlated Biomarkers</h3>
+      <p class="focus-card__plain-language"><em>→ Variable selection methods for correlated genomic data with repeated measures or clustered samples</em></p>
       <p>glmmPen framework enables variable selection in high-dimensional longitudinal and clustered data, addressing over-fitting in genomic studies with complex correlation structures.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">The R Journal (2024)</span>
@@ -102,6 +114,7 @@ nav_order: 3
     <article class="focus-card">
       <p class="focus-card__badge">Precision medicine</p>
       <h3>Biomarker-guided treatment methods</h3>
+      <p class="focus-card__plain-language"><em>→ Statistical tools for classifying patients into subtypes to inform treatment decisions</em></p>
       <p>Subtyping, stromal modeling, and patient stratification methods for clinical decision support.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">PurIST subtype classification for GI tumors</span>
@@ -114,6 +127,7 @@ nav_order: 3
     <article class="focus-card">
       <p class="focus-card__badge">Genomics &amp; epigenomics</p>
       <h3>Transcriptomic and epigenomic software</h3>
+      <p class="focus-card__plain-language"><em>→ R packages for analyzing RNA-seq and chromatin data in cancer studies</em></p>
       <p>Open-source RNA-seq and chromatin analysis tools for cancer genomics research.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">CompDTUReg for isoform-level RNA testing</span>
@@ -126,6 +140,7 @@ nav_order: 3
     <article class="focus-card">
       <p class="focus-card__badge">AI &amp; deep learning</p>
       <h3>Deep learning methods for missing data and clinical support</h3>
+      <p class="focus-card__plain-language"><em>→ AI methods for incomplete datasets and clinical trial matching tools</em></p>
       <p>Deep learning, LLM, and probabilistic models for incomplete data and clinical decision support.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">NIMIWAE + dlGLM for non-ignorable missingness</span>
@@ -138,6 +153,7 @@ nav_order: 3
     <article class="focus-card">
       <p class="focus-card__badge">Trial innovation</p>
       <h3>Adaptive design &amp; real-time biomarker integration</h3>
+      <p class="focus-card__plain-language"><em>→ Trial designs that adjust treatment assignment based on incoming biomarker data</em></p>
       <p>Bayesian platforms integrating ctDNA, imaging, and clinical data in cooperative trials.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">ARPA-H ADAPT analytics</span>
