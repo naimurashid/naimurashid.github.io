@@ -126,7 +126,7 @@ nav_order: 5
 </section>
 
 <section class="page-section">
-<h2>Leadership Roles: Scope & Impact</h2>
+<h2>Leadership Roles</h2>
 
 <div class="leadership-grid">
   <div class="leadership-card">

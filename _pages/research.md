@@ -49,8 +49,8 @@ nav_order: 3
 </section>
 
 <section class="page-section page-section--featured">
-  <p class="page-intro__eyebrow">Translational Impact</p>
-  <h2 class="page-intro__title">Featured achievements</h2>
+  <p class="page-intro__eyebrow">Translational Work</p>
+  <h2 class="page-intro__title">Selected projects</h2>
 
   <div class="focus-grid">
     <article class="focus-card focus-card--featured">
