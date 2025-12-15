@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 social_feed: true
 hero_profile: true
 talks_intro: >
-  Recent seminar topics include adaptive oncology statistics, biomarker-driven trial platforms, and AI-assisted decision tools. Talks are typically 45–60 minutes and can be tailored for biostatistics, oncology, or data science audiences. I am happy to meet with students and participate in chalk talks or lab meetings.
+  Recent seminar topics include adaptive oncology statistics, biomarker-driven trial platforms, and AI-assisted decision tools. Talks are typically 45–60 minutes and can be tailored for biostatistics, oncology, or data science audiences.
 talks:
   - title: "Bayesian adaptive methods for metastatic breast cancer platforms"
     venue: "ARPA-H ADAPT Analytics Summit"
@@ -169,7 +169,7 @@ talks:
     <article class="focus-card focus-card--featured">
       <p class="focus-card__badge">Clinical Translation</p>
       <h3>PurIST Diagnostic: From Statistical Method to Clinical Tool</h3>
-      <p>The PurIST (Purity Independent Subtyping of Tumors) classifier represents a complete translational research arc—from methodological development to clinical deployment:</p>
+      <p>The PurIST (Purity Independent Subtyping of Tumors) classifier, developed in collaboration with the Yeh laboratory, represents a complete translational research arc—from methodological development to clinical deployment:</p>
       <ul>
         <li><strong>2020</strong> — Published classification method (<a href="https://doi.org/10.1158/1078-0432.CCR-19-1467" target="_blank" rel="noopener"><em>Clinical Cancer Research</em></a>)</li>
         <li><strong>2021-2024</strong> — <a href="https://patents.google.com/patent/US11053550B2" target="_blank" rel="noopener">Three US patents</a> issued (<a href="https://patents.google.com/patent/US11053550B2" target="_blank" rel="noopener">11,053,550</a>, <a href="https://patents.google.com/patent/US17336600" target="_blank" rel="noopener">17/336,600</a>, <a href="https://patents.google.com/patent/US12000003B2" target="_blank" rel="noopener">12,000,003</a>)</li>
@@ -179,9 +179,7 @@ talks:
       </ul>
       <p>Reference-free design allows subtype classification from a single RNA sample without matched normals, supporting clinical use in current pancreatic cancer trials.</p>
       <div class="focus-card__chips">
-        <span class="focus-chip">3 US Patents (2021-2024)</span>
-        <span class="focus-chip">CLIA certified (2024)</span>
-        <span class="focus-chip">Licensed to GeneCentric & Tempus</span>
+        <span class="focus-chip">Clinical deployment achieved through multi-team collaboration</span>
       </div>
     </article>
   </div>
@@ -236,7 +234,6 @@ talks:
   <div class="talks-section__intro">
     <p class="talks-section__eyebrow">Recent Seminar Topics</p>
     <p>{{ page.talks_intro }}</p>
-    <a class="btn btn-outline-primary" href="mailto:naim@unc.edu?subject=Seminar%20Invitation%20for%20Naim%20Rashid">Invite Dr. Rashid to speak</a>
   </div>
   <div class="talks-section__list">
     {% for talk in page.talks %}

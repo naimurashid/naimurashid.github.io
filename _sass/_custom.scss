@@ -1956,6 +1956,20 @@ header #navbar .container {
   align-items: center;
 }
 
+/* Site logo vertical centering and theme switching */
+.site-logo {
+  display: block;
+  vertical-align: middle;
+}
+
+.site-logo--light {
+  display: block;
+}
+
+.site-logo--dark {
+  display: none;
+}
+
 @media (min-width: 576px) {
   header #navbar .navbar-collapse {
     display: flex !important;

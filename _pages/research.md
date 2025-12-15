@@ -32,7 +32,7 @@ nav_order: 3
     <div class="focus-areas-list">
       <div class="focus-area-item">
         <h3>Clinical-Grade Tumor Subtyping</h3>
-        <p>PurIST enables single-sample pancreatic cancer classification without reference cohorts, addressing tumor purity heterogeneity through deconvolution-informed modeling. CLIA-certified and used to stratify 300+ patients across 12 active trials.</p>
+        <p>PurIST, developed in collaboration with the Yeh laboratory, enables single-sample pancreatic cancer classification without reference cohorts, addressing tumor purity heterogeneity through deconvolution-informed modeling. CLIA-certified and used to stratify 300+ patients across 12 active trials.</p>
       </div>
 
       <div class="focus-area-item">
@@ -69,7 +69,7 @@ nav_order: 3
       <p class="focus-card__badge">Clinical Translation</p>
       <h3>Single-Sample Tumor Subtyping</h3>
       <p class="focus-card__plain-language"><em>→ Classifying individual pancreatic tumors into biological subtypes from a single RNA sample</em></p>
-      <p>PurIST enables platform-independent, reference-free pancreatic cancer subtyping using single bulk RNA-seq samples and deconvolution-informed modeling. It supports clinical decision-making in biomarker-stratified trials.</p>
+      <p>PurIST, developed in collaboration with the Yeh laboratory, enables platform-independent, reference-free pancreatic cancer subtyping using single bulk RNA-seq samples and deconvolution-informed modeling. It supports clinical decision-making in biomarker-stratified trials.</p>
       <div class="focus-card__chips">
         <span class="focus-chip">Clinical Cancer Research (2020)</span>
         <span class="focus-chip">J Molecular Diagnostics (2024)</span>

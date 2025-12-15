@@ -89,12 +89,13 @@ html[data-theme="dark"] {
     color: #e2e8f0;
   }
 
-  /* Logo adjustment for dark mode */
-  .site-logo {
-    filter: brightness(1.2) contrast(0.9);
-    background: rgba(255, 255, 255, 0.95);
-    padding: 4px 8px;
-    border-radius: 6px;
+  /* Logo swap for dark mode */
+  .site-logo--light {
+    display: none;
+  }
+
+  .site-logo--dark {
+    display: block;
   }
 
   /* Project card badges - lighter colors for dark mode */

@@ -125,7 +125,7 @@ nav_order: 3
     <article class="project-card project-card--adopt">
       <p class="project-card__badge project-card__badge--adopt">Clinical diagnostics</p>
       <h3>PurIST Clinical Pipeline</h3>
-      <p>Single-sample PDAC classifier with CLIA reporting used in UNC Molecular Diagnostics and PANCREAS trial evaluations.</p>
+      <p>Single-sample PDAC classifier developed with the Yeh laboratory, with CLIA reporting used in UNC Molecular Diagnostics and PANCREAS trial evaluations.</p>
       <ul class="project-meta">
         <li><strong>Status:</strong> Live in UNC Molecular Diagnostics · under review in PANCREAS trial</li>
       </ul>
@@ -140,7 +140,7 @@ nav_order: 3
     <article class="project-card project-card--story">
       <p class="project-card__badge project-card__badge--story">Diagnostics</p>
       <h3>PurIST → cooperative trials</h3>
-      <p>Developed from initial prototype to CLIA-certified assay informing UNC Molecular Diagnostics reports and PANCREAS trial subtyping.</p>
+      <p>Developed with the Yeh laboratory from initial prototype to CLIA-certified assay informing UNC Molecular Diagnostics reports and PANCREAS trial subtyping.</p>
     </article>
     <article class="project-card project-card--story">
       <p class="project-card__badge project-card__badge--story">Epigenomics</p>
