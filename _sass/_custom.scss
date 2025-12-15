@@ -1957,6 +1957,11 @@ header #navbar .container {
 }
 
 /* Site logo vertical centering and theme switching */
+header #navbar .container > a:first-child {
+  display: flex;
+  align-items: center;
+}
+
 .site-logo {
   display: block;
   vertical-align: middle;
