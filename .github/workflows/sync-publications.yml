@@ -29,16 +29,31 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Sync publications from Google Scholar
+        id: sync
+        continue-on-error: true
         env:
           SCHOLAR_AUTHOR_ID: ${{ env.SCHOLAR_AUTHOR_ID != '' && env.SCHOLAR_AUTHOR_ID || env.DEFAULT_SCHOLAR_ID }}
-        run: bin/sync_publications.py --dest _bibliography/papers.bib --verbose
+        run: bin/sync_publications.py --dest _bibliography/papers.bib --verbose --max-retries 5
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet _bibliography/papers.bib; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in papers.bib"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in papers.bib"
+          fi
 
       - name: Configure git
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Create pull request
+        if: steps.changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: "Sync publications from Google Scholar"

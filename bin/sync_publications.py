@@ -13,13 +13,54 @@ from pathlib import Path
 from typing import Iterable, List
 
 DEFAULT_AUTHOR_ID = "3Cz_lcEAAAAJ"
+MAX_RETRIES = 3
+RETRY_DELAYS = [5, 15, 30]  # Exponential backoff delays in seconds
 
 try:
-    from scholarly import scholarly  # type: ignore
+    from scholarly import scholarly, ProxyGenerator  # type: ignore
 except ImportError as exc:  # pragma: no cover
     raise SystemExit(
         "scholarly is required. Install dependencies with `pip install -r requirements.txt`."
     ) from exc
+
+
+def setup_proxy(verbose: bool) -> bool:
+    """Configure a free proxy to avoid Google Scholar rate limiting.
+
+    Returns True if proxy setup succeeded, False otherwise.
+    """
+    try:
+        pg = ProxyGenerator()
+        # Try FreeProxies first (free rotating proxies)
+        success = pg.FreeProxies()
+        if success:
+            scholarly.use_proxy(pg)
+            if verbose:
+                print("[proxy] Configured free rotating proxy", file=sys.stderr)
+            return True
+    except Exception as e:
+        if verbose:
+            print(f"[proxy] Failed to set up proxy: {e}", file=sys.stderr)
+    return False
+
+
+def retry_with_backoff(func, max_retries: int = MAX_RETRIES, verbose: bool = False):
+    """Execute function with exponential backoff retries."""
+    last_exception = None
+    for attempt in range(max_retries):
+        try:
+            return func()
+        except Exception as e:
+            last_exception = e
+            if attempt < max_retries - 1:
+                delay = RETRY_DELAYS[min(attempt, len(RETRY_DELAYS) - 1)]
+                if verbose:
+                    print(f"[retry] Attempt {attempt + 1} failed: {e}. Retrying in {delay}s...", file=sys.stderr)
+                time.sleep(delay)
+            else:
+                if verbose:
+                    print(f"[retry] All {max_retries} attempts failed", file=sys.stderr)
+    raise last_exception
 
 
 def parse_args(argv: Iterable[str]) -> argparse.Namespace:
@@ -64,14 +105,33 @@ def parse_args(argv: Iterable[str]) -> argparse.Namespace:
         action="store_true",
         help="Emit progressing logs.",
     )
+    parser.add_argument(
+        "--no-proxy",
+        action="store_true",
+        help="Disable automatic proxy configuration (use direct connection).",
+    )
+    parser.add_argument(
+        "--max-retries",
+        type=int,
+        default=MAX_RETRIES,
+        help=f"Maximum retry attempts for failed requests (default: {MAX_RETRIES}).",
+    )
     return parser.parse_args(list(argv))
 
 
-def fetch_publications(author_id: str, max_results: int, delay: float, verbose: bool) -> List[str]:
+def fetch_publications(author_id: str, max_results: int, delay: float, verbose: bool, use_proxy: bool = True) -> List[str]:
+    # Set up proxy to avoid rate limiting in CI environments
+    if use_proxy:
+        setup_proxy(verbose)
+
     if verbose:
         print(f"Looking up author profile for {author_id}", file=sys.stderr)
 
-    author = scholarly.search_author_id(author_id)
+    # Use retry logic for the initial author lookup (most likely to fail)
+    def lookup_author():
+        return scholarly.search_author_id(author_id)
+
+    author = retry_with_backoff(lookup_author, verbose=verbose)
     author = scholarly.fill(author, sections=["publications"])
     publications = author.get("publications", [])[:max_results]
 
@@ -130,7 +190,13 @@ def main(argv: Iterable[str]) -> int:
 
     destination = Path(args.dest)
 
-    entries = fetch_publications(args.author_id, args.max_results, args.sleep, args.verbose)
+    entries = fetch_publications(
+        args.author_id,
+        args.max_results,
+        args.sleep,
+        args.verbose,
+        use_proxy=not args.no_proxy,
+    )
     if not entries:
         print("Warning: received zero publications; destination file left untouched.", file=sys.stderr)
         return 1
