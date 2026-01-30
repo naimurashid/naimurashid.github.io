@@ -31,9 +31,10 @@ jobs:
       - name: Sync publications from Google Scholar
         id: sync
         continue-on-error: true
+        timeout-minutes: 10
         env:
           SCHOLAR_AUTHOR_ID: ${{ env.SCHOLAR_AUTHOR_ID != '' && env.SCHOLAR_AUTHOR_ID || env.DEFAULT_SCHOLAR_ID }}
-        run: bin/sync_publications.py --dest _bibliography/papers.bib --verbose --max-retries 5
+        run: bin/sync_publications.py --dest _bibliography/papers.bib --verbose --max-retries 3 --no-proxy
 
       - name: Check for changes
         id: changes

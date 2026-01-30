@@ -14,7 +14,7 @@ from typing import Iterable, List
 
 DEFAULT_AUTHOR_ID = "3Cz_lcEAAAAJ"
 MAX_RETRIES = 3
-RETRY_DELAYS = [5, 15, 30]  # Exponential backoff delays in seconds
+RETRY_DELAYS = [3, 5, 10]  # Backoff delays in seconds (shorter for CI)
 
 try:
     from scholarly import scholarly, ProxyGenerator  # type: ignore
