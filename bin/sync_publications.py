@@ -139,11 +139,28 @@ def fetch_publications(author_id: str, max_results: int, delay: float, verbose: 
     seen_keys: set[str] = set()
 
     for index, publication in enumerate(publications, start=1):
+        title = publication.get("bib", {}).get("title", "Untitled")
+        bibtex = None
+        filled = None
+
         try:
             filled = scholarly.fill(publication)
             bibtex = scholarly.bibtex(filled)
+        except KeyError as exc:
+            # Handle missing ENTRYTYPE by generating fallback BibTeX
+            if str(exc) == "'ENTRYTYPE'":
+                if verbose:
+                    print(f"[fallback] Missing ENTRYTYPE for {title!r}, generating manually", file=sys.stderr)
+                bibtex = fallback_bibtex(filled if filled else publication)
+            else:
+                print(f"[warn] Failed to retrieve publication {title!r}: {exc}", file=sys.stderr)
+                continue
         except Exception as exc:  # pragma: no cover - network variability
-            print(f"[warn] Failed to retrieve publication {publication.get('bib', {}).get('title')!r}: {exc}", file=sys.stderr)
+            print(f"[warn] Failed to retrieve publication {title!r}: {exc}", file=sys.stderr)
+            continue
+
+        if not bibtex:
+            print(f"[warn] Could not generate BibTeX for {title!r}", file=sys.stderr)
             continue
 
         key = extract_bibtex_key(bibtex)
@@ -160,7 +177,6 @@ def fetch_publications(author_id: str, max_results: int, delay: float, verbose: 
         seen_keys.add(key)
 
         if verbose:
-            title = publication.get("bib", {}).get("title", "Untitled")
             print(f"[ok] {index:02d}: {title}", file=sys.stderr)
 
         if delay:
@@ -172,6 +188,59 @@ def fetch_publications(author_id: str, max_results: int, delay: float, verbose: 
 def extract_bibtex_key(bibtex: str) -> str | None:
     match = re.search(r"@\w+\{([^,]+),", bibtex)
     return match.group(1).strip() if match else None
+
+
+def generate_bibtex_key(title: str, year: str | None) -> str:
+    """Generate a BibTeX key from title and year."""
+    # Take first significant word from title
+    words = re.sub(r'[^\w\s]', '', title.lower()).split()
+    first_word = words[0] if words else "unknown"
+    year_str = year if year else "0000"
+    return f"{first_word}{year_str}"
+
+
+def fallback_bibtex(publication: dict) -> str | None:
+    """Generate BibTeX manually when scholarly.bibtex() fails.
+
+    This handles cases where ENTRYTYPE is missing from the publication data.
+    """
+    bib = publication.get("bib", {})
+    title = bib.get("title")
+    if not title:
+        return None
+
+    year = bib.get("pub_year", bib.get("year", ""))
+    authors = bib.get("author", "Unknown Author")
+    venue = bib.get("venue", bib.get("journal", bib.get("conference", "")))
+    citation = bib.get("citation", "")
+
+    # Determine entry type from venue or citation hints
+    entry_type = "article"  # default
+    venue_lower = (venue or "").lower()
+    citation_lower = (citation or "").lower()
+    if any(kw in venue_lower or kw in citation_lower for kw in ["conference", "proceedings", "symposium", "workshop"]):
+        entry_type = "inproceedings"
+    elif any(kw in venue_lower or kw in citation_lower for kw in ["patent", "us patent"]):
+        entry_type = "misc"
+    elif any(kw in venue_lower or kw in citation_lower for kw in ["arxiv", "preprint", "biorxiv", "medrxiv"]):
+        entry_type = "article"
+
+    key = generate_bibtex_key(title, year)
+
+    # Build BibTeX entry
+    lines = [f"@{entry_type}{{{key},"]
+    lines.append(f"  title = {{{title}}},")
+    lines.append(f"  author = {{{authors}}},")
+    if year:
+        lines.append(f"  year = {{{year}}},")
+    if venue:
+        if entry_type == "inproceedings":
+            lines.append(f"  booktitle = {{{venue}}},")
+        else:
+            lines.append(f"  journal = {{{venue}}},")
+    lines.append("}")
+
+    return "\n".join(lines)
 
 
 def write_bibtex(entries: List[str], destination: Path, verbose: bool) -> int:
