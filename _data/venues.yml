@@ -1,9 +1,58 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Journal abbreviations and colors for publication badges
+# Used by bib.liquid to render colored boxes next to publications
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Nat Genet":
+  url: https://www.nature.com/ng/
+  color: "#c41230"
 
-"Vision":
-  color: "#009f36"
+"CCR":
+  url: https://aacrjournals.org/clincancerres
+  color: "#00629b"
+
+"JASA":
+  url: https://www.tandfonline.com/journals/uasa20
+  color: "#6a3d9a"
+
+"Stat Med":
+  url: https://onlinelibrary.wiley.com/journal/10970258
+  color: "#1f78b4"
+
+"JCO":
+  url: https://ascopubs.org/journal/jco
+  color: "#e31a1c"
+
+"Biometrics":
+  url: https://academic.oup.com/biometrics
+  color: "#33a02c"
+
+"JCGS":
+  url: https://www.tandfonline.com/journals/ucgs20
+  color: "#ff7f00"
+
+"Cancer Cell":
+  url: https://www.cell.com/cancer-cell/home
+  color: "#b15928"
+
+"Nat Commun":
+  url: https://www.nature.com/ncomms/
+  color: "#cab2d6"
+
+"Nature":
+  url: https://www.nature.com/
+  color: "#c41230"
+
+"Ann Oncol":
+  url: https://www.annalsofoncology.org/
+  color: "#fb9a99"
+
+"Genome Biol":
+  url: https://genomebiology.biomedcentral.com/
+  color: "#a6cee3"
+
+"Cancer Discov":
+  url: https://aacrjournals.org/cancerdiscovery
+  color: "#fdbf6f"
+
+"PNAS":
+  url: https://www.pnas.org/
+  color: "#1f78b4"
