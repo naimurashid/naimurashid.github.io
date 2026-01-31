@@ -1,0 +1,835 @@
+/* ==========================================================================
+   AESTHETIC REFINEMENTS
+   Comprehensive visual improvements for the about page
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. EQUAL-HEIGHT SOCIAL FEED CARDS (LinkedIn/News)
+   -------------------------------------------------------------------------- */
+.social-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.social-feed__card {
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+  background: linear-gradient(135deg, #fff 0%, #fafbfc 100%);
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: var(--global-radius-md, 12px);
+  box-shadow:
+    0 1px 3px rgba(0, 60, 113, 0.06),
+    0 4px 12px rgba(0, 60, 113, 0.04);
+  padding: 1.25rem;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-feed__card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 4px 12px rgba(0, 60, 113, 0.08),
+    0 12px 32px rgba(0, 60, 113, 0.12);
+}
+
+.social-feed__card .social-feed__summary,
+.social-feed__card p:last-of-type {
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+.social-feed__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(0, 60, 113, 0.06);
+}
+
+/* --------------------------------------------------------------------------
+   2. PUBLICATION BADGE VERTICAL ALIGNMENT
+   -------------------------------------------------------------------------- */
+.publications .row {
+  align-items: flex-start;
+}
+
+.publications .col.col-sm-2.abbr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.15rem;
+}
+
+.publications .abbr abbr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publications .abbr abbr:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.publications .abbr abbr a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+/* --------------------------------------------------------------------------
+   3. NAVIGATE BY ROLE - SUBTLE BACKGROUND TINTS
+   -------------------------------------------------------------------------- */
+.pathway-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.3s ease;
+}
+
+.pathway-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.pathway-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.pathway-card--students::before {
+  background: linear-gradient(135deg, rgba(66, 185, 131, 0.08) 0%, rgba(66, 185, 131, 0.02) 100%);
+}
+
+.pathway-card--students {
+  border-color: #42b983;
+}
+
+.pathway-card--students:hover {
+  border-color: #35a070;
+  box-shadow:
+    0 8px 24px rgba(66, 185, 131, 0.15),
+    0 2px 8px rgba(66, 185, 131, 0.1);
+}
+
+.pathway-card--collaborators::before {
+  background: linear-gradient(135deg, rgba(75, 156, 211, 0.08) 0%, rgba(75, 156, 211, 0.02) 100%);
+}
+
+.pathway-card--collaborators {
+  border-color: var(--global-primary-blue, #4b9cd3);
+}
+
+.pathway-card--collaborators:hover {
+  border-color: #3d8bc2;
+  box-shadow:
+    0 8px 24px rgba(75, 156, 211, 0.15),
+    0 2px 8px rgba(75, 156, 211, 0.1);
+}
+
+.pathway-card--funders::before {
+  background: linear-gradient(135deg, rgba(0, 165, 173, 0.08) 0%, rgba(0, 165, 173, 0.02) 100%);
+}
+
+.pathway-card--funders {
+  border-color: #00A5AD;
+}
+
+.pathway-card--funders:hover {
+  border-color: #008b92;
+  box-shadow:
+    0 8px 24px rgba(0, 165, 173, 0.15),
+    0 2px 8px rgba(0, 165, 173, 0.1);
+}
+
+.pathway-card:hover::before {
+  opacity: 0.7;
+}
+
+.pathway-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Pathway card icon styling */
+.pathway-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.pathway-card h3 i {
+  font-size: 1.3rem;
+  opacity: 0.85;
+}
+
+.pathway-card--students h3 i {
+  color: #42b983;
+}
+
+.pathway-card--collaborators h3 i {
+  color: var(--global-primary-blue, #4b9cd3);
+}
+
+.pathway-card--funders h3 i {
+  color: #00A5AD;
+}
+
+/* --------------------------------------------------------------------------
+   4. QUICK LINKS - ENHANCED WITH ICONS
+   -------------------------------------------------------------------------- */
+.pillar-grid {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-bottom: 3rem;
+}
+
+.pillar-card {
+  position: relative;
+  background: linear-gradient(135deg, #fff 0%, #fafbfc 100%);
+  border: 1px solid rgba(0, 60, 113, 0.1);
+  border-radius: var(--global-radius-lg, 16px);
+  padding: 1.5rem;
+  box-shadow:
+    0 1px 3px rgba(0, 60, 113, 0.04),
+    0 4px 12px rgba(0, 60, 113, 0.03);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.3s ease;
+  overflow: hidden;
+}
+
+.pillar-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--global-primary-blue, #4b9cd3), var(--global-accent-blue, #003c71));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pillar-card:hover::before {
+  opacity: 1;
+}
+
+.pillar-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(75, 156, 211, 0.25);
+  box-shadow:
+    0 6px 20px rgba(0, 60, 113, 0.08),
+    0 12px 32px rgba(0, 60, 113, 0.06);
+}
+
+.pillar-card h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--global-accent-blue, #003c71);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.pillar-card h4 i {
+  font-size: 1.25rem;
+  color: var(--global-primary-blue, #4b9cd3);
+  transition: transform 0.3s ease;
+}
+
+.pillar-card:hover h4 i {
+  transform: scale(1.15);
+}
+
+.pillar-card p {
+  color: var(--global-text-muted, #5b6877);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin-bottom: 0.85rem;
+}
+
+.pillar-card .link-arrow {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
+   5. SECTION SPACING CONSISTENCY
+   -------------------------------------------------------------------------- */
+.post-content > section,
+article > section,
+main > section {
+  margin-bottom: 3.5rem;
+}
+
+/* Major section headings */
+.post-content > h2,
+article > h2,
+main > h2 {
+  margin-top: 4rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid rgba(75, 156, 211, 0.15);
+  position: relative;
+}
+
+.post-content > h2::after,
+article > h2::after,
+main > h2::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--global-primary-blue, #4b9cd3), var(--global-accent-blue, #003c71));
+}
+
+/* First heading - less top margin */
+.post-content > h2:first-child,
+article > h2:first-child,
+.hero-panel + h2 {
+  margin-top: 2rem;
+}
+
+/* --------------------------------------------------------------------------
+   6. FOCUS CARD LIST ITEMS - ENHANCED BULLETS
+   -------------------------------------------------------------------------- */
+.focus-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.focus-card ul li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+.focus-card ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(135deg, var(--global-primary-blue, #4b9cd3), var(--global-accent-blue, #003c71));
+  border-radius: 50%;
+}
+
+.focus-card ul li strong {
+  color: var(--global-accent-blue, #003c71);
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------
+   7. HERO PANEL CTA - BETTER VISUAL HIERARCHY
+   -------------------------------------------------------------------------- */
+.hero-panel__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1.5rem;
+}
+
+.hero-panel__cta .btn-primary {
+  background: linear-gradient(135deg, var(--global-accent-blue, #003c71) 0%, #004d8f 100%);
+  border: none;
+  box-shadow:
+    0 2px 8px rgba(0, 60, 113, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+  padding: 0.7rem 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.hero-panel__cta .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 4px 16px rgba(0, 60, 113, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  background: linear-gradient(135deg, #004080 0%, #005aa0 100%);
+}
+
+.hero-panel__cta .btn-outline-primary {
+  border: 2px solid rgba(0, 60, 113, 0.3);
+  color: var(--global-accent-blue, #003c71);
+  background: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+  padding: 0.65rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.hero-panel__cta .btn-outline-primary:hover {
+  border-color: var(--global-accent-blue, #003c71);
+  background: rgba(0, 60, 113, 0.05);
+  transform: translateY(-1px);
+}
+
+/* --------------------------------------------------------------------------
+   8. FOOTER BREATHING ROOM
+   -------------------------------------------------------------------------- */
+footer.fixed-bottom {
+  margin-top: 0;
+}
+
+footer:not(.fixed-bottom) {
+  margin-top: 5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(0, 60, 113, 0.08);
+}
+
+/* Add subtle gradient to footer area */
+body::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to top, rgba(245, 247, 250, 0.8), transparent);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* --------------------------------------------------------------------------
+   9. MOBILE IMPROVEMENTS
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .hero-panel__grid {
+    gap: 1.25rem;
+  }
+
+  .hero-panel__aside {
+    order: -1;
+    max-width: 300px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .hero-panel__portrait {
+    max-height: 280px;
+    object-fit: cover;
+  }
+
+  .pathway-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .pillar-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .social-feed {
+    grid-template-columns: 1fr;
+  }
+
+  .social-feed__card {
+    min-height: auto;
+  }
+
+  .hero-panel__cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-panel__cta .btn {
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   10. ENHANCED LINK STYLES
+   -------------------------------------------------------------------------- */
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--global-primary-blue, #4b9cd3);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.link-arrow::after {
+  content: "→";
+  transition: transform 0.2s ease;
+}
+
+.link-arrow:hover {
+  color: var(--global-accent-blue, #003c71);
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.link-arrow:hover::after {
+  transform: translateX(3px);
+}
+
+/* --------------------------------------------------------------------------
+   11. RECOGNITION & LEADERSHIP CARDS - NATURAL HEIGHT
+   -------------------------------------------------------------------------- */
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.focus-card {
+  height: auto;
+  min-height: 0;
+  background: linear-gradient(135deg, #fff 0%, #fafbfc 100%);
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  border-radius: var(--global-radius-lg, 16px);
+  padding: 1.75rem;
+  box-shadow:
+    0 1px 4px rgba(0, 60, 113, 0.04),
+    0 6px 16px rgba(0, 60, 113, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.focus-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 4px 12px rgba(0, 60, 113, 0.08),
+    0 12px 32px rgba(0, 60, 113, 0.08);
+}
+
+.focus-card h4 {
+  color: var(--global-accent-blue, #003c71);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.focus-card__badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.85rem;
+  background: linear-gradient(135deg, rgba(75, 156, 211, 0.12), rgba(0, 60, 113, 0.08));
+  border-radius: 20px;
+  color: var(--global-accent-blue, #003c71);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+/* --------------------------------------------------------------------------
+   12. TALKS SECTION REFINEMENT
+   -------------------------------------------------------------------------- */
+.talks-section__list {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.talk-card {
+  background: linear-gradient(135deg, #fff 0%, #fafbfc 100%);
+  border: 1px solid rgba(0, 60, 113, 0.1);
+  border-left: 4px solid var(--global-primary-blue, #4b9cd3);
+  border-radius: var(--global-radius-md, 12px);
+  padding: 1.5rem;
+  box-shadow:
+    0 1px 4px rgba(0, 60, 113, 0.04),
+    0 4px 12px rgba(0, 60, 113, 0.03);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.talk-card:hover {
+  transform: translateY(-3px);
+  border-left-color: var(--global-accent-blue, #003c71);
+  box-shadow:
+    0 4px 12px rgba(0, 60, 113, 0.06),
+    0 8px 24px rgba(0, 60, 113, 0.08);
+}
+
+.talk-card__date {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: rgba(75, 156, 211, 0.1);
+  border-radius: 4px;
+  color: var(--global-accent-blue, #003c71);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* --------------------------------------------------------------------------
+   13. MISSION PANEL REFINEMENT
+   -------------------------------------------------------------------------- */
+.mission-panel__card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(250, 251, 252, 0.95) 100%);
+  border-radius: var(--global-radius-md, 12px);
+  padding: 1.5rem;
+  border: 1px solid rgba(0, 60, 113, 0.08);
+  box-shadow:
+    0 2px 8px rgba(0, 60, 113, 0.04),
+    0 6px 16px rgba(0, 60, 113, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.mission-panel__card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 4px 12px rgba(0, 60, 113, 0.08),
+    0 12px 32px rgba(0, 60, 113, 0.08);
+}
+
+.mission-panel__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  background: linear-gradient(135deg, rgba(75, 156, 211, 0.2), rgba(0, 165, 173, 0.2));
+  border-radius: 10px;
+  color: var(--global-accent-blue, #003c71);
+  font-size: 1.25rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.mission-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.9rem;
+  background: linear-gradient(135deg, rgba(75, 156, 211, 0.08), rgba(0, 60, 113, 0.04));
+  border: 1px solid rgba(0, 60, 113, 0.12);
+  border-radius: 20px;
+  color: var(--global-heading-color, #0f172a);
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1.3;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.mission-chip:hover {
+  background: linear-gradient(135deg, rgba(75, 156, 211, 0.12), rgba(0, 60, 113, 0.06));
+  border-color: rgba(0, 60, 113, 0.18);
+}
+
+/* --------------------------------------------------------------------------
+   14. FUNDING SNAPSHOT REFINEMENT
+   -------------------------------------------------------------------------- */
+.funding-snapshot {
+  background: linear-gradient(
+    135deg,
+    rgba(75, 156, 211, 0.06) 0%,
+    rgba(0, 165, 173, 0.04) 50%,
+    rgba(244, 166, 64, 0.04) 100%
+  );
+  border: 1px solid rgba(75, 156, 211, 0.15);
+  border-radius: var(--global-radius-lg, 16px);
+  padding: 2.5rem;
+  margin: 3.5rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.funding-snapshot::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(75, 156, 211, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.funding-snapshot h2 {
+  margin-bottom: 1.5rem;
+  border-bottom: none;
+}
+
+.funding-snapshot h2::after {
+  display: none;
+}
+
+.funding-snapshot ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 2rem;
+  max-width: 600px;
+  text-align: left;
+}
+
+.funding-snapshot ul li {
+  position: relative;
+  padding: 0.6rem 0 0.6rem 1.75rem;
+  border-bottom: 1px solid rgba(0, 60, 113, 0.06);
+}
+
+.funding-snapshot ul li:last-child {
+  border-bottom: none;
+}
+
+.funding-snapshot ul li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #42b983;
+  font-weight: 700;
+}
+
+/* --------------------------------------------------------------------------
+   15. SUBTLE ANIMATIONS
+   -------------------------------------------------------------------------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-panel {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.mission-panel__card,
+.focus-card,
+.pillar-card,
+.pathway-card,
+.talk-card {
+  animation: fadeInUp 0.4s ease-out backwards;
+}
+
+/* Staggered animation delays */
+.mission-panel__card:nth-child(1) { animation-delay: 0.1s; }
+.mission-panel__card:nth-child(2) { animation-delay: 0.2s; }
+.mission-panel__card:nth-child(3) { animation-delay: 0.3s; }
+
+.pillar-card:nth-child(1) { animation-delay: 0.1s; }
+.pillar-card:nth-child(2) { animation-delay: 0.15s; }
+.pillar-card:nth-child(3) { animation-delay: 0.2s; }
+
+.pathway-card:nth-child(1) { animation-delay: 0.1s; }
+.pathway-card:nth-child(2) { animation-delay: 0.15s; }
+.pathway-card:nth-child(3) { animation-delay: 0.2s; }
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .hero-panel,
+  .mission-panel__card,
+  .focus-card,
+  .pillar-card,
+  .pathway-card,
+  .talk-card {
+    animation: none;
+  }
+
+  .pillar-card:hover h4 i,
+  .link-arrow:hover::after,
+  .pathway-card:hover,
+  .pillar-card:hover,
+  .focus-card:hover,
+  .talk-card:hover {
+    transform: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   16. DARK MODE ADJUSTMENTS
+   -------------------------------------------------------------------------- */
+html[data-theme='dark'] {
+  .social-feed__card,
+  .pillar-card,
+  .pathway-card,
+  .focus-card,
+  .talk-card,
+  .mission-panel__card {
+    background: linear-gradient(135deg, rgba(30, 42, 54, 0.95), rgba(25, 35, 45, 0.95));
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .social-feed__card:hover,
+  .pillar-card:hover,
+  .focus-card:hover,
+  .talk-card:hover,
+  .mission-panel__card:hover {
+    box-shadow:
+      0 4px 12px rgba(0, 0, 0, 0.2),
+      0 12px 32px rgba(0, 0, 0, 0.15);
+  }
+
+  .pathway-card--students::before {
+    background: linear-gradient(135deg, rgba(66, 185, 131, 0.12) 0%, rgba(66, 185, 131, 0.03) 100%);
+  }
+
+  .pathway-card--collaborators::before {
+    background: linear-gradient(135deg, rgba(75, 156, 211, 0.12) 0%, rgba(75, 156, 211, 0.03) 100%);
+  }
+
+  .pathway-card--funders::before {
+    background: linear-gradient(135deg, rgba(0, 165, 173, 0.12) 0%, rgba(0, 165, 173, 0.03) 100%);
+  }
+
+  .pillar-card h4,
+  .focus-card h4,
+  .pathway-card h3 {
+    color: var(--global-primary-blue, #4b9cd3);
+  }
+
+  .mission-chip {
+    background: linear-gradient(135deg, rgba(75, 156, 211, 0.15), rgba(0, 60, 113, 0.1));
+    border-color: rgba(75, 156, 211, 0.2);
+    color: #e2e8f0;
+  }
+
+  .funding-snapshot {
+    background: linear-gradient(
+      135deg,
+      rgba(75, 156, 211, 0.08) 0%,
+      rgba(0, 165, 173, 0.06) 50%,
+      rgba(30, 42, 54, 0.95) 100%
+    );
+    border-color: rgba(75, 156, 211, 0.2);
+  }
+
+  .focus-card ul li::before {
+    background: linear-gradient(135deg, var(--global-primary-blue, #4b9cd3), #00A5AD);
+  }
+
+  body::after {
+    background: linear-gradient(to top, rgba(30, 42, 54, 0.8), transparent);
+  }
+}

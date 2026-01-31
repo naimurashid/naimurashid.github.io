@@ -265,7 +265,7 @@ talks:
   <div class="pathway-grid">
     <!-- For Students -->
     <div class="pathway-card pathway-card--students">
-      <h3>For Prospective Students</h3>
+      <h3><i class="ti ti-school"></i> For Prospective Students</h3>
       <p>Interested in PhD training in adaptive trial design, AI/ML, or cancer genomics?</p>
       <ul class="pathway-links">
         <li><a href="/teaching/">Courses & Teaching Philosophy</a></li>
@@ -279,7 +279,7 @@ talks:
 
     <!-- For Collaborators -->
     <div class="pathway-card pathway-card--collaborators">
-      <h3>For Clinical Collaborators</h3>
+      <h3><i class="ti ti-stethoscope"></i> For Clinical Collaborators</h3>
       <p>Biostatistics support for clinical or translational projects.</p>
       <ul class="pathway-links">
         <li><a href="/research/">Research Focus Areas</a></li>
@@ -293,7 +293,7 @@ talks:
 
     <!-- For Funders -->
     <div class="pathway-card pathway-card--funders">
-      <h3>For Funders & Reviewers</h3>
+      <h3><i class="ti ti-file-certificate"></i> For Funders & Reviewers</h3>
       <p>Evaluating research portfolio, productivity, or collaborative impact?</p>
       <ul class="pathway-links">
         <li><a href="/funding/">Active Funding Portfolio</a></li>
@@ -311,19 +311,19 @@ talks:
 
 <div class="pillar-grid">
   <article class="pillar-card">
-    <h4>Research Focus</h4>
+    <h4><i class="ti ti-flask"></i> Research Focus</h4>
     <p>Methodological innovations in adaptive trials, tumor subtyping, and missing data.</p>
-    <a href="/research/" class="link-arrow">Explore research →</a>
+    <a href="/research/" class="link-arrow">Explore research</a>
   </article>
   <article class="pillar-card">
-    <h4>Software & Tools</h4>
+    <h4><i class="ti ti-code"></i> Software & Tools</h4>
     <p>Open-source R packages and CLIA-certified diagnostic tools.</p>
-    <a href="/software/" class="link-arrow">Browse software →</a>
+    <a href="/software/" class="link-arrow">Browse software</a>
   </article>
   <article class="pillar-card">
-    <h4>Funding & Support</h4>
+    <h4><i class="ti ti-building-bank"></i> Funding & Support</h4>
     <p>ARPA-H, NCI, DOD funding for adaptive platforms and precision oncology.</p>
-    <a href="/funding/" class="link-arrow">View grants →</a>
+    <a href="/funding/" class="link-arrow">View grants</a>
   </article>
 </div>
 
