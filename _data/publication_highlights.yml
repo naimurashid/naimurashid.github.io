@@ -1,15 +1,15 @@
-- title: "Differential transcript usage with compositional measurement-error modeling"
-  citation: van2020differential
-  journal: Biostatistics (2023)
-  summary: "Introduced a robust framework for isoform-level differential usage that quantifies uncertainty from RNA-seq pipelines—now embedded in UNC pancreatic and breast cancer studies."
-  link: https://doi.org/10.1093/biostatistics/kxad008
+- title: "Efficient computation of high-dimensional penalized piecewise constant hazard random effects models"
+  citation: efficient2025
+  journal: Statistics in Medicine (2025)
+  summary: "Developed scalable methods for survival analysis with high-dimensional random effects, enabling multi-center clinical studies with complex correlation structures."
+  link: https://doi.org/10.1002/sim.10342
+- title: "DNA mutational profiling in colorectal cancer reveals racial disparities"
+  citation: dna2024
+  journal: Journal of Clinical Oncology (2024)
+  summary: "Profiled clinically-relevant mutations in CRC patients receiving standard-of-care therapies in CALGB 80405, uncovering outcome differences and racial disparities in mutation distributions."
+  link: https://doi.org/10.1200/JCO.23.01164
 - title: "Deeply-learned generalized linear models with missing data"
   citation: lim2022
   journal: Journal of Computational and Graphical Statistics (2023)
   summary: "Co-led with David Lim to adapt deep learning for incomplete EHRs, informing ARPA-H ADAPT eligibility and toxicity modeling."
   link: https://doi.org/10.1080/10618600.2023.2170607
-- title: "PurIST: clinically robust pancreatic cancer subtyping"
-  citation: rashid2020purity
-  journal: Clinical Cancer Research (2020)
-  summary: "Developed the PurIST classifier for PDAC, enabling prospective treatment selection; now CLIA-certified and evaluated across cooperative group trials."
-  link: https://doi.org/10.1158/1078-0432.CCR-19-1956
