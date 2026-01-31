@@ -9,9 +9,6 @@
         </header>
         <p class="publication-highlights__summary">{{ item.summary }}</p>
         <div class="publication-highlights__meta">
-          {% if item.citation %}
-            <span>{% cite {{ item.citation }} %}</span>
-          {% endif %}
           {% if item.link %}
             <a class="btn btn-sm btn-outline-primary" href="{{ item.link }}" target="_blank" rel="noopener">Read study</a>
           {% endif %}
