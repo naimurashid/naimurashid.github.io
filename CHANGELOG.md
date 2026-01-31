@@ -2,6 +2,19 @@
 
 All notable changes to the Rashid Lab website are documented in this file.
 
+## [2026-01-31] - Team Photo Cropping Fix
+
+### Fixed
+- **Team member photos no longer crop heads** - Changed aspect ratio from 1:1 (square) to 4:5 (portrait)
+- Photos for Euphy Wu, David Lim, and others now display full heads without cropping
+
+### Technical Details
+- Added `object-position: top center` to prioritize showing top of images
+- Changed `.team-member-card__media` from `aspect-ratio: 1` to `aspect-ratio: 4 / 5`
+- Portrait aspect ratio provides 25% more vertical space for face visibility
+
+---
+
 ## [2026-01-31] - Cross-Page Aesthetic Consistency
 
 ### Added
