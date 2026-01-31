@@ -1,11 +1,23 @@
 # Copy entries here from the staging file once you want them to appear on site.
 # Fields: date (ISO 8601), platform, title, url, summary (optional).
+- date: '2026-01-14T05:08:12+00:00'
+  platform: LinkedIn
+  title: The FDA's newly released draft guidance on Bayesian methodology for clinical
+    trials strongly reinforces challenges we e…
+  url: https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7417070006280290304
+  summary: Discussed how FDA's new Bayesian guidance aligns with challenges we faced designing the ARPA-H metastatic breast cancer platform trial, including trial conduct uncertainty and real-time decision-making.
 - date: '2025-10-09T14:24:52+00:00'
   platform: LinkedIn
   title: Thrilled to visit the Division of Quantitative Sciences at the Johns Hopkins
     Kimmel Cancer Center recently and share ou…
   url: https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7382058472768483331
   summary: Shared ARPA-H ADAPT trial updates with Johns Hopkins quantitative sciences faculty, highlighting our Bayesian design and real-time monitoring tools for metastatic breast cancer.
+- date: '2025-10-05T17:54:19+00:00'
+  platform: LinkedIn
+  title: This weekend, my wife Ashmita delivered the White Coat Ceremony keynote address
+    at the UNC School of Medicine of Medici…
+  url: https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7380661634135924736
+  summary: Celebrated my wife Ashmita's keynote at the UNC School of Medicine White Coat Ceremony, where she spoke about embracing uncertainty and imperfection in medical training.
 - date: '2025-07-28T18:54:33+00:00'
   platform: LinkedIn
   title: 'For attendees of the American Statistical Association - ASA''s JSM2025
@@ -24,33 +36,3 @@
     Moffitt at the UNC Office of Technology Devel…
   url: https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7333211264497733632
   summary: Accepted UNC's Celebration of Inventorship recognition for our pancreatic cancer subtyping patent alongside co-inventors Jen Jen Yeh and Richard Moffitt.
-- date: '2025-04-17T19:42:45+00:00'
-  platform: LinkedIn
-  title: New paper on fixed and random effects variable selection in mixed survival
-    models with Hillary Heiling, Ph.D, Quefeng L…
-  url: https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7318720595586605058
-  summary: Highlighted our new mixed-effects survival variable selection paper led by Hillary Heiling, Quefeng Li, Jen Jen Yeh, and Joseph Ibrahim.
-- date: '2024-10-03T20:28:59+00:00'
-  platform: LinkedIn
-  title: Thrilled to announce our recent award from the DOD to fund the development
-    of a patient-centered AI tool to help pancre…
-  url: https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7247704205518368769
-  summary: Celebrated a DOD award to build a patient-centered AI navigator that connects pancreatic cancer patients with the most relevant clinical trials.
-- date: '2024-08-02T14:06:27+00:00'
-  platform: LinkedIn
-  title: Big congrats to Pedro Baldoni on his new role! Pedro is an alum of our department
-    and was one of my first students!
-  url: https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7225139892354228224
-  summary: Congratulated lab alum Pedro Baldoni on his new faculty role and continuing collaborations with UNC biostatistics.
-- date: '2024-04-26T17:05:42+00:00'
-  platform: LinkedIn
-  title: I am honored and grateful to receive the James E. Grizzle Distinguished Alumnus
-    Award award from the Department of Bios…
-  url: https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7189670993198489600
-  summary: Reflected on receiving the Gillings James E. Grizzle Distinguished Alumnus Award and sharing our latest UNC Lineberger analytics during the ceremony.
-- date: '2024-01-08T19:29:19+00:00'
-  platform: LinkedIn
-  title: Excited to share our recent work profiling clinically-relevant mutations
-    in CRC patients receiving SOC therapies in CAL…
-  url: https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7140421332575457280
-  summary: Excited to share our recent work profiling clinically-relevant mutations in CRC patients receiving SOC therapies in CALGB 80405, highlighted in the Journal of Clinical Oncology. Kudos to UNC Biostatistics student Wancen Mu for her critical contributions.
