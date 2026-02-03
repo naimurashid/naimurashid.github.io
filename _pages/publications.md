@@ -15,10 +15,10 @@ nav_order: 6
   <p class="page-intro__lede">
     {{ page.description }}
   </p>
-  <p>Work spans clinical trials methodology, genomics, machine learning, and epigenomics, with service on the <em>Nature Medicine</em> Statistical Advisory Panel (2024–) and as Associate Editor for <em>Annals of Applied Statistics</em> (2023–) and <em>Statistical Methods in Medical Research</em>.</p>
+  <p>Work spans clinical trials, genomics, machine learning, and epigenomics, with service on the <em>Nature Medicine</em> Statistical Advisory Panel (2024–) and as Associate Editor for <em>Annals of Applied Statistics</em> (2023–) and <em>Statistical Methods in Medical Research</em>.</p>
 </section>
 
-<section class="page-section page-section--alt">
+<section class="page-section page-section--alt page-section--highlights">
   <h2>Featured Publications</h2>
   {% include publication-highlights.liquid %}
 </section>
@@ -34,7 +34,7 @@ Use the search box below to find publications by keyword, or browse by research 
 ### Research Themes
 
 <div class="theme-filters">
-  <a href="#clinical-trials" class="theme-filter">Clinical Trials Methodology</a>
+  <a href="#clinical-trials" class="theme-filter">Clinical Trials</a>
   <a href="#mixed-models" class="theme-filter">Penalized Mixed Models</a>
   <a href="#genomics" class="theme-filter">Cancer Genomics</a>
   <a href="#machine-learning" class="theme-filter">Machine Learning</a>
@@ -48,7 +48,7 @@ Use the search box below to find publications by keyword, or browse by research 
 
 <section class="page-section" markdown="1">
 <details class="pub-section" open>
-  <summary>Clinical Trials Methodology</summary>
+  <summary>Clinical Trials</summary>
   <div class="publications">
     {% bibliography --query @*[keywords ~= trials] %}
   </div>
