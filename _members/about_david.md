@@ -15,7 +15,8 @@ teaser: >
 
 profile:
     name: David Lim, PhD
-    position: Principal Statistician <br /> Statistical Methods & AI/ML <br /> GSK
+    first_position: Principal Statistician, GSK
+    position: Research Scientist <br /> Google
     team-position: Alumni
     align: right 
     logos: true

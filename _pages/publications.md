@@ -9,14 +9,7 @@ nav_order: 6
 
 <!-- _pages/publications.md -->
 
-<section class="page-section page-intro">
-  <p class="page-intro__eyebrow">Overview</p>
-  <h2 class="page-intro__title">Publication Portfolio</h2>
-  <p class="page-intro__lede">
-    {{ page.description }}
-  </p>
-  <p>Work spans clinical trials, genomics, machine learning, and epigenomics, with service on the <em>Nature Medicine</em> Statistical Advisory Panel (2023–) and as Associate Editor for <em>Annals of Applied Statistics</em> (2022–) and <em>Statistical Methods in Medical Research</em>.</p>
-</section>
+Work spans clinical trials, genomics, machine learning, and epigenomics, with service on the *Nature Medicine* Statistical Advisory Panel (2023–) and as Associate Editor for *Annals of Applied Statistics* (2022–) and *Statistical Methods in Medical Research*.
 
 <section class="page-section page-section--alt page-section--highlights">
   <h2>Featured Publications</h2>
@@ -41,9 +34,6 @@ Use the search box below to find publications by keyword, or browse by research 
   <a href="#epigenomics" class="theme-filter">Epigenomics</a>
   <a href="#all-publications" class="theme-filter theme-filter--active">All Publications</a>
 </div>
-</section>
-
-<section class="page-section" markdown="1">
 </section>
 
 <section class="page-section" markdown="1">

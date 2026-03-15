@@ -9,33 +9,11 @@ nav_order: 2
 nav_rank: 2
 ---
 
-<section class="section-hero section-hero--team">
-  <div class="section-hero__content">
-    <p class="section-hero__eyebrow">Lab Ecosystem</p>
-    <h1>Biostatistics team and collaborators</h1>
-    <p class="section-hero__lede">
-      Trainees work with Lineberger research teams on clinical prediction models, biomarker discovery tools, and statistical methods. Alumni have taken faculty, pharma, and cancer-center biostatistics roles.
-    </p>
-  </div>
-</section>
+## PhD Training Opportunities
 
-<section class="team-callout">
-  <div class="team-callout__content">
-    <p class="team-callout__eyebrow">Joining the lab</p>
-    <h2>PhD training opportunities</h2>
-    <p>The lab welcomes PhD students interested in adaptive trial design, cancer genomics, machine learning for missing data, and precision oncology software development.</p>
-    <p>Apply through the <a href="https://sph.unc.edu/bios/biostatistics/admissions/" target="_blank" rel="noopener">UNC Biostatistics PhD program</a>. Research advisors are selected after students complete their first two years of coursework. Prospective students can email <a href="mailto:naim@unc.edu">naim@unc.edu</a> with questions about research directions and lab culture.</p>
-  </div>
-</section>
-
-<hr class="section-divider">
+The lab welcomes PhD students interested in adaptive trial design, cancer genomics, machine learning for missing data, and precision oncology software development. Apply through the [UNC Biostatistics PhD program](https://sph.unc.edu/bios/biostatistics/admissions/). Prospective students can email [naim@unc.edu](mailto:naim@unc.edu) with questions about research directions and lab culture.
 
 <section class="page-section team-groups">
-  <p class="page-intro__eyebrow">People</p>
-  <h2 class="page-intro__title">Team roster</h2>
-  <p class="page-intro__lede">
-    Trainees, staff statisticians, and alumni are grouped below. Click any profile for bios, publications, and project links.
-  </p>
 
   {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
   {% for group in groups %}
@@ -102,6 +80,9 @@ nav_rank: 2
               </div>
               {% if member.profile.position %}
                 <p class="team-member-card__role">{{ member.profile.position }}</p>
+              {% endif %}
+              {% if member.profile.first_position %}
+                <p class="team-member-card__first-position"><span class="team-member-card__position-label">First position:</span> {{ member.profile.first_position }}</p>
               {% endif %}
               <p class="team-member-card__teaser">{{ member.teaser }}</p>
 

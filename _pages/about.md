@@ -26,11 +26,11 @@ hero_profile: true
 talks_intro: >
   Recent seminar topics include adaptive oncology statistics, biomarker-driven trial platforms, and AI-assisted decision tools. Talks are typically 45–60 minutes and can be tailored for biostatistics, oncology, or data science audiences.
 talks:
-  - title: "Bayesian adaptive methods for metastatic breast cancer platforms"
-    venue: "ARPA-H ADAPT Analytics Summit"
-    location: "Washington, DC & virtual"
-    date: "May 2025"
-    description: "Demonstrated how reinforcement-learning-based allocation and platform-level Bayesian borrowing reduced expected sample size by 20–30% in ADAPT simulation studies, and previewed an LLM-based trial-matching tool deployed across three GI clinics."
+  - title: "Bayesian adaptive design and real-time monitoring for metastatic breast cancer platform trials"
+    venue: "Division of Quantitative Sciences, Johns Hopkins Kimmel Cancer Center"
+    location: "Baltimore, MD"
+    date: "October 2025"
+    description: "Presented our ARPA-H ADAPT trial design, including Bayesian borrowing across treatment arms, reinforcement-learning-based allocation, and real-time monitoring tools for a multi-institution metastatic breast cancer platform."
   - title: "Replicability, semi-supervised learning and generative AI: recent statistical work in cancer biostatistics"
     venue: "James E. Grizzle Distinguished Alumnus Lecture, UNC Gillings"
     location: "Chapel Hill, NC"
@@ -43,27 +43,24 @@ talks:
     description: "Introduced a joint NMF-survival objective that selects gene signatures predictive of overall survival in pancreatic cancer, outperforming two-stage approaches on TCGA and ICGC validation cohorts."
 ---
 
-<section class="hero-panel">
+<section class="hero-panel hero-panel--academic">
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
-      <h1 class="hero-panel__title">Statistical methods and software for precision oncology</h1>
+      <p class="hero-panel__tagline">Statistical methods and software for precision oncology</p>
       <p class="hero-panel__lead">
-        Working with UNC Lineberger oncologists and cooperative trial groups, I build adaptive trial designs that integrate real-time biomarker data, deep learning tools for tumor classification and missing data, and open-source R packages for cancer genomics. As associate professor in Biostatistics at UNC Gillings, co-director of the LCCC Biostatistics Shared Resource, and biostatistics core lead for two NCI SPOREs (breast and pancreatic cancer), I focus on translating these methods into tools that clinicians and trialists can use directly.
+        I am an associate professor in the <a href="https://sph.unc.edu/bios/biostatistics/">Department of Biostatistics</a> at the UNC Gillings School of Global Public Health, with a joint appointment at the <a href="https://unclineberger.org/">Lineberger Comprehensive Cancer Center</a>. Our lab develops statistical and machine learning methods for precision oncology, including adaptive clinical trial designs that integrate real-time biomarker data, deep learning methods for tumor subtyping and missing data, and open-source R packages for cancer genomics. We also co-direct the LCCC Biostatistics Shared Resource and lead biostatistics cores for the NCI breast and pancreatic cancer SPOREs.
       </p>
-      <div class="hero-panel__highlights">
-        <div class="highlight-item">
-          <span class="highlight-label">Focus areas</span>
-          <span class="highlight-value">Adaptive platforms • Tumor subtyping • Missing data ML</span>
-        </div>
-        <div class="highlight-item">
-          <span class="highlight-label">Clinical translation</span>
-          <span class="highlight-value">CLIA-certified diagnostics • ARPA-H ADAPT Co-PI • Dual SPORE cores</span>
-        </div>
-      </div>
-      <div class="hero-panel__cta">
-        <a class="btn btn-primary btn-lg" href="/research/">Research overview</a>
-        <a class="btn btn-outline-primary btn-lg" href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV</a>
-      </div>
+      <p class="hero-panel__interests">
+        <strong>Research interests:</strong> adaptive trial design, Bayesian methods, nonnegative matrix factorization, deep learning, missing data, cancer genomics, precision oncology
+      </p>
+      <p class="hero-panel__education">
+        <strong>Training:</strong> PhD, Biostatistics, UNC Chapel Hill (2013). Postdoctoral fellow, Harvard School of Public Health & Dana-Farber Cancer Institute. BS, Biology & Mathematics, Duke University.
+      </p>
+      <p class="hero-panel__links-inline">
+        <a href="/research/">Research</a> ·
+        <a href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">CV (PDF)</a> ·
+        <a href="/publications/">Publications</a>
+      </p>
     </div>
     <aside class="hero-panel__aside">
       <figure class="hero-panel__portrait-wrapper">
@@ -90,130 +87,55 @@ talks:
   </div>
 </section>
 
-## Research Overview
+## Representative Translational Work
 
-<section class="mission-panel" aria-label="Research overview">
-  <div class="mission-panel__grid">
-    <article class="mission-panel__card">
-      <div class="mission-panel__header">
-        <span class="mission-panel__icon">
-          <i class="ti ti-function"></i>
-        </span>
-        <div>
-          <p class="mission-panel__badge">Methods</p>
-        </div>
-      </div>
-      <p>Adaptive trial designs, deep learning for missing data, penalized mixed models</p>
-      <a class="mission-panel__link" href="/research/">Explore methodology →</a>
-    </article>
-    <article class="mission-panel__card">
-      <div class="mission-panel__header">
-        <span class="mission-panel__icon">
-          <i class="ti ti-hospital"></i>
-        </span>
-        <div>
-          <p class="mission-panel__badge">Translation</p>
-        </div>
-      </div>
-      <p>PurIST tumor subtyping, ARPA-H ADAPT platform, SPORE biomarker studies</p>
-      <a class="mission-panel__link" href="/projects/">View projects →</a>
-    </article>
-    <article class="mission-panel__card">
-      <div class="mission-panel__header">
-        <span class="mission-panel__icon">
-          <i class="ti ti-code"></i>
-        </span>
-        <div>
-          <p class="mission-panel__badge">Software</p>
-        </div>
-      </div>
-      <p>10+ R packages on CRAN/Bioconductor for genomics, trials, and mixed models</p>
-      <a class="mission-panel__link" href="/software/">Browse packages →</a>
-    </article>
-  </div>
-</section>
+Pancreatic oncologists at UNC Lineberger needed a way to classify individual tumors into molecular subtypes from a single biopsy, without requiring a reference cohort. We developed PurIST, a rank-based classifier that handles tumor purity variation, validated it across international cohorts, and worked with the Yeh laboratory to bring it through CLIA certification. It is currently being evaluated prospectively in several clinical trials and has been licensed to Tempus, making it available at hospitals nationwide. That cycle—clinical need, statistical method, validated software, deployed tool—is how most of our projects begin.
 
-## From Method to Clinic
+### PurIST: From Method to Diagnostic
 
-<section class="page-section page-section--methodology">
-  <p class="section-lede">
-    Pancreatic oncologists at UNC Lineberger needed a way to classify individual tumors into molecular subtypes from a single biopsy, without requiring a reference cohort. We developed PurIST, a rank-based classifier that handles tumor purity variation, validated it across international cohorts, and worked with the Yeh laboratory to bring it through CLIA certification. It now informs treatment decisions in 12 active cooperative group trials. That cycle—clinical need, statistical method, validated software, deployed tool—is how most of our projects begin.
-  </p>
-</section>
+The PurIST (Purity Independent Subtyping of Tumors) classifier, developed in collaboration with the Yeh laboratory, illustrates a complete translational arc:
 
-## Clinical Impact & Translation
+- **2020** — Published classification method ([*Clinical Cancer Research*](https://doi.org/10.1158/1078-0432.CCR-19-1467){:target="_blank"})
+- **2021–2024** — Three US patents issued ([11,053,550](https://patents.google.com/patent/US11053550B2){:target="_blank"}, [17/336,600](https://patents.google.com/patent/US17336600){:target="_blank"}, [12,000,003](https://patents.google.com/patent/US12000003B2){:target="_blank"})
+- **2024** — Analytical validation completed ([*Journal of Molecular Diagnostics*](https://doi.org/10.1016/j.jmoldx.2024.07.003){:target="_blank"})
+- **2024** — CLIA certification achieved for clinical use
+- **Present** — Licensed to [Tempus](https://www.tempus.com/oncology/purist/){:target="_blank"} and available at hospitals nationwide; being evaluated prospectively in several clinical trials
 
-<section class="page-section">
-  <div class="focus-grid">
-    <article class="focus-card focus-card--featured">
-      <p class="focus-card__badge">Clinical Translation</p>
-      <h3>PurIST Diagnostic: From Statistical Method to Clinical Tool</h3>
-      <p>The PurIST (Purity Independent Subtyping of Tumors) classifier, developed in collaboration with the Yeh laboratory, represents a complete translational research arc—from methodological development to clinical deployment:</p>
-      <ul>
-        <li><strong>2020</strong> — Published classification method (<a href="https://doi.org/10.1158/1078-0432.CCR-19-1467" target="_blank" rel="noopener"><em>Clinical Cancer Research</em></a>)</li>
-        <li><strong>2021-2024</strong> — <a href="https://patents.google.com/patent/US11053550B2" target="_blank" rel="noopener">Three US patents</a> issued (<a href="https://patents.google.com/patent/US11053550B2" target="_blank" rel="noopener">11,053,550</a>, <a href="https://patents.google.com/patent/US17336600" target="_blank" rel="noopener">17/336,600</a>, <a href="https://patents.google.com/patent/US12000003B2" target="_blank" rel="noopener">12,000,003</a>)</li>
-        <li><strong>2024</strong> — Analytical validation completed (<a href="https://doi.org/10.1016/j.jmoldx.2024.07.003" target="_blank" rel="noopener"><em>Journal of Molecular Diagnostics</em></a>)</li>
-        <li><strong>2024</strong> — CLIA-certification achieved for clinical use</li>
-        <li><strong>Present</strong> — Licensed to GeneCentric and <a href="https://www.tempus.com/oncology/purist/" target="_blank" rel="noopener">Tempus Diagnostics</a>; actively used in clinical trials</li>
-      </ul>
-      <p>Reference-free design allows subtype classification from a single RNA sample without matched normals, supporting clinical use in current pancreatic cancer trials.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">Clinical deployment achieved through multi-team collaboration</span>
-      </div>
-    </article>
-  </div>
-</section>
+Its reference-free design enables subtype classification from a single RNA sample without matched normals.
 
-<section class="funding-snapshot">
-  <p class="section-eyebrow">Active Funding</p>
-  <h2>Current roles</h2>
-  <ul>
-    <li>Co-PI and statistical member for the ARPA-H ADAPT platform (metastatic breast cancer)</li>
-    <li>Co-director of NCI breast and pancreatic cancer SPORE biostatistics cores</li>
-    <li>PI on DOD-funded LLM clinical trial navigation tool</li>
-  </ul>
-  <a href="/funding/" class="btn btn-primary">View full funding portfolio →</a>
-</section>
+## Current Funding
 
-## Recognition & Leadership
+- MPI, ARPA-H ADAPT program grant (metastatic breast cancer)
+- MPI, NCI U01 (pancreatic cancer)
+- PI, DOD-funded LLM clinical trial navigation tool
 
-<section class="page-section">
-  <div class="focus-grid">
-    <article class="focus-card">
-      <p class="focus-card__badge">Recent Honors</p>
-      <h4>Awards & Recognition</h4>
-      <ul>
-        <li><strong>2025</strong> — Gillings Research Excellence Award</li>
-        <li><strong>2024</strong> — James E. Grizzle Distinguished Alumnus Award</li>
-        <li><strong>2023</strong> — Teaching Innovation Award, UNC Gillings</li>
-        <li><strong>2021</strong> — Delta Omega Faculty Award, Gillings School of Global Public Health</li>
-        <li><strong>2017</strong> — IBM and R.J. Reynolds Junior Faculty Development Award, UNC-CH</li>
-        <li><strong>2013</strong> — Barry H. Margolin Dissertation Award for best doctoral dissertation</li>
-      </ul>
-    </article>
-    <article class="focus-card">
-      <p class="focus-card__badge">National Leadership</p>
-      <h4>Collaborative Roles</h4>
-      <ul>
-        <li><strong>Breast SPORE Core B Co-Director</strong> (P50-CA058223, 2024–2029): Biostatistics support for 4 translational projects, TBCRC trial correlatives, and ctDNA resistance monitoring</li>
-        <li><strong>Pancreatic SPORE Core C Co-Director</strong> (P50-CA257911, 2022–2027): Integrated quantitative science for 5 SPORE projects spanning organoid models, immunotherapy, and stromal reprogramming</li>
-        <li><strong>Lineberger LCCC Biostatistics Shared Resource Associate Director</strong> (P30-CA016086): Statistical leadership for 40+ cancer center investigators annually, trial design consultation, grant development, regulatory analytics</li>
-        <li>Nature Medicine Statistical Advisory Panel (2023-)</li>
-        <li>Associate Editor, Annals of Applied Statistics (2022-)</li>
-        <li>V Foundation Scientific Advisory Board (2023-)</li>
-        <li>TBCRC Statistical Working Group (2017-)</li>
-      </ul>
-    </article>
-  </div>
-</section>
+See [full funding portfolio](/funding/) for details.
+
+## Selected Awards
+
+- **2025** — Gillings Research Excellence Award
+- **2024** — James E. Grizzle Distinguished Alumnus Award
+- **2023** — Teaching Innovation Award, UNC Gillings
+- **2021** — Delta Omega Faculty Award, Gillings School of Global Public Health
+- **2017** — IBM and R.J. Reynolds Junior Faculty Development Award, UNC-CH
+- **2013** — Barry H. Margolin Dissertation Award for best doctoral dissertation
+
+## Service & Leadership
+
+- **Breast SPORE Core B Co-Director** (P50-CA058223, 2024–2029)
+- **Pancreatic SPORE Core C Co-Director** (P50-CA257911, 2022–2027)
+- **Lineberger LCCC Biostatistics Shared Resource Associate Director** (P30-CA016086)
+- Nature Medicine Statistical Advisory Panel (2023–)
+- Associate Editor, *Annals of Applied Statistics* (2022–)
+- V Foundation Scientific Advisory Board (2023–)
+- TBCRC Statistical Working Group (2017–)
+- Faculty Executive Committee, Department of Biostatistics
+- Chair, Applied Doctoral Exam Committee, Department of Biostatistics
+- Gillings Research Council
 
 ## Recent Invited Talks
 
 <section class="talks-section" aria-label="Recent invited talks">
-  <div class="talks-section__intro">
-    <p class="talks-section__eyebrow">Recent Seminar Topics</p>
-    <p>{{ page.talks_intro }}</p>
-  </div>
   <div class="talks-section__list">
     {% for talk in page.talks %}
       <article class="talk-card">
@@ -236,75 +158,6 @@ talks:
   </div>
 </section>
 
-## Navigate by Role
-
-<section class="audience-pathways">
-  <p class="section-intro">Find information most relevant to you</p>
-
-  <div class="pathway-grid">
-    <!-- For Students -->
-    <div class="pathway-card pathway-card--students">
-      <h3><i class="ti ti-school"></i> For Prospective Students</h3>
-      <p>Interested in PhD training in adaptive trial design, AI/ML, or cancer genomics?</p>
-      <ul class="pathway-links">
-        <li><a href="/teaching/">Courses & Teaching Philosophy</a></li>
-        <li><a href="/team/">Current Students & Alumni</a></li>
-        <li><a href="/research/">Research Projects</a></li>
-        <li><a href="/software/">Software & Tools Training</a></li>
-        <li><a href="/publications/">Recent Publications</a></li>
-      </ul>
-      <a href="/teaching/" class="btn btn-outline-primary">View Training Program →</a>
-    </div>
-
-    <!-- For Collaborators -->
-    <div class="pathway-card pathway-card--collaborators">
-      <h3><i class="ti ti-stethoscope"></i> For Clinical Collaborators</h3>
-      <p>Biostatistics support for clinical or translational projects.</p>
-      <ul class="pathway-links">
-        <li><a href="/research/">Research Focus Areas</a></li>
-        <li><a href="/projects/">Active Projects & Tools</a></li>
-        <li><a href="/software/">Available Software</a></li>
-        <li><a href="/publications/">Methods Papers</a></li>
-        <li><a href="mailto:LCCC_BIOS@med.unc.edu">Request Consultation</a></li>
-      </ul>
-      <a href="mailto:LCCC_BIOS@med.unc.edu?subject=Consultation%20Request" class="btn btn-outline-primary">Contact the LCCC Biostatistics Shared Resource →</a>
-    </div>
-
-    <!-- For Funders -->
-    <div class="pathway-card pathway-card--funders">
-      <h3><i class="ti ti-file-certificate"></i> For Funders & Reviewers</h3>
-      <p>Evaluating research portfolio, productivity, or collaborative impact?</p>
-      <ul class="pathway-links">
-        <li><a href="/funding/">Active Funding Portfolio</a></li>
-        <li><a href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}">Download CV (PDF)</a></li>
-        <li><a href="/publications/">Publications by Theme</a></li>
-        <li><a href="/team/">Training & Mentoring Record</a></li>
-        <li><a href="/projects/">Translation & Impact</a></li>
-      </ul>
-      <a href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" class="btn btn-outline-primary">Download CV →</a>
-    </div>
-  </div>
-</section>
-
-## Quick Links
-
-<div class="pillar-grid">
-  <article class="pillar-card">
-    <h4><i class="ti ti-flask"></i> Research Focus</h4>
-    <p>Methodological innovations in adaptive trials, tumor subtyping, and missing data.</p>
-    <a href="/research/" class="link-arrow">Explore research</a>
-  </article>
-  <article class="pillar-card">
-    <h4><i class="ti ti-code"></i> Software & Tools</h4>
-    <p>Open-source R packages and CLIA-certified diagnostic tools.</p>
-    <a href="/software/" class="link-arrow">Browse software</a>
-  </article>
-  <article class="pillar-card">
-    <h4><i class="ti ti-building-bank"></i> Funding & Support</h4>
-    <p>ARPA-H, NCI, DOD funding for adaptive platforms and precision oncology.</p>
-    <a href="/funding/" class="link-arrow">View grants</a>
-  </article>
-</div>
 
 <script type="application/ld+json">
 {

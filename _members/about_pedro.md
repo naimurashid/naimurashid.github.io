@@ -14,7 +14,8 @@ teaser: >
    Pedro is a tenure-track assistant professor at the University of Pittsburgh School of Public Health and a Lineberger/UNC Biostatistics alumnus. His lab develops precision oncology methods inspired by his doctoral work with Drs. Naim Rashid and Joseph Ibrahim, and he continues to co-author adaptive trial designs with the UNC translational breast and pancreatic cancer teams.   
 profile:
     name: Pedro Baldoni, PhD
-    position: Assistant Professor <br /> Department of Biostatistics <br /> University of Pittsburgh School of Public Health
+    first_position: Postdoctoral Fellow, Walter and Eliza Hall Institute (Melbourne)
+    position: Assistant Professor <br /> Department of Biostatistics <br /> University of Pittsburgh
     team-position: Alumni
     align: right 
     logos: true

@@ -8,148 +8,51 @@ nav_order: 3
 
 ---
 
-<section class="section-hero section-hero--research">
-  <div class="section-hero__content">
-    <p class="section-hero__eyebrow">Research Program</p>
-    <h1>Statistical methods and software for precision oncology</h1>
-    <p class="section-hero__lede">
-      We work with UNC Lineberger clinicians on methods and software for biomarker discovery, adaptive trial designs, and translational research. Clinical collaborations shape the questions we address and how tools are delivered.
-    </p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="/publications/">View publications</a>
-      <a class="btn btn-outline-primary" href="/projects/">Explore projects</a>
-    </div>
-  </div>
-</section>
+## Research Overview
 
-<section class="page-section">
-  <h2>Research Program Overview</h2>
-  <div class="research-focus">
-    <p class="research-focus__intro">
-      Current research focuses on three interconnected areas with demonstrated clinical applications:
-    </p>
+Our methodological work spans five areas, each motivated by problems arising in cancer genomics and clinical trials:
 
-    <div class="focus-areas-list">
-      <div class="focus-area-item">
-        <h3>Clinical-Grade Tumor Subtyping</h3>
-        <p>PurIST, developed in collaboration with the Yeh laboratory, enables single-sample pancreatic cancer classification without reference cohorts, addressing tumor purity heterogeneity through deconvolution-informed modeling. CLIA-certified and used to stratify 300+ patients across 12 active trials.</p>
-      </div>
+### Penalized Mixed Models & High-Dimensional Inference
 
-      <div class="focus-area-item">
-        <h3>Deep Learning for Non-Ignorable Missingness</h3>
-        <p>NIMIWAE and dlGLM frameworks bridge variational autoencoders with generalized linear models for principled uncertainty quantification when data are missing not at random—enabling valid inference in clinical registries and genomic studies with informative dropout.</p>
-      </div>
+Variable selection methods for correlated, high-dimensional biomarker data with complex correlation structures. The glmmPen framework handles longitudinal and clustered data through penalized generalized linear mixed models, with extensions to latent factor modeling and piecewise-constant hazard random-effects survival models. Published in *The R Journal* (2024), *Biometrics* (2024), and *Statistics in Medicine* (2025); available on [CRAN](https://cran.r-project.org/package=glmmPen).
 
-      <div class="focus-area-item">
-        <h3>Adaptive Platforms with Late-Arriving Biomarkers</h3>
-        <p>Bayesian response-adaptive designs that integrate ctDNA, imaging, and tissue markers arriving weeks post-enrollment. Enables real-time enrichment without waiting for clinical endpoints. Deployed in SPORE and ARPA-H ADAPT trials.</p>
-      </div>
-    </div>
-  </div>
-</section>
+### Deep Learning for Missing Data
 
-<section class="page-section page-section--featured">
-  <p class="page-intro__eyebrow">Translational Work</p>
-  <h2 class="page-intro__title">Selected projects</h2>
+NIMIWAE and dlGLM combine variational autoencoders with generalized linear models for principled inference when data are missing not at random. These methods address informative dropout in clinical registries and genomic studies where standard imputation approaches fail. Published in *JCGS* (2024) and *Statistics in Biopharmaceutical Research* (2024); deployed in ARPA-H ADAPT analytics.
 
-  <div class="focus-grid">
-    <article class="focus-card focus-card--featured">
-      <p class="focus-card__badge">AI &amp; Machine Learning</p>
-      <h3>Deep Learning for Non-Ignorable Missingness</h3>
-      <p class="focus-card__plain-language"><em>→ Methods for handling data that's systematically missing (e.g., sicker patients drop out)</em></p>
-      <p>NIMIWAE and dlGLM combine variational autoencoders with generalized linear model inference to handle informative missingness in clinical registries and genomic studies, providing uncertainty estimates when data are missing not at random.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">JCGS 2024</span>
-        <span class="focus-chip">Stat Biopharm Res 2024</span>
-        <span class="focus-chip">ARPA-H deployment</span>
-      </div>
-      <a href="/publications/?filter=machine-learning" class="link-arrow">Machine learning work →</a>
-    </article>
+### Genomic Subtyping & Clustering
 
-    <article class="focus-card focus-card--featured">
-      <p class="focus-card__badge">Clinical Translation</p>
-      <h3>Single-Sample Tumor Subtyping</h3>
-      <p class="focus-card__plain-language"><em>→ Classifying individual pancreatic tumors into biological subtypes from a single RNA sample</em></p>
-      <p>PurIST, developed in collaboration with the Yeh laboratory, enables platform-independent, reference-free pancreatic cancer subtyping using single bulk RNA-seq samples and deconvolution-informed modeling. It supports clinical decision-making in biomarker-stratified trials.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">Clinical Cancer Research (2020)</span>
-        <span class="focus-chip">J Molecular Diagnostics (2024)</span>
-        <span class="focus-chip">CLIA-certified implementation</span>
-      </div>
-      <a href="/publications/?filter=precision-medicine" class="link-arrow">Precision medicine papers →</a>
-    </article>
+Methods for discovering and validating molecular cancer subtypes, including PurIST (single-sample pancreatic cancer classification, CLIA-certified), FSCseq (model-based feature selection and clustering for RNA-seq), and semi-supervised nonnegative matrix factorization approaches that improve cross-cohort replicability. Published in *Clinical Cancer Research* (2020), *JASA* (2020), *Annals of Applied Statistics* (2021), and *Journal of Molecular Diagnostics* (2024).
 
-    <article class="focus-card focus-card--featured">
-      <p class="focus-card__badge">Adaptive Trials</p>
-      <h3>Bayesian Platform Design with Late-Arriving Biomarkers</h3>
-      <p class="focus-card__plain-language"><em>→ Trial designs that accommodate blood/tissue biomarker results arriving weeks after enrollment</em></p>
-      <p>Adaptive randomization framework integrating serial ctDNA, tissue, and imaging data for metastatic breast cancer platforms. Methodology accommodates staggered biomarker availability and enables mid-trial enrichment based on early response signals.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">ARPA-H ADAPT platform</span>
-        <span class="focus-chip">TBCRC cooperative trials</span>
-        <span class="focus-chip">Bayesian response-adaptive design</span>
-      </div>
-      <a href="/projects/" class="link-arrow">View trial projects →</a>
-    </article>
+### Epigenomics & Sequencing Methods
 
-    <article class="focus-card">
-      <p class="focus-card__badge">High-Dimensional Methods</p>
-      <h3>Penalized Mixed Models for Correlated Biomarkers</h3>
-      <p class="focus-card__plain-language"><em>→ Variable selection methods for correlated genomic data with repeated measures or clustered samples</em></p>
-      <p>glmmPen framework enables variable selection in high-dimensional longitudinal and clustered data, addressing over-fitting in genomic studies with complex correlation structures.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">The R Journal (2024)</span>
-        <span class="focus-chip">CRAN package</span>
-        <span class="focus-chip">Multi-omic integration</span>
-      </div>
-      <a href="/software/" class="link-arrow">Browse software packages →</a>
-    </article>
-  </div>
-</section>
+Statistical methods for ChIP-seq, ATAC-seq, and RNA-seq data, including epigraHMM (multi-condition differential peak detection), ZINBA (broad and narrow enrichment region identification), allele-specific expression modeling, isoform composition estimation, and CompDTUReg (differential transcript usage with quantification uncertainty). Published in *Genome Biology* (2011), *JASA* (2014), *Biometrics* (2019, 2022, 2023), and *Biostatistics* (2024).
+
+### Adaptive Clinical Trial Design
+
+Bayesian response-adaptive platform designs that integrate serial ctDNA, tissue, and imaging biomarkers arriving after enrollment. Includes reinforcement-learning-based allocation strategies and tools for automated operating-characteristic tuning. Core methodology for the ARPA-H ADAPT metastatic breast cancer platform.
+
+## New Directions
+
+### LLM-Based Clinical Trial Matching
+
+Fine-tuned large language models that translate complex eligibility criteria into patient-facing summaries and match prospective pancreatic cancer patients to appropriate trials. Funded by DOD PCARP.
+
+### Statistical Ensembling of Small Language Models
+
+Methods for ensembling smaller, domain-specific language models to achieve performance competitive with large foundation models in privacy-sensitive and resource-constrained clinical environments where large models cannot be deployed or trained on protected health data. Smaller models can be fine-tuned locally within institutional firewalls, combined via federated learning across sites without sharing patient data, and ensembled with formal uncertainty quantification for clinical recommendations.
+
+### Liquid Biopsy Subtype Classification via Extracellular Vesicle RNA-seq
+
+Extending tumor subtype classification to extracellular vesicle RNA-seq (evRNAseq) from blood samples, enabling non-invasive molecular subtyping without tissue biopsies. Key statistical challenges include domain adaptation between tissue and EV transcriptomic profiles, deconvolution of tumor-derived signal from background EV cargo, and calibrated uncertainty quantification for subtype calls made from lower-input material. If successful, this would enable longitudinal monitoring of subtype dynamics during treatment through serial blood draws.
 
 <section class="page-section page-section--alt diagram-wrapper">
   <h2>Research Portfolio Map (2011-2025)</h2>
   {% include research-diagram.html %}
 </section>
 
-<section class="page-section" markdown="1">
-## Cross-Cutting Methodological Innovations
-
-<div class="pillar-grid">
-  <article class="pillar-card">
-    <h4>Rigor &amp; Reproducibility</h4>
-    <p>Quantification-aware modeling, heterogeneity frameworks, and documented software.</p>
-  </article>
-  <article class="pillar-card">
-    <h4>Clinical Translation</h4>
-    <p>Collaborations with UNC oncologists and cooperative groups on adaptive, biomarker-rich trials.</p>
-  </article>
-  <article class="pillar-card">
-    <h4>Open Software</h4>
-    <p>10+ CRAN/Bioconductor packages with tutorials, vignettes, and active maintenance.</p>
-  </article>
-</div>
-</section>
-
-<section class="page-section page-section--alt" markdown="1">
 ## Collaborative Network
 
-<div class="network-grid">
-  <article class="pillar-card">
-    <h4>UNC Lineberger</h4>
-    <p>Collaborations with Jen Jen Yeh (tumor-stroma organoid models, stromal reprogramming), Lisa Carey (TBCRC adaptive trials, endocrine resistance), Chuck Perou (breast subtype integration), and Ben Vincent (immunotherapy biomarkers, neoantigen prediction).</p>
-  </article>
-  <article class="pillar-card">
-    <h4>National Consortia</h4>
-    <p>Statistical leadership in Translational Breast Cancer Research Consortium (TBCRC) Statistical Working Group, V Foundation Scientific Advisory Board, and PDAC Stromal Reprogramming Consortium.</p>
-  </article>
-  <article class="pillar-card">
-    <h4>Methodology Partners</h4>
-    <p>Joseph Ibrahim, Michael Kosorok, Mike Love, Katie Hoadley, and collaborators extend our statistical methods.</p>
-  </article>
-</div>
-</section>
-
-<div class="page-cta page-cta--student">
-  <p><strong>Interested in PhD research?</strong> We're recruiting for Fall 2026. <a href="/teaching/">Learn about our training program →</a></p>
-</div>
+- **UNC Lineberger**: Jen Jen Yeh (tumor-stroma organoid models), Lisa Carey (TBCRC adaptive trials), Chuck Perou (breast subtype integration), Ben Vincent (immunotherapy biomarkers)
+- **National consortia**: TBCRC Statistical Working Group, V Foundation Scientific Advisory Board, PDAC Stromal Reprogramming Consortium
+- **Methodology partners**: Joseph Ibrahim, Michael Kosorok, Mike Love, Didong Li, Quefeng Li

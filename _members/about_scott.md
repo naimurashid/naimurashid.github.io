@@ -15,7 +15,8 @@ teaser: >
 
 profile:
     name: Scott Van Buren, PhD
-    position: Scientific Investigator <br /> Computational Biology, Clinical Biomarker Analytics <br /> GSK
+    first_position: Bioinformatics Scientist, Harvard University
+    position: Scientific Investigator <br /> Computational Biology <br /> GSK
     team-position: Alumni
     align: right 
     logos: true

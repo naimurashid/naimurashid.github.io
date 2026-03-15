@@ -6,8 +6,12 @@ html[data-theme="dark"] {
   --global-neutral-light: #1e293b;
   --global-accent-blue: #60a5fa;
 
+  /* Hero panel border in dark mode */
+  .hero-panel {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
   /* Standard card backgrounds and borders */
-  .hero-panel,
   .section-hero,
   .focus-card,
   .pillar-card,

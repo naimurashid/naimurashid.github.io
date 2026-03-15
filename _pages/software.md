@@ -7,14 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-<section class="page-section page-intro">
-  <p class="page-intro__eyebrow">Overview</p>
-  <h2 class="page-intro__title">Software</h2>
-  <p class="page-intro__lede">
-    {{ page.description }}
-  </p>
-  <p class="mb-0">Clinical tools, R packages, and legacy utilities are grouped below with links to papers and code.</p>
-</section>
+Clinical tools, R packages, and legacy utilities are grouped below with links to papers and code.
 
 <section class="page-section page-section--alt">
 <h2>Decision Support Tools &amp; Patents</h2>
@@ -41,6 +34,30 @@ nav_order: 4
 <h2>R Packages</h2>
 <div class="software-grid">
   <article class="software-card">
+    <h3>BATON</h3>
+    <p>Bayesian adaptive trial operating-characteristic tuning for platform trials.</p>
+    <ul>
+      <li><a href="https://github.com/naimurashid/BATON">GitHub</a></li>
+      <li>In development (2025)</li>
+    </ul>
+  </article>
+  <article class="software-card">
+    <h3>evolveTrial</h3>
+    <p>Adaptive monitoring and simulation tools for evolutionary clinical trial designs.</p>
+    <ul>
+      <li><a href="https://github.com/naimurashid/evolveTrial">GitHub</a></li>
+      <li>In development (2025)</li>
+    </ul>
+  </article>
+  <article class="software-card">
+    <h3>deSurv</h3>
+    <p>De-biased survival estimators pairing flexible ML bases with biomarker-rich trial data.</p>
+    <ul>
+      <li><a href="https://github.com/naimurashid/DeSurv">GitHub</a></li>
+      <li>In development (2025)</li>
+    </ul>
+  </article>
+  <article class="software-card">
     <h3>dlglm</h3>
     <p>Deeply learned GLMs handling non-ignorable missingness.</p>
     <ul>
@@ -65,6 +82,14 @@ nav_order: 4
     </ul>
   </article>
   <article class="software-card">
+    <h3>CompDTUReg</h3>
+    <p>Differential transcript usage with quantification uncertainty.</p>
+    <ul>
+      <li><a href="https://github.com/skvanburen/CompDTUReg">GitHub</a></li>
+      <li>Young et al., <em>Biostatistics</em> (2023)</li>
+    </ul>
+  </article>
+  <article class="software-card">
     <h3>epigraHMM</h3>
     <p>Multi-sample enrichment detection for ChIP/ATAC.</p>
     <ul>
@@ -78,14 +103,6 @@ nav_order: 4
     <ul>
       <li><a href="https://github.com/DavidKLim/FSCseq">GitHub</a></li>
       <li>Lim et al., <em>Ann Appl Stat</em> (2021)</li>
-    </ul>
-  </article>
-  <article class="software-card">
-    <h3>CompDTUReg</h3>
-    <p>Differential transcript usage with quantification uncertainty.</p>
-    <ul>
-      <li><a href="https://github.com/skvanburen/CompDTUReg">GitHub</a></li>
-      <li>Young et al., <em>Biostatistics</em> (2023)</li>
     </ul>
   </article>
 </div>
@@ -116,12 +133,6 @@ Many packages are developed in close collaboration with lab members and trainees
 - **Amber Young**: CompDTUReg co-developer; current PhD student working on semi-supervised matrix factorization for PDAC subtyping
 </section>
 
-<div class="page-cta page-cta--usage">
-  <p><strong>Using these tools in your research?</strong> Please let us know or open an issue. <a href="mailto:naim@unc.edu">Email</a></p>
-</div>
-
-<section class="page-section page-section--alt" markdown="1">
 ## Support & Contact
 
 For technical support, please open an issue on the relevant GitHub repository. For collaboration inquiries, contact [naim@unc.edu](mailto:naim@unc.edu).
-</section>

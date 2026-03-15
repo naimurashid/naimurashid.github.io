@@ -2119,14 +2119,15 @@ html[data-theme='dark'] {
   padding: 2.5rem 0;
 }
 
+/* page-section--alt neutralized for academic consistency */
 .page-section--alt {
-  background: linear-gradient(135deg, rgba(245, 247, 250, 0.8), rgba(240, 245, 250, 0.6));
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-  padding-left: calc(50vw - 50%);
-  padding-right: calc(50vw - 50%);
-  border-top: 1px solid rgba(0, 60, 113, 0.04);
-  border-bottom: 1px solid rgba(0, 60, 113, 0.04);
+  background: transparent;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-top: none;
+  border-bottom: none;
 }
 
 .page-section--featured {
