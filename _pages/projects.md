@@ -42,7 +42,7 @@ nav_order: 3
     <article class="project-card">
       <p class="project-card__badge project-card__badge--develop">Adaptive trial core</p>
       <h3>ADAPT Statistical Hub</h3>
-      <p><code>evolveTrial</code> and <code>evolveBO</code> packages for adaptive monitoring and automated operating-characteristic tuning for the ARPA-H ADAPT platform.</p>
+      <p><code>evolveTrial</code> and <code>BATON</code> packages for adaptive monitoring and automated operating-characteristic tuning for the ARPA-H ADAPT platform.</p>
       <ul class="project-meta">
         <li><strong>Leads:</strong> Naim Rashid, <a href="{{ '/members/about_amber/' | relative_url }}">Amber Young</a></li>
         <li><strong>Milestone:</strong> CRAN packages · In progress</li>
