@@ -129,9 +129,9 @@ See [full funding portfolio](/funding/) for details.
 - Associate Editor, *Annals of Applied Statistics* (2022–)
 - V Foundation Scientific Advisory Board (2023–)
 - TBCRC Statistical Working Group (2017–)
-- Faculty Executive Committee, Department of Biostatistics
-- Chair, Applied Doctoral Exam Committee, Department of Biostatistics
-- Gillings Research Council
+- Faculty Executive Committee, Department of Biostatistics (2025–)
+- Gillings Research Council (2023–)
+- Chair, Applied Doctoral Exam Committee, Department of Biostatistics (2015–)
 
 ## Recent Invited Talks
 
