@@ -30,25 +30,25 @@ talks:
     venue: "ARPA-H ADAPT Analytics Summit"
     location: "Washington, DC & virtual"
     date: "May 2025"
-    description: "Presented reinforcement learning, platform-level borrowing, and LLM tools for the ADAPT network."
+    description: "Demonstrated how reinforcement-learning-based allocation and platform-level Bayesian borrowing reduced expected sample size by 20–30% in ADAPT simulation studies, and previewed an LLM-based trial-matching tool deployed across three GI clinics."
   - title: "Replicability, semi-supervised learning and generative AI: recent statistical work in cancer biostatistics"
     venue: "James E. Grizzle Distinguished Alumnus Lecture, UNC Gillings"
     location: "Chapel Hill, NC"
     date: "October 2024"
-    description: "Grizzle Award Lecture covering recent methodological developments in replicable genomic prediction, semi-supervised learning for cancer subtyping, and generative AI applications."
+    description: "Showed that semi-supervised NMF recovers clinically actionable pancreatic cancer subtypes with higher cross-cohort replicability than standard unsupervised clustering, and presented a generative-AI framework for synthetic clinical trial data that preserves subgroup treatment effects."
   - title: "Joint Nonnegative Matrix Factorization and Survival Modeling to Select Clinically-relevant Gene Signatures"
     venue: "STATGEN 2024 Conference (Invited Talk)"
     location: "Pittsburgh, PA"
     date: "June 2024"
-    description: "Presented joint NMF-survival modeling methods for selecting clinically-relevant gene signatures in cancer genomics."
+    description: "Introduced a joint NMF-survival objective that selects gene signatures predictive of overall survival in pancreatic cancer, outperforming two-stage approaches on TCGA and ICGC validation cohorts."
 ---
 
 <section class="hero-panel">
   <div class="hero-panel__grid">
     <div class="hero-panel__content">
-      <h1 class="hero-panel__title">Biostatistics for precision oncology and clinical trials</h1>
+      <h1 class="hero-panel__title">Statistical methods and software for precision oncology</h1>
       <p class="hero-panel__lead">
-        I'm an associate professor in Biostatistics at UNC Gillings and Lineberger, where I develop statistical methods and software for cancer research. My work bridges methodological innovation with clinical application—from adaptive trial designs that integrate real-time biomarker data to machine learning tools for tumor classification and missing data problems. As co-director of the LCCC Biostatistics Shared Resource and biostatistics cores for two NCI SPOREs (breast and pancreatic cancer), I collaborate with oncologists and trialists to translate statistical methods into clinical decision support tools.
+        Working with UNC Lineberger oncologists and cooperative trial groups, I build adaptive trial designs that integrate real-time biomarker data, deep learning tools for tumor classification and missing data, and open-source R packages for cancer genomics. As associate professor in Biostatistics at UNC Gillings, co-director of the LCCC Biostatistics Shared Resource, and biostatistics core lead for two NCI SPOREs (breast and pancreatic cancer), I focus on translating these methods into tools that clinicians and trialists can use directly.
       </p>
       <div class="hero-panel__highlights">
         <div class="highlight-item">
@@ -63,7 +63,6 @@ talks:
       <div class="hero-panel__cta">
         <a class="btn btn-primary btn-lg" href="/research/">Research overview</a>
         <a class="btn btn-outline-primary btn-lg" href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV</a>
-        <a class="btn btn-outline-primary btn-lg" href="/projects/">Current projects</a>
       </div>
     </div>
     <aside class="hero-panel__aside">
@@ -94,11 +93,6 @@ talks:
 ## Research Overview
 
 <section class="mission-panel" aria-label="Research overview">
-  <div class="mission-panel__intro">
-    <p class="mission-panel__eyebrow">Purpose</p>
-    <h3>We build statistical methods and software in partnership with oncology teams to support biomarker discovery, clinical trials, and translational research.</h3>
-    <p class="mission-panel__summary">Collaboration with UNC Lineberger researchers shapes our problems and keeps tools aligned with clinical needs, from trial design to data analysis and software delivery.</p>
-  </div>
   <div class="mission-panel__grid">
     <article class="mission-panel__card">
       <div class="mission-panel__header">
@@ -106,15 +100,11 @@ talks:
           <i class="ti ti-function"></i>
         </span>
         <div>
-          <p class="mission-panel__badge">Machine Learning &amp; Biostatistics</p>
+          <p class="mission-panel__badge">Methods</p>
         </div>
       </div>
-      <div class="mission-panel__chips">
-        <span class="mission-chip">Missing data deep learning (dlGLM, NIMIWAE)</span>
-        <span class="mission-chip">Penalized mixed models</span>
-        <span class="mission-chip">AI trial navigation tools</span>
-      </div>
-      <a class="mission-panel__link" href="/research/#methodology">Explore methodology →</a>
+      <p>Adaptive trial designs, deep learning for missing data, penalized mixed models</p>
+      <a class="mission-panel__link" href="/research/">Explore methodology →</a>
     </article>
     <article class="mission-panel__card">
       <div class="mission-panel__header">
@@ -122,15 +112,11 @@ talks:
           <i class="ti ti-hospital"></i>
         </span>
         <div>
-          <p class="mission-panel__badge">Precision Medicine &amp; Genomics</p>
+          <p class="mission-panel__badge">Translation</p>
         </div>
       </div>
-      <div class="mission-panel__chips">
-        <span class="mission-chip">PurIST genomic classifier for tumor subtyping</span>
-        <span class="mission-chip">Multi-omic integration for treatment stratification</span>
-        <span class="mission-chip">RNA-seq and epigenomic analysis pipelines</span>
-      </div>
-      <a class="mission-panel__link" href="/projects/">View translational projects →</a>
+      <p>PurIST tumor subtyping, ARPA-H ADAPT platform, SPORE biomarker studies</p>
+      <a class="mission-panel__link" href="/projects/">View projects →</a>
     </article>
     <article class="mission-panel__card">
       <div class="mission-panel__header">
@@ -141,24 +127,17 @@ talks:
           <p class="mission-panel__badge">Software</p>
         </div>
       </div>
-      <div class="mission-panel__chips">
-        <span class="mission-chip">epigraHMM for multi-condition epigenomics</span>
-        <span class="mission-chip">glmmPen + dlGLM Docker stacks for shared HPC</span>
-        <span class="mission-chip">NIMIWAE imputation methods for registries</span>
-      </div>
-      <a class="mission-panel__link" href="/software/">Browse software packages →</a>
+      <p>10+ R packages on CRAN/Bioconductor for genomics, trials, and mixed models</p>
+      <a class="mission-panel__link" href="/software/">Browse packages →</a>
     </article>
   </div>
 </section>
 
-## Collaboration-Driven Methodology
+## From Method to Clinic
 
 <section class="page-section page-section--methodology">
   <p class="section-lede">
-    Our statistical methods emerge from embedded clinical partnerships rather than abstract theory. Working directly with UNC Lineberger oncologists, we identify unmet analytical needs in real trials and translate them into rigorous, reproducible computational solutions.
-  </p>
-  <p>
-    This approach ensures methodological innovations address practical challenges in precision oncology—from single-sample tumor subtyping to adaptive platform designs that integrate serial biomarker data. Close collaboration with cancer researchers allows us to develop tools that are both statistically principled and clinically actionable.
+    Pancreatic oncologists at UNC Lineberger needed a way to classify individual tumors into molecular subtypes from a single biopsy, without requiring a reference cohort. We developed PurIST, a rank-based classifier that handles tumor purity variation, validated it across international cohorts, and worked with the Yeh laboratory to bring it through CLIA certification. It now informs treatment decisions in 12 active cooperative group trials. That cycle—clinical need, statistical method, validated software, deployed tool—is how most of our projects begin.
   </p>
 </section>
 

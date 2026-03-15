@@ -11,7 +11,7 @@ nav_order: 3
 <section class="section-hero section-hero--research">
   <div class="section-hero__content">
     <p class="section-hero__eyebrow">Research Program</p>
-    <h1>Statistical methods for precision oncology</h1>
+    <h1>Statistical methods and software for precision oncology</h1>
     <p class="section-hero__lede">
       We work with UNC Lineberger clinicians on methods and software for biomarker discovery, adaptive trial designs, and translational research. Clinical collaborations shape the questions we address and how tools are delivered.
     </p>
@@ -63,6 +63,7 @@ nav_order: 3
         <span class="focus-chip">Stat Biopharm Res 2024</span>
         <span class="focus-chip">ARPA-H deployment</span>
       </div>
+      <a href="/publications/?filter=machine-learning" class="link-arrow">Machine learning work →</a>
     </article>
 
     <article class="focus-card focus-card--featured">
@@ -75,6 +76,7 @@ nav_order: 3
         <span class="focus-chip">J Molecular Diagnostics (2024)</span>
         <span class="focus-chip">CLIA-certified implementation</span>
       </div>
+      <a href="/publications/?filter=precision-medicine" class="link-arrow">Precision medicine papers →</a>
     </article>
 
     <article class="focus-card focus-card--featured">
@@ -87,6 +89,7 @@ nav_order: 3
         <span class="focus-chip">TBCRC cooperative trials</span>
         <span class="focus-chip">Bayesian response-adaptive design</span>
       </div>
+      <a href="/projects/" class="link-arrow">View trial projects →</a>
     </article>
 
     <article class="focus-card">
@@ -99,68 +102,7 @@ nav_order: 3
         <span class="focus-chip">CRAN package</span>
         <span class="focus-chip">Multi-omic integration</span>
       </div>
-    </article>
-  </div>
-</section>
-
-<section class="page-section">
-  <p class="page-intro__eyebrow">Focus Areas</p>
-  <h2 class="page-intro__title">Research priorities</h2>
-  <p class="page-intro__lede">
-    Our work spans methodological development, software implementation, and collaborative translational research.
-  </p>
-
-  <div class="focus-grid">
-    <article class="focus-card">
-      <p class="focus-card__badge">Precision medicine</p>
-      <h3>Biomarker-guided treatment methods</h3>
-      <p class="focus-card__plain-language"><em>→ Statistical tools for classifying patients into subtypes to inform treatment decisions</em></p>
-      <p>Subtyping, stromal modeling, and patient stratification methods for clinical decision support.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">PurIST subtype classification for GI tumors</span>
-        <span class="focus-chip">Stroma-aware GLMMs for breast and pancreatic cancer</span>
-        <span class="focus-chip">Between-study reproducibility assessment</span>
-      </div>
-      <a href="/publications/?filter=precision-medicine" class="link-arrow">Precision medicine papers →</a>
-    </article>
-
-    <article class="focus-card">
-      <p class="focus-card__badge">Genomics &amp; epigenomics</p>
-      <h3>Transcriptomic and epigenomic software</h3>
-      <p class="focus-card__plain-language"><em>→ R packages for analyzing RNA-seq and chromatin data in cancer studies</em></p>
-      <p>Open-source RNA-seq and chromatin analysis tools for cancer genomics research.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">CompDTUReg for isoform-level RNA testing</span>
-        <span class="focus-chip">epigraHMM + mixNBHMM for multi-condition enrichment</span>
-        <span class="focus-chip">Allele-specific &amp; isoform inference pipelines</span>
-      </div>
       <a href="/software/" class="link-arrow">Browse software packages →</a>
-    </article>
-
-    <article class="focus-card">
-      <p class="focus-card__badge">AI &amp; deep learning</p>
-      <h3>Deep learning methods for missing data and clinical support</h3>
-      <p class="focus-card__plain-language"><em>→ AI methods for incomplete datasets and clinical trial matching tools</em></p>
-      <p>Deep learning, LLM, and probabilistic models for incomplete data and clinical decision support.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">NIMIWAE + dlGLM for non-ignorable missingness</span>
-        <span class="focus-chip">Semi-supervised factorization for cancer subtyping</span>
-        <span class="focus-chip">LLM tools for trial matching and ctDNA monitoring</span>
-      </div>
-      <a href="/publications/?filter=machine-learning" class="link-arrow">Machine learning work →</a>
-    </article>
-
-    <article class="focus-card">
-      <p class="focus-card__badge">Trial innovation</p>
-      <h3>Adaptive design &amp; real-time biomarker integration</h3>
-      <p class="focus-card__plain-language"><em>→ Trial designs that adjust treatment assignment based on incoming biomarker data</em></p>
-      <p>Bayesian platforms integrating ctDNA, imaging, and clinical data in cooperative trials.</p>
-      <div class="focus-card__chips">
-        <span class="focus-chip">ARPA-H ADAPT analytics</span>
-        <span class="focus-chip">TBCRC + SPORE biomarker-informed randomization</span>
-        <span class="focus-chip">Master protocols with serial ctDNA data</span>
-      </div>
-      <a href="/projects/" class="link-arrow">View trial projects →</a>
     </article>
   </div>
 </section>
