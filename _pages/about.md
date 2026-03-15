@@ -219,8 +219,8 @@ talks:
         <li><strong>Breast SPORE Core B Co-Director</strong> (P50-CA058223, 2024–2029): Biostatistics support for 4 translational projects, TBCRC trial correlatives, and ctDNA resistance monitoring</li>
         <li><strong>Pancreatic SPORE Core C Co-Director</strong> (P50-CA257911, 2022–2027): Integrated quantitative science for 5 SPORE projects spanning organoid models, immunotherapy, and stromal reprogramming</li>
         <li><strong>Lineberger LCCC Biostatistics Shared Resource Associate Director</strong> (P30-CA016086): Statistical leadership for 40+ cancer center investigators annually, trial design consultation, grant development, regulatory analytics</li>
-        <li>Nature Medicine Statistical Advisory Panel (2024-)</li>
-        <li>Associate Editor, Annals of Applied Statistics (2023-)</li>
+        <li>Nature Medicine Statistical Advisory Panel (2023-)</li>
+        <li>Associate Editor, Annals of Applied Statistics (2022-)</li>
         <li>V Foundation Scientific Advisory Board (2023-)</li>
         <li>TBCRC Statistical Working Group (2017-)</li>
       </ul>

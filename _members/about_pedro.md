@@ -28,14 +28,14 @@ profile:
     orcid:
     social: true
 lab_publications:
-  - key: baldoni2019improved
+  - key: improved2019
     label: mixNBHMM differential epigenomics (Biometrics 2019)
     links:
       - text: Journal
         url: https://doi.org/10.1111/biom.13076
       - text: Code
         url: https://github.com/plbaldoni/mixNBHMM
-  - key: Baldoni864124
+  - key: efficient2022
     label: epigraHMM multi-condition HMMs (Biometrics 2022)
     links:
       - text: Bioconductor

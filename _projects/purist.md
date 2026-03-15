@@ -30,4 +30,4 @@ Purity Independent Subtyping of Tumors (PurIST) delivers the first clinically ro
 - Open-source training and inference code with example datasets are available to academic collaborators.
 - Trial sponsors can access QA documentation and integration guidance via the Lineberger Biostatistics Shared Resource.
 
-*Key reference:* {% cite rashid2020purity %}
+*Key reference:* {% cite purity2020 %}

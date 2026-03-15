@@ -28,26 +28,26 @@ profile:
     orcid:
     social: true
 lab_publications:
-  - key: heiling2021b
+  - key: glmmpen2024
     label: glmmPen penalized GLMM selection (The R Journal 2024)
     links:
       - text: CRAN Package
         url: https://cran.r-project.org/package=glmmPen
       - text: Code
         url: https://github.com/hheiling/glmmPen
-  - key: heiling2021estimating
+  - key: estimating2023
     label: Isoform composition estimation (2021)
     links:
       - text: Preprint
         url: https://arxiv.org/abs/2101.08923
-  - key: heiling2023efficient
+  - key: efficient2024
     label: Latent-factor GLMMs (Biometrics 2024)
     links:
       - text: Preprint
         url: https://arxiv.org/abs/2310.02157
       - text: Code
         url: https://github.com/hheiling/glmmPen
-  - key: heiling2023survival
+  - key: efficient2025
     label: Penalized hazard random-effects (2025)
     links:
       - text: Preprint

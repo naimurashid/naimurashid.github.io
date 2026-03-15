@@ -143,15 +143,10 @@ nav_order: 5
       </article>
 
     </div>
+    <p class="mt-3">Apply through the <a href="https://sph.unc.edu/bios/biostatistics/admissions/" target="_blank" rel="noopener">UNC Biostatistics PhD program</a>. Prospective students interested in the lab can email <a href="mailto:naim@unc.edu">naim@unc.edu</a> with questions about research directions, lab culture, or training philosophy. <strong>Current UNC Biostatistics PhD trainees:</strong> email directly to discuss joining the lab or participating in collaborative projects.</p>
   </div>
 </section>
 
-<section class="page-section">
-  <h2>For Prospective PhD Students</h2>
-  <p>Apply through the <a href="https://sph.unc.edu/bios/biostatistics/admissions/" target="_blank" rel="noopener">UNC Biostatistics PhD program</a>. Prospective students interested in the lab can email <a href="mailto:naim@unc.edu">naim@unc.edu</a> with questions about research directions, lab culture, or training philosophy.</p>
-  <p><strong>For current UNC Biostatistics PhD trainees:</strong> Email directly to discuss joining the lab or participating in collaborative projects.</p>
-</section>
-
 <section class="page-section" markdown="1">
-*Last updated: November 2025*
+*Last updated: March 2026*
 </section>

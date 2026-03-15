@@ -27,7 +27,7 @@ profile:
     orcid:
     social: true
 lab_publications:
-  - key: van2020differential
+  - key: differential2024
     label: CompDTUReg (Biostatistics 2024)
     links:
       - text: Journal / DOI

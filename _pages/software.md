@@ -96,8 +96,8 @@ nav_order: 4
 <ul class="software-list">
   <li><strong>mixNBHMM</strong> – Differential peak calling for multi-condition epigenomic data. (<a href="https://github.com/plbaldoni/mixNBHMM">GitHub</a>)</li>
   <li><strong>ZIMHMM</strong> – Consensus enrichment calling across ChIP-seq replicates. (<a href="https://github.com/plbaldoni/ZIMHMM">GitHub</a>)</li>
-  <li><strong>ZINBA</strong> – Zero-inflated negative binomial algorithm detecting NGS-enriched regions. (<a href="https://code.google.com/p/zinba">Project</a>)</li>
-  <li><strong>hmmcov</strong> – HMM / AR-HMM procedures with variable selection for epigenetic enrichment. (<a href="https://code.google.com/p/hmmcov">Project</a>)</li>
+  <li><strong>ZINBA</strong> – Zero-inflated negative binomial algorithm detecting NGS-enriched regions. (Archived; formerly hosted on Google Code)</li>
+  <li><strong>hmmcov</strong> – HMM / AR-HMM procedures with variable selection for epigenetic enrichment. (Archived; formerly hosted on Google Code)</li>
   <li><strong>BASeG</strong> – Bivariate association studies linking expression and epigenetic marks with shared genetics. (Rashid et al., <em>Ann Appl Stat</em>, 2016)</li>
 </ul>
 </section>

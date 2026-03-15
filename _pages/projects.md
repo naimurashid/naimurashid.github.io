@@ -32,7 +32,7 @@ nav_order: 3
       <p>Efficient survival estimators pairing de-biased gradients with flexible machine-learning bases for biomarker-rich trials.</p>
       <ul class="project-meta">
         <li><strong>Lead:</strong> <a href="{{ '/members/about_amber/' | relative_url }}">Amber Young</a></li>
-        <li><strong>Milestone:</strong> Manuscript + CRAN submission · Fall 2025</li>
+        <li><strong>Milestone:</strong> Manuscript + CRAN submission · In progress</li>
       </ul>
       <div class="project-card__links">
         <a href="https://github.com/naimurashid/DeSurv" target="_blank" rel="noopener" class="link-arrow">Preview code</a>
@@ -45,7 +45,7 @@ nav_order: 3
       <p><code>evolveTrial</code> and <code>evolveBO</code> packages for adaptive monitoring and automated operating-characteristic tuning for the ARPA-H ADAPT platform.</p>
       <ul class="project-meta">
         <li><strong>Leads:</strong> Naim Rashid, <a href="{{ '/members/about_amber/' | relative_url }}">Amber Young</a></li>
-        <li><strong>Milestone:</strong> CRAN packages · Oct 2025</li>
+        <li><strong>Milestone:</strong> CRAN packages · In progress</li>
       </ul>
       <div class="project-card__links">
         <a href="/funding/#tbcrc-evolvebdt" class="link-arrow">Protocol summary</a>
@@ -58,7 +58,7 @@ nav_order: 3
       <p>Fine-tuned language model translating pancreatic cancer eligibility criteria into bilingual summaries with transparent inclusion/exclusion logic.</p>
       <ul class="project-meta">
         <li><strong>Lead:</strong> <a href="{{ '/members/about_tyler/' | relative_url }}">Tyler Humpherys</a></li>
-        <li><strong>Milestone:</strong> Clinic pilot across GI clinics · Fall 2025</li>
+        <li><strong>Milestone:</strong> Clinic pilot across GI clinics · In progress</li>
       </ul>
       <div class="project-card__links">
         <a href="/news/" class="link-arrow">Read project brief</a>

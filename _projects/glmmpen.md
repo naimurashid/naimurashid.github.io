@@ -20,5 +20,5 @@ The `glmmPen` R package grew out of Rashid Lab collaborations with UNC Lineberge
 
 ### Key publications
 
-- *Penalized GLMMs:* {% cite heiling2021b %}
+- *Penalized GLMMs:* {% cite glmmpen2024 %}
 - *Survival extensions:* Variable selection in high-dimensional mixed effects survival models (_Biometrics_, 2024) - [arXiv:2504.00755](https://arxiv.org/abs/2504.00755)

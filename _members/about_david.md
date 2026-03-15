@@ -28,19 +28,19 @@ profile:
     orcid:
     social: true
 lab_publications:
-  - key: lim2020
+  - key: modelbased2021
     label: FSCseq feature selection & clustering (AOAS 2021)
     links:
       - text: Journal / DOI
         url: https://doi.org/10.1214/20-AOAS1400
       - text: Code
         url: https://github.com/DavidKLim/FSCseq
-  - key: lim2021
+  - key: unsupervised2025
     label: NIMIWAE missing-data imputation (2024)
     links:
       - text: Code
         url: https://github.com/DavidKLim/NIMIWAE
-  - key: lim2022
+  - key: deeply2024
     label: dlGLM deep GLMs with missing data (JCGS 2024)
     links:
       - text: Journal / DOI
