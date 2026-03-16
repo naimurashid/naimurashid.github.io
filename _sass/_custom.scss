@@ -243,11 +243,11 @@
 }
 
 .hero-panel__tagline {
-  color: var(--global-text-muted, #6c757d);
-  font-size: 1.05rem;
-  font-weight: 400;
-  font-style: italic;
-  letter-spacing: 0.01em;
+  color: var(--global-heading-color, #1a1a2e);
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -0.01em;
   margin-bottom: 0.75rem;
 }
 
