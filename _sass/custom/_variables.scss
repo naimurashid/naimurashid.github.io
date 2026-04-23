@@ -1,10 +1,26 @@
-/* Color Variables — aligned with UNC Brand Guidelines (identity.unc.edu) */
-:root {
-  --global-primary-blue: #4b9cd3;  /* Carolina Blue */
-  --global-accent-blue: #13294B;   /* Navy */
-  --global-warm-accent: #FF9E1B;   /* Tulip Poplar */
-  --global-neutral-dark: #13294B;  /* Navy */
-  --global-neutral-light: #f5f7fa;
-  --global-heading-color: #13294B; /* Navy */
-  --global-text-muted: #5B6670;    /* Old Well Basin */
-}
+/* ==========================================================================
+   CUSTOM VARIABLES
+   Rashid Lab tokens are defined as CSS custom properties in `_tokens.scss`.
+   This file retains Sass-level variables used by older partials that
+   interpolate at compile time (e.g. color functions like `lighten()`).
+   ========================================================================== */
+
+/* Brand hex values mirrored from _tokens.scss. Kept in sync manually. */
+$rl-navy:         #13294B;
+$rl-navy-deep:    #0B1D3A;
+$rl-carolina:     #4B9CD3;
+$rl-carolina-deep: #2E6A9F;
+$rl-paper:        #FFFFFF;
+$rl-fog:          #F4F6F8;
+$rl-mist:         #E6EAEF;
+$rl-graphite:     #5B6670;
+$rl-ink:          #1A202C;
+
+/* Legacy Sass variables — keep for backwards compat with existing partials.
+   Prefer CSS custom properties from _tokens.scss for any new code. */
+$global-primary-blue:  $rl-carolina;
+$global-accent-blue:   $rl-navy;
+$global-neutral-dark:  $rl-navy;
+$global-neutral-light: $rl-fog;
+$global-heading-color: $rl-navy;
+$global-text-muted:    $rl-graphite;
