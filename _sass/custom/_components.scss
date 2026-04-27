@@ -104,8 +104,13 @@
     transform: none;
   }
 
-  /* Override gradient backgrounds inherited from legacy rules. */
-  background: var(--rl-bg);
+  /* Override gradient backgrounds inherited from legacy rules.
+     Wrapped in `& {}` to opt into the new Sass behavior for declarations
+     that follow nested rules — silences the mixed-decls deprecation
+     warning that becomes an error in Dart Sass 3.0. */
+  & {
+    background: var(--rl-bg);
+  }
 }
 
 .grant-card--featured {
