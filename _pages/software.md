@@ -36,6 +36,7 @@ nav_order: 4
     <ul class="software-card__links">
       <li><a href="https://github.com/naimurashid/PurIST">GitHub</a></li>
       <li><a href="https://github.com/naimurashid/runPurIST">Shiny GUI</a></li>
+      <li><a class="software-card__download" href="{{ '/assets/img/hex/purist.svg' | relative_url }}" download>Hex sticker</a></li>
     </ul>
   </article>
 
@@ -58,6 +59,7 @@ nav_order: 4
     </ul>
     <ul class="software-card__links">
       <li><a href="https://github.com/naimurashid/BATON">GitHub</a></li>
+      <li><a class="software-card__download" href="{{ '/assets/img/hex/baton.svg' | relative_url }}" download>Hex sticker</a></li>
     </ul>
   </article>
 
@@ -73,6 +75,7 @@ nav_order: 4
     </ul>
     <ul class="software-card__links">
       <li><a href="https://github.com/naimurashid/evolveTrial">GitHub</a></li>
+      <li><a class="software-card__download" href="{{ '/assets/img/hex/evolvetrial.svg' | relative_url }}" download>Hex sticker</a></li>
     </ul>
   </article>
 
@@ -88,6 +91,7 @@ nav_order: 4
     </ul>
     <ul class="software-card__links">
       <li><a href="https://github.com/naimurashid/DeSurv">GitHub</a></li>
+      <li><a class="software-card__download" href="{{ '/assets/img/hex/desurv.svg' | relative_url }}" download>Hex sticker</a></li>
     </ul>
   </article>
 
