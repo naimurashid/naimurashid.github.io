@@ -1,0 +1,75 @@
+/* ==========================================================================
+   HEX MARK — PHASE 2B
+   --------------------------------------------------------------------------
+   Usage in Liquid:
+     {% include hex-mark.html pkg="BATON" size="md" %}
+
+   The include returns:
+     <span class="hex-mark hex-mark--md">
+       <svg class="hex-mark__shape" viewBox="0 0 174 200">…</svg>
+     </span>
+
+   Sticker geometry is pointy-top, 5:6 (R-community convention). All
+   colors are baked into the SVG so it renders identically in light
+   and dark mode — the sticker is a self-contained brand block.
+   ========================================================================== */
+
+.hex-mark {
+  display: inline-block;
+  flex-shrink: 0;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.hex-mark__shape {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ---- Sizes ---------------------------------------------------------------
+   Width drives everything — height follows the 174:200 aspect ratio.
+   ------------------------------------------------------------------------- */
+
+.hex-mark--sm  { width: 56px;  }
+.hex-mark--md  { width: 96px;  }
+.hex-mark--lg  { width: 144px; }
+.hex-mark--xl  { width: 200px; }
+
+/* ---- Card placement -----------------------------------------------------
+   Inside a .software-card header, float the hex to the right of the H3.
+   The header should read: [ title ] ............ [ hex ]
+   ------------------------------------------------------------------------- */
+
+.software-card__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--rl-space-4);
+  margin-bottom: var(--rl-space-2);
+
+  h3 {
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .hex-mark {
+    margin-top: 2px;       /* optical alignment with cap-height */
+  }
+}
+
+/* ---- Tessellation grid (optional, for the software page hero) ----------
+   A 3-row offset grid that lets the four marks tile cleanly with each
+   other — same R hex geometry, so they share edges.
+   ------------------------------------------------------------------------- */
+
+.hex-mark-grid {
+  position: relative;
+  display: block;
+  margin: var(--rl-space-6) 0;
+}
+
+.hex-mark-grid .hex-mark {
+  position: absolute;
+}
