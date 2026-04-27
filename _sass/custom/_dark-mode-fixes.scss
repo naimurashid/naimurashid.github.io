@@ -85,6 +85,18 @@ html[data-theme="dark"] {
   }
 
 
+  /* ----- Talks section panel ------------------------------------------- */
+
+  /* .talks-section uses bg: rgba(255, 255, 255, 0.9) and a heavy lift
+     shadow that's invisible in dark mode. Flip to the dark surface
+     treatment used elsewhere on the page. */
+  .talks-section {
+    background: var(--rl-bg-subtle);
+    border-color: var(--rl-border);
+    box-shadow: var(--rl-shadow-sm);
+  }
+
+
   /* ----- Lift shadows on cards without dark variants ------------------- */
 
   /* These declare 0 8px 20px rgba(15, 23, 42, 0.08) which is essentially
