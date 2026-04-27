@@ -16,7 +16,6 @@ nav_order: 4
   <article class="software-card">
     <div class="software-card__head">
       <h3>PurIST Pancreatic Classifier</h3>
-      {% include hex-mark.html pkg="PurIST" size="md" %}
     </div>
     <p class="software-card__desc">Single-sample PDAC subtype assay used in cooperative trials.</p>
     <ul class="software-card__meta">
@@ -50,7 +49,6 @@ nav_order: 4
   <article class="software-card">
     <div class="software-card__head">
       <h3>BATON</h3>
-      {% include hex-mark.html pkg="BATON" size="md" %}
     </div>
     <p class="software-card__desc">Bayesian adaptive trial operating-characteristic tuning for platform trials.</p>
     <ul class="software-card__meta">
@@ -66,7 +64,6 @@ nav_order: 4
   <article class="software-card">
     <div class="software-card__head">
       <h3>evolveTrial</h3>
-      {% include hex-mark.html pkg="evolveTrial" size="md" %}
     </div>
     <p class="software-card__desc">Adaptive monitoring and simulation tools for evolutionary clinical trial designs.</p>
     <ul class="software-card__meta">
@@ -82,7 +79,6 @@ nav_order: 4
   <article class="software-card">
     <div class="software-card__head">
       <h3>deSurv</h3>
-      {% include hex-mark.html pkg="DeSurv" size="md" %}
     </div>
     <p class="software-card__desc">De-biased survival estimators pairing flexible ML bases with biomarker-rich trial data.</p>
     <ul class="software-card__meta">
