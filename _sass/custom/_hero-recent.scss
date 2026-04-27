@@ -1,39 +1,38 @@
 /* ==========================================================================
-   HERO PANEL — "RECENT" STACK
+   HERO PANEL — "RECENT NEWS" STACK
    --------------------------------------------------------------------------
-   Tight three-row list at the bottom of the .hero-panel__content text column,
+   Three-row list at the bottom of the .hero-panel__content text column,
    pulling the most recent non-inline news items from site.news. Fills the
    asymmetry between the text column and the taller aside column without
    adding decorative chrome.
 
-   Treatment: mono "RECENT" eyebrow on a hairline rule, three rows below:
-     [mono date]  [serif title link]
-   each separated by a hairline.
+   Visual register:
+     - Hairline-rule separator above the section
+     - "Recent News" header — mono small muted, matching the .hero-panel__tagline
+       at the top of the column (creates a typographic bookend)
+     - Items: [mono date]  [serif title link], each separated by hairlines
    ========================================================================== */
 
 .hero-panel__recent {
+  border-top: 1px solid var(--rl-border);
   margin-top: var(--rl-space-5);
+  padding-top: var(--rl-space-5);
   margin-bottom: 0;
 }
 
-/* "RECENT" eyebrow + trailing hairline rule */
+/* "Recent News" header — exact register parity with .hero-panel__tagline:
+   IBM Plex Mono 12px 500, muted, 0.08em tracking, uppercase. The tagline
+   sits at the top of the text column; this header sits at the bottom —
+   they bookend the column in the same typographic key. */
 .hero-panel__recent-label {
-  align-items: center;
   color: var(--rl-text-muted);
-  display: flex;
+  display: block;
   font-family: var(--rl-font-mono);
   font-size: var(--rl-text-xs);
   font-weight: 500;
   letter-spacing: 0.08em;
   margin: 0 0 var(--rl-space-3);
   text-transform: uppercase;
-
-  &::after {
-    border-bottom: 1px solid var(--rl-border);
-    content: "";
-    flex: 1 1 auto;
-    margin-left: var(--rl-space-3);
-  }
 }
 
 .hero-panel__recent-list {
