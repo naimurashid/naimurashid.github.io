@@ -51,9 +51,43 @@ let applyTheme = () => {
   }
 
   document.documentElement.setAttribute("data-theme", theme);
-  // Force a style recalculation so body and other elements consuming
-  // CSS custom properties via var() repaint with the new theme values.
-  void document.body.offsetHeight;
+  // Force body's `background-color: var(--global-bg-color)` to actually
+  // re-evaluate when the underlying token flips. Chrome retains the
+  // pre-flip computed bg on body even though the variable updates
+  // correctly; reading offsetHeight alone does NOT invalidate the
+  // computed style. Setting an inline backgroundColor and immediately
+  // clearing it forces a real recompute. We set it to whatever the
+  // (now-flipped) --global-bg-color resolves to so there's no visible
+  // flash during the cycle.
+  // Guard: applyTheme runs from initTheme during <head> parsing too,
+  // when document.body is still null. Skip the recompute cycle in that
+  // case — there's nothing painted yet anyway.
+  if (document.body) {
+    let _body = document.body;
+    let _newBg = getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color").trim();
+    if (_newBg) {
+      // Two-frame inline-style cycle. A same-frame set+clear is optimized
+      // away by Chrome's style engine, so neither the offsetWidth read nor
+      // a synchronous clear forces the body to re-evaluate
+      // background-color: var(--global-bg-color). Splitting the set and
+      // clear across two requestAnimationFrame ticks forces a real paint
+      // with the inline value, which then drops to the cascade-resolved
+      // (newly-flipped) var() value on the next paint. There is a brief
+      // flash of the correct new color, which is visually fine because
+      // it matches what the cascade SHOULD be painting anyway.
+      let _prev = _body.style.backgroundColor;
+      requestAnimationFrame(() => {
+        _body.style.backgroundColor = _newBg;
+        requestAnimationFrame(() => {
+          _body.style.backgroundColor = _prev;
+        });
+      });
+    }
+  }
+  // Also set color-scheme on documentElement so the browser's UA
+  // chrome (scrollbars, form controls, default canvas color) follows
+  // the theme. Independent of the bg recompute hack above.
+  document.documentElement.style.colorScheme = theme;
 
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
@@ -239,14 +273,27 @@ let initTheme = () => {
 
   setThemeSetting(themeSetting);
 
-  // Add event listener to the theme toggle button.
-  document.addEventListener("DOMContentLoaded", function () {
-    const mode_toggle = document.getElementById("light-toggle");
-
-    mode_toggle.addEventListener("click", function () {
-      toggleThemeSetting();
-    });
-  });
+  // Bind the click handler defensively across multiple lifecycle events.
+  // al-folio's stock implementation only registers the listener inside a
+  // single DOMContentLoaded callback, which has been observed to silently
+  // fail to wire the click handler. We try every reasonable entry point
+  // and rely on the dataset.rlToggleBound flag for idempotence so the
+  // listener is attached at most once.
+  let bindToggle = () => {
+    let mode_toggle = document.getElementById("light-toggle");
+    if (!mode_toggle) return;
+    if (mode_toggle.dataset.rlToggleBound === "1") return;
+    mode_toggle.dataset.rlToggleBound = "1";
+    mode_toggle.addEventListener("click", toggleThemeSetting);
+  };
+  // Try immediately (button may already exist).
+  bindToggle();
+  // DOMContentLoaded — body fully parsed, button should exist if it didn't yet.
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bindToggle);
+  }
+  // window.load — last-resort fallback once all subresources are in.
+  window.addEventListener("load", bindToggle);
 
   // Add event listener to the system theme preference change.
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
