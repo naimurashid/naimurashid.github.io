@@ -1,362 +1,121 @@
-/* Dark Mode Overrides */
-html[data-theme="dark"] {
-  --global-heading-color: #e2e8f0;
-  --global-text-muted: #7d8a9a;
-  --global-neutral-dark: #e2e8f0;
-  --global-neutral-light: #1e293b;
-  --global-accent-blue: #60a5fa;
+/* ==========================================================================
+   DARK MODE HYGIENE — PHASE 5
+   --------------------------------------------------------------------------
+   The token aliases in _tokens.scss already swap inside html[data-theme='dark'],
+   so most components carry through with no per-rule overrides. This partial
+   is the catch-all for spots where:
 
-  /* Hero panel border in dark mode */
-  .hero-panel {
-    border-bottom-color: rgba(255, 255, 255, 0.1);
+     - the source uses a hardcoded hex literal that doesn't swap
+     - bootstrap chrome leaks through (badge backgrounds, btn hover states)
+     - a gradient was neutralized to a solid in light mode but the solid
+       still reads wrong against dark surfaces
+
+   Loaded LAST so it wins on cascade.
+   ========================================================================== */
+
+html[data-theme='dark'] {
+
+  /* --------------------------------------------------------------------
+     Publications page — bib entries
+     -------------------------------------------------------------------- */
+  .publications .links .btn {
+    background: var(--rl-bg) !important;
+    color: var(--rl-text-muted) !important;
+    border-color: var(--rl-border) !important;
   }
 
-  /* Standard card backgrounds and borders */
-  .section-hero,
-  .focus-card,
-  .pillar-card,
-  .mission-panel,
-  .news-card,
-  .social-feed__card,
-  .grant-card,
-  .team-member-card,
-  .project-card,
-  .team-group-block,
-  .talk-card,
-  .collaboration-callout,
-  .publication-highlights__card {
-    background: var(--global-card-bg-color);
-    border-color: var(--global-card-border-color);
+  .publications .links .btn:hover {
+    color: var(--rl-link) !important;
+    border-color: var(--rl-border-strong) !important;
   }
 
-  /* Publication cards have left accent border */
-  .publication-highlights__card {
-    border-left-color: #60a5fa;
+  .publications .abbr abbr.badge {
+    background: var(--rl-bg-subtle) !important;
+    color: var(--rl-text-muted) !important;
+    border-color: var(--rl-border) !important;
   }
 
-  /* Muted text elements */
-  .hero-panel__lead,
-  .section-hero__lede,
-  .page-intro__lede,
-  .news-card__date,
-  .news-card__summary,
-  .social-feed__title a,
-  .social-feed__summary,
-  .social-feed__date,
-  .grant-card__description,
-  .page-intro ul li {
-    color: var(--global-text-muted);
+  .publications .row + .row {
+    border-top-color: var(--rl-border);
   }
 
-  /* Metric badges with darker background */
-  .metric,
-  .section-metrics .metric {
-    background: #334155;
-    border-color: var(--global-card-border-color);
+  /* --------------------------------------------------------------------
+     Hero panel — social link chips
+     -------------------------------------------------------------------- */
+  .hero-panel__links--grid .hero-panel__link {
+    background: var(--rl-bg-subtle);
+    border-color: var(--rl-border);
+    color: var(--rl-text-muted);
   }
 
-  /* Gradient backgrounds */
-  .page-intro {
-    background: linear-gradient(120deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
-    border-color: var(--global-card-border-color);
+  .hero-panel__links--grid .hero-panel__link:hover {
+    color: var(--rl-link);
+    border-color: var(--rl-border-strong);
   }
 
-  .team-callout {
-    background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
-    border-color: var(--global-card-border-color);
+  /* --------------------------------------------------------------------
+     CV cards
+     -------------------------------------------------------------------- */
+  .cv .card {
+    background: var(--rl-bg);
+    border-color: var(--rl-border);
+    box-shadow: var(--rl-shadow-sm);
   }
 
-  .mission-panel__card {
-    background: rgba(51, 65, 85, 0.9);
-    border-color: var(--global-card-border-color);
+  /* --------------------------------------------------------------------
+     Award eyebrow chip
+     -------------------------------------------------------------------- */
+  .post .award-year {
+    background: var(--rl-bg-subtle);
+    border-color: var(--rl-border);
+    color: var(--rl-text-muted);
   }
 
-  /* Chip and badge styles */
-  .focus-chip,
-  .mission-chip {
-    background: rgba(96, 165, 250, 0.15);
-    border-color: rgba(96, 165, 250, 0.3);
-    color: #e2e8f0;
+  /* --------------------------------------------------------------------
+     Code blocks (blog posts)
+     -------------------------------------------------------------------- */
+  .post > article.post-content code,
+  .post > article.post-content > pre {
+    background: var(--rl-bg-subtle);
+    border-color: var(--rl-border);
+    color: var(--rl-text);
   }
 
-  /* Headings and text in cards */
-  .grant-detail__value,
-  .team-member-card__role,
-  .team-member-card__teaser,
-  .team-member-card__title a,
-  .project-card h3,
-  .project-card p,
-  .project-meta,
-  .project-meta strong,
-  .project-card__badge,
-  .talk-card h4 {
-    color: #e2e8f0;
+  /* --------------------------------------------------------------------
+     al-folio default chrome — these classes appear in many places and
+     the upstream defaults have hardcoded light backgrounds.
+     -------------------------------------------------------------------- */
+  .badge {
+    background: var(--rl-bg-subtle) !important;
+    color: var(--rl-text-muted) !important;
+    border-color: var(--rl-border) !important;
   }
 
-  /* Logo swap for dark mode */
-  .site-logo--light {
-    display: none;
+  .post > .post-header > .post-meta,
+  .post > .post-header > .post-tags {
+    color: var(--rl-text-muted);
   }
 
-  .site-logo--dark {
-    display: block;
+  /* Block quotes inherit token border + muted text. */
+  .post > article > blockquote,
+  .post > article.post-content > blockquote {
+    border-left-color: var(--rl-border);
+    color: var(--rl-text-muted);
   }
 
-  /* Project card badges - lighter colors for dark mode */
-  .project-card__badge--develop {
-    background: rgba(56, 189, 248, 0.25);
-    color: #7dd3fc;
+  /* Tables. */
+  .post > article > table th,
+  .post > article.post-content > table th,
+  .post > article.post-content > div > table th {
+    color: var(--rl-text-muted);
   }
 
-  .project-card__badge--pilot {
-    background: rgba(251, 191, 36, 0.25);
-    color: #fcd34d;
-  }
-
-  .project-card__badge--adopt {
-    background: rgba(134, 239, 172, 0.25);
-    color: #86efac;
-  }
-
-  .project-card__badge--story {
-    background: rgba(191, 219, 254, 0.25);
-    color: #93c5fd;
-  }
-
-  /* Bootstrap badges - better contrast for dark mode */
-  .badge-primary {
-    background-color: #3b82f6 !important;
-    color: #fff !important;
-  }
-
-  .badge-success {
-    background-color: #10b981 !important;
-    color: #fff !important;
-  }
-
-  .badge-info {
-    background-color: #06b6d4 !important;
-    color: #fff !important;
-  }
-
-  /* Funding timeline - dark backgrounds */
-  .timeline-stat {
-    background: #334155;
-    border-color: var(--global-card-border-color);
-    color: #e2e8f0;
-  }
-
-  .timeline-milestone {
-    background: #1e293b;
-    border-color: var(--global-card-border-color);
-  }
-
-  .milestone-title {
-    color: #e2e8f0;
-  }
-
-  .milestone-desc,
-  .milestone-highlight {
-    color: var(--global-text-muted);
-  }
-
-  /* Section headings in alt sections */
-  .page-section--alt h2,
-  .page-section--alt h3,
-  .page-section--alt h4 {
-    color: var(--global-text-muted) !important;
-  }
-
-  /* Featured Publications heading specifically */
-  .page-section--alt > h2 {
-    color: var(--global-text-muted) !important;
-  }
-
-  /* All paragraphs in alt sections */
-  .page-section--alt p {
-    color: var(--global-text-muted) !important;
-  }
-
-  .page-section--alt > p {
-    color: var(--global-text-muted) !important;
-  }
-
-  /* Software list */
-  .software-list li {
-    color: var(--global-text-muted);
-  }
-
-  .software-list strong {
-    color: #e2e8f0;
-  }
-
-  /* Software and grant cards */
-  .software-card h3,
-  .grant-card h3 {
-    color: #e2e8f0;
-  }
-
-  .software-card p,
-  .software-card li {
-    color: var(--global-text-muted);
-  }
-
-  /* Publication highlights */
-  .publication-highlights__card {
-    background: var(--global-card-bg-color);
-    border-color: var(--global-card-border-color);
-  }
-
-  .publication-highlights__card h3,
-  .publication-highlights__card h4 {
-    color: #e2e8f0;
-  }
-
-  /* Research themes and network grids */
-  .research-theme,
-  .network-grid .pillar-card {
-    background: var(--global-card-bg-color);
-    border-color: var(--global-card-border-color);
-  }
-
-  .research-theme h3,
-  .research-theme h4,
-  .network-grid .pillar-card h4 {
-    color: #e2e8f0;
-  }
-
-  .research-theme p,
-  .network-grid .pillar-card p {
-    color: var(--global-text-muted);
-  }
-
-  /* Funding highlights */
-  .funding-highlight {
-    background: var(--global-card-bg-color);
-    border-color: var(--global-card-border-color);
-  }
-
-  .funding-highlight h3 {
-    color: #e2e8f0;
-  }
-
-  .funding-highlight p {
-    color: var(--global-text-muted);
-  }
-
-  .funding-highlights li {
-    color: var(--global-text-muted);
-  }
-
-  /* Page CTAs */
-  .page-cta {
-    background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(51, 65, 85, 0.95));
-    border-color: var(--global-card-border-color);
-  }
-
-  .page-cta p,
-  .page-cta strong {
-    color: #e2e8f0;
-  }
-
-  /* Teaching and impact sections */
-  .teaching-philosophy,
-  .impact-highlights {
-    color: var(--global-text-muted);
-  }
-
-  .teaching-philosophy h2,
-  .teaching-philosophy h3,
-  .impact-highlights h2,
-  .impact-highlights h3 {
-    color: #e2e8f0;
-  }
-
-  /* Pillar cards (cross-cutting innovations, collaborative network) */
-  .pillar-card {
-    background: var(--global-card-bg-color);
-    border-color: var(--global-card-border-color);
-  }
-
-  .pillar-card h3,
-  .pillar-card h4 {
-    color: #e2e8f0;
-  }
-
-  .pillar-card p {
-    color: var(--global-text-muted);
-  }
-
-  /* Leadership cards */
-  .leadership-card,
-  .leadership-grid .leadership-card {
-    background: var(--global-card-bg-color);
-    border-color: var(--global-card-border-color);
-  }
-
-  .leadership-card h3,
-  .leadership-card h4,
-  .leadership-details p strong {
-    color: #e2e8f0;
-  }
-
-  .leadership-card p,
-  .leadership-card li {
-    color: var(--global-text-muted);
-  }
-
-  /* Diagram wrapper and research portfolio map */
-  .diagram-wrapper {
-    background: transparent;
-  }
-
-  /* All list items in page sections */
-  .page-section ul li,
-  .page-section ol li {
-    color: var(--global-text-muted);
-  }
-
-  .page-section ul li strong,
-  .page-section ol li strong {
-    color: #e2e8f0;
-  }
-
-  /* Funding accordion content */
-  .funding-accordion summary {
-    color: #e2e8f0;
-  }
-
-  .funding-list h4 {
-    color: #e2e8f0;
-  }
-
-  .funding-list p {
-    color: var(--global-text-muted);
-  }
-
-  /* Impact Highlights cards on Publications page */
-  .bg-white {
-    background-color: var(--global-card-bg-color) !important;
-  }
-
-  .text-muted {
-    color: var(--global-text-muted) !important;
-  }
-
-  .shadow-sm {
-    box-shadow: var(--global-shadow-sm) !important;
-  }
-
-  .display-6 {
-    color: #e2e8f0 !important;
-  }
-
-  /* Ensure all p elements in white bg cards are readable */
-  .bg-white p:not(.text-muted) {
-    color: var(--global-text-muted);
-  }
-
-  .bg-white .text-uppercase {
-    color: #94a3b8;
+  .post > article > table td,
+  .post > article > table th,
+  .post > article.post-content > table td,
+  .post > article.post-content > table th,
+  .post > article.post-content > div > table td,
+  .post > article.post-content > div > table th {
+    border-bottom-color: var(--rl-border);
   }
 }

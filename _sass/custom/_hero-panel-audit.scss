@@ -1,0 +1,159 @@
+/* ==========================================================================
+   HERO-PANEL AUDIT — PHASE 5
+   --------------------------------------------------------------------------
+   The .hero-panel--academic block on /about/ was styled before the RL
+   token system landed; it uses hex literals for navy / muted / accent and
+   has its own font-size scale that pre-dates --rl-text-*.
+
+   This partial is a hygiene pass: align the hero-panel to the same tokens
+   as the rest of the system, without redesigning the layout. No change
+   to grid, columns, image sizing, or social-link grid.
+   ========================================================================== */
+
+.hero-panel--academic {
+  background: var(--rl-bg);
+  border: 1px solid var(--rl-border);
+  border-radius: var(--rl-radius-md);
+  box-shadow: var(--rl-shadow-sm);
+}
+
+/* --------------------------------------------------------------------------
+   Headline + lead paragraph
+   -------------------------------------------------------------------------- */
+.hero-panel__tagline {
+  color: var(--rl-text-muted);
+  font-family: var(--rl-font-mono);
+  font-size: var(--rl-text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: var(--rl-space-3);
+}
+
+.hero-panel__lead {
+  color: var(--rl-text);
+  font-family: var(--rl-font-serif);
+  font-size: var(--rl-text-md);     /* 18px lede */
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 64ch;
+  text-wrap: pretty;
+  margin: 0 0 var(--rl-space-5);
+}
+
+.hero-panel__lead a {
+  color: var(--rl-link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.hero-panel__lead a:hover {
+  color: var(--rl-link-hover);
+  border-bottom-color: currentColor;
+}
+
+/* --------------------------------------------------------------------------
+   "Research interests:" + "Training:" inline metadata blocks
+   Sans body text with a mono eyebrow on the bold leader.
+   -------------------------------------------------------------------------- */
+.hero-panel__interests,
+.hero-panel__education {
+  color: var(--rl-text);
+  font-family: var(--rl-font-sans);
+  font-size: var(--rl-text-sm);
+  line-height: var(--rl-leading-normal);
+  max-width: 70ch;
+  margin: 0 0 var(--rl-space-3);
+}
+
+.hero-panel__interests > strong,
+.hero-panel__education > strong {
+  color: var(--rl-text-muted);
+  font-family: var(--rl-font-mono);
+  font-size: var(--rl-text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-right: var(--rl-space-2);
+}
+
+/* --------------------------------------------------------------------------
+   Inline link cluster (Research · CV · Publications)
+   -------------------------------------------------------------------------- */
+.hero-panel__links-inline {
+  font-family: var(--rl-font-mono);
+  font-size: var(--rl-text-xs);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-top: var(--rl-space-4);
+  color: var(--rl-text-muted);
+}
+
+.hero-panel__links-inline a {
+  color: var(--rl-link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.hero-panel__links-inline a:hover {
+  color: var(--rl-link-hover);
+  border-bottom-color: currentColor;
+}
+
+/* --------------------------------------------------------------------------
+   Aside — name, position, address, social icon grid.
+   -------------------------------------------------------------------------- */
+.hero-panel__name {
+  color: var(--rl-heading);
+  font-family: var(--rl-font-serif);
+  font-size: var(--rl-text-md);
+  font-weight: 600;
+  margin: 0 0 var(--rl-space-1);
+}
+
+.hero-panel__position {
+  color: var(--rl-text);
+  font-family: var(--rl-font-sans);
+  font-size: var(--rl-text-sm);
+  line-height: var(--rl-leading-normal);
+  margin-bottom: var(--rl-space-3);
+}
+
+.hero-panel__address {
+  color: var(--rl-text-muted);
+  font-family: var(--rl-font-sans);
+  font-size: var(--rl-text-sm);
+  line-height: var(--rl-leading-normal);
+  margin-bottom: var(--rl-space-4);
+}
+
+/* Social icon links — uniform mono chips. */
+.hero-panel__links--grid .hero-panel__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  background: var(--rl-bg-subtle);
+  border: 1px solid var(--rl-border);
+  border-radius: var(--rl-radius-sm);
+  padding: 0.3rem 0.6rem;
+  color: var(--rl-text-muted);
+  font-family: var(--rl-font-mono);
+  font-size: var(--rl-text-xs);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.hero-panel__links--grid .hero-panel__link:hover {
+  color: var(--rl-link);
+  border-color: var(--rl-border-strong);
+}
+
+.hero-panel__links--grid .hero-panel__link i {
+  font-size: 1.1em;
+  color: inherit;
+}

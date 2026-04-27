@@ -1,0 +1,207 @@
+/* ==========================================================================
+   PUBLICATIONS — PHASE 5
+   --------------------------------------------------------------------------
+   al-folio's _layouts/bib.liquid renders each publication as:
+
+     <div class="row">
+       <div class="col-sm-2 abbr">           <abbr class="badge">…</abbr>  (venue chip + thumbnail)
+       <div class="col-sm-8 OR -10">         (entry body)
+         <div class="title">…</div>
+         <div class="author">…</div>          <em>self</em>, <a>coauthor</a>, …
+         <div class="periodical">…</div>      <em>Journal Name</em>, Year
+         <div class="links">                  bootstrap btn-sm chips: PDF / arXiv / Code / …
+           <a class="btn btn-sm">PDF</a>
+         </div>
+       </div>
+     </div>
+
+   This partial aligns those classes to the RL token system. Pure CSS.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Title — paper title is the dominant element. Serif, navy, h3-scale.
+   -------------------------------------------------------------------------- */
+.publications .title {
+  color: var(--rl-heading);
+  font-family: var(--rl-font-serif);
+  font-size: var(--rl-text-md);     /* 18px */
+  font-weight: 600;
+  line-height: var(--rl-leading-tight);
+  letter-spacing: -0.005em;
+  margin: 0 0 var(--rl-space-1);
+}
+
+/* --------------------------------------------------------------------------
+   Author line — small, sans, --rl-text-muted. Self-author (the <em>) lifts
+   to --rl-heading so my own name reads first.
+   -------------------------------------------------------------------------- */
+.publications .author {
+  color: var(--rl-text-muted);
+  font-family: var(--rl-font-sans);
+  font-size: var(--rl-text-sm);
+  font-weight: 400;
+  line-height: var(--rl-leading-normal);
+  margin: 0 0 var(--rl-space-1);
+}
+
+.publications .author em {
+  color: var(--rl-heading);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.publications .author a {
+  color: var(--rl-link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.publications .author a:hover {
+  color: var(--rl-link-hover);
+  border-bottom-color: currentColor;
+}
+
+.publications .more-authors {
+  color: var(--rl-link);
+  cursor: pointer;
+  border-bottom: 1px dotted var(--rl-link);
+}
+
+/* --------------------------------------------------------------------------
+   Periodical — journal name + year. <em> is the journal; serif italic so
+   it carries the academic register.
+   -------------------------------------------------------------------------- */
+.publications .periodical {
+  color: var(--rl-text-muted);
+  font-family: var(--rl-font-sans);
+  font-size: var(--rl-text-sm);
+  line-height: var(--rl-leading-normal);
+  margin: 0 0 var(--rl-space-2);
+}
+
+.publications .periodical em {
+  color: var(--rl-text);
+  font-family: var(--rl-font-serif);
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* --------------------------------------------------------------------------
+   Venue chip — the .abbr column shows a venue badge (JASA / NEJM / etc).
+   Neutralize the bootstrap badge gradient/color into a mono chip.
+   -------------------------------------------------------------------------- */
+.publications .abbr abbr.badge {
+  background: var(--rl-bg-subtle) !important;
+  color: var(--rl-text-muted) !important;
+  border: 1px solid var(--rl-border);
+  font-family: var(--rl-font-mono);
+  font-size: var(--rl-text-xs);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: var(--rl-radius-sm) !important;
+  padding: 0.25rem 0.5rem;
+}
+
+.publications .abbr abbr.badge a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------
+   Link buttons — al-folio uses bootstrap btn-sm for PDF / arXiv / Code
+   chips. Replace with the same neutral mono chip used elsewhere.
+   -------------------------------------------------------------------------- */
+.publications .links {
+  margin-top: var(--rl-space-2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--rl-space-2);
+}
+
+.publications .links .btn {
+  background: var(--rl-bg) !important;
+  color: var(--rl-text-muted) !important;
+  border: 1px solid var(--rl-border) !important;
+  font-family: var(--rl-font-mono);
+  font-size: var(--rl-text-xs);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--rl-radius-sm);
+  box-shadow: none;
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.publications .links .btn:hover {
+  color: var(--rl-link) !important;
+  border-color: var(--rl-border-strong) !important;
+}
+
+.publications .links .btn.award {
+  background: var(--rl-bg-subtle) !important;
+  color: var(--rl-heading) !important;
+  border-color: var(--rl-border-strong) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Year-group headers (al-folio renders bib entries grouped by year as h2).
+   Match .post > article > h2 register.
+   -------------------------------------------------------------------------- */
+.publications h2.year {
+  color: var(--rl-heading);
+  font-family: var(--rl-font-serif);
+  font-size: var(--rl-text-xl);
+  font-weight: 600;
+  line-height: var(--rl-leading-tight);
+  letter-spacing: -0.005em;
+  margin: var(--rl-space-7) 0 var(--rl-space-4);
+  padding-top: var(--rl-space-5);
+  padding-bottom: 0;
+  border-top: 1px solid var(--rl-border);
+  border-bottom: none;
+}
+
+.publications h2.year:first-of-type {
+  margin-top: var(--rl-space-5);
+  padding-top: 0;
+  border-top: none;
+}
+
+/* --------------------------------------------------------------------------
+   Row spacing — drop the heavy bootstrap row gutter, use token spacing.
+   -------------------------------------------------------------------------- */
+.publications .row {
+  margin: 0 0 var(--rl-space-5);
+  padding: 0;
+}
+
+.publications .row + .row {
+  border-top: 1px solid var(--rl-border);
+  padding-top: var(--rl-space-5);
+}
+
+/* --------------------------------------------------------------------------
+   Hidden expansion blocks (Abs / Bib) — when toggled visible, give them
+   a token-driven container instead of the raw bootstrap card-bg.
+   -------------------------------------------------------------------------- */
+.publications .abstract:not(.hidden),
+.publications .bibtex:not(.hidden) {
+  background: var(--rl-bg-subtle);
+  border: 1px solid var(--rl-border);
+  border-radius: var(--rl-radius-sm);
+  padding: var(--rl-space-3) var(--rl-space-4);
+  margin-top: var(--rl-space-2);
+  font-family: var(--rl-font-mono);
+  font-size: var(--rl-text-sm);
+  color: var(--rl-text);
+}
+
+.publications .bibtex:not(.hidden) pre,
+.publications .bibtex:not(.hidden) code {
+  background: transparent;
+  font-family: inherit;
+  color: inherit;
+}

@@ -1,0 +1,51 @@
+/* ==========================================================================
+   AWARD LIST — PHASE 5
+   --------------------------------------------------------------------------
+   The "Selected Awards" section on /about/ is a bullet list with year
+   leaders:  **2025** — Gillings Research Excellence Award.
+
+   Phase 4 styled `.post article > ul > li > strong:first-child` as a
+   navy bold leader, but for awards we want a stronger eyebrow register
+   (mono uppercase year, like the grant-detail__label pattern). That
+   needs different markup, so we introduce a dedicated wrapper class:
+
+       <li><span class="award-year">2025</span> Gillings Research Excellence Award</li>
+
+   The class is also reused for any "year + sentence" list (recognition,
+   honors). Apply by editing the markdown directly.
+   ========================================================================== */
+
+.post .award-year {
+  display: inline-block;
+  color: var(--rl-text-muted);
+  font-family: var(--rl-font-mono);
+  font-size: var(--rl-text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--rl-bg-subtle);
+  border: 1px solid var(--rl-border);
+  border-radius: var(--rl-radius-sm);
+  padding: 0.1rem 0.5rem;
+  margin-right: var(--rl-space-3);
+  vertical-align: 1px;
+  font-variant-numeric: tabular-nums;
+  min-width: 4ch;
+  text-align: center;
+}
+
+/* When the list is exclusively award rows, tighten the row gap so it
+   reads as a structured list, not as a paragraph stack. */
+.post .award-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post .award-list > li {
+  margin-bottom: var(--rl-space-2);
+  padding-left: 0;
+}
+
+.post .award-list > li::marker {
+  content: none;
+}
