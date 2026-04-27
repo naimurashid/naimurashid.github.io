@@ -51,6 +51,9 @@ let applyTheme = () => {
   }
 
   document.documentElement.setAttribute("data-theme", theme);
+  // Force a style recalculation so body and other elements consuming
+  // CSS custom properties via var() repaint with the new theme values.
+  void document.body.offsetHeight;
 
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
