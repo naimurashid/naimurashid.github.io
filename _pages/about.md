@@ -113,12 +113,14 @@ See [full funding portfolio](/funding/) for details.
 
 ## Selected Awards
 
-- **2025** — Gillings Research Excellence Award
-- **2024** — James E. Grizzle Distinguished Alumnus Award
-- **2023** — Teaching Innovation Award, UNC Gillings
-- **2021** — Delta Omega Faculty Award, Gillings School of Global Public Health
-- **2017** — IBM and R.J. Reynolds Junior Faculty Development Award, UNC-CH
-- **2013** — Barry H. Margolin Dissertation Award for best doctoral dissertation
+<ul class="award-list">
+  <li><span class="award-year">2025</span> Gillings Research Excellence Award</li>
+  <li><span class="award-year">2024</span> James E. Grizzle Distinguished Alumnus Award</li>
+  <li><span class="award-year">2023</span> Teaching Innovation Award, UNC Gillings</li>
+  <li><span class="award-year">2021</span> Delta Omega Faculty Award, Gillings School of Global Public Health</li>
+  <li><span class="award-year">2017</span> IBM and R.J. Reynolds Junior Faculty Development Award, UNC-CH</li>
+  <li><span class="award-year">2013</span> Barry H. Margolin Dissertation Award for best doctoral dissertation</li>
+</ul>
 
 ## Service & Leadership
 
