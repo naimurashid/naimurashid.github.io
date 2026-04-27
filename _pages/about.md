@@ -61,6 +61,26 @@ talks:
         <a href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">CV (PDF)</a> ·
         <a href="/publications/">Publications</a>
       </p>
+      <section class="hero-panel__recent" aria-label="Recent">
+        <p class="hero-panel__recent-label">Recent</p>
+        <ul class="hero-panel__recent-list">
+          {% assign hp_recent = site.news | reverse %}
+          {% assign hp_shown = 0 %}
+          {% for hp_item in hp_recent %}
+            {% if hp_shown >= 3 %}{% break %}{% endif %}
+            {% if hp_item.inline %}{% continue %}{% endif %}
+            <li class="hero-panel__recent-item">
+              <span class="hero-panel__recent-date">{{ hp_item.date | date: '%m / %Y' }}</span>
+              {% if hp_item.url %}
+                <a class="hero-panel__recent-title" href="{{ hp_item.url | relative_url }}">{{ hp_item.title | truncate: 72 }}</a>
+              {% else %}
+                <span class="hero-panel__recent-title">{{ hp_item.title | truncate: 72 }}</span>
+              {% endif %}
+            </li>
+            {% assign hp_shown = hp_shown | plus: 1 %}
+          {% endfor %}
+        </ul>
+      </section>
     </div>
     <aside class="hero-panel__aside">
       <figure class="hero-panel__portrait-wrapper">
