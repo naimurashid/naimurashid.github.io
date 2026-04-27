@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 200" width="174" height="200">
+  <title>evolveTrial — Rashid Lab hex sticker</title>
+  <polygon points="87,2 170,50 170,150 87,198 4,150 4,50" fill="#0B1D3A"></polygon>
+  <polygon points="87,2 170,50 170,150 87,198 4,150 4,50" fill="none" stroke="#4B9CD3" stroke-width="4" stroke-linejoin="round"></polygon>
+  <polygon points="87,10 163,54 163,146 87,190 11,146 11,54" fill="none" stroke="#4B9CD3" stroke-opacity=".35" stroke-width="1"></polygon>
+  <line x1="26" y1="132" x2="150" y2="132" stroke="#4B9CD3" stroke-opacity=".3" stroke-width="1"></line>
+  <line x1="26" y1="48" x2="150" y2="48" stroke="#C48A1A" stroke-opacity=".75" stroke-width="1.25" stroke-dasharray="4,2"></line>
+  <line x1="26" y1="112" x2="150" y2="112" stroke="#C48A1A" stroke-opacity=".5" stroke-width="1.25" stroke-dasharray="4,2"></line>
+  <circle cx="28" cy="82" r="2.5" fill="#4B9CD3"></circle>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 28 82 L 50 78 L 72 85 L 94 78 L 116 82 L 138 80" stroke="#4B9CD3" stroke-opacity=".4" stroke-width="1.25"></path>
+    <path d="M 28 82 L 50 72 L 72 62 L 94 48" stroke="#4B9CD3" stroke-width="1.75"></path>
+    <path d="M 28 82 L 50 90 L 72 100 L 94 112" stroke="#4B9CD3" stroke-opacity=".55" stroke-width="1.25" stroke-dasharray="2,2"></path>
+    <path d="M 28 82 L 50 85 L 72 80 L 94 87 L 116 82 L 138 86" stroke="#4B9CD3" stroke-opacity=".4" stroke-width="1.25"></path>
+    <path d="M 28 82 L 50 76 L 72 68 L 94 60 L 116 52 L 124 48" stroke="#4B9CD3" stroke-width="1.75"></path>
+  </g>
+  <circle cx="94" cy="48" r="3.75" fill="#C48A1A"></circle>
+  <circle cx="124" cy="48" r="3.75" fill="#C48A1A"></circle>
+  <circle cx="94" cy="112" r="3.75" fill="none" stroke="#C48A1A" stroke-width="1.75"></circle>
+  <line x1="30" y1="152" x2="144" y2="152" stroke="#4B9CD3" stroke-opacity=".4" stroke-width="1"></line>
+  <text x="87" y="166" text-anchor="middle" font-family="Archivo, Helvetica, system-ui, sans-serif" font-size="18" font-weight="600" letter-spacing="1.5" fill="#F4F6F8">evolveTrial</text>
+</svg>

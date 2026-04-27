@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 200" width="174" height="200">
+  <title>PurIST — Rashid Lab hex sticker</title>
+  <polygon points="87,2 170,50 170,150 87,198 4,150 4,50" fill="#0B1D3A"></polygon>
+  <polygon points="87,2 170,50 170,150 87,198 4,150 4,50" fill="none" stroke="#4B9CD3" stroke-width="4" stroke-linejoin="round"></polygon>
+  <polygon points="87,10 163,54 163,146 87,190 11,146 11,54" fill="none" stroke="#4B9CD3" stroke-opacity=".35" stroke-width="1"></polygon>
+  <line x1="36" y1="30" x2="36" y2="134" stroke="#4B9CD3" stroke-opacity=".3" stroke-width="1"></line>
+  <line x1="36" y1="134" x2="146" y2="134" stroke="#4B9CD3" stroke-opacity=".3" stroke-width="1"></line>
+  <line x1="36" y1="134" x2="140" y2="30" stroke="#F4F6F8" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="4,3"></line>
+  <g fill="#4B9CD3">
+    <circle cx="54" cy="44" r="3.25"></circle>
+    <circle cx="66" cy="56" r="3.25"></circle>
+    <circle cx="76" cy="46" r="3.25"></circle>
+    <circle cx="80" cy="64" r="3.25"></circle>
+    <circle cx="92" cy="68" r="3.25"></circle>
+    <circle cx="56" cy="72" r="3.25"></circle>
+    <circle cx="102" cy="82" r="3.25"></circle>
+  </g>
+  <g fill="#C48A1A">
+    <circle cx="96" cy="110" r="3.25"></circle>
+    <circle cx="108" cy="98" r="3.25"></circle>
+    <circle cx="120" cy="112" r="3.25"></circle>
+    <circle cx="130" cy="122" r="3.25"></circle>
+    <circle cx="114" cy="120" r="3.25"></circle>
+    <circle cx="86" cy="118" r="3.25"></circle>
+    <circle cx="134" cy="108" r="3.25"></circle>
+  </g>
+  <line x1="30" y1="152" x2="144" y2="152" stroke="#4B9CD3" stroke-opacity=".4" stroke-width="1"></line>
+  <text x="87" y="166" text-anchor="middle" font-family="Archivo, Helvetica, system-ui, sans-serif" font-size="20" font-weight="600" letter-spacing="2" fill="#F4F6F8">PurIST</text>
+</svg>
