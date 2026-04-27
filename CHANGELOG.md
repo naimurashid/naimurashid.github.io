@@ -4,6 +4,9 @@ All notable changes to the Rashid Lab website are documented in this file.
 
 ## [2026-04-27] - Post-Phase-7 Polish
 
+### Fixed
+- **`.talks-section` dark-mode regression** (caught in post-Phase-7 spot-check) — was rendering with `rgba(255, 255, 255, 0.9)` background and `--global-shadow-lg` lift in dark mode. Now flips to `--rl-bg-subtle` + hairline border + `--rl-shadow-sm` under `html[data-theme="dark"]` (commit `ac9d41a4`)
+
 ### Added
 - **Hero "Recent News" stack** — three-row hairline list at the bottom of the about hero text column, auto-pulling the most recent non-inline items from `_news/`
   - Header matches `.hero-panel__tagline` register (IBM Plex Mono 12px 500, muted, 0.08em tracking, uppercase)
