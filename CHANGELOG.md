@@ -2,6 +2,174 @@
 
 All notable changes to the Rashid Lab website are documented in this file.
 
+## [2026-04-27] - Post-Phase-7 Polish
+
+### Added
+- **Hero "Recent News" stack** — three-row hairline list at the bottom of the about hero text column, auto-pulling the most recent non-inline items from `_news/`
+  - Header matches `.hero-panel__tagline` register (IBM Plex Mono 12px 500, muted, 0.08em tracking, uppercase)
+  - Hairline-rule separator above the section
+  - Row format: `[mono date] [serif title link]` separated by hairlines
+
+### Changed
+- **About hero lead paragraph** trimmed and linked
+  - Added hyperlink to UNC Gillings School of Global Public Health (`https://sph.unc.edu/`)
+  - Removed redundant 3rd sentence (~25 words restating sentence 2)
+- **Software cards** drop inline hex-mark badges in the card head
+  - The 56×64 hex stickers next to each h3 forced the head row to 66px (vs. ~30px without). Now removed; downloadable SVGs remain in `assets/img/hex/` and are still linked in each card's link cluster.
+
+### Technical Details
+- Commits: `c2a6ee89`, `250cee05`, `9d52f7ea`, `7d637af5`
+- New partial: `_sass/custom/_hero-recent.scss`
+- Hero asymmetry between text col and aside (with portrait loaded): closed from ~254px to ~134px
+
+---
+
+## [2026-04-27] - Phase 7
+
+### Added
+- **Hotfixes Round 2** (`_sass/custom/_hotfixes-r2.scss`)
+  - `/blog/` listing — `.header-bar h1` capped at `--rl-text-2xl`, post titles Source Serif 22px, `.post-meta` and `.post-tags` IBM Plex Mono uppercase
+  - `/team/` — `.team-group-block__header h3` Source Serif 22px (was Archivo 20px); `.team-member-card` resting shadow tightened to `--rl-shadow-sm`
+  - `/repositories/` — `.repositories` flex container `gap: var(--rl-space-4)` (was 0)
+- **Dark-mode fixes pass** (`_sass/custom/_dark-mode-fixes.scss`)
+  - `.news-card`, `.social-feed__card`, `.publication-highlights__card` flip to `--rl-bg-subtle` in dark mode (were stuck on cream/white via `var(--global-neutral-light)` / `var(--global-bg, #fff)`)
+  - `#bibsearch.bibsearch-form-input` flips bg/text/border in dark mode
+  - `#diagram-legend` overrides inline `style="background:#f8f9fa"` via `!important`
+  - `#back-to-top` bg from `rgba(255,255,255,0.5)` → `rgba(255,255,255,0.08)`
+  - Lift shadows on `.software-card`, `.talk-card`, `.recognition-card`, etc. normalized to `--rl-shadow-sm`
+
+### Fixed
+- **Sass mixed-decls deprecation** in `_sass/custom/_components.scss:108` (declaration after nested rules wrapped in `& {}`)
+- **Blog header bar** rendered "al-folio" / theme tagline as page title — `_config.yml` `blog_name` and `blog_description` cleared, hides the entire `<div class="header-bar">` block per the template's existing if-guard
+
+### Technical Details
+- Commits: `4171409b`, `7b8738a3`, `1d12685e`, `86c17e36`
+- All dark-mode rules scoped under `html[data-theme="dark"]` so light mode is unchanged
+- Cascade order: `hotfixes-r1 → hotfixes-r2 → dark-mode-fixes` (each round loaded after surfaces it fixes)
+
+---
+
+## [2026-04-27] - Phase 6: Hotfixes + Imagery
+
+### Added
+- **Imagery pass** (`_sass/custom/_figures.scss`, `assets/img/hex/{baton,desurv,evolvetrial,purist}.svg`)
+  - Hairline-bordered figure treatment for `.post figure` / `.post-content > figure`
+  - Source Serif 4 italic `figcaption` with mono "Figure N." eyebrow
+  - `.software-card__download` styling (mono caps with ↓ glyph)
+  - 4 downloadable hex SVGs at 174×200 viewBox (R-community 5.08×5.87cm spec)
+- **Hex sticker download links** wired into PurIST, BATON, evolveTrial, deSurv card link clusters
+
+### Fixed (Hotfixes Round 1)
+- **Hero panel padding** (`/about/`) restored from `1.5rem 0 2rem` (zero horizontal) to `var(--rl-space-6)` — picture no longer sits flush at the right edge
+- **Hero panel lead** switched from `--rl-font-serif` to `--rl-font-sans` so register matches body text on every other page
+- **Publications venue badges** regain Carolina-blue tint (Phase 5 had neutralized them to a near-invisible chip)
+- **Software card head→desc gap** locked via `0 0 var(--rl-space-3)` margin; hex sticker clamped to 56px max
+- **Projects + Funding pages** flattened to RL token system: drop gradient backgrounds, `translateY` hovers, entry animations, accent `::before` stripes, and emoji-prefixed badges. Stage stripes replaced with calm 3px left borders. `.grant-card--featured` gets a 3px Carolina left border.
+
+### Technical Details
+- Commits: `a893f701`, `9ff89de3`, `b4f220fc`, `f13201bd`
+- New partial loaded as the trailing override: `_sass/custom/_hotfixes-r1.scss`
+- Apply scripts: `apply-phase-6-hotfixes-r1.sh`, `apply-phase-6-imagery.sh`
+
+---
+
+## [2026-04-23] - Phase 5: System Wrap
+
+### Added
+- **Publications page typography** (`_sass/custom/_publications.scss`) — `.title` / `.author` / `.periodical` / `.links`
+- **Award-list eyebrow chip pattern** (`_sass/custom/_award-list.scss`) — applied to `/about/` Selected Awards section (markup converted from markdown bullets to `<ul class="award-list">` HTML)
+- **Hero-panel-academic token alignment** (`_sass/custom/_hero-panel-audit.scss`)
+- **Blog post rhythm** (`_sass/custom/_blog-post.scss`) for `post.liquid` layout
+- **CV page typography** (`_sass/custom/_cv-page.scss`) for `cv.liquid` layout
+- **Dark-mode hygiene catch-all** — full rewrite of `_sass/custom/_dark-mode.scss` to a token-aware system (419 → 89 net lines after consolidation)
+- **`BRAND_SYSTEM.md`** root-level consolidated reference
+
+### Fixed
+- **Theme toggle stale-paint bug** — `assets/js/theme.js` now forces a reflow (`void document.body.offsetHeight`) after setting `data-theme` so body/cards repaint immediately
+- **Dark-mode footer** was inverting *backwards* (navy → light gray); pointed at `--rl-bg-subtle` so it stays dark
+
+### Technical Details
+- Commits: `6c0a46a0`, `ca87bc95`, `fb8b0328`
+- Apply script: `apply-phase-5-system-wrap.sh`
+
+---
+
+## [2026-04-23] - Phase 4: Post-Prose Typography
+
+### Added
+- `_sass/custom/_post-prose.scss` — extends Phase 2a token-driven typography from grant/software card interiors out to the prose body of every page using `layout: page` / `layout: about`
+- Selectors use the direct-child combinator (`>`) so styles do not ripple into nested cards (`.grant-card`, `.software-card`, `.talk-card`, `.hero-panel`)
+- Scope: `.post article > h2`/`> h3`/`> h4`/`> p`/`> ul`/`> ol`, plus `.talk-card` interior typography matching grant-card register
+
+### Technical Details
+- Commit: `15975032`
+- Apply script: `apply-phase-4-post-prose.sh`
+
+---
+
+## [2026-04-23] - Phase 2c: Software-Page Polish
+
+### Added
+- `_sass/custom/_software-card.scss` — four-slot internal card layout: `__head`, `__desc`, `__meta` (mono pills), `__refs`, `__links`
+- Status pills with single accent dots: CRAN blue, Bioconductor teal, Carolina clinical, amber in-development
+- `.software-page__lede` opening sentence treatment (Source Serif 22px)
+
+### Changed
+- `_pages/software.md` rewritten to four-slot card structure (138 → 178 lines)
+
+### Technical Details
+- Commits: `5583df18`, `072e013c`
+- Apply script: `apply-phase-2c-software-polish.sh`
+- Note: apply script unintentionally committed a `.bak` backup; cleanup commit `072e013c` removed it
+
+---
+
+## [2026-04-23] - Phase 2b: Hex-Mark System
+
+### Added
+- `_includes/hex-mark.html` — reusable Liquid include for inline SVG hex marks
+- `_sass/custom/_hex-mark.scss` — sizing/color treatment
+- Hex mark calls integrated into `_pages/software.md` (subsequently removed in 2026-04-27 polish; downloadable SVGs retained)
+
+### Technical Details
+- Commit: `73c543e3`
+- Apply script: `apply-phase-2b-hex-marks.sh`
+
+---
+
+## [2026-04-23] - Phase 2a: Page Typography
+
+### Added
+- `_sass/custom/_page-typography.scss` — interior typography pass for `.grant-card` and `.software-card` on `/funding/` and `/software/`
+- Card titles → Source Serif 4 22px / 600 (was Archivo 18px / 700)
+- Grant detail values → IBM Plex Mono with `font-variant-numeric: tabular-nums` so dollar amounts and date ranges line up vertically
+- Software-card metadata labels → mono eyebrows; nested patents list gets a 2px left rule
+
+### Technical Details
+- Commit: `d7b6641a`
+- Apply script: `apply-phase-2a-page-typography.sh`
+
+---
+
+## [2026-04-23] - Phase 1: Academic Brand Rebase
+
+### Added
+- **Design tokens** (`_sass/custom/_tokens.scss`) — single source of truth for color, type, spacing, radius, shadow; emitted as CSS custom properties so dark mode can swap them without recompile
+- **Component placeholders** (`_sass/custom/_components.scss`) — `%rl-card` / `%rl-pill` / `%rl-eyebrow` extended by 14 card classes via `@extend`
+- **Decorative-chrome neutralizer** (`_sass/custom/_neutralize.scss`) — kills radial/linear gradients, role-colored pathway borders, hover translateY lifts, staggered fadeInUp animations, gradient H2 underline bars
+
+### Changed
+- **Google Fonts** — Open Sans + Libre Baskerville → Archivo + Source Serif 4 + IBM Plex Mono (via `_config.yml` `google_fonts` URL; `head.liquid` reads it through a Liquid template variable)
+- **Page width** — `max_width` 930px → 1120px
+- **Progressbar** — disabled (`enable_progressbar: false`)
+- **Sass-level brand variables** expanded in `_sass/custom/_variables.scss`
+
+### Technical Details
+- Commit: `f7103bab`
+- Apply script: `apply-phase-1-brand-refresh.sh`
+
+---
+
 ## [2026-01-31] - Team Photo Cropping Fix
 
 ### Fixed
