@@ -1,0 +1,105 @@
+/* ==========================================================================
+   PHASE 7 — DARK-MODE FIXES PASS
+   --------------------------------------------------------------------------
+   Targeted overrides for surfaces whose Phase 1–6 styling assumed light mode.
+   Identified during a systematic dark-mode browser audit across /, /news/,
+   /research/, /software/, /publications/, /projects/, /funding/, /team/,
+   /cv/, /blog/.
+
+   All overrides scoped under html[data-theme="dark"] so light mode is
+   completely unchanged. Loaded after hotfixes-r1 and hotfixes-r2 so it can
+   reach surfaces both rounds touched (.publication-highlights__card,
+   .news-card) and surfaces still owned by legacy _aesthetic-refinements.
+   ========================================================================== */
+
+html[data-theme="dark"] {
+
+  /* ----- Cards rendering with hardcoded light backgrounds -------------- */
+
+  /* .news-card uses var(--global-neutral-light) which doesn't flip; was
+     showing as cream #F4F6F8 on dark page. /, /news/. */
+  .news-card {
+    background-color: var(--rl-bg-subtle);
+    border-color: var(--rl-border);
+    box-shadow: var(--rl-shadow-sm);
+  }
+  .news-card:hover {
+    box-shadow: var(--rl-shadow-md);
+  }
+
+  /* .social-feed__card uses var(--global-bg, #fff) — --global-bg doesn't
+     exist, falls back to white. Homepage. */
+  .social-feed__card {
+    background-color: var(--rl-bg-subtle);
+    border-color: var(--rl-border);
+    box-shadow: var(--rl-shadow-sm);
+  }
+  .social-feed__card:hover {
+    box-shadow: var(--rl-shadow-md);
+  }
+
+  /* .publication-highlights__card uses #fff directly. /publications/. */
+  .publication-highlights__card {
+    background-color: var(--rl-bg-subtle);
+    border-color: var(--rl-border);
+    box-shadow: var(--rl-shadow-sm);
+  }
+  .publication-highlights__card:hover {
+    box-shadow: var(--rl-shadow-md);
+  }
+
+
+  /* ----- Form controls ------------------------------------------------- */
+
+  /* BibSearch input from al-folio's _base.scss. /publications/. */
+  #bibsearch.bibsearch-form-input {
+    background-color: var(--rl-bg-subtle);
+    color: var(--rl-text);
+    border-color: var(--rl-border);
+  }
+  #bibsearch.bibsearch-form-input::placeholder {
+    color: var(--rl-text-muted);
+  }
+
+
+  /* ----- Diagram legend (research page) -------------------------------- */
+
+  /* #diagram-legend has inline `style="background: #f8f9fa"` in
+     _includes/research-diagram.html — only !important can override an
+     inline style without a markup change. */
+  #diagram-legend {
+    background: var(--rl-bg-subtle) !important;
+    color: var(--rl-text);
+    border: 1px solid var(--rl-border);
+  }
+
+
+  /* ----- Floating widgets ---------------------------------------------- */
+
+  /* Back-to-top button bg was rgba(255, 255, 255, 0.5) — too bright on dark. */
+  #back-to-top {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+  #back-to-top:hover {
+    background-color: rgba(255, 255, 255, 0.16);
+  }
+
+
+  /* ----- Lift shadows on cards without dark variants ------------------- */
+
+  /* These declare 0 8px 20px rgba(15, 23, 42, 0.08) which is essentially
+     invisible in dark mode anyway — normalize to the token shadow so they
+     behave consistently with the rest of the system. */
+  .software-card,
+  .talk-card,
+  .recognition-card,
+  .focus-card,
+  .pillar-card,
+  .pathway-card,
+  .leadership-card,
+  .focus-area-item,
+  .mission-panel__card,
+  .research-theme {
+    box-shadow: var(--rl-shadow-sm);
+  }
+}
