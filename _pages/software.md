@@ -13,7 +13,10 @@ Clinical tools, R packages, and legacy utilities are grouped below with links to
 <h2>Decision Support Tools &amp; Patents</h2>
 <div class="software-grid">
   <article class="software-card">
-    <h3>PurIST Pancreatic Classifier</h3>
+    <div class="software-card__head">
+      <h3>PurIST Pancreatic Classifier</h3>
+      {% include hex-mark.html pkg="PurIST" size="md" %}
+    </div>
     <p>Single-sample PDAC subtype assay used in cooperative trials.</p>
     <ul>
       <li><strong>Patents:</strong>
@@ -34,7 +37,10 @@ Clinical tools, R packages, and legacy utilities are grouped below with links to
 <h2>R Packages</h2>
 <div class="software-grid">
   <article class="software-card">
-    <h3>BATON</h3>
+    <div class="software-card__head">
+      <h3>BATON</h3>
+      {% include hex-mark.html pkg="BATON" size="md" %}
+    </div>
     <p>Bayesian adaptive trial operating-characteristic tuning for platform trials.</p>
     <ul>
       <li><a href="https://github.com/naimurashid/BATON">GitHub</a></li>
@@ -42,7 +48,10 @@ Clinical tools, R packages, and legacy utilities are grouped below with links to
     </ul>
   </article>
   <article class="software-card">
-    <h3>evolveTrial</h3>
+    <div class="software-card__head">
+      <h3>evolveTrial</h3>
+      {% include hex-mark.html pkg="evolveTrial" size="md" %}
+    </div>
     <p>Adaptive monitoring and simulation tools for evolutionary clinical trial designs.</p>
     <ul>
       <li><a href="https://github.com/naimurashid/evolveTrial">GitHub</a></li>
@@ -50,7 +59,10 @@ Clinical tools, R packages, and legacy utilities are grouped below with links to
     </ul>
   </article>
   <article class="software-card">
-    <h3>deSurv</h3>
+    <div class="software-card__head">
+      <h3>deSurv</h3>
+      {% include hex-mark.html pkg="DeSurv" size="md" %}
+    </div>
     <p>De-biased survival estimators pairing flexible ML bases with biomarker-rich trial data.</p>
     <ul>
       <li><a href="https://github.com/naimurashid/DeSurv">GitHub</a></li>
