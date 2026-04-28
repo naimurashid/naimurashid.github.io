@@ -5,7 +5,7 @@ All notable changes to the Rashid Lab website are documented in this file.
 ## [2026-04-27] - Post-Phase-7 Polish
 
 ### Changed
-- **Site `max_width` 1120px → 1080px** (commit `8bf913dd`). Marginal site-wide tightening; reduces visual sprawl on wide monitors. 3-column card grids on `/software/`, `/projects/`, `/funding/` retain ~72px breathing room.
+- **Site `max_width` 1120px → 1080px → 1024px**. Two-step site-wide tightening to reduce visual sprawl on wide monitors. 3-column card grids on `/software/`, `/projects/`, `/funding/` retain ~16px breathing room (3 × 320 + 2 × 24 gap = 1008px content). (Commits `8bf913dd`, follow-up tightening to 1024px.)
 
 ### Fixed
 - **Dark-mode toggle was silently no-op'ing on click** (commit `a60c4555`). Root cause traced to commit `fb8b0328` (the original "force reflow on toggle" fix), which accessed `document.body.style` unconditionally. Since `applyTheme()` runs from `initTheme()` during `<head>` parsing — when `document.body` is null — that line threw a `TypeError`, aborting `initTheme()` before it could register the toggle's click listener. Every cold page load left the toggle button without a handler. Three layered fixes in `assets/js/theme.js`: (1) guard the body-bg recompute behind `if (document.body)`, (2) bind the click handler via multiple lifecycle events (immediate / DOMContentLoaded / window.load) with a `dataset.rlToggleBound` flag for idempotence, (3) replace the synchronous `offsetHeight` recompute with a two-frame `requestAnimationFrame` cycle. Also sets `color-scheme` on `documentElement` so the browser UA chrome (scrollbars, form controls) follows the theme.
