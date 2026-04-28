@@ -48,7 +48,10 @@ talks:
     <div class="hero-panel__content">
       <p class="hero-panel__tagline">Statistical methods and software for precision oncology</p>
       <p class="hero-panel__lead">
-        I am an associate professor in the <a href="https://sph.unc.edu/bios/biostatistics/">Department of Biostatistics</a> at the <a href="https://sph.unc.edu/">UNC Gillings School of Global Public Health</a>, with a joint appointment at the <a href="https://unclineberger.org/">Lineberger Comprehensive Cancer Center</a>. Our lab develops statistical and machine learning methods for precision oncology, including adaptive clinical trial designs that integrate real-time biomarker data, deep learning methods for tumor subtyping and missing data, and open-source R packages for cancer genomics.
+        I am an associate professor in the <a href="https://sph.unc.edu/bios/biostatistics/">Department of Biostatistics</a> at the <a href="https://sph.unc.edu/">UNC Gillings School of Global Public Health</a>, with a joint appointment at the <a href="https://unclineberger.org/">Lineberger Comprehensive Cancer Center</a>.
+      </p>
+      <p class="hero-panel__lead">
+        Our lab develops statistical and machine learning methods for precision oncology, including adaptive clinical trial designs that integrate real-time biomarker data, deep learning methods for tumor subtyping and missing data, and open-source R packages for cancer genomics.
       </p>
       <p class="hero-panel__interests">
         <strong>Research interests:</strong> adaptive trial design, Bayesian methods, nonnegative matrix factorization, deep learning, missing data, cancer genomics, precision oncology
