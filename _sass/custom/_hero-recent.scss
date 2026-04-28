@@ -1,17 +1,29 @@
 /* ==========================================================================
-   HERO PANEL — "RECENT NEWS" STACK
+   HERO PANEL — STACKS (TRAINING + RECENT NEWS)
    --------------------------------------------------------------------------
-   Three-row list at the bottom of the .hero-panel__content text column,
-   pulling the most recent non-inline news items from site.news. Fills the
-   asymmetry between the text column and the taller aside column without
-   adding decorative chrome.
+   Two stack components in the about hero text column:
 
-   Visual register:
-     - Hairline-rule separator above the section
-     - "Recent News" header — mono small muted, matching the .hero-panel__tagline
-       at the top of the column (creates a typographic bookend)
-     - Items: [mono date]  [serif title link], each separated by hairlines
+     1. Training      — three rows of [year, education entry], reverse-chrono
+     2. Recent News   — three rows of [MM/YYYY, news title link]
+
+   Both share the same typographic treatment: mono "LABEL" eyebrow matching
+   .hero-panel__tagline at top of the column, then rows of [mono date]
+   [serif title], hairline-separated. The shared inner styles are merged
+   below; only the section-wrapper (border-top, margin) differs:
+
+     - Training has no leading border-rule — it flows with the surrounding
+       identity content (research interests, links).
+     - Recent News has a leading hairline-rule + larger top padding,
+       demarcating it as a separate "what's new" section.
    ========================================================================== */
+
+
+/* ----- Section wrappers (different between the two) -------------------- */
+
+.hero-panel__training {
+  margin-top: var(--rl-space-3);
+  margin-bottom: var(--rl-space-3);
+}
 
 .hero-panel__recent {
   border-top: 1px solid var(--rl-border);
@@ -20,10 +32,12 @@
   margin-bottom: 0;
 }
 
-/* "Recent News" header — exact register parity with .hero-panel__tagline:
-   IBM Plex Mono 12px 500, muted, 0.08em tracking, uppercase. The tagline
-   sits at the top of the text column; this header sits at the bottom —
-   they bookend the column in the same typographic key. */
+
+/* ----- Shared inner treatment ------------------------------------------ */
+
+/* "TRAINING" / "RECENT NEWS" header — mono caps eyebrow, parity with
+   .hero-panel__tagline at the top of the column. */
+.hero-panel__training-label,
 .hero-panel__recent-label {
   color: var(--rl-text-muted);
   display: block;
@@ -35,12 +49,14 @@
   text-transform: uppercase;
 }
 
+.hero-panel__training-list,
 .hero-panel__recent-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+.hero-panel__training-item,
 .hero-panel__recent-item {
   align-items: baseline;
   display: flex;
@@ -52,6 +68,7 @@
   }
 }
 
+.hero-panel__training-date,
 .hero-panel__recent-date {
   color: var(--rl-text-muted);
   flex: 0 0 auto;
@@ -62,6 +79,7 @@
   white-space: nowrap;
 }
 
+.hero-panel__training-title,
 .hero-panel__recent-title {
   color: var(--rl-heading);
   flex: 1 1 auto;
@@ -72,6 +90,7 @@
   text-decoration: none;
 }
 
+a.hero-panel__training-title,
 a.hero-panel__recent-title {
   &:hover {
     color: var(--rl-link-hover);

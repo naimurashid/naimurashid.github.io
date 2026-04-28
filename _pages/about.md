@@ -56,9 +56,23 @@ talks:
       <p class="hero-panel__interests">
         <strong>Research interests:</strong> adaptive trial design, Bayesian methods, nonnegative matrix factorization, deep learning, missing data, cancer genomics, precision oncology
       </p>
-      <p class="hero-panel__education">
-        <strong>Training:</strong> PhD, Biostatistics, UNC Chapel Hill (2013). Postdoctoral fellow, Harvard School of Public Health & Dana-Farber Cancer Institute. BS, Biology & Mathematics, Duke University.
-      </p>
+      <section class="hero-panel__training" aria-label="Training">
+        <p class="hero-panel__training-label">Training</p>
+        <ul class="hero-panel__training-list">
+          <li class="hero-panel__training-item">
+            <span class="hero-panel__training-date">2014</span>
+            <span class="hero-panel__training-title">Postdoctoral fellow, Harvard School of Public Health &amp; Dana-Farber Cancer Institute</span>
+          </li>
+          <li class="hero-panel__training-item">
+            <span class="hero-panel__training-date">2013</span>
+            <span class="hero-panel__training-title">PhD, Biostatistics, UNC Chapel Hill</span>
+          </li>
+          <li class="hero-panel__training-item">
+            <span class="hero-panel__training-date">2006</span>
+            <span class="hero-panel__training-title">BS, Duke University</span>
+          </li>
+        </ul>
+      </section>
       <p class="hero-panel__links-inline">
         <a href="/research/">Research</a> ·
         <a href="{{ '/assets/pdf/Naim.Rashid.cv.pdf' | relative_url }}" target="_blank" rel="noopener">CV (PDF)</a> ·
