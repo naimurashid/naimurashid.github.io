@@ -23,24 +23,22 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 social_feed: true
 hero_profile: true
-talks_intro: >
-  Recent seminar topics include adaptive oncology statistics, biomarker-driven trial platforms, and AI-assisted decision tools. Talks are typically 45–60 minutes and can be tailored for biostatistics, oncology, or data science audiences.
 talks:
   - title: "Bayesian adaptive design and real-time monitoring for metastatic breast cancer platform trials"
     venue: "Division of Quantitative Sciences, Johns Hopkins Kimmel Cancer Center"
     location: "Baltimore, MD"
     date: "October 2025"
-    description: "Presented our ARPA-H ADAPT trial design, including Bayesian borrowing across treatment arms, reinforcement-learning-based allocation, and real-time monitoring tools for a multi-institution metastatic breast cancer platform."
+    description: "Bayesian borrowing, RL-based allocation, and real-time monitoring for the ARPA-H ADAPT metastatic breast cancer platform."
   - title: "Replicability, semi-supervised learning and generative AI: recent statistical work in cancer biostatistics"
     venue: "James E. Grizzle Distinguished Alumnus Lecture, UNC Gillings"
     location: "Chapel Hill, NC"
     date: "October 2024"
-    description: "Showed that semi-supervised NMF recovers clinically actionable pancreatic cancer subtypes with higher cross-cohort replicability than standard unsupervised clustering, and presented a generative-AI framework for synthetic clinical trial data that preserves subgroup treatment effects."
+    description: "Semi-supervised NMF for replicable pancreatic subtypes, plus generative-AI synthesis of clinical trial data preserving subgroup effects."
   - title: "Joint Nonnegative Matrix Factorization and Survival Modeling to Select Clinically-relevant Gene Signatures"
     venue: "STATGEN 2024 Conference (Invited Talk)"
     location: "Pittsburgh, PA"
     date: "June 2024"
-    description: "Introduced a joint NMF-survival objective that selects gene signatures predictive of overall survival in pancreatic cancer, outperforming two-stage approaches on TCGA and ICGC validation cohorts."
+    description: "A joint NMF–survival objective for selecting pancreatic cancer survival signatures, beating two-stage approaches on TCGA / ICGC."
 ---
 
 <section class="hero-panel hero-panel--academic">
