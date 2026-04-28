@@ -114,18 +114,6 @@ talks:
 
 Pancreatic oncologists at UNC Lineberger needed a way to classify individual tumors into molecular subtypes from a single biopsy, without requiring a reference cohort. We developed PurIST, a rank-based classifier that handles tumor purity variation, validated it across international cohorts, and worked with the Yeh laboratory to bring it through CLIA certification. It is currently being evaluated prospectively in several clinical trials and has been licensed to Tempus, making it available at hospitals nationwide. That cycle—clinical need, statistical method, validated software, deployed tool—is how most of our projects begin.
 
-### PurIST: From Method to Diagnostic
-
-The PurIST (Purity Independent Subtyping of Tumors) classifier, developed in collaboration with the Yeh laboratory, illustrates a complete translational arc:
-
-- **2020** — Published classification method ([*Clinical Cancer Research*](https://doi.org/10.1158/1078-0432.CCR-19-1467){:target="_blank"})
-- **2021–2024** — Three US patents issued ([11,053,550](https://patents.google.com/patent/US11053550B2){:target="_blank"}, [17/336,600](https://patents.google.com/patent/US17336600){:target="_blank"}, [12,000,003](https://patents.google.com/patent/US12000003B2){:target="_blank"})
-- **2024** — Analytical validation completed ([*Journal of Molecular Diagnostics*](https://doi.org/10.1016/j.jmoldx.2024.07.003){:target="_blank"})
-- **2024** — CLIA certification achieved for clinical use
-- **Present** — Licensed to [Tempus](https://www.tempus.com/oncology/purist/){:target="_blank"} and available at hospitals nationwide; being evaluated prospectively in several clinical trials
-
-Its reference-free design enables subtype classification from a single RNA sample without matched normals.
-
 ## Current Funding
 
 - MPI, ARPA-H ADAPT program grant (metastatic breast cancer)
