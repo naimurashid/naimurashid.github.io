@@ -12,6 +12,9 @@ All notable changes to the Rashid Lab website are documented in this file.
 - **Talk-card venue legibility** — long uppercase mono venue strings bumped 12px → 13px with tighter tracking and looser line-height
 - **`text-wrap: balance` on card titles and section headings** so two-line titles split evenly instead of orphaning one word
 - All in `_sass/custom/_hotfixes-r2.scss` section 6
+- **Homepage prose was escaping the entire typography system** — `layout: about` wraps content in `<article><div class="clearfix">`, so every `.post > article > *` selector (heading register, 64ch measure, link styling) missed the about page. `_post-prose.scss` now targets both wrappers.
+- **CSS cache-buster was a constant** — `bust_css_cache` digested `assets/_sass/**` which doesn't exist (sources are in `_sass/`), yielding md5 of empty string forever; browsers never re-fetched `main.css` after deploys. Fixed the plugin path.
+- Removed an em-dash from the Representative Translational Work paragraph (PI style)
 
 ### Changed (round 2, same day)
 - **Talks section reworked to four featured cards, compact list removed.** Published two more decks to `rashidlab/talks` (FDA CDRH OSEL "When Biomarkers, Assays, and Protocols Co-evolve", May 2026; Lineberger Innovate Cancer Data Science Symposium "Leveraging AI in Biomarker-Driven Trial Design", January 12, 2026) as self-contained HTML. All four cards now have View slides buttons; the six talks without materials were dropped from the page (they remain in the CV). Card layout made consistent in `_hotfixes-r2.scss`: meta stacks vertically (date pill, then venue), cards are flex columns with actions pinned to the bottom, buttons sit side by side.
