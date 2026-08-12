@@ -109,7 +109,18 @@ nav_order: 5
 
 ### Active
 
+- **R01-CA282657** (2024–2029) — Creation of the Human Cancer Metabolome Atlas: open-access metabolomics resource across patient-derived tumors. NIH/NCI, $3.3M.
+- **R37-CA292075** (2024–2029) — Predicting endocrine therapy response in male breast tumors using organoid models. NIH/NCI, $3.0M.
+- **R01-CA288145** (2024–2029) — Targeted EGFR for basal subtype pancreatic cancer via high-sensitivity kinome profiling. NIH/NCI, $3.1M.
+- **PREDICT-RD** (PI: Abdou, 2024–2029) — Postoperative molecular residual disease by ctDNA surveillance in triple-negative breast cancer with residual disease. Gateway for Cancer Research, $919K.
+- **TBCRC 059 (ETHAN)** (PI: Leone, 2024–2034) — Statistical lead for a phase II multicenter randomized trial comparing endocrine therapies for male breast cancer. BCRF via Johns Hopkins, $70K.
+- **HT9425-23-1-0961** (2023–2027) — Spatial reprogramming of tumor immune microenvironments by preoperative radiotherapy and immune checkpoint inhibition in HER2-negative breast cancer. DOD, $3.1M.
+- **SAB232144** (2023–2026) — Understanding antibody-drug conjugate (ADC) sensitivity and resistance in breast cancer. Susan G. Komen, $600K.
+- **Gateway / U. Rochester subaward** (2023–2026) — Phase 1b/2 trial of nivolumab and pepinemab with first-line FOLFIRINOX for unresectable pancreatic adenocarcinoma; tumor microenvironment correlatives with the Yeh lab. $396K.
 - **R01-CA270792** (PI: Earp/Pylayeva-Gupta, 2022–2027) — Divergent roles of MerTK, Tyro3, and Axl in pancreatic cancer and metastasis. NIH/NCI, $2.7M.
+
+### Completed
+
 - **Lustgarten Foundation** (PI: Yeh, 2023–2026) — PRO-CLAIM Study: mHealth tool promoting clinical trial engagement among Black patients with pancreatic cancer. $450K.
 - **RSG-21-103-01** (PI: Pylayeva-Gupta, 2022–2025) — B cells as mediators of tumor eradication in pancreatic cancer. American Cancer Society, $792K.
 - **OG22874046** (PI: Hoadley/Freedman, 2022–2025) — Ancestry-related RNA splicing and immune expression in metastatic breast cancer. Komen Foundation, $161K.
@@ -117,9 +128,6 @@ nav_order: 5
 - **R01-CA244361** (PI: Thaxton, 2020–2025) — Targeting chronic ER stress in T cells to improve cancer immunotherapy. NIH/NCI, $1.3M.
 - **R01-CA241810** (PI: Kim, 2020–2025) — Chemotherapy and the bladder cancer immune microenvironment. NIH, $2.8M.
 - **R01-CA248359** (PI: Thaxton, 2020–2025) — Exploitation of ER stress induced immune dysfunction to improve immunotherapy. NIH/NCI, $1.0M.
-
-### Completed
-
 - **R01-CA229409** (PI: Carey, 2019–2024) — Optimizing HER2-targeting using RNA- and DNA-based predictive algorithms. NIH/NCI, $2.8M.
 - **W81XWH2110693** (PI: Bryant, 2021–2024) — Targeting KRAS-dysregulated metabolism for novel therapeutic approaches. DOD, $658K.
 - **U24-AR076730** (PI: Lavange, 2019–2024) — BACPAC Research Program Data Integration, Algorithm Development and Operations Management Center. NIH/NIASD, $52.2M.
