@@ -23,13 +23,14 @@ Git, Quarto notebooks, and genomic-study case studies tailored for LCCC T32 trai
 
 ## Mentoring & Student Outcomes
 
-Five completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok).
+Six completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok, Li).
 
 **Academic placements:**
 - **Pedro Baldoni** (2020) — Assistant Professor, University of Pittsburgh Biostatistics
 - **Hillary Heiling** (2023) — Senior Biostatistician, Dana-Farber Cancer Institute
 
 **Industry placements:**
+- **Amber Young** (2026) — Biostatistician, Natera
 - **Euphy Wu** (2024) — Biostatistician, Precision Genomics
 - **David Lim** (2022) — Scientist, GSK
 - **Scott Van Buren** (2020) — Scientist, GSK
