@@ -2,6 +2,24 @@
 
 All notable changes to the Rashid Lab website are documented in this file.
 
+## [2026-08-12] - Content Refresh
+
+### Added
+- **Two 2026 invited talks** to the about-page talks list, both with "View slides" links to the public decks in `rashidlab/talks`:
+  - "Adaptive Trial Design for the RAS-Inhibitor Era" (NCI GI SPORE Meeting, June 2026)
+  - "Staying in the Driver's Seat: Calibrating AI Use in Statistical Research, Training, and Practice" (ASA StatsUp.AI webinar, May 2026), with a link to the companion resources repo
+- **DeCAF paper** (Peng et al., Cell Reports Medicine 2026, `10.1016/j.xcrm.2026.102611`) added to `_bibliography/papers.bib` (`selected: true`) and `_data/publication_highlights.yml`
+- **Three news items**: StatsUp.AI webinar (May 2026), GI SPORE talk (June 2026), Amber Young PhD + Natera (Aug 2026)
+
+### Changed
+- **Co-Investigator funding portfolio synced to the June 2026 other support document** (cpos-2414070, certified 2026-06-11): added 8 active awards missing from the page (Human Cancer Metabolome Atlas R01, male breast tumor R37, EGFR basal PDAC R01, PREDICT-RD, TBCRC 059/ETHAN, DOD spatial reprogramming, Komen ADC, Gateway/Rochester FOLFIRINOX subaward) and moved 7 ended awards (Lustgarten PRO-CLAIM, ACS RSG, Komen OG, R37-C247676, three R01s ending 2025) from Active to Completed
+- **Amber Young moved to alumni**: `_members/about_amber.md` regrouped to Former Students with Alumni badge, position Biostatistician at Natera, bio rewritten past-tense with DeSurv dissertation summary; added to teaching-page placements (advisee count 5 → 6, co-advisor list gains Li); software-page contributor line updated
+- **DeSurv corrected across software/projects pages**: description fixed from "de-biased survival estimators" to survival-guided NMF (Cox-supervised factorization), GitHub link fixed from nonexistent `naimurashid/DeSurv` to `rashidlab/DeSurv`, added `rashidlab/DeSurv-paper` reproducibility link, status pill In Development → GitHub, year 2025 → 2026
+
+### Fixed
+- **Broken member profile links on `/projects/`** — hardcoded `/members/about_X/` trailing-slash URLs 404 on GitHub Pages (member pages render as `about_X.html`); dropped the trailing slashes
+- **Removed stale legacy stubs** `_pages/about_amber.md` and `_pages/about_euphy.md` (orphaned duplicates of `_members/` profiles, still rendering "Current Student" pages)
+
 ## [2026-04-27] - Post-Phase-7 Polish
 
 ### Changed
