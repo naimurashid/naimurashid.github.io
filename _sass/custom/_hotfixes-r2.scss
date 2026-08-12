@@ -179,3 +179,20 @@
 .software-card__links a.software-card__download::before {
   content: none;
 }
+
+/* 5. /about/ — "Other Recent Invited Talks" sub-label inside the talks
+      section. The featured talk cards (those with slide links) render
+      first; the remaining talks collapse to a compact award-list. The
+      label uses the same mono-eyebrow register as
+      .hero-panel__recent-label so sub-section labels read consistently
+      across the page. */
+.talks-section__more-label {
+  margin-top: var(--rl-space-6);
+  margin-bottom: var(--rl-space-3);
+  font-family: var(--rl-font-mono);
+  font-size: var(--rl-text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--rl-text-muted);
+}
