@@ -13,14 +13,15 @@ nav_order: 3
 <section class="page-section">
   <div class="focus-grid project-grid">
     <article class="project-card">
-      <h3>DeSurv Platform</h3>
-      <p>Efficient survival estimators pairing de-biased gradients with flexible machine-learning bases for biomarker-rich trials.</p>
+      <h3>DeSurv</h3>
+      <p>Survival-guided nonnegative matrix factorization for discovering replicable prognostic gene programs in pancreatic cancer.</p>
       <ul class="project-meta">
-        <li><strong>Lead:</strong> <a href="{{ '/members/about_amber/' | relative_url }}">Amber Young</a></li>
-        <li><strong>Milestone:</strong> Manuscript + CRAN submission · In progress</li>
+        <li><strong>Lead:</strong> <a href="{{ '/members/about_amber' | relative_url }}">Amber Young</a></li>
+        <li><strong>Milestone:</strong> R package released · Manuscript submitted</li>
       </ul>
       <div class="project-card__links">
-        <a href="https://github.com/naimurashid/DeSurv" target="_blank" rel="noopener">Code</a>
+        <a href="https://github.com/rashidlab/DeSurv" target="_blank" rel="noopener">Code</a>
+        <a href="https://github.com/rashidlab/DeSurv-paper" target="_blank" rel="noopener">Paper materials</a>
       </div>
     </article>
 
@@ -28,7 +29,7 @@ nav_order: 3
       <h3>ADAPT Statistical Hub</h3>
       <p><code>evolveTrial</code> and <code>BATON</code> packages for adaptive monitoring and automated operating-characteristic tuning for the ARPA-H ADAPT platform.</p>
       <ul class="project-meta">
-        <li><strong>Leads:</strong> Naim Rashid, <a href="{{ '/members/about_amber/' | relative_url }}">Amber Young</a></li>
+        <li><strong>Leads:</strong> Naim Rashid, <a href="{{ '/members/about_amber' | relative_url }}">Amber Young</a></li>
         <li><strong>Milestone:</strong> CRAN packages · In progress</li>
       </ul>
       <div class="project-card__links">
@@ -40,7 +41,7 @@ nav_order: 3
       <h3>TrialMatch LLM</h3>
       <p>Fine-tuned language model translating pancreatic cancer eligibility criteria into bilingual summaries with transparent inclusion/exclusion logic.</p>
       <ul class="project-meta">
-        <li><strong>Lead:</strong> <a href="{{ '/members/about_tyler/' | relative_url }}">Tyler Humpherys</a></li>
+        <li><strong>Lead:</strong> <a href="{{ '/members/about_tyler' | relative_url }}">Tyler Humpherys</a></li>
         <li><strong>Milestone:</strong> Clinic pilot across GI clinics · In progress</li>
       </ul>
       <div class="project-card__links">
@@ -88,7 +89,7 @@ nav_order: 3
       <h3>epigraHMM</h3>
       <p>Multi-condition epigenomic discovery pipeline used for ATAC/ChIP analyses at UNC Lineberger.</p>
       <ul class="project-meta">
-        <li><strong>Maintainers:</strong> <a href="{{ '/members/about_pedro/' | relative_url }}">Pedro Baldoni</a>, Naim Rashid</li>
+        <li><strong>Maintainers:</strong> <a href="{{ '/members/about_pedro' | relative_url }}">Pedro Baldoni</a>, Naim Rashid</li>
       </ul>
     </article>
 
@@ -96,7 +97,7 @@ nav_order: 3
       <h3>FSCseq + CompDTUReg</h3>
       <p>Subtype discovery and differential transcript usage suite with reproducible vignettes, used in SPORE core analyses.</p>
       <ul class="project-meta">
-        <li><strong>Maintainers:</strong> <a href="{{ '/members/about_david/' | relative_url }}">David Lim</a>, <a href="{{ '/members/about_scott/' | relative_url }}">Scott Van Buren</a>, <a href="{{ '/members/about_amber/' | relative_url }}">Amber Young</a></li>
+        <li><strong>Maintainers:</strong> <a href="{{ '/members/about_david' | relative_url }}">David Lim</a>, <a href="{{ '/members/about_scott' | relative_url }}">Scott Van Buren</a>, <a href="{{ '/members/about_amber' | relative_url }}">Amber Young</a></li>
       </ul>
     </article>
 

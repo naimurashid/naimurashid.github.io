@@ -78,15 +78,16 @@ nav_order: 4
 
   <article class="software-card">
     <div class="software-card__head">
-      <h3>deSurv</h3>
+      <h3>DeSurv</h3>
     </div>
-    <p class="software-card__desc">De-biased survival estimators pairing flexible ML bases with biomarker-rich trial data.</p>
+    <p class="software-card__desc">Survival-guided nonnegative matrix factorization for discovering prognostic gene programs from bulk tumor expression.</p>
     <ul class="software-card__meta">
-      <li class="software-card__pill software-card__pill--status" data-status="in-development">In Development</li>
-      <li class="software-card__pill">2025</li>
+      <li class="software-card__pill software-card__pill--status" data-status="github">GitHub</li>
+      <li class="software-card__pill">2026</li>
     </ul>
     <ul class="software-card__links">
-      <li><a href="https://github.com/naimurashid/DeSurv">GitHub</a></li>
+      <li><a href="https://github.com/rashidlab/DeSurv">GitHub</a></li>
+      <li><a href="https://github.com/rashidlab/DeSurv-paper">Paper materials</a></li>
       <li><a class="software-card__download" href="{{ '/assets/img/hex/desurv.svg' | relative_url }}" download>Hex sticker</a></li>
     </ul>
   </article>
@@ -208,7 +209,7 @@ Many packages are developed in close collaboration with lab members and trainees
 - **David Lim**: dlglm, NIMIWAE, FSCseq lead developer
 - **Pedro Baldoni**: epigraHMM, mixNBHMM, ZIMHMM lead developer
 - **Scott Van Buren**: CompDTUReg lead developer
-- **Amber Young**: CompDTUReg co-developer; current PhD student working on semi-supervised matrix factorization for PDAC subtyping
+- **Amber Young**: DeSurv lead developer, CompDTUReg co-developer (PhD 2026; now at Natera)
 </section>
 
 ## Support & Contact
