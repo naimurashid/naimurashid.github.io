@@ -10,6 +10,7 @@ All notable changes to the Rashid Lab website are documented in this file.
   - "Staying in the Driver's Seat: Calibrating AI Use in Statistical Research, Training, and Practice" (ASA StatsUp.AI webinar, May 2026), with a link to the companion resources repo
 - **DeCAF paper** (Peng et al., Cell Reports Medicine 2026, `10.1016/j.xcrm.2026.102611`) added to `_bibliography/papers.bib` (`selected: true`) and `_data/publication_highlights.yml`
 - **Three news items**: StatsUp.AI webinar (May 2026), GI SPORE talk (June 2026), Amber Young PhD + Natera (Aug 2026)
+- **Five 2025-2026 invited talks from the CV** (May 2026 compile) added to the talks list: V Scholar Summit panel, FDA CDRH OSEL AI Seminar, ARPA-H ADAPT Program Meetings (Phoenix 2026, DC 2025), Lineberger Data Science Symposium; JHU October 2025 talk title aligned with the CV
 
 ### Changed
 - **Co-Investigator funding portfolio synced to the June 2026 other support document** (cpos-2414070, certified 2026-06-11): added 8 active awards missing from the page (Human Cancer Metabolome Atlas R01, male breast tumor R37, EGFR basal PDAC R01, PREDICT-RD, TBCRC 059/ETHAN, DOD spatial reprogramming, Komen ADC, Gateway/Rochester FOLFIRINOX subaward) and moved 7 ended awards (Lustgarten PRO-CLAIM, ACS RSG, Komen OG, R37-C247676, three R01s ending 2025) from Active to Completed
