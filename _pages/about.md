@@ -24,6 +24,16 @@ social: true # includes social icons at the bottom of the page
 social_feed: true
 hero_profile: true
 talks:
+  - title: "Adaptive Trial Design for the RAS-Inhibitor Era: Combinations, Resistance, and Biomarker-Guided Therapy"
+    venue: "NCI GI SPORE Meeting"
+    date: "June 2026"
+    slides: "https://rashidlab.github.io/talks/2026-gispore-ras-trials-deck/ras-era-adaptive-trials.html"
+    description: "Adaptive and biomarker-guided designs for RAS-inhibitor combination trials: dose optimization, resistance-aware randomization, and real-time biomarker integration in GI cancers."
+  - title: "Staying in the Driver's Seat: Calibrating AI Use in Statistical Research, Training, and Practice"
+    venue: "StatsUp.AI Webinar, American Statistical Association"
+    date: "May 2026"
+    slides: "https://rashidlab.github.io/talks/2026-04-25-statsupai-staying-in-drivers-seat-deck/staying-in-drivers-seat-v3.html"
+    description: "Practical guardrails and habits for using AI in statistical research while keeping scientific ownership. Templates, checklists, and the full lab guide are in the <a href='https://github.com/naimurashid/staying-in-drivers-seat-resources' target='_blank' rel='noopener'>companion resources repository</a>."
   - title: "Bayesian adaptive design and real-time monitoring for metastatic breast cancer platform trials"
     venue: "Division of Quantitative Sciences, Johns Hopkins Kimmel Cancer Center"
     location: "Baltimore, MD"
