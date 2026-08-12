@@ -37,7 +37,7 @@ Previously, Dr. Rashid was a postdoctoral fellow in the [Department of Biostatis
 
 ## Research
 
-Dr. Rashid's publications have had wide impact, appearing in journals such as Nature, Nature Genetics, PNAS, JCO, Journal of the American Statistical Association, and Biometrics. His team translated methodological advances into resources such as the PurIST pancreatic cancer classifier—now CLIA-certified for trial deployment—and the `glmmPen` R package for high-dimensional mixed models.  
+Dr. Rashid's publications have had wide impact, appearing in journals such as Nature, Nature Genetics, PNAS, JCO, Journal of the American Statistical Association, and Biometrics. His team translated methodological advances into resources such as the PurIST pancreatic cancer classifier (now CLIA-certified for trial deployment) and the `glmmPen` R package for high-dimensional mixed models.  
 
 Current research spans precision oncology, multi-study replicability, adaptive clinical trial design, and missing data problems in deep learning. These tools support programs like the ARPA-H ADAPT metastatic breast cancer platform, Department of Defense pancreatic cancer initiatives, and the V Foundation. He applies this expertise in his role as an Associate Editor for the [Annals of Applied Statistics](https://imstat.org/journals-and-publications/annals-of-applied-statistics/) and a member of the [Nature Medicine Statistical Advisory Panel](https://www.nature.com/nm/statistics-advisory-panel).  
 

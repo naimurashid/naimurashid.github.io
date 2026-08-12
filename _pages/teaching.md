@@ -35,7 +35,7 @@ Six completed PhD advisees (co-advised with Drs. Ibrahim, Love, Kosorok, Li).
 - **David Lim** (2022) — Scientist, GSK
 - **Scott Van Buren** (2020) — Scientist, GSK
 
-**Training approach:** Independent research aims, embedded clinician collaborations, weekly manuscript meetings, and reproducible software deliverables. I help students prepare for the careers they want — whether in academia, industry, or government — and tailor their projects to best position them for their goals. Students typically complete 2-4 first-author publications during their PhD program.
+**Training approach:** Independent research aims, embedded clinician collaborations, weekly manuscript meetings, and reproducible software deliverables. I help students prepare for the careers they want, whether in academia, industry, or government, and tailor their projects to best position them for their goals. Students typically complete 2-4 first-author publications during their PhD program.
 
 <section class="page-section">
   <h2>For Prospective PhD Students</h2>

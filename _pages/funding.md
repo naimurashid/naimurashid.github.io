@@ -69,7 +69,7 @@ nav_order: 5
 
 <div class="grant-card">
   <div class="grant-card__header">
-    <h3>SPORE in Breast Cancer — Core B: Biostatistics and Bioinformatics</h3>
+    <h3>SPORE in Breast Cancer Core B: Biostatistics and Bioinformatics</h3>
   </div>
   <p class="grant-card__description">
     Core Co-Leader with Katie Hoadley (P50-CA058223, 2024–2029). Biostatistics and bioinformatics support for 4 translational projects, TBCRC trial correlatives, and ctDNA resistance monitoring.
@@ -78,7 +78,7 @@ nav_order: 5
 
 <div class="grant-card">
   <div class="grant-card__header">
-    <h3>SPORE in Pancreatic Cancer — Core C: Integrated Quantitative Sciences</h3>
+    <h3>SPORE in Pancreatic Cancer Core C: Integrated Quantitative Sciences</h3>
   </div>
   <p class="grant-card__description">
     Core Co-Leader with Michael Kosorok (P50-CA257911, 2022–2027). Quantitative sciences support for 5 SPORE projects spanning organoid models, immunotherapy, and stromal reprogramming.
