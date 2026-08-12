@@ -4,6 +4,15 @@ All notable changes to the Rashid Lab website are documented in this file.
 
 ## [2026-08-12] - Content Refresh
 
+### Changed (round 3, same day) — readability pass
+- **Talks grid locked to two columns** (was auto-fit, could resolve to 1/2/3 depending on viewport); single column below 640px
+- **Publication abstracts un-justified** — the base theme's `.hidden` abstract expander used `text-align: justify`, producing word-spacing rivers in a narrow measure
+- **64ch prose measure extended to `.page-section` wrappers** — funding/software/teaching pages wrap markdown in sections that escaped the `.post > article` measure cap, so lists ran ~105 characters per line
+- **Micro-type floor enforced at 12px** — team-card role badges were 0.65rem (10.4px); `.focus-card__badge` and `.page-intro__eyebrow` were 0.72rem
+- **Talk-card venue legibility** — long uppercase mono venue strings bumped 12px → 13px with tighter tracking and looser line-height
+- **`text-wrap: balance` on card titles and section headings** so two-line titles split evenly instead of orphaning one word
+- All in `_sass/custom/_hotfixes-r2.scss` section 6
+
 ### Changed (round 2, same day)
 - **Talks section reworked to four featured cards, compact list removed.** Published two more decks to `rashidlab/talks` (FDA CDRH OSEL "When Biomarkers, Assays, and Protocols Co-evolve", May 2026; Lineberger Innovate Cancer Data Science Symposium "Leveraging AI in Biomarker-Driven Trial Design", January 12, 2026) as self-contained HTML. All four cards now have View slides buttons; the six talks without materials were dropped from the page (they remain in the CV). Card layout made consistent in `_hotfixes-r2.scss`: meta stacks vertically (date pill, then venue), cards are flex columns with actions pinned to the bottom, buttons sit side by side.
 

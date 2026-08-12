@@ -206,3 +206,72 @@
   flex-wrap: wrap;
   gap: var(--rl-space-2);
 }
+
+/* 6. Readability pass (2026-08-12) */
+
+/* 6a. /about/ talks grid — explicit two columns. The base
+      auto-fit minmax(300px, 1fr) resolves to 1, 2, or 3 columns
+      depending on viewport; the four featured talk cards are designed
+      as a 2x2. Collapse to one column on narrow screens. */
+.talks-section__list {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 640px) {
+  .talks-section__list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 6b. Publication abstracts — the base theme's .hidden expander sets
+      text-align: justify, which produces rivers of uneven word spacing
+      in a narrow measure. Left-align. */
+.post .hidden,
+.publications .hidden {
+  text-align: left !important;
+}
+
+/* 6c. Prose measure inside .page-section wrappers. Pages that wrap
+      markdown in <section class="page-section" markdown="1"> (funding,
+      software, teaching) escape the .post > article > * selectors that
+      cap prose at 64ch, so their paragraphs and lists run the full
+      ~856px container (~105 characters per line). Cap direct children
+      the same way; card grids are divs and unaffected. */
+.page-section > p,
+.page-section > ul,
+.page-section > ol {
+  max-width: 64ch;
+}
+
+/* 6d. Micro-type floor. Team-card role badges rendered at 0.65rem
+      (10.4px), below the 12px micro-metadata floor of the token scale;
+      .focus-card__badge and .page-intro__eyebrow sat at 0.72rem. Lift
+      all three to the --rl-text-xs floor. */
+.team-member-card__title .badge-pill,
+.focus-card__badge,
+.page-intro__eyebrow {
+  font-size: var(--rl-text-xs);
+}
+
+/* 6e. Talk-card venue legibility. Long uppercase mono venue strings at
+      12px with 0.08em tracking are hard to scan once they wrap (e.g.
+      "StatsUp.AI Webinar, American Statistical Association"). Slightly
+      larger, tighter tracking, breathing room between wrapped lines. */
+.talk-card__venue,
+.talk-card__location {
+  font-size: 0.8125rem;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+}
+
+/* 6f. Balance multi-line headings so a two-line title splits evenly
+      instead of leaving a one-word orphan on the second line.
+      Progressive enhancement; browsers without text-wrap support
+      ignore it. */
+.post > article > h2,
+.post > article > h3,
+.talk-card h4,
+.grant-card__header h3,
+.software-card h3 {
+  text-wrap: balance;
+}
