@@ -3,6 +3,11 @@
   journal: Cancer Cell (2026)
   summary: "Describes the ARPA-H ADAPT platform trial infrastructure for metastatic breast cancer, integrating adaptive Bayesian designs, real-time biomarker monitoring, and AI-driven decision support across multiple cancer centers."
   link: https://doi.org/10.1016/j.ccell.2025.12.008
+- title: "DeCAF defines clinical fibroblast subtypes and multidimensional tumor-stroma crosstalk shaping prognosis and immunotherapy response"
+  citation: decaf2026
+  journal: Cell Reports Medicine (2026)
+  summary: "Defines restraining and promoting cancer-associated fibroblast subtypes that are prognostic and predictive of immunotherapy response across tumor types, and provides DeCAF, a clinically actionable single-sample classifier."
+  link: https://doi.org/10.1016/j.xcrm.2026.102611
 - title: "Efficient computation of high-dimensional penalized piecewise constant hazard random effects models"
   citation: efficient2025
   journal: Statistics in Medicine (2025)
