@@ -43,7 +43,10 @@ module Jekyll
     end
 
     def bust_css_cache(file_name)
-      CacheDigester.new(file_name: file_name, directory: 'assets/_sass').digest!
+      # Sass sources live in _sass/ at the repo root (not assets/_sass).
+      # With the wrong path the digest was md5("") — a constant — so
+      # browsers never picked up new styles after a deploy.
+      CacheDigester.new(file_name: file_name, directory: '_sass').digest!
     end
   end
 end

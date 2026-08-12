@@ -118,7 +118,7 @@ talks:
 
 ## Representative Translational Work
 
-Pancreatic oncologists at UNC Lineberger needed a way to classify individual tumors into molecular subtypes from a single biopsy, without requiring a reference cohort. We developed PurIST, a rank-based classifier that handles tumor purity variation, validated it across international cohorts, and worked with the Yeh laboratory to bring it through CLIA certification. It is currently being evaluated prospectively in several clinical trials and has been licensed to Tempus, making it available at hospitals nationwide. That cycle—clinical need, statistical method, validated software, deployed tool—is how most of our projects begin.
+Pancreatic oncologists at UNC Lineberger needed a way to classify individual tumors into molecular subtypes from a single biopsy, without requiring a reference cohort. We developed PurIST, a rank-based classifier that handles tumor purity variation, validated it across international cohorts, and worked with the Yeh laboratory to bring it through CLIA certification. It is currently being evaluated prospectively in several clinical trials and has been licensed to Tempus, making it available at hospitals nationwide. That cycle (clinical need, statistical method, validated software, deployed tool) is how most of our projects begin.
 
 ## Current Funding
 

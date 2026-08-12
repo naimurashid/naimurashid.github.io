@@ -25,7 +25,12 @@
    POST PROSE — section + subsection headers
    -------------------------------------------------------------------------- */
 
-.post > article {
+/* layout: page puts prose directly inside <article>; layout: about (the
+   homepage) wraps it one level deeper in <article><div class="clearfix">.
+   Cover both so the homepage gets the same heading register and 64ch
+   measure as every other prose page. */
+.post > article,
+.post > article > .clearfix {
   /* h2 — section header. Top rule + breathing room above; serif, navy, 28px.
      Direct-child only so it doesn't catch h2s inside .talk-card or other
      embedded components. */
