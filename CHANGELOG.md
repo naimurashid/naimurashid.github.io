@@ -4,6 +4,9 @@ All notable changes to the Rashid Lab website are documented in this file.
 
 ## [2026-08-12] - Content Refresh
 
+### Changed (round 2, same day)
+- **Talks section reworked to four featured cards, compact list removed.** Published two more decks to `rashidlab/talks` (FDA CDRH OSEL "When Biomarkers, Assays, and Protocols Co-evolve", May 2026; Lineberger Innovate Cancer Data Science Symposium "Leveraging AI in Biomarker-Driven Trial Design", January 12, 2026) as self-contained HTML. All four cards now have View slides buttons; the six talks without materials were dropped from the page (they remain in the CV). Card layout made consistent in `_hotfixes-r2.scss`: meta stacks vertically (date pill, then venue), cards are flex columns with actions pinned to the bottom, buttons sit side by side.
+
 ### Added
 - **Two 2026 invited talks** to the about-page talks list, both with "View slides" links to the public decks in `rashidlab/talks`:
   - "Adaptive Trial Design for the RAS-Inhibitor Era" (NCI GI SPORE Meeting, June 2026)

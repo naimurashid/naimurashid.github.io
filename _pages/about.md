@@ -35,45 +35,17 @@ talks:
     slides: "https://rashidlab.github.io/talks/2026-04-25-statsupai-staying-in-drivers-seat-deck/staying-in-drivers-seat-v3.html"
     resources: "https://github.com/naimurashid/staying-in-drivers-seat-resources"
     description: "Practical guardrails and habits for using AI in statistical research while keeping scientific ownership. The companion repository includes templates, checklists, and the full lab guide, free to adapt and use."
-  - title: "V Scholar Summit Biostatistics Panel"
-    venue: "V Foundation for Cancer Research Summit"
-    location: "Cary, NC"
-    date: "2026"
-    description: "Invited panelist on biostatistics and quantitative methods in translational cancer research for V Scholar awardees."
   - title: "When Biomarkers, Assays, and Protocols Co-evolve: Cross-platform Reproducibility, Validation, and Adaptive Design"
-    venue: "FDA CDRH OSEL-wide AI Seminar (webinar)"
-    date: "2026"
+    venue: "FDA CDRH OSEL-wide AI Seminar"
+    date: "May 2026"
+    slides: "https://rashidlab.github.io/talks/2026-05-fda-cdrh-osel-coevolve-deck/when-biomarkers-assays-protocols-coevolve.html"
     description: "Cross-platform reproducibility and validation of biomarker assays, and adaptive design considerations when biomarkers, assays, and protocols evolve together during a trial."
-  - title: "Uncertainty Quantification for Biomarker Prioritization: From Passive Monitoring to N-of-Some Pilot Trials"
-    venue: "ARPA-H ADAPT Program Meeting"
-    location: "Phoenix, AZ"
-    date: "2026"
-    description: "Quantifying uncertainty when prioritizing candidate biomarkers for the ADAPT platform, spanning passive monitoring through N-of-Some pilot trial designs."
   - title: "Leveraging Artificial Intelligence in Modern Biomarker-Driven Clinical Trial Design: the ARPA-H ADAPT Program"
-    venue: "Lineberger Data Science Symposium, University of North Carolina"
+    venue: "Lineberger Innovate Cancer Data Science Symposium"
     location: "Chapel Hill, NC"
-    date: "2026"
+    date: "January 2026"
+    slides: "https://rashidlab.github.io/talks/2026-01-12-lineberger-innovate-symposium-deck/leveraging-ai-adapt-program.html"
     description: "How AI and adaptive statistical design come together in the ARPA-H ADAPT metastatic breast cancer platform."
-  - title: "Leveraging Artificial Intelligence in Modern Biomarker-Driven Clinical Trial Design: the ARPA-H ADAPT Program"
-    venue: "Division of Quantitative Sciences, Johns Hopkins Kimmel Cancer Center"
-    location: "Baltimore, MD"
-    date: "October 2025"
-    description: "Bayesian borrowing, RL-based allocation, and real-time monitoring for the ARPA-H ADAPT metastatic breast cancer platform."
-  - title: "Designing N-of-1 Trials for the ARPA-H ADAPT Program"
-    venue: "ARPA-H ADAPT Program Meeting"
-    location: "Washington, DC"
-    date: "2025"
-    description: "Design principles for N-of-1 trials within the ADAPT platform, including within-patient decision rules and biomarker-guided treatment switching."
-  - title: "Replicability, semi-supervised learning and generative AI: recent statistical work in cancer biostatistics"
-    venue: "James E. Grizzle Distinguished Alumnus Lecture, UNC Gillings"
-    location: "Chapel Hill, NC"
-    date: "October 2024"
-    description: "Semi-supervised NMF for replicable pancreatic subtypes, plus generative-AI synthesis of clinical trial data preserving subgroup effects."
-  - title: "Joint Nonnegative Matrix Factorization and Survival Modeling to Select Clinically-relevant Gene Signatures"
-    venue: "STATGEN 2024 Conference (Invited Talk)"
-    location: "Pittsburgh, PA"
-    date: "June 2024"
-    description: "A joint NMF–survival objective for selecting pancreatic cancer survival signatures, beating two-stage approaches on TCGA / ICGC."
 ---
 
 <section class="hero-panel hero-panel--academic">
@@ -205,14 +177,6 @@ See [full funding portfolio](/funding/) for details.
       </article>
     {% endfor %}
   </div>
-
-  <h4 class="talks-section__more-label">Other Recent Invited Talks</h4>
-  <ul class="award-list">
-    {% for talk in page.talks %}
-      {% if talk.slides %}{% continue %}{% endif %}
-      <li><span class="award-year">{{ talk.date | split: ' ' | last }}</span> {{ talk.title }} &middot; {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}</li>
-    {% endfor %}
-  </ul>
 </section>
 
 
