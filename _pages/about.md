@@ -46,12 +46,6 @@ talks:
     date: "May 2026"
     slides: "https://rashidlab.github.io/talks/2026-05-fda-cdrh-osel-coevolve-deck/when-biomarkers-assays-protocols-coevolve.html"
     description: "Cross-platform reproducibility and validation of biomarker assays, and adaptive design considerations when biomarkers, assays, and protocols evolve together during a trial."
-  - title: "Leveraging Artificial Intelligence in Modern Biomarker-Driven Clinical Trial Design: the ARPA-H ADAPT Program"
-    venue: "Lineberger Innovate Cancer Data Science Symposium"
-    location: "Chapel Hill, NC"
-    date: "January 2026"
-    slides: "https://rashidlab.github.io/talks/2026-01-12-lineberger-innovate-symposium-deck/leveraging-ai-adapt-program.html"
-    description: "How AI and adaptive statistical design come together in the ARPA-H ADAPT metastatic breast cancer platform."
 ---
 
 <section class="hero-panel hero-panel--academic">
