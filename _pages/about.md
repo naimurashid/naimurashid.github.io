@@ -24,6 +24,12 @@ social: true # includes social icons at the bottom of the page
 social_feed: true
 hero_profile: true
 talks:
+  - title: "Planning under uncertainty: AI-guided design of efficient clinical trials with BATON"
+    venue: "UNC Computational Medicine Seminar"
+    location: "Chapel Hill, NC"
+    date: "September 2026"
+    description: "How constrained Bayesian optimization turns adaptive-trial calibration into a search over a trial simulator, what it changed in the ARPA-H ADAPT EVOLVE platform trial, and why the development program, not the single trial, is the unit to optimize."
+    slides: "https://rashidlab.github.io/talks/baton"
   - title: "Adaptive Trial Design for the RAS-Inhibitor Era: Combinations, Resistance, and Biomarker-Guided Therapy"
     venue: "NCI GI SPORE Meeting"
     date: "June 2026"
