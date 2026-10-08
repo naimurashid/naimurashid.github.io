@@ -152,9 +152,9 @@ See [full funding portfolio](/funding/) for details.
 - Gillings Research Council (2023–)
 - Chair, Applied Doctoral Exam Committee, Department of Biostatistics (2015–)
 
-## Recent Invited Talks
+## Recent Talks
 
-<section class="talks-section" aria-label="Recent invited talks">
+<section class="talks-section" aria-label="Recent talks">
   <div class="talks-section__list">
     {% for talk in page.talks %}
       {% unless talk.slides %}{% continue %}{% endunless %}

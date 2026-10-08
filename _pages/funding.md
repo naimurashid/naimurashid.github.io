@@ -60,6 +60,29 @@ nav_order: 5
 
 <div class="grant-card">
   <div class="grant-card__header">
+    <h3>Biostatistics for Research in Genomics and Cancer (NCI T32 predoctoral training program)</h3>
+  </div>
+  <div class="grant-card__details">
+    <div class="grant-detail">
+      <span class="grant-detail__label">Award</span>
+      <span class="grant-detail__value">T32-CA106209 (years 21–25)</span>
+    </div>
+    <div class="grant-detail">
+      <span class="grant-detail__label">Period</span>
+      <span class="grant-detail__value">08/2026–07/2031</span>
+    </div>
+    <div class="grant-detail">
+      <span class="grant-detail__label">Role</span>
+      <span class="grant-detail__value">MPI (with Joseph Ibrahim)</span>
+    </div>
+  </div>
+  <p class="grant-card__description">
+    NCI-funded predoctoral training program in the Department of Biostatistics, running since 2004 and renewed in 2026. Supports five doctoral trainees at a time in statistical methodology for genomics and cancer research, with mentored collaboration at UNC Lineberger. <a href="https://sph.unc.edu/sph-news/nci-renews-unc-biostatistics-training-grant-in-genomics-and-cancer/">Gillings News coverage</a>.
+  </p>
+</div>
+
+<div class="grant-card">
+  <div class="grant-card__header">
     <h3>Integrating tumor and stroma to understand and predict treatment response</h3>
   </div>
   <p class="grant-card__description">
